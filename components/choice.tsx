@@ -1,0 +1,2 @@
+"use client";import {Select,SelectContent,SelectItem,SelectTrigger,SelectValue} from "@/components/ui/select";
+export default function Choice({name,value,onChange,options,label}:{name?:string,value?:string,onChange?:(v:string)=>void,options:string[],label:string}){return <Select name={name} value={value} onValueChange={onChange} defaultValue={value?undefined:options[0]}><SelectTrigger aria-label={label}><SelectValue/></SelectTrigger><SelectContent>{options.map(x=><SelectItem key={x} value={x}>{x}</SelectItem>)}</SelectContent></Select>}
