@@ -1,0 +1,1 @@
+export const origin="https://xn--4kq449bj1fmzj.tw";

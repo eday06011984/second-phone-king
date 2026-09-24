@@ -1,0 +1,1 @@
+"use client";export default function Error({reset}:{reset:()=>void}){return <div className="content"><h1>資料暫時無法載入</h1><p>請稍後再試一次。</p><button className="btn" onClick={reset}>重新載入</button></div>}

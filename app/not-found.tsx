@@ -1,0 +1,1 @@
+export default function NotFound(){return <div className="content"><h1>找不到這個頁面</h1><p>商品可能已刪除或下架，試試其他手機吧。</p><a className="btn" href="/">回到商品搜尋</a></div>}

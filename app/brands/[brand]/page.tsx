@@ -1,0 +1,3 @@
+import {notFound} from "next/navigation";import Marketplace from "@/app/marketplace";import {allListings,brands} from "@/lib/market";
+export const dynamic="force-dynamic";export async function generateMetadata({params}:any){const {brand}=await params;return {title:`二手 ${brand==='Apple'?'iPhone':brand} 手機價格與店家`,description:`比較二手 ${brand} 手機的實際售價、容量、電池狀況及保固，直接聯絡刊登店家。`,alternates:{canonical:'/brands/'+brand}}}
+export default async function Page({params}:any){const {brand}=await params;if(!brands.includes(brand))notFound();try{return <Marketplace rows={await allListings()} initialBrand={brand}/>}catch(e){console.error(e);return <Marketplace rows={[]} initialBrand={brand} unavailable/>}}

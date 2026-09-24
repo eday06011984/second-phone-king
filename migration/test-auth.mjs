@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import ts from 'typescript';
+import {generateKeyPair,SignJWT} from 'jose';
+await mkdir('.sites-runtime/auth-tests',{recursive:true});
+for(const name of ['firebase-token','auth-policy','firebase-config']){
+ const source=await readFile(`lib/${name}.ts`,'utf8');
+ const output=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText.replace("'./firebase-config'","'./firebase-config.mjs'");
+ await writeFile(`.sites-runtime/auth-tests/${name}.mjs`,output);
+}
+const {verifyFirebaseToken}=await import('../.sites-runtime/auth-tests/firebase-token.mjs');
+const {validAuthOrigin,sessionCookieHeader}=await import('../.sites-runtime/auth-tests/auth-policy.mjs');
+const {privateKey,publicKey}=await generateKeyPair('RS256');
+const {privateKey:otherKey}=await generateKeyPair('RS256');
+const now=Math.floor(Date.now()/1000);
+const claims={sub:'test-user',email:'test@example.com',email_verified:true,auth_time:now-10,iat:now-10,exp:now+3500,aud:'second-phone-king',iss:'https://securetoken.google.com/second-phone-king',firebase:{sign_in_provider:'google.com'}};
+const token=(change={},key=privateKey)=>new SignJWT({...claims,...change}).setProtectedHeader({alg:'RS256',kid:'test-key'}).sign(key);
+const verify=t=>verifyFirebaseToken(t,async()=>publicKey);
+assert.equal((await verify(await token())).uid,'test-user');
+for(const change of [{aud:'other-project'},{iss:'https://attacker.example'},{exp:now-1},{iat:now+100},{auth_time:now+100},{auth_time:'0'},{sub:''},{email_verified:false},{firebase:{sign_in_provider:'anonymous'}},{firebase:{sign_in_provider:'google.com',tenant:'other'}}])await assert.rejects(()=>token(change).then(verify));
+await assert.rejects(()=>token({},otherKey).then(verify));
+await assert.rejects(()=>verify('invalid'));
+const url='https://second-phone-king.eday06011984.workers.dev/api/auth/session';
+assert.equal(validAuthOrigin(new Request(url,{headers:{origin:new URL(url).origin}})),true);
+assert.equal(validAuthOrigin(new Request(url)),false);
+assert.equal(validAuthOrigin(new Request(url,{headers:{origin:'https://attacker.example'}})),false);
+assert.equal(validAuthOrigin(new Request('https://attacker.example/api/auth/session',{headers:{origin:'https://attacker.example'}})),false);
+assert.equal(validAuthOrigin(new Request(url,{headers:{origin:new URL(url).origin,'sec-fetch-site':'cross-site'}})),false);
+for(const flag of ['__Host-','HttpOnly','Secure','SameSite=Lax','Path=/','Max-Age=0'])assert.ok(sessionCookieHeader('',0).includes(flag));
+console.log('PASS: valid identity, 12 invalid token cases, origin/CSRF and cookie checks.');

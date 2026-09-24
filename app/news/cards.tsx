@@ -1,0 +1,2 @@
+import {news,newsDate} from "@/lib/news";
+export function NewsCards({items}:{items:typeof news}){return <div className="news-grid">{items.map(n=><article className="news-card" key={n.slug}><div className="news-meta"><span className="badge">{n.category}</span><time dateTime={n.publishedAt}>{newsDate(n.publishedAt)}</time></div><h2><a href={`/news/${n.slug}`}>{n.title}</a></h2><p>{n.description}</p><a className="news-read" href={`/news/${n.slug}`}>閱讀完整報導 →</a></article>)}</div>}

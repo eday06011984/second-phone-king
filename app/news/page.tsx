@@ -1,0 +1,8 @@
+import type {Metadata} from "next";
+import {news} from "@/lib/news";
+import {NewsCards} from "./cards";
+import {Pagination,PaginationContent,PaginationItem,PaginationLink} from "@/components/ui/pagination";
+import {notFound} from "next/navigation";
+type Props={searchParams:Promise<{page?:string}>};
+export async function generateMetadata({searchParams}:Props):Promise<Metadata>{const {page}=await searchParams;const p=Number(page||1);return {title:`3C 新聞與手機新知${p>1?`・第 ${p} 頁`:''}`,description:"手機新品、系統更新與 3C 配件消息，附原始來源及二手機購機觀察。",alternates:{canonical:p>1?`/news?page=${p}`:'/news'}}}
+export default async function News({searchParams}:Props){const {page}=await searchParams;const current=Number(page||1);const total=Math.max(1,Math.ceil(news.length/12));if(!Number.isInteger(current)||current<1||current>total)notFound();return <><div className="intro"><span className="label">NEWS & INSIGHTS</span><h1>3C 新聞</h1><p>掌握手機新消息，為下一次換機做準備。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫・每篇附原始來源</p></div><NewsCards items={news.slice((current-1)*12,current*12)}/>{total>1&&<Pagination className="news-pagination" aria-label="新聞分頁"><PaginationContent>{current>1&&<PaginationItem><PaginationLink size="default" href={current===2?'/news':`/news?page=${current-1}`}>上一頁</PaginationLink></PaginationItem>}<PaginationItem><span>第 {current} / {total} 頁</span></PaginationItem>{current<total&&<PaginationItem><PaginationLink size="default" href={`/news?page=${current+1}`}>下一頁</PaginationLink></PaginationItem>}</PaginationContent></Pagination>}<aside className="panel news-policy"><h2>我們如何整理新聞</h2><p>以可核對的官方公告為主，區分來源資訊與編輯分析，標示消息日期及刊登時間。購機觀察不代表實機測試；報價與供貨請以店家當下資訊為準。</p></aside></>}

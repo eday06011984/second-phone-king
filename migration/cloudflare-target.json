@@ -1,0 +1,8 @@
+{
+  "account_id": "ac5870e70dd69e60e6adad39dfe3b8c9",
+  "name": "second-phone-king",
+  "workers_dev": true,
+  "d1_databases": [{"binding":"DB","database_name":"second-phone-king-db","database_id":"9904c529-3a10-4adf-890c-9b55f039294a"}],
+  "r2_buckets": [{"binding":"BUCKET","bucket_name":"second-phone-king-photos"}],
+  "vars": {"FIREBASE_PROJECT_ID":"second-phone-king"}
+}
