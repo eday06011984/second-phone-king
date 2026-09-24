@@ -1,3 +1,4 @@
+import {lineCookie,cookieHeader} from '@/lib/line-policy';
 import {verifyFirebaseToken} from '@/lib/firebase-token';
 import {validAuthOrigin,sessionCookieHeader} from '@/lib/auth-policy';
 export async function POST(req:Request){
@@ -13,6 +14,9 @@ export async function POST(req:Request){
     const identity=await verifyFirebaseToken(idToken);
     const now=Math.floor(Date.now()/1000);
     if(now-identity.authTime>300)throw Error('Fresh sign-in required');
-    return Response.json({ok:true},{headers:{...headers,'Set-Cookie':sessionCookieHeader(idToken,Math.min(identity.expires-now,3600))}});
+    const responseHeaders=new Headers(headers);
+    responseHeaders.append('Set-Cookie',sessionCookieHeader(idToken,Math.min(identity.expires-now,3600)));
+    responseHeaders.append('Set-Cookie',cookieHeader(lineCookie,'',0));
+    return Response.json({ok:true},{headers:responseHeaders});
   }catch{return Response.json({error:'登入驗證失敗，請重新使用 Google 登入。'},{status:401,headers});}
 }

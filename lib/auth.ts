@@ -1,10 +1,22 @@
+import {lineIdentity} from './line-auth';
+import {lineCookie} from './line-policy';
 import {cookies} from 'next/headers';
 import {db} from './market';
 import {verifyFirebaseToken} from './firebase-token';
 import {sessionCookie} from './auth-policy';
 
 export async function getUser(){
-  const cookie=(await cookies()).get(sessionCookie)?.value;
+  const jar=await cookies();
+  const lineToken=jar.get(lineCookie)?.value;
+  if(lineToken){
+    const identity=await lineIdentity(lineToken);
+    if(identity){
+      const uid=identity.owner.startsWith('firebase:')?identity.owner.slice(9):null;
+      const mapping=uid?await db().prepare('SELECT legacy_owner FROM firebase_owner_links WHERE firebase_uid=?').bind(uid).first<{legacy_owner:string}>():null;
+      return {userId:mapping?.legacy_owner||identity.owner,firebaseUid:null,email:''};
+    }
+  }
+  const cookie=jar.get(sessionCookie)?.value;
   if(!cookie)return null;
   let identity;
   try{identity=await verifyFirebaseToken(cookie);}catch{return null;}
