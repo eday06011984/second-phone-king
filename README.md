@@ -119,7 +119,7 @@ Replace the filename with the pending migration and `DB` with your D1 binding na
 When using the Sites plugin, follow its skill instructions for installation, builds, and publishing. These npm commands remain available for standalone use.
 
 The portable build runs Vinext directly without a host `timeout` command. The managed-linux build uses `scripts/build-verified.sh` and its existing `SITES_BUILD_TIMEOUT` setting.
-
+Cloudflare deployment setup.
 ## Learn More
 
 - [vinext Documentation](https://github.com/cloudflare/vinext)
