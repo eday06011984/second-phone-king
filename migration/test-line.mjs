@@ -13,18 +13,19 @@ for(const [name,path] of Object.entries({policy:'lib/line-policy.ts',authpolicy:
  await writeFile(`${out}/${name}.mjs`,ts.transpileModule(s,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText);
 }
 const p=await import('../'+out+'/policy.mjs'),start=(await import('../'+out+'/start.mjs')).POST,callback=(await import('../'+out+'/callback.mjs')).GET,logout=(await import('../'+out+'/logout.mjs')).POST;
-const origin=p.lineOrigin;
+const origin=process.env.LINE_TEST_ORIGIN||p.lineOrigin;
+const callbackURL=origin+'/api/auth/line/callback';
 const post=(path,headers={origin})=>new Request(origin+path,{method:'POST',headers});
 async function flow(mode=''){
  const r=await start(post('/api/auth/line/start'+mode));assert.equal(r.status,303);
- const u=new URL(r.headers.get('location'));assert.equal(u.origin,'https://access.line.me');assert.equal(u.searchParams.get('redirect_uri'),p.lineCallback);
- const cookie=r.headers.getSetCookie()[0].split(';')[0];return {u,cookie,request:(override={})=>new Request(p.lineCallback+'?'+new URLSearchParams({state:u.searchParams.get('state'),code:'code',...override}),{headers:{cookie}})};
+ const u=new URL(r.headers.get('location'));assert.equal(u.origin,'https://access.line.me');assert.equal(u.searchParams.get('redirect_uri'),callbackURL);
+ const cookie=r.headers.getSetCookie()[0].split(';')[0];return {u,cookie,request:(override={})=>new Request(callbackURL+'?'+new URLSearchParams({state:u.searchParams.get('state'),code:'code',...override}),{headers:{cookie}})};
 }
 assert.equal((await start(post('/api/auth/line/start',{origin:'https://evil.test'}))).status,403);
 assert.equal((await start(post('/api/auth/line/start?mode=link'))).status,403);
 const f=await flow();
 const a=sql.prepare('SELECT * FROM line_oauth_attempts').get();assert.equal(await p.challenge(a.verifier),f.u.searchParams.get('code_challenge'));
-assert.match((await callback(new Request(p.lineCallback+'?state='+a.state+'&code=bad',{headers:{cookie:p.flowCookie+'='+p.randomToken()}}))).headers.get('location'),/failed$/);
+assert.match((await callback(new Request(callbackURL+'?state='+a.state+'&code=bad',{headers:{cookie:p.flowCookie+'='+p.randomToken()}}))).headers.get('location'),/failed$/);
 assert.equal(globalThis.exchangeCalls,0);
 const ok=await callback(f.request());assert.match(ok.headers.get('location'),/success$/);assert.equal(sql.prepare('SELECT count(*) n FROM line_sessions').get().n,1);
 assert.equal(sql.prepare('SELECT owner FROM line_identities').get().owner,'line:'+globalThis.lineSub);
@@ -41,4 +42,14 @@ const changed=await flow('?mode=link');globalThis.testUser={firebaseUid:'other-u
 globalThis.testUser=null;const reuse=await flow();assert.match((await callback(reuse.request())).headers.get('location'),/success$/);
 const now=p.nowSeconds(),claims={iss:'https://access.line.me',aud:p.lineChannelId,sub:globalThis.lineSub,nonce:'n',iat:now,exp:now+3600};assert.equal(p.validateLineClaims(claims,'n'),globalThis.lineSub);
 for(const change of [{iss:'evil'},{aud:'other'},{nonce:'bad'},{exp:now-1},{iat:now-700},{iat:now+90},{sub:''}])assert.throws(()=>p.validateLineClaims({...claims,...change},'n'));
+const otherOrigin=origin===p.lineOrigin?'https://second-phone-king.eday06011984.workers.dev':p.lineOrigin;
+const cross=await flow();
+const crossed=new URL(cross.request().url);crossed.host=new URL(otherOrigin).host;
+const calls=globalThis.exchangeCalls;
+assert.match((await callback(new Request(crossed,{headers:{cookie:cross.cookie}}))).headers.get('location'),/failed$/);
+assert.equal(globalThis.exchangeCalls,calls);
+assert.match((await callback(cross.request())).headers.get('location'),/success$/);
+assert.equal((await start(new Request('https://evil.test/api/auth/line/start',{method:'POST',headers:{origin:'https://evil.test'}}))).status,403);
+assert.equal((await callback(new Request('https://evil.test/api/auth/line/callback'))).status,403);
+console.log('Tested origin:',origin);
 console.log('PASS LINE: origin rejection, PKCE, browser/state binding, single-use callback, expiry/cancellation, session/logout, linked login, conflicting accounts, changed Google identity, invalid OIDC claims. External LINE calls mocked; live acceptance still required.');

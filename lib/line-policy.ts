@@ -1,7 +1,9 @@
 export const lineCookie='__Host-spk_line';
 export const flowCookie='__Host-spk_line_flow';
 export const lineChannelId='2011719857';
-export const lineOrigin='https://second-phone-king.eday06011984.workers.dev';
+export const lineOrigin='https://xn--4kq449bj1fmzj.tw';
+const lineOrigins=new Set([lineOrigin,'https://second-phone-king.eday06011984.workers.dev']);
+export function getLineOrigin(req:Request){const origin=new URL(req.url).origin;return lineOrigins.has(origin)?origin:null;}
 export const lineCallback=lineOrigin+'/api/auth/line/callback';
 export const nowSeconds=()=>Math.floor(Date.now()/1000);
 export function randomToken(){return Array.from(crypto.getRandomValues(new Uint8Array(32)),b=>b.toString(16).padStart(2,'0')).join('');}

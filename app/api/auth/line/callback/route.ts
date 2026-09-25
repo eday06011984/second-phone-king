@@ -2,17 +2,20 @@ import {getUser} from '@/lib/auth';
 import {sessionCookieHeader} from '@/lib/auth-policy';
 import {db} from '@/lib/market';
 import {exchangeLine} from '@/lib/line-auth';
-import {lineOrigin,lineCallback,lineCookie,flowCookie,readCookie,randomToken,hashToken,cookieHeader,nowSeconds} from '@/lib/line-policy';
+import {getLineOrigin,lineCookie,flowCookie,readCookie,randomToken,hashToken,cookieHeader,nowSeconds} from '@/lib/line-policy';
 type Attempt={verifier:string;nonce:string;origin:string;link_owner:string|null};
 export async function GET(req:Request){
  const headers=new Headers({'Cache-Control':'private, no-store','Referrer-Policy':'no-referrer'});
+ const lineOrigin=getLineOrigin(req);
+ if(!lineOrigin)return new Response('不支援的登入網域。',{status:403,headers});
+ const lineCallback=lineOrigin+'/api/auth/line/callback';
  headers.append('Set-Cookie',cookieHeader(flowCookie,'',0));
  const done=(result:string)=>{headers.set('Location',lineOrigin+'/seller?line='+result);return new Response(null,{status:303,headers});};
  try{
   const url=new URL(req.url),state=url.searchParams.get('state'),browser=readCookie(req,flowCookie);
   if(url.origin!==lineOrigin||!state||!/^[a-f0-9]{64}$/.test(state)||!/^[a-f0-9]{64}$/.test(browser))return done('failed');
   // Atomic consumption binds the callback to this browser and prevents reuse.
-  const attempt=await db().prepare('DELETE FROM line_oauth_attempts WHERE state=? AND browser_hash=? AND expires>? RETURNING verifier,nonce,origin,link_owner').bind(state,await hashToken(browser),nowSeconds()).first<Attempt>();
+  const attempt=await db().prepare('DELETE FROM line_oauth_attempts WHERE state=? AND browser_hash=? AND origin=? AND expires>? RETURNING verifier,nonce,origin,link_owner').bind(state,await hashToken(browser),lineOrigin,nowSeconds()).first<Attempt>();
   if(!attempt||attempt.origin!==lineOrigin)return done('failed');
   if(url.searchParams.has('error'))return done('cancelled');
   const code=url.searchParams.get('code');if(!code||code.length>2048)return done('failed');

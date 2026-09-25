@@ -2,10 +2,12 @@ import {getUser} from '@/lib/auth';
 import {validAuthOrigin} from '@/lib/auth-policy';
 import {db} from '@/lib/market';
 import {lineSecret} from '@/lib/line-auth';
-import {lineOrigin,lineCallback,lineChannelId,randomToken,hashToken,challenge,cookieHeader,flowCookie,nowSeconds} from '@/lib/line-policy';
+import {getLineOrigin,lineChannelId,randomToken,hashToken,challenge,cookieHeader,flowCookie,nowSeconds} from '@/lib/line-policy';
 export async function POST(req:Request){
  const headers=new Headers({'Cache-Control':'private, no-store','Referrer-Policy':'no-referrer'});
- if(!validAuthOrigin(req)||new URL(req.url).origin!==lineOrigin)return new Response('請從測試站重新登入。',{status:403,headers});
+ const lineOrigin=getLineOrigin(req);
+ if(!lineOrigin||!validAuthOrigin(req))return new Response('請從二手機王登入頁重新登入。',{status:403,headers});
+ const lineCallback=lineOrigin+'/api/auth/line/callback';
  try{
   lineSecret();const mode=new URL(req.url).searchParams.get('mode');
   const u=await getUser();let owner:string|null=null;
