@@ -9,6 +9,18 @@ import { readFile, writeFile } from "node:fs/promises";
 const NEWS_FILE = new URL("../content/news.json", import.meta.url);
 const MAX_DAILY_ARTICLES = 3;
 const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+const FRESH_AGE_MS = 48 * 60 * 60 * 1000;
+
+// Keep the site tightly focused on phones, mobile software, accessories and the used-phone buying market.
+const MOBILE_TERMS = /\b(iphone|ios|ipad|airpods|galaxy|pixel|android|smartphone|phone|mobile|foldable|wear os|one ui|camera|battery|charging|charger|usb-c|bluetooth|5g|esim|sim|app store|play store)\b/i;
+const MOBILE_TERMS_ZH = /(手機|智慧型手機|二手機|中古機|蘋果手機|安卓|摺疊機|相機|電池|充電|充電器|行動裝置|行動通訊|耳機|穿戴|系統更新)/i;
+const OFF_TOPIC = /\b(appliance|refrigerator|washer|dishwasher|oven|tv|television|monitor|projector|signage|semiconductor|foundry|memory chip|ai ran|network infrastructure|base station)\b/i;
+
+function isMobileRelevant(item) {
+  const text = `${item.title} ${item.description}`;
+  if (OFF_TOPIC.test(text) && !MOBILE_TERMS.test(text) && !MOBILE_TERMS_ZH.test(text)) return false;
+  return MOBILE_TERMS.test(text) || MOBILE_TERMS_ZH.test(text);
+}
 
 // Prefer manufacturer / platform announcements. Add another verified RSS/Atom
 // feed here when a source is needed; never use scraped news sites as a source.
@@ -114,9 +126,15 @@ const selected = candidates
   .filter(item => {
     const published = new Date(item.publishedAt);
     return !Number.isNaN(published.valueOf()) && now - published <= MAX_AGE_MS && published <= now
+      && isMobileRelevant(item)
       && !existingUrls.has(item.url) && !existingTitles.has(item.title.trim().toLowerCase());
   })
-  .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+  // Prefer the last 48 hours; only then fall back to older items within 7 days.
+  .sort((a, b) => {
+    const aFresh = now - new Date(a.publishedAt) <= FRESH_AGE_MS ? 1 : 0;
+    const bFresh = now - new Date(b.publishedAt) <= FRESH_AGE_MS ? 1 : 0;
+    return bFresh - aFresh || new Date(b.publishedAt) - new Date(a.publishedAt);
+  })
   .slice(0, needed)
   .map(item => articleFrom(item, usedSlugs));
 
