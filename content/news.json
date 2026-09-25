@@ -103,5 +103,110 @@
         "date": "2026-09-09"
       }
     ]
+  },
+  {
+    "slug": "galaxy-z-portrait-video-used-foldable-check",
+    "title": "Galaxy Z 人像影片技術公開：買二手摺疊機，相機功能怎麼驗？",
+    "category": "手機攝影",
+    "description": "三星說明 Galaxy Z 系列人像影片如何模擬景深與散景；選購二手摺疊機時，功能、畫質與機況應分開核對。",
+    "publishedAt": "2026-09-25T09:57:45+08:00",
+    "updatedAt": "2026-09-25T09:57:45+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：即時運算人像景深",
+        "paragraphs": [
+          "三星台灣新聞中心於 9 月 23 日說明最新 Galaxy Z 系列的人像影片設計：系統會依主體與背景距離調整模糊程度，並把小型光源轉成近似圓形散景；拍攝後也能重新選擇焦點，或在 0 至 7 級之間調整背景模糊。官方表示，這套效果結合 AI 主體辨識、距離推估與光學鏡頭分析；實際可用功能仍應以特定機型與軟體版本為準。"
+        ]
+      },
+      {
+        "heading": "購機分析：先確認功能存在，再比較畫質",
+        "paragraphs": [
+          "選購二手 Galaxy Z 時，可請店家在實機開啟相機的人像影片模式，核對是否能調整景深與拍後焦點，並確認系統版本。產品系列名稱相近，不代表每一代、每個地區版本都具備同樣功能；也不宜只憑官方示範畫面推定二手機的鏡頭、感光元件或摺疊結構仍處於最佳狀態。"
+        ]
+      },
+      {
+        "heading": "交機測試：髮絲、眼鏡與長時間錄影",
+        "paragraphs": [
+          "現場可用人物髮絲、眼鏡邊框與明暗交界測試主體分離，再錄製一段較長的 4K 影片，查看對焦、收音、畫面穩定與機身溫度是否正常。三星也指出即時 4K 運算需兼顧耗電與發熱，因此二手買家應把相機效果、電池健康度、內外螢幕及轉軸狀態一併檢查。以上為編輯購機建議，並非本站實機測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Newsroom 台灣",
+        "url": "https://news.samsung.com/tw/%E3%80%90%E5%B0%88%E8%A8%AA%E3%80%91galaxy-z%E7%B3%BB%E5%88%97%E7%9B%B8%E6%A9%9F%E5%89%B5%E6%96%B0%E5%B9%95%E5%BE%8C%E6%8E%A8%E6%89%8B-%E2%91%A1%EF%BC%9A%E4%BA%BA%E5%83%8F%E5%BD%B1%E7%89%87%E5%A6%82",
+        "date": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "slug": "apple-mac-mini-studio-2026-used-mac-check",
+    "title": "新 Mac mini、Mac Studio 開賣：買二手 Mac 先核對晶片與記憶體",
+    "category": "3C 新品",
+    "description": "Apple 推出搭載新晶片的 Mac mini 與 Mac Studio；外觀相近的桌上型 Mac，二手交易更要核對不可後加的核心規格。",
+    "publishedAt": "2026-09-25T09:57:45+08:00",
+    "updatedAt": "2026-09-25T09:57:45+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Mac mini 與 Mac Studio 更新",
+        "paragraphs": [
+          "Apple 於 9 月 22 日宣布新款 Mac mini 與 Mac Studio 開賣。Mac mini 提供 M6 或 M5 Pro 晶片，M6 基本記憶體為 16GB、可選至 32GB，並加入 Wi‑Fi 7、Bluetooth 6 與 2.5Gb 乙太網路，另可選 10Gb 乙太網路；Mac Studio 則提供 M5 Max 或 M5 Ultra，官方表示統一記憶體最高可選至 512GB。不同市場的售價、供貨與選配時程可能不同，本文不把美國售價換算成台灣售價。"
+        ]
+      },
+      {
+        "heading": "二手購機分析：同外殼可能是完全不同規格",
+        "paragraphs": [
+          "桌上型 Mac 的外觀不容易直接辨認晶片、記憶體、儲存空間與網路選配，而且這些核心規格多半無法在購買後自行升級。看二手商品時，應要求賣方提供「關於這台 Mac」與系統資訊畫面，逐項核對晶片型號、記憶體、SSD 容量、連接埠與乙太網路規格，不要只看「Mac mini」或「Mac Studio」名稱。"
+        ]
+      },
+      {
+        "heading": "交機前再查序號、鎖定與連接埠",
+        "paragraphs": [
+          "建議現場確認序號與機身一致、可正常清除並啟用，且沒有前任使用者的啟用鎖定或公司裝置管理限制；USB‑C／Thunderbolt、HDMI、耳機孔、網路孔與無線連線也應逐一測試。若賣方強調新一代功能，仍要回到實際晶片與配置判斷價值。以上為編輯購機建議，未對特定二手機進行效能或耐用度測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/",
+        "date": "2026-09-22"
+      }
+    ]
+  },
+  {
+    "slug": "asus-tuf-t700-v700-desktop-buying-check",
+    "title": "華碩 TUF Gaming T700、V700 登場：品牌桌機規格怎麼比？",
+    "category": "電腦新品",
+    "description": "華碩在台公布 TUF Gaming T700 與 V700 Mini Tower；從散熱、擴充到實際配置，整理新舊桌機的比較重點。",
+    "publishedAt": "2026-09-25T09:57:45+08:00",
+    "updatedAt": "2026-09-25T09:57:45+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：電競與家用桌機同步更新",
+        "paragraphs": [
+          "華碩於 9 月 22 日在台灣公布 TUF Gaming T700 與 V700 Mini Tower。T700 最高搭載 Intel Core Ultra 9 275HX 與 NVIDIA GeForce RTX 50 系列顯示卡，採四風扇、240mm 一體式水冷與 47L 免工具模組化機殼，建議售價 NT$71,990 起；15L 的 V700 Mini Tower 最高搭載同款處理器，支援最高 64GB DDR5 記憶體與 6TB 儲存空間，建議售價 NT$34,990 起。『最高搭載』與『起』皆表示實際販售配置可能不同。"
+        ]
+      },
+      {
+        "heading": "購機分析：型號相同，配置與價值仍可能差很多",
+        "paragraphs": [
+          "比較品牌桌機時，應把處理器完整型號、顯示卡型號與顯示記憶體、記憶體條數、SSD 容量、電源供應器及保固拆開核對。大型機殼通常提供較多散熱與擴充空間，小型機種則更重視佔地與噪音；不能只用機身系列名或外觀判斷效能，也不應把最高規格當成每台現貨的標準配置。"
+        ]
+      },
+      {
+        "heading": "買二手桌機還要檢查散熱與零件來源",
+        "paragraphs": [
+          "二手 TUF 或其他品牌桌機可先確認是否更換過顯示卡、電源、記憶體或水冷零件，再進行連續負載測試，觀察溫度、風扇異音、當機與影像輸出。也要核對序號、保固狀態、內部灰塵與拆修痕跡；宣稱通過軍規測試是產品設計資訊，不等於個別二手機沒有摔落或高溫使用紀錄。以上為編輯購機建議，非本站實機測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-desktop-market-leader-tuf-gaming-t700-rtx50/",
+        "date": "2026-09-22"
+      }
+    ]
   }
 ]
