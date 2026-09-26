@@ -313,5 +313,110 @@
         "date": "2026-09-22"
       }
     ]
+  },
+  {
+    "slug": "logitech-g-play-2026-peripherals-buying-check",
+    "title": "Logitech G 一次公布 15 款新品：電競周邊怎麼挑才不浪費？",
+    "category": "3C 配件",
+    "description": "Logitech G PLAY 2026 公布滑鼠、鍵盤、耳機與 Yeti 2 麥克風等新品；整理選購新舊電競周邊時應核對的相容性與保固。",
+    "publishedAt": "2026-09-26T09:08:50+08:00",
+    "updatedAt": "2026-09-26T09:08:50+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：從電競輸入到創作者收音",
+        "paragraphs": [
+          "Logitech 於 9 月 23 日在 G PLAY 2026 公布 15 款硬體與軟體新品，包括 PRO X3 SUPERSTRIKE 滑鼠、PRO X2 RAPID 磁軸鍵盤、PRO X3 LIGHTSPEED 耳機，以及加入距離感測與 AI 降噪的 Yeti 2 麥克風。官方同時介紹 G HUB Replay 自動擷取遊戲精華等軟體功能；個別產品的上市時間、供貨與區域售價將由各地通路另行公布。"
+        ]
+      },
+      {
+        "heading": "購買分析：高規格不一定等於適合",
+        "paragraphs": [
+          "挑選電競滑鼠與鍵盤時，應先確認手型、重量、按鍵配置、觸發手感與桌面空間；耳機則要比較佩戴壓力、麥克風與連線模式。軟體功能通常需要指定版本的 G HUB、韌體或作業系統，新品發表的最高規格不能直接套用到舊型號，也不代表每位玩家都能感受到同等提升。"
+        ]
+      },
+      {
+        "heading": "買二手周邊：接收器、序號與耗材要一起看",
+        "paragraphs": [
+          "二手無線周邊應確認原廠接收器、充電線與轉接頭是否齊全，並實測按鍵連點、滾輪、燈效、電池續航與韌體更新。磁軸鍵盤可檢查每顆按鍵的觸發值，耳機與麥克風則要錄音確認底噪與接觸不良；最後再核對序號、購買證明與剩餘保固。以上為編輯購買建議，非本站實機測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Logitech 官方新聞中心",
+        "url": "https://news.logitech.com/press-releases/news-details/2026/From-New-PRO-Gear-to-the-Iconic-Yeti-2-Mic---Logitech-G-Unveils-Fifteen-New-Products-at-Logitech-G-PLAY-2026/default.aspx",
+        "date": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "slug": "rog-hsinchu-peripherals-store-try-before-buy",
+    "title": "ROG 首間電競周邊專賣店開幕：鍵鼠耳機先試手感再買",
+    "category": "電競周邊",
+    "description": "ROG 在新竹開設全台首間電競周邊專賣店，集中展示鍵盤、滑鼠、耳機與控制器；實體試用時可注意哪些細節？",
+    "publishedAt": "2026-09-26T09:08:50+08:00",
+    "updatedAt": "2026-09-26T09:08:50+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：新竹巨城設立周邊專賣店",
+        "paragraphs": [
+          "華碩於 9 月 23 日宣布，ROG Store 電競周邊新竹巨城旗艦館正式開幕。門市以鍵盤、滑鼠、耳機、鼠墊、Soundbar、遊戲控制器與電競椅等周邊為主，讓消費者在同一空間實際比較；官方另表示 ROG Gladius IV Ace 電競滑鼠預計 9 月 30 日在台上市。開幕優惠與贈品有指定期間及商品限制，仍以現場公告為準。"
+        ]
+      },
+      {
+        "heading": "選購分析：實際操作比帳面規格更重要",
+        "paragraphs": [
+          "實體試用的價值在於確認滑鼠握法、鍵盤高度、耳罩夾力與控制器按鍵位置是否適合自己。建議帶著平常使用的遊戲或工作情境來比較，不要只追求最高 DPI、燈效或促銷贈品；如果必須安裝專用軟體，也要先確認電腦系統與其他品牌裝置能否共存。"
+        ]
+      },
+      {
+        "heading": "現場測試清單：連線、保固與配件",
+        "paragraphs": [
+          "試用無線裝置時，可切換藍牙、2.4GHz 接收器及有線模式，觀察延遲、斷線與喚醒速度；鍵盤則可測試常用組合鍵和長時間打字感受。購買前應確認型號、盒內配件、保固範圍與退換貨規則，促銷價也要和實際需要一起評估。以上為編輯選購建議，並非對特定商品的耐用度保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/rog-store-hsinchu-big-city-accessories-opening/",
+        "date": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "slug": "intel-googlebook-series-3-laptop-buying-check",
+    "title": "Intel、Google 公開首批 Googlebook：新型筆電先看市場與維修",
+    "category": "筆電新品",
+    "description": "Intel 公布 Acer、ASUS、Lenovo 首批 Googlebook 與 Core Ultra Series 3 平台；台灣買家應先確認上市地區、系統生態與售後。",
+    "publishedAt": "2026-09-26T09:08:50+08:00",
+    "updatedAt": "2026-09-26T09:08:50+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：三家品牌加入首波陣容",
+        "paragraphs": [
+          "Intel 於 9 月 21 日公布首批採用 Core Ultra Series 3 處理器的 Googlebook，合作品牌包括 Acer、ASUS 與 Lenovo。官方列出的平台能力包含 Wi‑Fi 7、雙 Bluetooth 6.0 與 Thunderbolt，並強調針對 Android 與 AI 體驗進行共同調校；首波預計 10 月 5 日起在美國、加拿大、英國、德國、法國、澳洲與紐西蘭等選定市場上市，公告未列出台灣。"
+        ]
+      },
+      {
+        "heading": "購機分析：先確認用途與地區支援",
+        "paragraphs": [
+          "Googlebook 是新的產品分類，不能只用傳統 Windows 筆電或 Chromebook 的經驗推定軟體相容性。準備跨境購買前，應先確認常用程式、企業帳號、中文輸入、周邊驅動與檔案工作流程是否支援，也要查清楚台灣能否取得保固與維修；官方公布的連線規格仍可能因各品牌實際配置而不同。"
+        ]
+      },
+      {
+        "heading": "日後看二手：系統版本與帳號鎖定不能漏",
+        "paragraphs": [
+          "未來若購入二手 Googlebook，應在交機前核對處理器、記憶體、儲存容量、鍵盤配置與電池健康度，並確認原使用者帳號及企業管理設定已完整移除。也要實測 USB／Thunderbolt、無線網路、藍牙、攝影機與充電功能。本文僅依官方公布資訊整理，台灣售價、上市時間與在地售後均需等待品牌正式公告。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Intel Newsroom",
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/client-computing/googlebook-launches-with-intel-core-ultra-series-3-processors.html",
+        "date": "2026-09-21"
+      }
+    ]
   }
 ]
