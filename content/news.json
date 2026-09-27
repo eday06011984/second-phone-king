@@ -418,5 +418,110 @@
         "date": "2026-09-21"
       }
     ]
+  },
+  {
+    "slug": "vivo-originos-7-used-phone-update-check",
+    "title": "OriginOS 7 全球亮相：買二手 vivo，系統版本與跨裝置功能怎麼查？",
+    "category": "手機軟體",
+    "description": "vivo 公布 OriginOS 7 的效能、多工與跨裝置功能；選購二手 vivo 時，應先確認機型、地區與實際更新版本。",
+    "publishedAt": "2026-09-27T09:17:54+08:00",
+    "updatedAt": "2026-09-27T09:17:54+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：效能、多工與跨裝置整合",
+        "paragraphs": [
+          "vivo 於 9 月 24 日公布 OriginOS 7，介紹新一代 Origin Smooth Engine、最多五個應用程式協作的 Origin Workbench，以及與 Apple Watch、AirPods、iPad、Mac、Windows PC 連動的部分功能。官方也公布多項內部測試結果，包括應用程式冷啟動時間降低 10%、頁面切換提升 11%，並稱系統通過 72 個月抗老化測試；這些數字屬 vivo 在指定條件下的測試，不能直接當成所有機型或二手機的實際表現。"
+        ]
+      },
+      {
+        "heading": "購機分析：更新資格要看機型、版本與市場",
+        "paragraphs": [
+          "官方表示 OriginOS 7 將用於 vivo X500 系列及新的 X Fold、V 系列裝置，但可用功能會依裝置、軟體版本與市場而異。選購二手 vivo 時，應請店家提供完整型號、地區版本與「系統更新」畫面，再到當地官方頁面核對支援名單；不要因同系列名稱相近，就預設一定具備 Jovi、跨裝置傳檔或 Apple 裝置整合功能。"
+        ]
+      },
+      {
+        "heading": "交機前：帳號、更新與連線逐項測試",
+        "paragraphs": [
+          "付款前可確認前任使用者帳號已移除、系統能正常檢查更新，並實測 Wi‑Fi、藍牙、USB 傳輸及常用應用程式。若購買動機包含跨裝置功能，最好帶自己的耳機、電腦或手錶現場配對，確認地區限制與相容性。以上為編輯購機建議，並非本站對特定二手機的效能或六年耐用度保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "vivo Philippines 官方新聞中心",
+        "url": "https://www.vivo.com/ph/about-vivo/news-detail?id=1616",
+        "date": "2026-09-24"
+      }
+    ]
+  },
+  {
+    "slug": "vivo-v80-lite-10000mah-buying-check",
+    "title": "vivo V80 Lite 預告 10,000mAh 電池：大電量手機先看重量、充電與保固",
+    "category": "手機新品",
+    "description": "vivo 預告 V80 Lite 採用 10,000mAh 電池與窄邊框設計；大電量手機除了容量，還要確認哪些使用與售後條件？",
+    "publishedAt": "2026-09-27T09:17:54+08:00",
+    "updatedAt": "2026-09-27T09:17:54+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：10,000mAh 電池與 6.83 吋螢幕",
+        "paragraphs": [
+          "vivo Philippines 於 9 月 25 日預告 V80 Lite，標示配備 10,000mAh BlueVolt 電池、6.83 吋螢幕與 1.35mm 邊框，並提供粉、綠、黑三種配色；菲律賓發表活動預定 10 月 4 日舉行。公告尚未提供台灣上市、售價、機身重量、充電功率及完整規格，因此本文不推估在台供貨，也不把宣傳中的纖薄外觀等同於實際攜帶感受。"
+        ]
+      },
+      {
+        "heading": "購機分析：容量只是續航的一部分",
+        "paragraphs": [
+          "電池容量較大通常有利於長時間使用，但實際續航仍受處理器、螢幕亮度、訊號品質、系統調校與電池老化影響。等待完整規格時，可特別留意機身重量、厚度、充電速度、充電器是否隨附，以及長時間充電與高負載下的溫度控制；跨境購買還要確認頻段、系統語言與當地保固。"
+        ]
+      },
+      {
+        "heading": "日後選二手：電池健康與外觀要分開判斷",
+        "paragraphs": [
+          "大容量電池不代表二手狀態一定良好。交機時應觀察充放電是否異常、機身是否鼓起、背蓋或螢幕邊緣是否有縫隙，並確認充電孔、原廠快充協議與保固維修紀錄。若賣方只提供容量數字，可要求實測續航或電池診斷資訊；以上為編輯購機建議，非本站實機測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "vivo Philippines 官方新聞中心",
+        "url": "https://www.vivo.com/ph/about-vivo/news-detail?id=1617",
+        "date": "2026-09-25"
+      }
+    ]
+  },
+  {
+    "slug": "chrome-154-security-update-used-device-check",
+    "title": "Chrome 154 修補 108 項安全問題：二手電腦與 Android 手機先更新再登入",
+    "category": "資安更新",
+    "description": "Google 推出 Chrome 154 穩定版並修補 108 項安全問題；接手二手裝置後，瀏覽器更新與帳號清理應先完成。",
+    "publishedAt": "2026-09-27T09:17:54+08:00",
+    "updatedAt": "2026-09-27T09:17:54+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Windows、Mac、Linux 陸續更新",
+        "paragraphs": [
+          "Google Chrome 團隊於 9 月 22 日將 Chrome 154 推向 Windows、Mac 與 Linux 穩定頻道，版本為 Linux 154.0.8037.57、Windows／Mac 154.0.8037.57 或 .58，並列出共 108 項安全修補，其中包含 ANGLE、GPU、ServiceWorker、WebGL 等多個 critical 等級問題。更新會分批推出，個別裝置收到的時間可能不同。"
+        ]
+      },
+      {
+        "heading": "二手裝置分析：瀏覽器也是交機檢查的一部分",
+        "paragraphs": [
+          "二手電腦或 Android 手機完成重設後，除了更新作業系統，也應開啟 Chrome 的版本資訊頁面，等待瀏覽器與相關元件更新完成再登入主要帳號。若裝置太舊而無法取得受支援版本，代表未來安全修補可能受限；這是評估二手機剩餘使用價值時不能忽略的成本。"
+        ]
+      },
+      {
+        "heading": "登入前：先清除舊帳號、擴充功能與同步資料",
+        "paragraphs": [
+          "交機時應確認原使用者的瀏覽器帳號、同步資料、密碼與擴充功能已移除，並從可信來源重新安裝必要軟體。更新後可重新啟動裝置，再核對版本是否生效；公司管理的電腦還要確認沒有殘留政策或裝置管理。以上為編輯資安與購機建議，不代表所有漏洞都能僅靠瀏覽器更新解決。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Chrome Releases",
+        "url": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0856730748.html",
+        "date": "2026-09-22"
+      }
+    ]
   }
 ]
