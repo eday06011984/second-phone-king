@@ -52,3 +52,7 @@
 - /guides/store-warranty：保固
 - /join：店家免費刊登與準備資料
 - /stores、品牌頁及商品頁：實際刊登資料，禁止虛構庫存、評論或認證
+
+## 可重複使用的 repo 驗收工具
+
+操作與資料格式見 [seo-measurement/README.md](seo-measurement/README.md)。執行 `node scripts/seo-measurement.mjs report` 產生三平台分開的 [驗收報表](seo-measurement/reports/report.md)。初始資料僅含 75 筆未測記錄，不代表零曝光；完整證據與排名需直接在各平台實測後追加。工具不自動搜尋，也不將一般搜尋結果視為 AI 回覆。
