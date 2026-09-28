@@ -1,4 +1,4 @@
-import Link from "next/link";
+/* eslint-disable @next/next/no-html-link-for-pages -- Use native navigation: the deployed Vinext Link prefetch throws at runtime. */
 import {origin} from "@/lib/site";
 import {jsonld} from "@/lib/market";
 export const metadata={title:"二手機怎麼買？價格比較、驗機與店家挑選",description:"二手機選購從預算、容量、電池、維修紀錄到保固逐項比較。二手機王整理中古手機購買流程，連結店家商品、實體門市與驗機指南。",alternates:{canonical:"/used-phones"}};
@@ -12,15 +12,15 @@ const questions=[
 ["如何找附近可以驗機的二手機店家？","先查看店家所在地及地址，聯絡門市確認實機庫存、營業時間與可否現場驗機。不要只因店家頁面有地址，就假設該商品正在門市展示。", "/stores", "查看店家地址與聯絡方式"],
 ["通訊行可以免費刊登二手機嗎？","二手機王目前提供初期免費刊登，店家可建立專頁、管理商品，每件商品最多放六張照片。未來收費方案與時間尚未訂定，調整前會公告並由店家選擇。", "/join", "了解免費刊登方案"]
 ];
-export default function Page(){return <article className="content article"><Link className="crumb" href="/">首頁 ／ 二手機選購</Link><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 9 月 28 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><Link className="btn" href="/market">找二手機</Link>　<Link className="btn light" href="/brands/Apple">找二手 iPhone</Link></div>
+export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 9 月 28 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
 <section aria-labelledby="buying-channels">
 <h2 id="buying-channels">中古手機哪裡買？先比較購買管道</h2>
 <p>先決定是否需要現場驗機，再比較商品資訊、付款方式與售後條件。以下是選購時可用的核對方向，不是店家排名，也不代表某類賣家一定有保固。</p>
 <div className="cards buying-channels">
-<section className="panel"><h3>實體門市</h3><p>想當面看機，可先聯絡有門市地址的店家，確認指定商品在店、能否預約驗機，以及可測試哪些功能。</p><p>交機前核對實機、刊登照片、維修說明與書面保固，不只看店名或地址。</p><Link className="news-read" href="/stores">查詢刊登店家與聯絡方式 →</Link></section>
-<section className="panel"><h3>網路店家與刊登平台</h3><p>想先比較多筆商品，可固定型號與容量，並列售價、電池資訊、成色、維修紀錄與售後條件；未提供的項目先列為待確認。</p><p>下單前問清楚實際交易對象、總費用、交付方式，以及機況不符時如何處理。</p><Link className="news-read" href="/guides/compare-used-phone-prices">查看價格與總成本比較方法 →</Link></section>
-<section className="panel"><h3>個人賣家與面交</h3><p>向個人賣家購買前，可先約定當場測試、帳號解除及交付流程，確認賣方願意提供哪些商品資訊與交易紀錄。</p><p>保固及售後處理要逐項詢問，不能直接套用其他店家或平台的條件。</p><Link className="news-read" href="/guides/used-phone-checklist">準備現場驗機清單 →</Link></section>
+<section className="panel"><h3>實體門市</h3><p>想當面看機，可先聯絡有門市地址的店家，確認指定商品在店、能否預約驗機，以及可測試哪些功能。</p><p>交機前核對實機、刊登照片、維修說明與書面保固，不只看店名或地址。</p><a className="news-read" href="/stores">查詢刊登店家與聯絡方式 →</a></section>
+<section className="panel"><h3>網路店家與刊登平台</h3><p>想先比較多筆商品，可固定型號與容量，並列售價、電池資訊、成色、維修紀錄與售後條件；未提供的項目先列為待確認。</p><p>下單前問清楚實際交易對象、總費用、交付方式，以及機況不符時如何處理。</p><a className="news-read" href="/guides/compare-used-phone-prices">查看價格與總成本比較方法 →</a></section>
+<section className="panel"><h3>個人賣家與面交</h3><p>向個人賣家購買前，可先約定當場測試、帳號解除及交付流程，確認賣方願意提供哪些商品資訊與交易紀錄。</p><p>保固及售後處理要逐項詢問，不能直接套用其他店家或平台的條件。</p><a className="news-read" href="/guides/used-phone-checklist">準備現場驗機清單 →</a></section>
 </div>
 <p>二手機王是店家商品刊登與資訊媒合平台。你可以從商品頁和店家頁取得比較資料，再向賣家確認庫存與交易條件；平台不代收款，也不為所有商品提供統一保固。</p>
 </section>
-{questions.map(([q,a,url,label])=><section key={q}><h2>{q}</h2><p>{a}</p><Link className="news-read" href={url}>{label} →</Link></section>)}<h2>購買前可以直接問店家的問題</h2><p>「這支手機還在嗎？照片是否為實機？有沒有換過螢幕或電池？可以現場啟用和測試嗎？保固多久、包含哪些項目？總共需要支付多少？」將回答與商品頁一併保留，交機時逐項核對。</p><h2>資料來源與編輯原則</h2><p>iPhone 檢查事項參考 <a href="https://support.apple.com/zh-tw/104999" rel="noopener noreferrer" target="_blank">Apple：如果你想購買二手 iPhone</a>。價格比較及交易確認流程為本站編輯整理，不是實機評測或店家排名。商品個別資訊以刊登內容及賣家最新確認為準。</p><Link href="/about">了解平台與編輯原則</Link><script type="application/ld+json" dangerouslySetInnerHTML={{__html:jsonld({"@context":"https://schema.org","@graph":[{"@type":"FAQPage","@id":origin+"/used-phones#faq",url:origin+"/used-phones",mainEntity:questions.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"首頁",item:origin+"/"},{"@type":"ListItem",position:2,name:"二手機選購",item:origin+"/used-phones"}]}]})}}/></article>}
+{questions.map(([q,a,url,label])=><section key={q}><h2>{q}</h2><p>{a}</p><a className="news-read" href={url}>{label} →</a></section>)}<h2>購買前可以直接問店家的問題</h2><p>「這支手機還在嗎？照片是否為實機？有沒有換過螢幕或電池？可以現場啟用和測試嗎？保固多久、包含哪些項目？總共需要支付多少？」將回答與商品頁一併保留，交機時逐項核對。</p><h2>資料來源與編輯原則</h2><p>iPhone 檢查事項參考 <a href="https://support.apple.com/zh-tw/104999" rel="noopener noreferrer" target="_blank">Apple：如果你想購買二手 iPhone</a>。價格比較及交易確認流程為本站編輯整理，不是實機評測或店家排名。商品個別資訊以刊登內容及賣家最新確認為準。</p><a href="/about">了解平台與編輯原則</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:jsonld({"@context":"https://schema.org","@graph":[{"@type":"FAQPage","@id":origin+"/used-phones#faq",url:origin+"/used-phones",mainEntity:questions.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"首頁",item:origin+"/"},{"@type":"ListItem",position:2,name:"二手機選購",item:origin+"/used-phones"}]}]})}}/></article>}
