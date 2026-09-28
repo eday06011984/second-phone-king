@@ -15,7 +15,7 @@ export default function Page(){return <article className="content article"><a cl
 <section aria-labelledby="buying-channels">
 <h2 id="buying-channels">中古手機哪裡買？先比較購買管道</h2>
 <p>先決定是否需要現場驗機，再比較商品資訊、付款方式與售後條件。以下是選購時可用的核對方向，不是店家排名，也不代表某類賣家一定有保固。</p>
-<div className="cards">
+<div className="cards buying-channels">
 <section className="panel"><h3>實體門市</h3><p>想當面看機，可先聯絡有門市地址的店家，確認指定商品在店、能否預約驗機，以及可測試哪些功能。</p><p>交機前核對實機、刊登照片、維修說明與書面保固，不只看店名或地址。</p><a className="news-read" href="/stores">查詢刊登店家與聯絡方式 →</a></section>
 <section className="panel"><h3>網路店家與刊登平台</h3><p>想先比較多筆商品，可固定型號與容量，並列售價、電池資訊、成色、維修紀錄與售後條件；未提供的項目先列為待確認。</p><p>下單前問清楚實際交易對象、總費用、交付方式，以及機況不符時如何處理。</p><a className="news-read" href="/guides/compare-used-phone-prices">查看價格與總成本比較方法 →</a></section>
 <section className="panel"><h3>個人賣家與面交</h3><p>向個人賣家購買前，可先約定當場測試、帳號解除及交付流程，確認賣方願意提供哪些商品資訊與交易紀錄。</p><p>保固及售後處理要逐項詢問，不能直接套用其他店家或平台的條件。</p><a className="news-read" href="/guides/used-phone-checklist">準備現場驗機清單 →</a></section>
