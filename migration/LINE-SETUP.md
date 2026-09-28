@@ -32,10 +32,17 @@ Developing 狀態僅 Admin / Tester 可登入。正式開放其他店家前，�
 
 ## 本地測試
 
-node migration/test-line.mjs
+先安裝專案依賴（`pnpm install --frozen-lockfile`），使用 Node.js >=22.13.0（測試使用內建 SQLite）。
+
+```sh
+npm test             # 全部登入回歸測試，等同 npm run test:auth
+npm run test:auth    # Firebase token / origin / cookie + LINE 流程與帳號隔離
 LINE_TEST_ORIGIN=https://second-phone-king.eday06011984.workers.dev node migration/test-line.mjs
 pnpm exec tsc --noEmit
 pnpm run build
+```
+
+回歸測試直接執行現有 route、LINE session 查詢與 getUser，使用記憶體 SQLite，無須密鑰，不存取正式資料。新增驗證：無 Google 的 LINE-only session；Google 已登入時，新／既有 LINE 一般登入不會自動綁定；主動 link 衝突時（LINE 獨立帳號或另一 Google 帳號）身分與 session 均不變。主動 link 成功的既有案例保留。
 
 OAuth 測試使用 SQLite，外部 LINE API 採模擬。涵蓋兩個核准網域、直接 LINE 登入、拒絕外部網域、跨網域回呼拒絕且不消耗原登入嘗試、PKCE、state/cookie、重放、到期、取消與帳號衝突。
 真實 LINE 授權仍須部署與外部 callback 設定完成後確認。
