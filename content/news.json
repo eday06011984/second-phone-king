@@ -523,5 +523,110 @@
         "date": "2026-09-22"
       }
     ]
+  },
+  {
+    "slug": "google-health-guardian-pixel-watch-used-check",
+    "title": "Google Health Guardian 上線：買二手 Pixel Watch，健康功能先看地區與機型",
+    "category": "穿戴裝置",
+    "description": "Google 為 Pixel Watch 推出多項健康趨勢與安全功能；二手智慧錶的機型、地區、訂閱與感測狀態都要分開確認。",
+    "publishedAt": "2026-09-28T09:10:08+08:00",
+    "updatedAt": "2026-09-28T09:10:08+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Pixel Watch 3、4、5 陸續加入新功能",
+        "paragraphs": [
+          "Google 於 9 月 24 日宣布，Health Guardian 健康與安全工具開始在 Google Health App 推出。Pixel Watch 3、4、5 可免費使用血壓趨勢、胰島素阻抗趨勢與睡眠呼吸品質等功能，首批趨勢報告預計 10 月初出現；Pixel Watch 4、5 的呼吸緊急偵測則限部分歐洲市場。官方強調，功能供應會因國家、裝置而異，部分服務可能需要訂閱。"
+        ]
+      },
+      {
+        "heading": "購機分析：有感測器，不代表所有功能都能開",
+        "paragraphs": [
+          "選購二手 Pixel Watch 時，不能只看外殼世代或賣方截圖，就推定健康功能一定可用。應核對完整型號、地區版本、手機相容性、Google Health App 支援情況與是否需要 Google Health Premium；官方也說明這些趨勢屬一般健康資訊，並非即時臨床讀數，也不能用來自行診斷或調整治療。"
+        ]
+      },
+      {
+        "heading": "交機前：感測、電池與帳號一起測",
+        "paragraphs": [
+          "現場可檢查背面感測區是否刮傷或鬆動，實測充電、觸控、按鍵、藍牙、Wi‑Fi、心率讀取與通知同步，再確認前任帳號及鎖定已移除。健康趨勢通常需要連續配戴一段時間才能形成報告，因此短暫試戴只能確認基本功能，不能當成健康準確度測試。以上為編輯購機建議，並非醫療建議或本站實機測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 官方部落格",
+        "url": "https://blog.google/products-and-platforms/products/google-health/health-guardian-features-live/",
+        "date": "2026-09-24"
+      }
+    ]
+  },
+  {
+    "slug": "watchos-27-0-1-used-apple-watch-check",
+    "title": "watchOS 27.0.1 推出：買二手 Apple Watch，先確認型號與更新資格",
+    "category": "穿戴裝置",
+    "description": "Apple 為特定新款 Apple Watch 推出 watchOS 27.0.1；二手交易前應核對實際型號、系統版本與啟用鎖定。",
+    "publishedAt": "2026-09-28T09:10:08+08:00",
+    "updatedAt": "2026-09-28T09:10:08+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：這次更新只列兩類新款手錶",
+        "paragraphs": [
+          "Apple 的安全性版本列表顯示，watchOS 27.0.1 於 9 月 23 日推出，適用於 Apple Watch Series 12 與 Apple Watch Ultra 4；頁面同時註明這次更新沒有已公布的 CVE 項目。Apple 列出的最新版本仍會依錶款而不同，因此看到「27.0.1」不能直接推定其他世代也能安裝。"
+        ]
+      },
+      {
+        "heading": "二手購機分析：名稱相近更要查型號",
+        "paragraphs": [
+          "Apple Watch 外觀世代相近，商品標題也可能只寫尺寸或系列名稱。交易前應在手錶與配對 iPhone 的裝置資訊中核對型號、序號、容量、行動網路版本與目前 watchOS，再到 Apple 官方支援頁確認更新資格；不要把賣方描述或網路截圖當成實機版本證明。"
+        ]
+      },
+      {
+        "heading": "更新之前，先完成基本交機檢查",
+        "paragraphs": [
+          "建議先確認啟用鎖定已解除、手錶可與自己的 iPhone 配對，並測試螢幕、數位錶冠、側邊按鈕、揚聲器、麥克風、心率感測與充電。也要查看電池健康度及機殼、背蓋是否有撞擊或維修痕跡；系統可更新只代表軟體支援，不能證明個別二手機的硬體與防水狀態。以上為編輯購機建議，非本站實機測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple 支援：Apple security releases",
+        "url": "https://support.apple.com/en-us/100100",
+        "date": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "slug": "lisa-playstation-dualsense-limited-edition-buying-check",
+    "title": "LISA × PlayStation 限量 DualSense 公開：收藏型控制器先看保固與轉售風險",
+    "category": "3C 配件",
+    "description": "PlayStation 公布 LISA 聯名 DualSense 控制器；面對限量、跨境與二手溢價，購買前應先核對通路、地區與實際機況。",
+    "publishedAt": "2026-09-28T09:10:08+08:00",
+    "updatedAt": "2026-09-28T09:10:08+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：10 月 2 日預購、10 月 30 日上市",
+        "paragraphs": [
+          "PlayStation 東南亞官方部落格於 9 月 21 日公布 DualSense 無線控制器 LISA Limited Edition，設計包含觸控板上的瀏海、眼睛、星星與「LL」元素，採 Chroma Pearl 配色。東南亞指定通路預定 10 月 2 日開放預購、10 月 30 日上市，官方並強調數量有限；公告列有新加坡、馬來西亞、印尼、泰國、菲律賓與越南建議售價，但沒有台灣售價或台灣通路資訊。"
+        ]
+      },
+      {
+        "heading": "購買分析：限量名稱不等於合理溢價",
+        "paragraphs": [
+          "台灣買家若考慮跨境購入，應先確認販售地區、通路真偽、運費、稅費、保固與退換貨方式，再比較實際總成本。聯名外觀不改變基本相容性檢查：使用平台、韌體、盒內配件與充電線仍要核對；二手市場的加價由供需決定，官方「限量」說法不能保證未來保值。"
+        ]
+      },
+      {
+        "heading": "二手收藏品：未拆封也要核對序號與包裝",
+        "paragraphs": [
+          "購入二手或未拆封收藏品時，可要求清楚拍攝封條、盒況、序號標籤與購買證明，並確認賣方是否允許驗貨。若是已使用商品，應實測搖桿漂移、按鍵回彈、扳機、觸控板、耳機孔、充電與無線連線；外盒完整不代表控制器沒有老化或維修。以上為編輯選購建議，未對台灣售價、配額或升值幅度作出推測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "PlayStation Blog 東南亞",
+        "url": "https://blog.playstation.com/2026/09/21/20260922-lisa",
+        "date": "2026-09-21"
+      }
+    ]
   }
 ]
