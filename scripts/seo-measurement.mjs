@@ -87,12 +87,12 @@ export function summarize(data) {
         const stable = window.length < 3 ? 'unknown' : hits >= 2 ? 'met' : misses >= 2 ? 'not_met' : 'unknown';
         return { ...q, attempted: attempts.length > 0, measured_dates: daily.size,
           status_counts: Object.fromEntries(STATUSES.map(s => [s, rows.filter(r => r.question_id === q.id && r.status === s).length])),
-          single_top_three_count: attempts.filter(r => r.single_top_three === true).length,
+          single_top_three_count: attempts.some(r => r.single_top_three !== null) ? attempts.filter(r => r.single_top_three === true).length : null,
           selected_record_ids: window.map(r => r.id), stable };
       });
       const known = questions.filter(q => q.stable !== 'unknown');
       return { platform, total_questions: questions.length, untested_questions: questions.filter(q => !q.attempted).length,
-        single_top_three_records: rows.some(observed) ? rows.filter(r => r.single_top_three === true).length : null,
+        single_top_three_records: rows.some(r => r.single_top_three !== null) ? rows.filter(r => r.single_top_three === true).length : null,
         confirmed_stable_questions: questions.filter(q => q.stable === 'met').length,
         stable_total: known.length === questions.length ? questions.filter(q => q.stable === 'met').length : null,
         stable_unknown_questions: questions.length - known.length, questions };
@@ -105,7 +105,7 @@ export function markdown(report) {
   for (const p of report.platforms) lines.push(`| ${p.platform} | ${p.untested_questions} | ${display(p.single_top_three_records)} | ${p.confirmed_stable_questions} | ${display(p.stable_total)} | ${p.stable_unknown_questions} |`);
   for (const p of report.platforms) {
     lines.push('', `## ${p.platform}`, '', '| 問句 ID | 實測日期數 | 單次前三 | 穩定判定 | 採用紀錄 ID |', '|---|---:|---:|---|---|');
-    for (const q of p.questions) lines.push(`| ${q.id} | ${q.measured_dates} | ${q.measured_dates ? q.single_top_three_count : '未知'} | ${{met:'達標',not_met:'未達標',unknown:'未知'}[q.stable]} | ${q.selected_record_ids.join(', ') || '—'} |`);
+    for (const q of p.questions) lines.push(`| ${q.id} | ${q.measured_dates} | ${display(q.single_top_three_count)} | ${{met:'達標',not_met:'未達標',unknown:'未知'}[q.stable]} | ${q.selected_record_ids.join(', ') || '—'} |`);
   }
   lines.push('', '完整問句、各狀態計數、品牌提及、本站連結、前三網站、名次與全部原始紀錄請見同目錄 report.json。', '只有完整、可判讀的推薦網站順序可計名次；引用來源列不計。證據真實性仍須人工核對。', '');
   return lines.join('\n');
