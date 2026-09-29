@@ -663,5 +663,110 @@
         "date": "2026-09-28"
       }
     ]
+  },
+  {
+    "slug": "ios-26-7-1-used-iphone-security-check",
+    "title": "iOS 26.7.1 修補遭利用漏洞：二手 iPhone 登入前先更新",
+    "category": "資安更新",
+    "description": "Apple 推出 iOS 26.7.1，修補可能遭高度針對性攻擊利用的 CoreGraphics 漏洞；接手二手 iPhone 時，應先備份、更新並清除舊帳號。",
+    "publishedAt": "2026-09-29T09:54:08+08:00",
+    "updatedAt": "2026-09-29T09:54:08+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：iPhone 11 之後機型可更新",
+        "paragraphs": [
+          "Apple 於 9 月 28 日發布 iOS 26.7.1 與 iPadOS 26.7.1。安全說明指出，CoreGraphics 的越界寫入問題可能讓惡意製作的檔案觸發任意程式碼執行；Apple 也表示，已知報告顯示該問題可能曾被用於針對特定人士、且執行方式非常複雜的攻擊。更新適用於 iPhone 11 及後續機型，以及官方列出的多款 iPad；漏洞編號為 CVE-2026-86950。"
+        ]
+      },
+      {
+        "heading": "二手購機分析：能更新不等於已經安全",
+        "paragraphs": [
+          "二手 iPhone 即使在支援名單內，也要實際查看「設定」中的完整機型與系統版本，不能只憑商品名稱判斷。交機後先連上可信任網路、完成系統更新並重新啟動，再登入主要 Apple 帳號或密碼管理工具；若裝置無法更新，應先排除儲存空間、網路或管理設定問題。"
+        ]
+      },
+      {
+        "heading": "更新前後的交機清單",
+        "paragraphs": [
+          "付款前應確認啟用鎖定已解除、原使用者帳號與企業管理設定已移除，並先備份需要保留的資料。更新後再測試相機、檔案開啟、行動網路、Wi‑Fi、藍牙與常用 App。官方公告說明的是軟體漏洞修補，不能替代電池健康度、摔修紀錄與硬體機況檢查；以上為編輯資安與購機建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple 支援：iOS 26.7.1 與 iPadOS 26.7.1 安全性內容",
+        "url": "https://support.apple.com/en-us/149226",
+        "date": "2026-09-28"
+      }
+    ]
+  },
+  {
+    "slug": "galaxy-watch-heart-health-used-buying-check",
+    "title": "Galaxy Watch 心臟健康功能再進化：買二手錶先查機型、地區與校正",
+    "category": "穿戴裝置",
+    "description": "Samsung 說明 Galaxy Watch 的心臟健康分數、ECG、血壓與異常心律通知；二手智慧錶的功能供應、感測器與帳號狀態需逐項確認。",
+    "publishedAt": "2026-09-29T09:54:08+08:00",
+    "updatedAt": "2026-09-29T09:54:08+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：從日常指標到心律提醒",
+        "paragraphs": [
+          "Samsung 於 9 月 29 日介紹 Galaxy Watch 與 Samsung Health 的心臟健康功能。Heart Health Score 會綜合睡眠時間、日常活動、身體組成與血管負荷等指標；BioActive Sensor 則整合光學心率、心電圖與生物電阻抗感測。官方也說明，血壓功能需要先用袖帶式血壓計校正，之後每四週重新校正；ECG 與異常心律通知等功能仍有裝置、軟體與地區條件。"
+        ]
+      },
+      {
+        "heading": "二手購機分析：感測器存在，不代表功能都能開",
+        "paragraphs": [
+          "選購二手 Galaxy Watch 時，應核對完整型號、地區版本、Samsung Health 版本與配對手機需求，再查看所在地區是否支援 ECG、血壓或異常心律通知。部分健康功能需要持續配戴與建立個人基準，短暫試戴只能確認基本讀值；也不能把手錶提示當成醫療診斷。"
+        ]
+      },
+      {
+        "heading": "交機前：背面感測、電池與帳號一起驗",
+        "paragraphs": [
+          "現場可檢查背面感測區是否刮傷、鬆動或有拆修痕跡，並實測充電、觸控、按鍵、藍牙、Wi‑Fi、心率讀取及通知同步。確認前任 Samsung／Google 帳號與鎖定已移除，再評估電池續航與保固。健康資料分享必須取得本人同意；以上為編輯購機建議，不是醫療建議或本站實機準確度測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/world-heart-day-taking-care-of-your-heart-every-day-starting-from-your-wrist",
+        "date": "2026-09-29"
+      }
+    ]
+  },
+  {
+    "slug": "google-photos-2026-tools-phone-handover-check",
+    "title": "Google Photos 新增 5 項工具：舊手機交機前別誤刪雲端照片",
+    "category": "3C 應用",
+    "description": "Google Photos 加入 Gemini 挑片、Moods、Remix 與敏感資訊模糊等工具；換機或出售舊手機前，備份與刪除範圍要先分清楚。",
+    "publishedAt": "2026-09-29T09:54:08+08:00",
+    "updatedAt": "2026-09-29T09:54:08+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：整理、風格與敏感資訊處理",
+        "paragraphs": [
+          "Google 於 9 月 24 日公布五項 Google Photos 更新，包括以 Gemini Spark 挑選、提亮與分享照片，Wardrobe 自動整理照片中的服飾，Moods 套用 35mm 底片等風格，新增 15 款 Remix 範本，以及在標記工具中加入可模糊敏感資訊的筆刷。官方註明供應地區、年齡、訂閱方案與平台各有差異；其中 Moods 與新版標記工具面向 Android 推出。"
+        ]
+      },
+      {
+        "heading": "換機分析：編輯工具不是完整備份方案",
+        "paragraphs": [
+          "準備出售舊手機時，應先確認 Google Photos 顯示的備份狀態，再用另一台裝置或網頁抽查照片與影片是否能開啟。某些功能只在特定國家或方案提供，因此不能因 App 介面出現新工具，就推定所有帳號都能使用；雲端相簿、裝置本機資料夾與 Locked Folder 也應分別檢查。"
+        ]
+      },
+      {
+        "heading": "清除舊手機前，先理解刪除動作的影響",
+        "paragraphs": [
+          "不要在不確定同步範圍時大量刪除照片；先保存重要檔案的第二份副本，確認相簿、原始畫質與拍攝日期完整，再從系統設定執行裝置重設。要分享證件或交易畫面時，可利用模糊工具遮蔽敏感資訊，但仍應重新檢查輸出檔。以上為編輯資料整理建議，實際同步與刪除行為以 Google Photos 當前說明及帳號設定為準。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 官方部落格：Google Photos",
+        "url": "https://blog.google/products-and-platforms/products/photos/google-photos-updates/",
+        "date": "2026-09-24"
+      }
+    ]
   }
 ]
