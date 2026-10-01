@@ -873,5 +873,110 @@
         "date": "2026-09-29"
       }
     ]
+  },
+  {
+    "slug": "galaxy-tab-s12-used-tablet-buying-check",
+    "title": "Galaxy Tab S12 系列發表：買新舊 Android 平板先看更新、S Pen 與電池",
+    "category": "平板新品",
+    "description": "三星發表 Galaxy Tab S12 Ultra 與 S12+；選購新舊 Android 平板時，應把系統更新、手寫筆、電池及螢幕狀態分開核對。",
+    "publishedAt": "2026-10-01T09:58:00+08:00",
+    "updatedAt": "2026-10-01T09:58:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：兩款尺寸、S Pen 與長期更新",
+        "paragraphs": [
+          "三星於 9 月 30 日發表 Galaxy Tab S12 Ultra 與 Galaxy Tab S12+。官方規格列出 14.6 吋與 12.4 吋 Dynamic AMOLED 2X 螢幕、隨附 S Pen、IP68 防塵防水，以及 Android 17／One UI 9；並承諾最多七代作業系統升級與七年安全性更新。產品預計 10 月 7 日起在部分市場上市，台灣售價與實際供貨仍應以當地公告為準。"
+        ]
+      },
+      {
+        "heading": "選購分析：新機規格不能直接套到二手機",
+        "paragraphs": [
+          "平板能否使用特定 Galaxy AI、多工或 S Pen 功能，取決於完整型號、地區版本、系統版本與帳號條件。比較二手 Galaxy Tab 時，應在「關於平板」核對型號與軟體，再檢查是否能正常更新；官方的長期更新承諾是新系列資訊，不能用來推定較舊機種也有相同支援年限。"
+        ]
+      },
+      {
+        "heading": "交機前：螢幕、筆、電池與配件逐項測試",
+        "paragraphs": [
+          "現場可用純色畫面查看烙印、亮點與觸控死角，以 S Pen 測試邊角書寫、懸浮感應及按鍵，再確認 USB‑C 充電、喇叭、相機、Wi‑Fi 和鍵盤配件。官方電池續航是特定條件下的標示值，二手機仍需觀察實際耗電、充電速度與是否異常發熱。以上為編輯購機建議，並非本站實機測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth",
+        "date": "2026-09-30"
+      }
+    ]
+  },
+  {
+    "slug": "galaxy-smarttag3-used-tracker-compatibility-check",
+    "title": "Galaxy SmartTag3 登場：買定位器先查相容性、電池與帳號",
+    "category": "3C 配件",
+    "description": "三星推出更小、更輕且支援跨系統核心功能的 Galaxy SmartTag3；購買新舊定位器前，仍要確認手機相容性、帳號移除與電池安全。",
+    "publishedAt": "2026-10-01T09:58:00+08:00",
+    "updatedAt": "2026-10-01T09:58:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：跨系統核心功能與更長續航",
+        "paragraphs": [
+          "三星於 9 月 30 日發表 Galaxy SmartTag3，表示其體積比前代小約 35%、重量減少 33%，標準使用最長 550 天、省電模式最長 790 天，並維持 IP67 防塵防水。核心尋找與分享功能首度支援 Galaxy 與 iOS 裝置，但官方也註明，Compass View、讓手機響鈴及離身提醒目前不支援 iOS；各功能仍受手機、地區與網路條件影響。"
+        ]
+      },
+      {
+        "heading": "選購分析：標示支援 iPhone，不代表功能完全相同",
+        "paragraphs": [
+          "定位器的價值取決於附近協尋網路、手機硬體與 App 支援。SmartTag3 的 Bluetooth 6.0 Channel Sounding 最遠 60 公尺方向指引，是官方在無障礙視線環境下的測量，且目前只支援指定 Galaxy 機型；有牆面、電子干擾或不同手機時，距離與精準度都可能下降。購買前應先用自己的手機核對可用功能。"
+        ]
+      },
+      {
+        "heading": "二手交機：解除帳號、換電池與防誤用都要查",
+        "paragraphs": [
+          "購買二手定位器時，請賣方先從原帳號移除，再以買方帳號完成配對；同時檢查外殼、按鍵、NFC 遺失模式、蜂鳴器與 CR2032 電池艙。硬幣電池必須遠離兒童與寵物，掛在寵物項圈時也要定期確認固定狀態。定位器不應用於未經同意的人員追蹤；以上為編輯購買與安全建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-galaxy-smarttag3-makes-it-easier-to-keep-track-of-what-matters",
+        "date": "2026-09-30"
+      }
+    ]
+  },
+  {
+    "slug": "apple-screen-time-2026-used-iphone-family-setup",
+    "title": "Apple 更新螢幕使用時間工具：二手 iPhone 給孩子前先做哪些設定？",
+    "category": "手機指南",
+    "description": "Apple 與美國兒科學會公布家庭數位習慣指南，並更新螢幕使用時間；把二手 iPhone 或 iPad 交給孩子前，可先完成帳號、內容與安全設定。",
+    "publishedAt": "2026-10-01T09:58:00+08:00",
+    "updatedAt": "2026-10-01T09:58:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：從家庭討論到內容與通訊安全",
+        "paragraphs": [
+          "Apple 於 9 月 29 日公布與美國兒科學會合作的家庭數位習慣指南，建議家長先和孩子討論使用方式，再建立兒童帳號、設定 Ask to Buy／Ask to Browse、安排使用與休息時段，並開啟通訊安全等功能。Apple 同時更新螢幕使用時間，家長可分開管理社群、遊戲等 App 類別；相關更新需要家庭裝置升級至 iOS 27、iPadOS 27、macOS 27 等對應版本。"
+        ]
+      },
+      {
+        "heading": "二手機分析：先完成清除與更新，再交給孩子",
+        "paragraphs": [
+          "如果沿用家中二手 iPhone 或 iPad，應先確認原使用者已登出 Apple 帳號、關閉尋找功能並完成清除，再由家長建立或加入家庭共享。舊裝置能否使用新版設定，取決於硬體是否支援所需系統；不宜為了單一功能繞過官方更新限制，也不能只看到 App 限制畫面就認為所有內容與通訊風險已處理。"
+        ]
+      },
+      {
+        "heading": "實際設定：保留緊急聯絡與定期檢查",
+        "paragraphs": [
+          "交機前可逐項確認密碼與復原聯絡方式、購買核准、網站內容、隱私權、定位分享、通訊安全、睡眠時段與緊急聯絡功能，再和孩子說明哪些設定會被家長查看。螢幕時間應依年齡、上課、睡眠與家庭需求調整，而不是只追求單一時數。以上為編輯整理，健康與發展問題仍應依專業醫療建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-releases-new-guide-to-help-families-build-healthy-digital-habits/",
+        "date": "2026-09-29"
+      }
+    ]
   }
 ]
