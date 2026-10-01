@@ -771,28 +771,28 @@
   },
   {
     "slug": "final-cut-camera-now-supports-variable-aperture-on-iphone-18-pro",
-    "title": "Final Cut Camera now supports variable aperture on iPhone 18 Pro",
-    "category": "Apple 動態",
-    "description": "Final Cut Camera gets a major update with a new design, support for variable aperture on iPhone 18 Pro, and more pro options with iOS 27.",
+    "title": "Final Cut Camera 2.4 支援 iPhone 18 Pro 可變光圈：二手機攝影功能怎麼驗？",
+    "category": "手機攝影",
+    "description": "Apple 更新 Final Cut Camera 2.4，加入 iPhone 18 Pro 可變光圈及 iOS 27 專業錄影工具；選購二手 iPhone 時，應分開核對機型、系統與相機功能。",
     "publishedAt": "2026-09-29T17:00:57.163Z",
-    "updatedAt": "2026-09-29T17:00:57.163Z",
+    "updatedAt": "2026-09-30T09:41:34+08:00",
     "sections": [
       {
-        "heading": "官方資訊",
+        "heading": "官方資訊：可變光圈與更多專業錄影工具",
         "paragraphs": [
-          "Apple Newsroom於 2026-09-30 發布公告：Final Cut Camera gets a major update with a new design, support for variable aperture on iPhone 18 Pro, and more pro options with iOS 27."
+          "Apple 於 9 月 29 日發布 Final Cut Camera 2.4。新版重新設計介面，提供快門角度、ISO、白平衡、偽色、過曝提示與可調靈敏度的峰值對焦；在 iPhone 18 Pro 上可控制 Fusion 主相機的可變光圈，並選擇快門優先或光圈優先。配合 iOS 27，App 也加入 RGB Parade、直方圖、clean SDI 輸出與 genlock offset 等工具。"
         ]
       },
       {
-        "heading": "購機觀察",
+        "heading": "購機分析：功能取決於機型、系統與工作流程",
         "paragraphs": [
-          "公告內容應以來源頁的適用市場、機型、版本與實際供貨資訊為準。選購二手機時，請向店家確認實機型號、功能狀態、配件與保固，不要只依新聞標題推定所有功能都可使用。"
+          "Final Cut Camera 可以免費更新，不代表每款 iPhone 都能使用可變光圈；這項硬體控制限於官方指定的 iPhone 18 Pro。選購二手機時，應先核對完整型號、iOS 版本與 App 版本，再實際開啟相機設定確認。ProRes、Apple Log、SDI 或多機同步也可能需要足夠儲存空間及額外轉接設備。"
         ]
       },
       {
-        "heading": "交機前的確認重點",
+        "heading": "交機測試：錄影、儲存與散熱一起看",
         "paragraphs": [
-          "建議在付款前開機確認基本功能、帳號移除狀態與軟體版本，並保留商品描述及保固憑證。本文為資訊整理與購機建議，不代表實機測試或價格承諾。"
+          "現場可錄製數分鐘高畫質影片，檢查對焦、曝光切換、收音、畫面穩定、儲存速度與機身溫度，再確認鏡頭是否刮傷或維修。官方功能介紹不能證明個別二手機仍具相同畫質與續航；若購買目的包含專業錄影，應帶自己的外接硬碟、轉接器或剪輯流程實測。以上為編輯購機建議，非本站實機測試。"
         ]
       }
     ],
@@ -800,7 +800,77 @@
       {
         "name": "Apple Newsroom",
         "url": "https://www.apple.com/newsroom/2026/09/final-cut-camera-now-supports-variable-aperture-on-iphone-18-pro/",
-        "date": "2026-09-30"
+        "date": "2026-09-29"
+      }
+    ]
+  },
+  {
+    "slug": "asus-smart-pc-building-2026-used-desktop-check",
+    "title": "ASUS 發布 2026 組裝電腦指南：買新舊桌機先算記憶體與升級成本",
+    "category": "電腦指南",
+    "description": "ASUS 整理記憶體、主機板與顯示卡的組裝策略；新舊桌機選購不能只看單一零件價格，還要評估相容性與後續升級。",
+    "publishedAt": "2026-09-30T09:41:34+08:00",
+    "updatedAt": "2026-09-30T09:41:34+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：先決定用途，再分配預算",
+        "paragraphs": [
+          "ASUS 於 9 月 29 日發布 2026 年桌機組裝指南，建議在記憶體價格偏高時比較組合優惠、可升級的品牌桌機，或先採用較低容量再日後擴充。官方也強調主機板對記憶體相容性與穩定度的重要性，並建議依遊戲、內容創作或本機 AI 等實際用途選擇處理器平台與顯示卡，而非只看最高規格。"
+        ]
+      },
+      {
+        "heading": "選購分析：升級空間必須落到實際規格",
+        "paragraphs": [
+          "不論購買全新或二手桌機，都應核對主機板型號、CPU 插槽、記憶體類型與插槽數、電源供應器瓦數與接頭、機殼空間及散熱配置。品牌桌機若使用非標準尺寸零件，日後更換顯示卡、電源或主機板可能受限；賣方標示「可升級」時，最好要求列出可支援的零件範圍。"
+        ]
+      },
+      {
+        "heading": "二手交機：穩定性比跑分數字更重要",
+        "paragraphs": [
+          "現場可查看 BIOS 與系統資訊，確認零件型號、記憶體容量及是否混插，再進行一段連續負載，觀察當機、溫度、風扇異音與影像輸出。若曾超頻或更換零件，也應確認保固與維修紀錄。ASUS 的指南包含自家產品建議，本文將其視為官方選購觀點；實際價格、效能與相容性仍需依個別配置查證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-smart-pc-building-guide-2026-upgrade-what-matters/",
+        "date": "2026-09-29"
+      }
+    ]
+  },
+  {
+    "slug": "windows-11-26h2-used-pc-update-check",
+    "title": "Windows 11 26H2 開始推送：買二手電腦先確認版本、相容性與管理鎖定",
+    "category": "電腦軟體",
+    "description": "Microsoft 推出 Windows 11 2026 Update（26H2）；二手電腦更新前應先核對硬體資格、驅動程式、帳號與企業管理狀態。",
+    "publishedAt": "2026-09-30T09:41:34+08:00",
+    "updatedAt": "2026-09-30T09:41:34+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：26H2 採分階段推出",
+        "paragraphs": [
+          "Microsoft 於 9 月 29 日宣布 Windows 11 2026 Update（版本 26H2）開始提供。符合資格且目前使用 24H2 或 25H2 的裝置，可透過較小的 enablement package 啟用新版本，通常只需一次重新啟動；但更新採分階段推出，若偵測到已知相容性問題，Microsoft 可能暫時設定 safeguard hold，不會立即提供更新。"
+        ]
+      },
+      {
+        "heading": "二手購機分析：沒有更新按鈕不一定是故障",
+        "paragraphs": [
+          "選購二手 Windows 電腦時，應查看「設定 → 系統 → 關於」與 Windows Update，核對處理器、記憶體、儲存空間、目前版本及啟用狀態。若暫時看不到 26H2，可能是尚未輪到推送、存在相容性保護，或硬體與管理政策不符；不應為了追版本而繞過官方限制。"
+        ]
+      },
+      {
+        "heading": "更新前：先備份並測試關鍵硬體",
+        "paragraphs": [
+          "交機前應確認原使用者 Microsoft 帳號、BitLocker 復原金鑰與公司裝置管理已妥善移除，並備份重要資料。更新完成後再測試 Wi‑Fi、藍牙、攝影機、休眠、外接螢幕與常用軟體。Microsoft 表示 Home／Pro 版安裝 26H2 後進入新的 24 個月支援週期；實際可用功能與更新時程仍以官方 Windows Update 及版本健康資訊為準。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Windows Experience Blog",
+        "url": "https://blogs.windows.com/windowsexperience/2026/09/29/how-to-get-windows-11-2026-update/",
+        "date": "2026-09-29"
       }
     ]
   }
