@@ -33,6 +33,17 @@ Public site: https://xn--4kq449bj1fmzj.tw
 
 ## 發布與驗證
 
+### 推送前資料驗收（零外部依賴）
+
+- `npm run test:news`：Node 內建測試，含缺少 sections、重複 slug、壞 URL、壞日期，以及以本機 git stub 確認失敗不會到達 commit／push 的測試。
+- `npm run validate:news`：唯讀檢查完整 `content/news.json`；也可執行 `node scripts/validate-news.mjs <檔案路徑>`。
+- 必要文字欄位須為非空字串；sections、paragraphs、sources 須為非空陣列，逐項檢查物件與文字型別；slug 須為唯一 ASCII kebab-case。
+- 來源 URL 須為可解析的絕對 HTTP(S) URL，不接受帳密、空白或反斜線。這不代表連結可連線或內容已查證。
+- 刊登／更新時間須為含時區的有效 ISO timestamp（接受既有微秒精度），拒絕不存在日期，更新不得早於刊登，未來時間僅容許 5 分鐘時鐘誤差。
+- 來源日期須為有效 `YYYY-MM-DD`，不得晚於台北當日或最後更新的台北日期；可在更新時補較新的來源。舊文章與舊來源不套用 48 小時／7 天選題限制。
+- 每日 workflow 在產生新聞後、commit／push 前執行驗收。讀檔、JSON 解析、資料或測試失敗均以非零 exit code 停止；寫入步驟另有 success gate，沒有 continue-on-error。
+- 通過僅代表資料格式與基本時間關係合格，不代表事實查核、建置、SEO、正式部署或正式網址驗證完成。
+
 1. 讀取 GitHub main 最新版本並確認今日篇數與重複主題。
 2. 只提交新聞相關變更到 main，讓既有 Cloudflare 自動部署。
 3. 完成必要建置、JSON schema、內容、SEO 與 sitemap 檢查。
