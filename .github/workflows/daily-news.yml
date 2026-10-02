@@ -23,11 +23,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Test news validator
+        run: node --test scripts/validate-news.test.mjs
       - name: Append verified articles
         run: node scripts/update-news.mjs
       - name: Validate news data
-        run: node -e "const n=require('./content/news.json'); if (!Array.isArray(n)||n.some(x=>!x.slug||!x.title||!x.publishedAt||!x.sources?.length)) process.exit(1)"
+        id: validate-news
+        run: node scripts/validate-news.mjs
       - name: Commit and push when news changed
+        if: ${{ success() && steps.validate-news.outcome == 'success' }}
         run: |
           if git diff --quiet -- content/news.json; then exit 0; fi
           git config user.name "second-phone-king-news-bot"

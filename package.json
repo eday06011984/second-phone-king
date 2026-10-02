@@ -13,7 +13,9 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "test": "npm run test:auth",
-    "test:auth": "node migration/test-auth.mjs && node migration/test-line.mjs"
+    "test:auth": "node migration/test-auth.mjs && node migration/test-line.mjs",
+    "test:news": "node --test scripts/validate-news.test.mjs",
+    "validate:news": "node scripts/validate-news.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
