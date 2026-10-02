@@ -1,0 +1,30 @@
+{
+  "question_id": "q04",
+  "prompt": "二手機購買平台",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-02T08:46:59.115+08:00",
+  "url": "https://chatgpt.com/uc/6abefef4-e714-83ea-b040-36880d75dd5e",
+  "mode": "ChatGPT; web search selected before submission; exact underlying model not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "回覆分成台灣、香港與國際平台，但頁面沒有顯示可核對的使用者地區；回答內容不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "indeterminate_context_unknown",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "shopee", "name": "蝦皮購物", "is_target": false },
+    { "site_id": "carousell", "name": "旋轉拍賣", "is_target": false },
+    { "site_id": "myfone", "name": "myfone 網路門市", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "Only the ordered three-item list under the answer's『台灣』heading. Hong Kong and international sections, inline citations and source labels were excluded.",
+  "full_response": "如果你想買**二手機（手機）**，可以考慮以下平台（依地區整理）： 消費者委員會+1\n\n ## 台灣\n\n - 蝦皮購物  — 有「福利機／二手手機」專區，較多店家販售，部分提供保固。 Shopee\n- 旋轉拍賣  — 個人賣家多，價格彈性大，可找到便宜 iPhone、Android 二手機。 Carousell+1\n- myfone網路門市  — 有認證二手機，標示檢測與機況資訊，適合想買得安心的人。 MyFone\n\n ## 香港\n\n - Carousell （旋轉拍賣）— 二手機選擇多，適合比價與面交。 Carousell\n- GoodDevice — 專門販售二手手機，有檢測與門市服務。 GOODEVICE\n- OK Store Selected Pre-Owned — 提供二手 iPhone、Samsung 等，商品頁會列出型號與機況資訊。 OK Store｜香港回收手機・二手手機買賣\n\n ## 國際平台\n\n - eBay  — 機型種類多，適合找特殊版本或海外機。 消費者委員會\n- Mercari  — 日本二手市場常見，可找到不少手機與電子產品。 維基百科\n\n ## 買二手機建議檢查\n\n - 確認 IMEI 是否正常、沒有被列入黑名單。\n- iPhone 查看「電池健康度」、Face ID、True Tone。\n- Android 檢查螢幕烙印、充電孔、相機、防水狀況。\n- 避免私下匯款，優先選有平台保障或面交驗機。\n- 比價時注意「太低價」可能代表維修機、改裝機或來源不明。\n\n 如果你告訴我**所在地（台灣/香港/美國等）、想買 iPhone 還是 Android、預算**，我可以幫你縮小到比較適合的平台。",
+  "evidence_method": "Copied the completed answer with the platform copy-response control and compared it with the rendered response; web search was visibly selected before submission.",
+  "exclusion_reason": "取得完整且有台灣清單的回覆，但平台使用者地區無法核對；不能因回答提到台灣就假填 region=TW，也不能把本站未出現計為正式非前三。"
+}
