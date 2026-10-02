@@ -978,5 +978,120 @@
         "date": "2026-09-29"
       }
     ]
+  },
+  {
+    "slug": "android-17-advanced-protection-used-phone-security-check",
+    "title": "Android 17 強化進階保護：二手手機登入重要帳號前先做哪些安全檢查？",
+    "category": "手機資安",
+    "description": "Google 擴充 Android 進階保護，加入 USB、無障礙服務與入侵記錄等防護；二手手機交機後，啟用重要帳號前仍要先完成更新與安全檢查。",
+    "publishedAt": "2026-10-02T09:13:47+08:00",
+    "updatedAt": "2026-10-02T09:13:47+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：一個開關集中提高 Android 防護",
+        "paragraphs": [
+          "Google 於 10 月 1 日說明 Android 進階保護的新功能。這項模式自 Android 16 推出，會把 Chrome、Google 訊息與電話等服務的防護集中開啟，並使 Google Play 安全防護及詐騙偵測無法關閉。Android 17 進一步加入 USB 防護、無障礙服務限制、停用 WebGPU、登入失敗鎖定與應用程式支援狀態；部分功能只在指定 Android 17 裝置提供，實際可用項目仍取決於機型與硬體。"
+        ]
+      },
+      {
+        "heading": "二手購機分析：先確認版本與鎖定，再談安全功能",
+        "paragraphs": [
+          "購入二手 Android 手機後，應先在系統設定核對完整型號、安全性更新日期與 Google Play 系統更新，確認沒有前任帳號、企業管理或不明無障礙服務。若進階保護頁面缺少某項功能，不一定代表手機故障；可能是尚未取得更新、機型不支援，或該功能需要另外手動啟用。不要從非官方來源安裝聲稱能補上功能的 APK。"
+        ]
+      },
+      {
+        "heading": "啟用前：USB、備份與入侵記錄要理解清楚",
+        "paragraphs": [
+          "USB 防護會在裝置鎖定時，把新的 USB 連線預設限制為充電；已建立的連線不會立刻中斷。入侵記錄則屬選用功能，須由使用者手動開啟，記錄會端對端加密保存並採 12 個月滾動保留。準備登入網銀、商務信箱或店家後台前，建議先更新系統、設定螢幕鎖定與復原方式、檢查 Play 安全防護，再依風險需求評估是否開啟進階保護。以上為編輯資安與購機建議，不能取代廠商支援或專業資安鑑識。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Security Blog：Android Advanced Protection",
+        "url": "https://blog.google/security/android-advanced-protection-updates/",
+        "date": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "slug": "msi-crosshair-a16-hx-limited-edition-buying-check",
+    "title": "MSI Crosshair A16 HX 限量版上市：規格頁不一致，買前先核對型號",
+    "category": "電腦新品",
+    "description": "MSI 在台推出 Crosshair A16 HX 魔龍姬限量版；官方頁面的顯示記憶體資訊出現不一致，選購時應以完整型號與實際商品規格為準。",
+    "publishedAt": "2026-10-02T09:13:47+08:00",
+    "updatedAt": "2026-10-02T09:13:47+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：16 吋電競筆電搭配限定外觀與配件",
+        "paragraphs": [
+          "MSI 台灣於 10 月 1 日公布 Crosshair A16 HX 魔龍姬限量版，台灣販售型號為 Crosshair A16 HX MLG Edition E8WGK-029TWY，採 16 吋 QHD+（2560×1600）240Hz、100% DCI-P3 螢幕，並列出 16GB DDR5 記憶體、1TB PCIe Gen4 SSD、80Wh 電池與約 2.3 公斤重量。官方建議售價為 NT$79,900，組合包含滑鼠、鼠墊與耳機；價格、贈品及供貨仍以實際通路為準。"
+        ]
+      },
+      {
+        "heading": "規格查核：同一官方頁面出現顯示記憶體差異",
+        "paragraphs": [
+          "這份公告的介紹段落把 GeForce RTX 5070 Laptop GPU 寫成 12GB GDDR7，但同頁的台灣販售規格表列為 GDDR7 8GB。兩處資訊互相矛盾，因此不宜直接把其中一個數字當成所有現貨的確定規格。準備購買時，應向 MSI 或授權通路確認完整 SKU、顯示卡與顯示記憶體，並把訂單、發票及商品頁截圖留存；本站未替廠商判定哪一欄為排版錯誤。"
+        ]
+      },
+      {
+        "heading": "新機與二手都要查：記憶體、SSD 與限定配件",
+        "paragraphs": [
+          "官方規格列出單條 16GB 記憶體、兩個記憶體插槽與最高 96GB 支援，儲存介面則提到 Gen4／Gen5 擴充。購買展示機或日後二手機時，應在 BIOS 與系統資訊核對記憶體條數、SSD 型號、顯示卡與保固，並確認限定滑鼠、鼠墊、耳機及外盒是否包含在交易中。促銷贈品採登錄與數量限制，不應自動視為二手商品的標準配件。以上為編輯購機分析，並非效能、溫度或續航實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "MSI 台灣新聞中心",
+        "url": "https://tw.msi.com/news/detail/MSI-%E6%8E%A8%E5%87%BA-Crosshair-A16-HX-%E9%AD%94%E9%BE%8D%E5%A7%AC%E9%99%90%E9%87%8F%E7%89%88%E9%9B%BB%E7%AB%B6%E7%AD%86%E9%9B%BB-%E8%9E%8D%E5%90%88%E9%BE%8D%E6%97%8F%E5%82%B3%E5%A5%87%E8%A7%92%E8%89%B2%E6%95%85%E4%BA%8B%E8%88%87%E6%98%9F%E8%8A%92%E7%99%BD%E7%BE%8E%E5%AD%B8%E8%A8%AD%E8%A8%88-%E6%89%93%E9%80%A0%E6%B2%89%E6%B5%B8%E9%81%8A%E6%88%B2%E9%AB%94%E9%A9%97-149997",
+        "date": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "slug": "chrome-155-cross-platform-used-device-update-check",
+    "title": "Chrome 155 分批推送：二手機跨平台登入前先確認瀏覽器版本",
+    "category": "3C 軟體",
+    "description": "Google 開始向 Windows、macOS、Android 與 iOS 分批推出 Chrome 155；二手裝置首次登入前，應先由官方商店或系統更新並核對版本。",
+    "publishedAt": "2026-10-02T09:13:47+08:00",
+    "updatedAt": "2026-10-02T09:13:47+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：各平台版本不同，而且採分批推出",
+        "paragraphs": [
+          "Google 於 9 月 30 日公布 Chrome 155 的跨平台更新。桌面版 155.0.8059.26／.27 先向部分 Windows 與 macOS 使用者推出；Android 版為 155.0.8059.30，iOS 版為 155.0.8059.24，並會在 Google Play 與 App Store 陸續上架。不同平台的尾碼不同屬正常情況，尚未看到更新也可能只是尚未輪到分批推送。"
+        ]
+      },
+      {
+        "heading": "更新分析：這次公告沒有列出新的安全修補數量",
+        "paragraphs": [
+          "Chrome Releases 的這批 Chrome 155 公告主要說明版本、穩定性與效能，沒有在同一則公告列出安全修補項目或漏洞數量。因此不應把先前 Chrome 154 的安全修補數字套用到 Chrome 155，也不能只憑版本號宣稱裝置已排除所有風險。實際更新內容與後續修正版，仍應以 Google 當期公告為準。"
+        ]
+      },
+      {
+        "heading": "二手裝置交機：用官方管道更新再登入",
+        "paragraphs": [
+          "收到二手手機、平板或電腦後，先確認原使用者帳號與企業管理已移除，完成作業系統更新，再從 Google Play、App Store 或 Chrome 內建更新取得新版；不要下載來路不明的安裝檔。更新後可在「關於 Chrome」核對版本，重開瀏覽器並測試密碼管理、通行金鑰與常用網站。若尚未收到 155，維持現有穩定版與自動更新即可，不需要繞過官方分批機制。以上為編輯資安與交機建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Chrome Releases：Early Stable Update for Desktop",
+        "url": "https://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_01050350268.html",
+        "date": "2026-09-30"
+      },
+      {
+        "name": "Chrome Releases：Chrome for Android Update",
+        "url": "https://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01438056910.html",
+        "date": "2026-09-30"
+      },
+      {
+        "name": "Chrome Releases：Chrome Stable for iOS Update",
+        "url": "https://chromereleases.googleblog.com/2026/09/chrome-stable-for-ios-update_0387577389.html",
+        "date": "2026-09-30"
+      }
+    ]
   }
 ]
