@@ -1093,5 +1093,110 @@
         "date": "2026-09-30"
       }
     ]
+  },
+  {
+    "slug": "asus-ai-pc-subscription-total-cost-check",
+    "title": "華碩 AI 筆電日付 77 元起：訂閱、買斷與二手怎麼算總成本？",
+    "category": "筆電選購",
+    "description": "華碩推出高通 AI 筆電限時訂閱優惠；面對日付方案、新機買斷與二手筆電，應比較總支出、所有權與售後條件。",
+    "publishedAt": "2026-10-03T09:23:56+08:00",
+    "updatedAt": "2026-10-03T09:23:56+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：優惠價格之外還有方案差異",
+        "paragraphs": [
+          "華碩於 10 月 1 日宣布，高通處理器 AI 筆電訂閱優惠自即日起至 11 月 30 日進行，標示每天 NT$77 起；完成訂閱與登錄可獲最高 NT$4,250 即享券。官方同時表示，今年第三季筆電訂閱數較上一季成長約 70%。不過「77 元起」代表實際費用依機種與方案不同，贈券也有活動及登錄規則，不能直接視為每台筆電的固定月租或現金折價。"
+        ]
+      },
+      {
+        "heading": "選購分析：先算完整合約，不只看每日金額",
+        "paragraphs": [
+          "比較訂閱、新機買斷與二手筆電時，應把合約期內總付款、期滿所有權、買斷金額、提前終止條件、損壞或遺失責任、維修等待時間及保固範圍列在同一張表。華碩公告提到完美保固、失竊守護及保證回購，並由華碩負擔意外人損維修費用的 80%；但保證回購須先買斷所有權，個別適用條件仍要看合約。訂閱可降低一次支出，不代表總成本一定低於買斷或二手。"
+        ]
+      },
+      {
+        "heading": "規格與續航：官方測試條件要一起讀",
+        "paragraphs": [
+          "公告列出 Zenbook A16（UX3607）最高搭載 Snapdragon X2 Elite Extreme、16 吋機身 1.1 公斤起，官方測得最長 43 小時續航；Zenbook A14（UX3407）則為 899 公克起、最長 33 小時。上述皆是指定組態與亮度等條件下的官方測試，實際表現會隨配置、使用方式與電池老化而變。下單前仍應核對完整型號、記憶體、儲存空間、ARM 軟體相容性與最終合約金額。以上為編輯比較建議，並非本站實機測試或財務建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-laptop-subscription-qualcomm-ai-pc-promo/",
+        "date": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "slug": "asus-maas-smart-parking-thermal-vehicle-data",
+    "title": "華碩智慧停車整合熱顯像與手機尋車：使用前要確認什麼？",
+    "category": "智慧生活",
+    "description": "華碩智行在新北停車場導入熱顯像、車牌辨識與手機尋車；整理車主應理解的功能邊界與資料使用重點。",
+    "publishedAt": "2026-10-03T09:23:56+08:00",
+    "updatedAt": "2026-10-03T09:23:56+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：四項功能整合在車位端",
+        "paragraphs": [
+          "華碩智行於 10 月 1 日公布「四合一熱顯像車在席裝置」，已自 9 月 30 日在新北市三重玫瑰立體停車場營運。官方說明，裝置整合 AI 熱顯感知、車牌辨識、車在席偵測與影像錄影，可監測車輛或充電設備的異常溫升並把警示傳至中控台及管理人員手機；場內另提供 24 小時影像管理和智慧尋車。這是廠商及場域公布的部署資訊，並非本站對告警準確度的獨立測試。"
+        ]
+      },
+      {
+        "heading": "車主使用：手機尋車方便，但要知道資料怎麼用",
+        "paragraphs": [
+          "車主可透過尋車機或手機掃碼輸入車牌，查找樓層、車格及取車路徑。使用這類服務前，可留意現場告示，確認蒐集哪些車牌、影像或操作資料、使用目的、保存期間與聯絡窗口；若掃碼後要求額外權限或導向非預期網域，應先停止操作並向停車場確認。便利功能與個資告知是兩件事，不能因為能快速尋車就忽略資料使用說明。"
+        ]
+      },
+      {
+        "heading": "安全分析：早期告警不是零風險保證",
+        "paragraphs": [
+          "官方表示熱顯像能在煙霧形成前掌握異常溫升，爭取處置時間；文章引用消防署統計稱，2025 年全台停車場所火災 197 件，高於 2021 年的 128 件。對車主而言，這項系統應視為場域防災的一環，不能取代車輛召回檢查、正常充電設備、消防設施與人員應變。進入支援智慧功能的停車場時，仍可確認充電樁狀況、緊急出口、告警處置方式及事故影像申請流程。以上為編輯使用建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-maas-smart-parking-4-in-1-thermal-imaging/",
+        "date": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "slug": "apple-creator-studio-2026-device-compatibility-check",
+    "title": "Apple Creator Studio 更新：買二手 Mac、iPad 前先查 App 與系統相容性",
+    "category": "軟體應用",
+    "description": "Apple 公布 Creator Studio 多款 App 更新；若為影像、簡報或協作工作挑選二手 Mac、iPad，先核對系統、功能與訂閱需求。",
+    "publishedAt": "2026-10-03T09:23:56+08:00",
+    "updatedAt": "2026-10-03T09:23:56+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：影像、影片與生產力工具同步更新",
+        "paragraphs": [
+          "Apple 於 9 月 29 日公布 Apple Creator Studio 更新。Pixelmator Pro for iPad 新增 Select and Mask 邊緣細修工具；Final Cut Pro 與 Motion 可替 iPhone 18 Pro 原生拍攝的影片加入電影模式效果，並調整焦點與景深；Keynote、Pages、Numbers 與 Freeform 也加入新範本、協作或整理功能。部分內容明確屬於 Creator Studio 訂閱者，實際供應與系統需求仍應以各 App 的正式頁面為準。"
+        ]
+      },
+      {
+        "heading": "選購分析：先從工作流程倒推裝置",
+        "paragraphs": [
+          "若買二手 Mac 或 iPad 是為了創作，不要只看裝置能否安裝 App，而要逐項確認需要的功能、外掛、檔案格式、雲端協作與作業系統版本。例如 Pixelmator Pro 的 iPad 選取工具、Mac 上的 Final Cut Pro／Motion，以及 Keynote 的智慧投影片產生功能，所需裝置與服務不完全相同。也應把訂閱費、外接儲存、Apple Pencil 或鍵盤等成本納入總預算，避免買到能開啟程式卻不符合核心工作流程的機型。"
+        ]
+      },
+      {
+        "heading": "二手交機：效能之外還要測螢幕、儲存與帳號",
+        "paragraphs": [
+          "現場可用自己的範例檔測試匯入、時間軸預覽、輸出與共享，觀察長時間工作時的溫度、電池消耗及剩餘儲存空間；影像用途還應檢查螢幕亮度、色偏、觸控與連接埠。付款前確認前任 Apple 帳號、啟用鎖定及公司管理設定已移除，並查清楚 App 授權與訂閱是否需由自己重新購買。以上為編輯選購建議，並非本站實機效能測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/09/new-updates-coming-to-apple-creator-studio/",
+        "date": "2026-09-29"
+      }
+    ]
   }
 ]
