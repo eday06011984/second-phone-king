@@ -4,7 +4,7 @@ import { readFileSync, mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { baseline, questionsFrom, validate, summarize, outcome, taipeiDate } from './seo-measurement.mjs';
+import { baseline, questionsFrom, validate, summarize, outcome, taipeiDate, markdown } from './seo-measurement.mjs';
 
 // SYNTHETIC TEST FIXTURES ONLY. Never write these to production results/reports.
 const questions = questionsFrom(readFileSync(new URL('../SEO_MEASUREMENT.md', import.meta.url), 'utf8'));
@@ -30,6 +30,23 @@ test('single rank boundaries and not-present/indeterminate differ', () => {
   assert.equal(outcome(fixture(1, 4)).single_top_three, false);
   assert.equal(outcome(fixture(1, 1, 'chatgpt', 'not_present')).single_top_three, false);
   assert.equal(outcome(fixture(1, 1, 'chatgpt', 'indeterminate')).single_top_three, null);
+});
+test('unjudgeable-only responses keep single top-three totals unknown', () => {
+  const r = report([1, 2, 3].map(day => fixture(day, 1, 'chatgpt', 'indeterminate')));
+  const p = r.platforms[0];
+  assert.equal(p.questions[0].measured_dates, 3);
+  assert.equal(p.questions[0].stable, 'unknown');
+  assert.equal(p.questions[0].single_top_three_count, null);
+  assert.equal(p.single_top_three_records, null);
+  assert.match(markdown(r), /\| q01 \| 3 \| 未知 \| 未知 \|/);
+  for (const status of ['failed', 'not_tested']) {
+    const result = report(status === 'failed' ? [fixture(1, 1, 'chatgpt', status)] : []);
+    assert.equal(result.platforms[0].questions[0].single_top_three_count, null);
+  }
+  const mixed = report([fixture(1, 1, 'chatgpt', 'indeterminate'), fixture(2, 1, 'chatgpt', 'not_present')]);
+  assert.equal(mixed.platforms[0].single_top_three_records, 0);
+  assert.equal(mixed.platforms[0].questions[0].single_top_three_count, 0);
+  assert.equal(mixed.platforms[1].single_top_three_records, null);
 });
 test('two hits require three distinct response dates', () => {
   assert.equal(state([fixture(1), fixture(2)]), 'unknown');

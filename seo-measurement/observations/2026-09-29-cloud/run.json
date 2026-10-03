@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-29",
+  "timezone": "Asia/Taipei",
+  "base_commit": "b2e17776ae0c191d990dba592d874fb58a798d65",
+  "formal_records_added": 0,
+  "actual_responses_observed": 1,
+  "failed_query_attempts": 2,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": [
+        "q01"
+      ],
+      "unsubmitted_question_ids": [
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q08",
+        "q09",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q18",
+        "q19",
+        "q20",
+        "q21",
+        "q22",
+        "q23",
+        "q24",
+        "q25"
+      ],
+      "unsubmitted_status": "not_tested",
+      "reason": "q01 回覆為紐約情境，尚無可驗證的台灣測試條件；本輪停止其餘測題，保留未測。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": [
+        "q01"
+      ],
+      "unsubmitted_question_ids": [
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q08",
+        "q09",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q18",
+        "q19",
+        "q20",
+        "q21",
+        "q22",
+        "q23",
+        "q24",
+        "q25"
+      ],
+      "unsubmitted_status": "not_tested",
+      "reason": "平台顯示英國地區；q01 回報 1096 錯誤，沒有回覆，本輪停止其餘測題。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": [
+        "q01"
+      ],
+      "unsubmitted_question_ids": [
+        "q02",
+        "q03",
+        "q04",
+        "q05",
+        "q06",
+        "q07",
+        "q08",
+        "q09",
+        "q10",
+        "q11",
+        "q12",
+        "q13",
+        "q14",
+        "q15",
+        "q16",
+        "q17",
+        "q18",
+        "q19",
+        "q20",
+        "q21",
+        "q22",
+        "q23",
+        "q24",
+        "q25"
+      ],
+      "unsubmitted_status": "not_tested",
+      "reason": "英國地區且遇異常流量驗證；一次重新載入仍受阻，停止該站。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "這是獨立觀察紀錄，不是正式 results.json schema，不能直接輸入排名腳本。未完成 75 題的平台實測；未對任何未提交題目建立失敗或未出現紀錄。"
+}

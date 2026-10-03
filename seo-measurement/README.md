@@ -12,7 +12,7 @@ node scripts/seo-measurement.mjs report
 node --test scripts/seo-measurement.test.mjs
 ```
 
-- 正式資料：`seo-measurement/results.json`。已建立 25 問句 × 3 平台 = 75 筆 `not_tested` 空白基準；沒有任何實測或排名。
+- 正式資料：`seo-measurement/results.json`。已建立 25 問句 × 3 平台 = 75 筆 `not_tested` 空白基準；尚無符合條件、可納入正式統計的實測。條件不符或未知的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
 - 閱讀報表：`seo-measurement/reports/report.md`。
 - 完整機器可讀報表：`seo-measurement/reports/report.json`，含所有原始紀錄、推導名次、單次前三、每問句各狀態筆數及穩定判定採用的紀錄 ID。
 - 每次資料更新後重跑 validate / report；輸出可重現，不加入每次執行的時間戳。
@@ -71,7 +71,8 @@ node --test scripts/seo-measurement.test.mjs
 - 不滿三個日期：unknown，即使兩次前三也不能先報穩定達標。
 - 滿三個日期：至少兩次明確前三為 met；至少兩次明確非前三為 not_met；其餘 unknown。故兩次前三＋一次無法判定仍符合至少兩次；一次前三＋一次未出現＋一次無法判定則未知。
 - `confirmed_stable_questions` 是已確認達標的下限；`stable_total` 只有全 25 問句穩定判定都已知才填數值，否則 null。報表明確標「未知」，不能把 0 個已確認誤解成整體零曝光。
-- `single_top_three_records` 是紀錄次數，非獨立問句數；無任何實際回覆時為 null。`untested_questions` 指完全沒有嘗試的問句數，已嘗試但失敗的情況另由 status_counts 保留。
+- `single_top_three_records` 是已確認前三的紀錄次數，非獨立問句數；若沒有任何可判讀的排名結果（只有未測、失敗或無法判定），為 null／未知。每題 `single_top_three_count` 使用相同規則；已有可判讀結果且沒有前三才為 0。混合已知與未知時，數值只計已確認前三，不代表其他紀錄皆未達標；完整未知紀錄仍保留。
+- `untested_questions` 指正式資料中完全沒有嘗試的問句數，已嘗試但失敗的情況另由 status_counts 保留。條件不符的 observations 不參與此數值。
 
 ## 安全範圍與 patch
 
