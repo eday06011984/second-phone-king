@@ -1198,5 +1198,110 @@
         "date": "2026-09-29"
       }
     ]
+  },
+  {
+    "slug": "firefox-157-redesign-compact-mode-update-check",
+    "title": "Firefox 157 全平台換新介面：Compact Mode 回歸，更新前後先檢查這些設定",
+    "category": "3C 軟體",
+    "description": "Mozilla 推出 Firefox 157 新設計，桌面與行動版陸續更新。常用舊裝置或跨平台同步時，哪些設定值得先確認？",
+    "publishedAt": "2026-10-04T09:03:12+08:00",
+    "updatedAt": "2026-10-04T09:03:12+08:00",
+    "sections": [
+      {
+        "heading": "官方更新重點",
+        "paragraphs": [
+          "Mozilla 於 9 月 29 日宣布，Firefox 157 的新版介面開始推送至桌面與行動裝置，調整分頁、工具列、主題、私密瀏覽與新分頁頁面的視覺設計。官方也讓 Compact Mode 回歸，可縮小分頁與工具列，並為小螢幕提供自動緊湊選項。"
+        ]
+      },
+      {
+        "heading": "換新介面不代表所有設定都一樣",
+        "paragraphs": [
+          "新版加入較容易操作的主題選擇器、桌布，以及可釘選與整理捷徑的新分頁空間；Mozilla 同時表示，隱私保護、開放原始碼及 AI 功能控制仍會保留。實際看到的介面與功能可能受平台、版本和分批推送影響，更新後應逐項查看首頁、工具列與同步設定，不要只憑版本號判斷所有裝置畫面完全相同。"
+        ]
+      },
+      {
+        "heading": "舊電腦與二手機的實用檢查",
+        "paragraphs": [
+          "若準備在舊筆電或二手機上繼續使用 Firefox，可先匯出重要書籤、記錄目前啟用的擴充功能，再更新至正式版並確認登入同步、密碼管理、網站通知與預設瀏覽器設定。若介面變得擁擠，可嘗試 Compact Mode；若擴充功能異常，應先查開發者相容性資訊。以上為使用建議，並非效能或耗電實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Mozilla Blog",
+        "url": "https://blog.mozilla.org/en/firefox/new-firefox-design-is-here/",
+        "date": "2026-09-29"
+      }
+    ]
+  },
+  {
+    "slug": "chrome-extended-stable-152-update-channel-check",
+    "title": "Chrome 延伸穩定版更新至 152.0.7977.152：公司與個人裝置先分清更新通道",
+    "category": "資訊安全",
+    "description": "Google 更新 Windows、Mac 的 Chrome Extended Stable 通道。版本號不同步時，先確認管理政策與更新來源。",
+    "publishedAt": "2026-10-04T09:03:12+08:00",
+    "updatedAt": "2026-10-04T09:03:12+08:00",
+    "sections": [
+      {
+        "heading": "官方版本資訊",
+        "paragraphs": [
+          "Google Chrome 團隊於 10 月 2 日公告，Windows 與 Mac 的 Extended Stable（延伸穩定）通道更新至 152.0.7977.152，並會在接下來數天至數週陸續推送。官方另提供變更紀錄與問題回報管道，但這則公告沒有宣稱每台裝置會在同一天收到更新。"
+        ]
+      },
+      {
+        "heading": "為什麼版本號可能和別人不同",
+        "paragraphs": [
+          "Extended Stable 是特定部署情境使用的更新通道，不能直接拿它的版本號與一般 Stable、Beta 或 Dev 通道互相比較。公司管理的電腦還可能套用群組政策或延後更新；個人購買二手電腦時若看到版本落差，應先在 Chrome 的「關於 Google Chrome」頁面確認通道與管理狀態，再判斷是否真的未更新。"
+        ]
+      },
+      {
+        "heading": "交機與日常使用的檢查方式",
+        "paragraphs": [
+          "使用 Windows 或 Mac 二手機時，建議確認作業系統仍受支援、瀏覽器能正常連線更新，而且沒有遺留前公司的管理設定。更新完成後重新啟動瀏覽器，再檢查版本；不要從不明下載站安裝所謂更新包。若裝置由公司管理，應依 IT 政策處理，而不是自行切換更新通道。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Chrome Releases",
+        "url": "https://chromereleases.googleblog.com/2026/10/extended-stable-update-for-desktop.html",
+        "date": "2026-10-02"
+      }
+    ]
+  },
+  {
+    "slug": "nvidia-dgx-spark-64gb-local-ai-buying-check",
+    "title": "NVIDIA DGX Spark 推出 64GB 版本：本地 AI 主機不只看記憶體容量",
+    "category": "電腦硬體",
+    "description": "NVIDIA 公布 64GB DGX Spark 與雙機叢集工具。評估本地 AI 主機時，還要核對網路、軟體與實際模型需求。",
+    "publishedAt": "2026-10-04T09:03:12+08:00",
+    "updatedAt": "2026-10-04T09:03:12+08:00",
+    "sections": [
+      {
+        "heading": "官方公布的硬體與上市資訊",
+        "paragraphs": [
+          "NVIDIA 於 10 月 2 日公布 64GB 統一記憶體版本的 DGX Spark，保留 GB10 Grace Blackwell Superchip、DGX OS、ConnectX-7 網路與 NVIDIA AI 軟體堆疊。官方表示，合作品牌 Acer、ASUS、Dell、Gigabyte、HP 與 MSI 預計自 10 月 23 日供貨，全球建議起價為 4,999 美元；台灣實際上市型號、價格與保固仍應以各品牌當地公告為準。"
+        ]
+      },
+      {
+        "heading": "單機與雙機能力要分開看",
+        "paragraphs": [
+          "NVIDIA 表示，64GB 單機可支援最高 1,000 億參數模型；兩台透過 ConnectX-7 與 QSFP 線材連接後，可將可用記憶體擴至 128GB，支援最高 2,000 億參數模型。官方在特定 Qwen 3.8 27B 測試中宣稱雙機效能最高達單機的 1.7 倍，這是指定測試條件的結果，不能直接推論到所有模型、量化格式或工作流程。"
+        ]
+      },
+      {
+        "heading": "採購前先盤點完整環境",
+        "paragraphs": [
+          "評估本地 AI 主機時，應先確認模型大小、量化格式、上下文長度、同時使用人數及所需框架，再核對儲存空間、網路線材、散熱、噪音、電力與售後服務。若打算買二手或跨品牌組成雙機，還要確認相同軟體版本、網路介面、配件與保固是否齊全。本文整理官方資訊，未進行模型效能或耗電實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "date": "2026-10-02"
+      }
+    ]
   }
 ]
