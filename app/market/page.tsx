@@ -1,2 +1,34 @@
-import {withRetailerComparisons,retailerDataPending,retailerMarketOverview} from "@/lib/retailer-price-data";
-import Marketplace from "../marketplace";import {allListings} from "@/lib/market";export const dynamic="force-dynamic";export const metadata={title:"二手機搜尋與店家商品",alternates:{canonical:"/market"}};export default async function Page(){let rows:any[]=[];let error=false;try{rows=withRetailerComparisons(await allListings())}catch(e){console.error(e);error=true}return <Marketplace retailerReferences={retailerMarketOverview()} retailerDataPending={retailerDataPending} rows={rows} unavailable={error}/>;}
+import Marketplace from "../marketplace";
+import { allListings } from "@/lib/market";
+import {
+  withRetailerComparisons,
+  retailerDataPending,
+  retailerMarketOverview,
+} from "@/lib/retailer-price-data";
+
+export const dynamic = "force-dynamic";
+export const metadata = {
+  title: "二手機購買平台｜比較店家刊登價格與機況",
+  description:
+    "依品牌、預算與地區查看店家自行刊登的二手機，逐筆比較價格、成色與電池資訊，再直接向店家確認實機、庫存、維修紀錄及書面保固。",
+  alternates: { canonical: "/market" },
+};
+
+export default async function Page() {
+  let rows: Awaited<ReturnType<typeof allListings>> = [];
+  let error = false;
+  try {
+    rows = withRetailerComparisons(await allListings());
+  } catch (e) {
+    console.error(e);
+    error = true;
+  }
+  return (
+    <Marketplace
+      retailerReferences={retailerMarketOverview()}
+      retailerDataPending={retailerDataPending}
+      rows={rows}
+      unavailable={error}
+    />
+  );
+}

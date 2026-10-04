@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-30",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "846f44d75a40ebd3db13bdde220644234d825557",
+  "existing_pull_request": 5,
+  "formal_records_added": 0,
+  "completed_responses_observed": 2,
+  "failed_query_attempts": 1,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q02"],
+      "unsubmitted_question_ids": ["q03", "q04", "q05", "q06", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q07"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q02 取得完整回覆，但平台地區仍無法核對且沒有推薦清單；保留獨立觀察。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q02"],
+      "unsubmitted_question_ids": ["q03", "q04", "q05", "q06", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q07"],
+      "unsubmitted_status": "not_tested",
+      "reason": "平台明確顯示英國地區，且 q02 在產生途中回報 1096；沒有完整回覆。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q02"],
+      "unsubmitted_question_ids": ["q03", "q04", "q05", "q06", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q07"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q02 成功取得 AI 摘要，但頁尾明確顯示英國 IP 地區；不納入正式台灣統計。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q02。這些是直接平台觀察，但不符合正式地區條件；沒有修改 results.json，沒有把一般搜尋結果、來源卡片或短暫未完成文字當成推薦名次。"
+}

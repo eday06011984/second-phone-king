@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-01",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "a1083b8ef0f49dc1147b3acbbce2c195133477a1",
+  "existing_pull_request": 5,
+  "formal_records_added": 0,
+  "completed_responses_observed": 2,
+  "failed_query_attempts": 1,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q03"],
+      "unsubmitted_question_ids": ["q04", "q05", "q06", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q07"],
+      "unsubmitted_status": "not_tested",
+      "reason": "送出 q03 後平台要求登入，沒有取得回覆。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q03"],
+      "unsubmitted_question_ids": ["q04", "q05", "q06", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q07"],
+      "unsubmitted_status": "not_tested",
+      "reason": "取得 q03 完整回覆，但平台明確顯示英國 IP 地區；保留獨立觀察。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q03"],
+      "unsubmitted_question_ids": ["q04", "q05", "q06", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q07"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q03 顯示完整 AI 摘要，但頁尾明確顯示英國 IP 地區，而且沒有單一網站排名。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q03。Gemini 和 Google 為直接平台回覆，ChatGPT 為直接平台失敗；三者都不符合正式台灣條件，沒有修改 results.json，也沒有把引用來源或一般搜尋結果當成推薦名次。"
+}

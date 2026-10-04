@@ -1,0 +1,30 @@
+{
+  "question_id": "q06",
+  "prompt": "二手機店家",
+  "platform": "gemini",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-04T08:28:32+08:00",
+  "url": "https://gemini.google.com/app/50173d17ae65329f",
+  "mode": "Flash-Lite; web search used by the platform",
+  "login_state": "logged_out",
+  "region": "GB",
+  "region_evidence": "側欄顯示『英國／根據 IP 位址』。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_mismatch",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "smart3c", "name": "創宇通訊", "is_target": false },
+    { "site_id": "onion-net", "name": "洋蔥網通", "is_target": false },
+    { "site_id": "jeshen-landtop", "name": "傑昇通信／地標網通", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "Order of the three list items under『知名二手機連鎖與通訊行』in the completed answer. Citation buttons and their repeated labels were excluded; the third item names two businesses together, so it is preserved as one ambiguous list position rather than split into fabricated ranks.",
+  "full_response": "尋找二手機（中古手機）店家時，建議選擇有實體店面、信譽良好且提供售後保固的連鎖品牌或通訊行，這樣在買賣或後續維修上會比較有保障。\n\n以下為台灣常見且具規模的二手機買賣店家與通路參考：\n\n知名二手機連鎖與通訊行\n\n創宇通訊\n\n特色：全台大型的二手機連鎖品牌，提供 iPhone、Samsung、vivo、OPPO 等各大品牌的二手機、平板、筆電販售與舊機回收，並附設維修服務。\n\n據點：台北、桃園、新竹等地皆有門市。\n\n洋蔥網通\n\n特色：經營多年、口碑良好的連鎖通訊行，提供各大品牌二手手機買賣，現場評估與回收，流程透明。\n\n據點：分店涵蓋雙北（如板橋、台北地下街、文山萬隆）、台中、彰化、南投等地。\n\n傑昇通信 / 地標網通\n\n特色：雖然以全新空機販售聞名，但部分大型連鎖通訊行也有提供門市舊機回收或福利品、展示機的販售服務，可以先透過官網或電話詢問。\n\n購買或出售二手機的注意事項\n\n確認店家保固：優秀的二手機店家通常會提供一定天數（例如 30 天至 3 個月不等）的機能保固，避免買到有暗病的手機求助無門。\n\n現場檢測功能：面交或在店內購買時，務必現場測試通話、相機、Wi-Fi、藍牙、充電孔、螢幕觸控、Face ID / 指紋辨識以及電池健康度。\n\n檢查原廠序號與解鎖：確認手機已登出前使用者的 Apple ID 或 Google 帳號，並檢查是否為原廠零件、有無泡水或維修紀錄。\n\n請問你目前是想尋找特定地區的實體店家，還是想了解哪款手機的二手行情呢？",
+  "evidence_method": "Opened a new logged-out Gemini conversation, sent the exact fixed prompt once, preserved the rendered answer ending in its follow-up question, and separately recorded the visible Flash-Lite and IP-region labels. Citation controls were not used as ranking evidence.",
+  "exclusion_reason": "回覆採台灣內容且清單可判讀，但平台明示英國 IP 地區；回答內容不能覆蓋實際地區條件，因此不納入正式台灣統計。"
+}
