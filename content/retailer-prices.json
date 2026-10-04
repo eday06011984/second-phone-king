@@ -1,0 +1,113 @@
+{
+  "version": 2,
+  "updatedAt": "2026-10-04T07:13:13Z",
+  "sources": [
+    {
+      "id": "sunher",
+      "name": "尚禾通訊行公開商品頁",
+      "url": "https://sunher3c.com/",
+      "method": "manual-public-page",
+      "reference": "2026-10-04 人工查核公開商品頁，記錄固定單機刊登價與可見機況；非自動資料串接。"
+    },
+    {
+      "id": "senao",
+      "name": "神腦生活公開商品頁",
+      "url": "https://online.senao.com.tw/Mart/1323511",
+      "method": "manual-public-page",
+      "reference": "2026-10-04 人工查核公開商品頁及分期表，選擇可購買的星光色；非自動資料串接。"
+    },
+    {
+      "id": "boss3c",
+      "name": "強老闆 3C 樂天商店",
+      "url": "https://www.rakuten.com.tw/shop/boss3c/product/uhca3iigx/",
+      "method": "manual-public-page",
+      "reference": "2026-10-04 人工查核店家商品頁，選定午夜色／A 級後記錄 9000 元固定價格，未採用搜尋摘要、起價或券後價。"
+    }
+  ],
+  "quotes": [
+    {
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "storage": "128GB",
+      "condition": "未核對",
+      "storeKey": "sunher",
+      "listingKey": "630001",
+      "storeName": "尚禾通訊行 SunHer 3C",
+      "sourceId": "sunher",
+      "url": "https://sunher3c.com/shop/630001",
+      "price": 6300,
+      "priceType": "fixed",
+      "currency": "TWD",
+      "taxIncluded": null,
+      "kind": "used-retail",
+      "availability": "unknown",
+      "observedAt": "2026-10-04T07:09:55Z",
+      "sourceCondition": "認證中古；外觀等級未標示",
+      "conditionVerified": false,
+      "notes": "粉紅色，電池健康度 75%，無盒、無保固。頁面可加入購物車，未確認庫存數。另加 500 元更換電池為選購項目，未計入。"
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "storage": "128GB",
+      "condition": "未核對",
+      "storeKey": "senao",
+      "listingKey": "1323511-starlight",
+      "storeName": "神腦生活",
+      "sourceId": "senao",
+      "url": "https://online.senao.com.tw/Mart/1323511",
+      "price": 6999,
+      "priceType": "fixed",
+      "currency": "TWD",
+      "taxIncluded": true,
+      "kind": "used-retail",
+      "availability": "in-stock",
+      "observedAt": "2026-10-04T07:11:20Z",
+      "sourceCondition": "B+ 二手機",
+      "conditionVerified": false,
+      "notes": "星光色查核時可購買；其他部分顏色售完補貨中。保固 6 個月，電池狀況未確認。頁面分期表明列所有價格含稅。"
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "storage": "128GB",
+      "condition": "未核對",
+      "storeKey": "boss3c",
+      "listingKey": "uhca3iigx-midnight-a",
+      "storeName": "強老闆 3C",
+      "sourceId": "boss3c",
+      "url": "https://www.rakuten.com.tw/shop/boss3c/product/uhca3iigx/",
+      "price": 9000,
+      "priceType": "fixed",
+      "currency": "TWD",
+      "taxIncluded": null,
+      "kind": "used-retail",
+      "availability": "in-stock",
+      "observedAt": "2026-10-04T07:13:13Z",
+      "sourceCondition": "A 級；9～9.5 成新",
+      "conditionVerified": false,
+      "notes": "已選午夜色／A 級，頁面顯示剩 1 件。副廠認證電池健康度 90% 以上；機身非人為保固 3 個月、更換副廠零件 1 年。未使用優惠券價；電子發票標示不足以確認稅別。"
+    },
+    {
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "storage": "128GB",
+      "condition": "未核對",
+      "storeKey": "sunher",
+      "listingKey": "420056",
+      "storeName": "尚禾通訊行 SunHer 3C",
+      "sourceId": "sunher",
+      "url": "https://sunher3c.com/shop/420056",
+      "price": 9000,
+      "priceType": "fixed",
+      "currency": "TWD",
+      "taxIncluded": null,
+      "kind": "used-retail",
+      "availability": "unknown",
+      "observedAt": "2026-10-04T07:10:10Z",
+      "sourceCondition": "認證中古；S 級 99 新",
+      "conditionVerified": false,
+      "notes": "紫色、原廠零件完整、100% 原廠電池、有原盒；頁面保固狀態為已過保，其他店家售後服務未確認。頁面可加入購物車，未確認庫存數。"
+    }
+  ]
+}

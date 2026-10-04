@@ -10,10 +10,11 @@
     "dev": "node scripts/run-framework.mjs dev",
     "build": "node scripts/run-framework.mjs build",
     "start": "node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js dev --config dist/server/wrangler.json --local --persist-to .wrangler/state --ip 127.0.0.1 --inspector-port 0",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .sites-runtime",
     "db:generate": "drizzle-kit generate",
-    "test": "npm run test:auth",
-    "test:auth": "node migration/test-auth.mjs && node migration/test-line.mjs"
+    "test": "npm run test:auth && npm run test:retailer-prices",
+    "test:auth": "node migration/test-auth.mjs && node migration/test-line.mjs",
+    "test:retailer-prices": "node --test tests/retailer-prices.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
