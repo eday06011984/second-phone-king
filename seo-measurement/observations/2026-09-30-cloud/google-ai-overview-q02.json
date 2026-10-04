@@ -1,0 +1,35 @@
+{
+  "question_id": "q02",
+  "prompt": "二手機推薦",
+  "platform": "google_ai_overview",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-09-30T08:23:09.529+08:00",
+  "url_origin_path": "https://www.google.com/search",
+  "url_redaction": "保留實際 origin/path 與原始問句；移除搜尋 URL 的 session、追蹤及實驗參數。",
+  "mode": "Google Search; expanded AI Overview visible in the default results page",
+  "login_state": "logged_out",
+  "region": "GB",
+  "region_evidence": "頁尾顯示「英國－根據你的 IP 位址」；搜尋介面語言為 zh-TW。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_mismatch",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "senao", "name": "神腦國際", "is_target": false },
+    { "site_id": "qek888", "name": "Q哥", "is_target": false },
+    { "site_id": "defender-station", "name": "保衛站", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "Only the ordered list under AI Overview heading『推薦購買與保障通路』; citation chips, sources and ordinary web results excluded.",
+  "full_response": "AI 摘要\n購買二手機推薦選擇 iPhone 13、iPhone 14 或 iPhone 14 Pro，這幾款在二手市場流通量大、價格親民且效能依然出色。\n鼎威維修 +1\n熱門二手機推薦機型\n高性價比首選：iPhone 13 / 14\n特點：目前二手市場的價格相對實惠，折舊率低。\n適合：日常使用、追求穩定與長久續航的用戶。\n鼎威維修\n進階效能王：iPhone 14 Pro (512G)\n特點：擁有動態島與三鏡頭，效能即使在 2026 年依然過剩，CP 值極高。\n適合：對拍照與效能有較高要求的用戶。\n平價安卓選擇：Samsung 或 Google Pixel 系列\n特點：貶值速度比 iPhone 快，因此在二手市場能用更低的預價買到高規格硬體。\n大纪元\n推薦購買與保障通路\n神腦國際：提供官方認證的二手良品與福利機，享有 6 個月保固與免運服務。\nQ哥：蘋果二手機提供長達一年（365天）保固，經過工程師雙重檢測與全機深度清潔。\n保衛站：提供認證二手機，經過 18 項功能檢測並附帶 90 天保固。\nonline.senao.com.tw +3\n購買注意事項\n檢查電池健康度與外觀分級（如 A 級、B+ 級）。\n現場開機測試螢幕觸控、相機、WIFI、充電及臉部/指紋辨識功能是否正常。\n建議優先選擇有實體店面或提供延長保固的店家。\nwww.qek888.com +4\n如果你想縮小挑選範圍，可以告訴我：\n你的預算範圍大約多少？\n偏好 iOS (iPhone) 還是 Android 系統？\n主要的使用需求是什麼（例如：拍照、手遊、長續航還是日常通訊）？\n我可以為你推薦最適合的具體型號！",
+  "source_cards_after_answer": [
+    "智慧手機 - 福利 二手 良品 - 神腦國際",
+    "Q哥｜二手機買賣｜福利機｜中古機｜手機舊換新"
+  ],
+  "evidence_method": "Captured the visible AI Overview text from its heading through its show-more control; separately confirmed the footer region. Ordinary web results and sponsored products were outside the captured ranking scope.",
+  "exclusion_reason": "AI 摘要確實出現，但頁面明確顯示英國 IP 地區，不符合正式台灣條件；因此沒有把觀察到的未出現計為正式非前三。"
+}

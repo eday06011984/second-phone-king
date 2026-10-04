@@ -1,0 +1,30 @@
+{
+  "question_id": "q06",
+  "prompt": "二手機店家",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-04T08:27:44+08:00",
+  "url": "https://chatgpt.com/uc/6ac19d6c-2048-83ea-89ad-e97d3b4ff9ca",
+  "mode": "ChatGPT; web search selected before submission; exact underlying model not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的使用者地區；回答自行推定『芝加哥（Chicago）附近』，不能代替平台地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_mismatch",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "2a-electronics", "name": "2A Electronics", "is_target": false },
+    { "site_id": "chicago-gadgets", "name": "Chicago Gadgets", "is_target": false },
+    { "site_id": "swifttechbuy", "name": "SwiftTechBuy", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "The three businesses explicitly presented as the Chicago-area answer, in rendered order. Repeated map cards and source-label order were not counted again.",
+  "full_response": "2A Electronics Service - Electronics BuyBack & Repair\n★ 4.7\n•\nMobile phone repair shop\n已關閉\nChicago Gadgets\n★ 4.6\n•\nElectronics repair shop\n已關閉\nSwiftTechBuy Phone Repair & Retail Chicago\n★ 3.0\n•\nCell phone store\n已關閉\n2A Electronics Service - Electronics BuyBack & Repair\n★ 4.7\n•\nMobile phone repair shop\n已關閉\nChicago Gadgets\n★ 4.6\n•\nElectronics repair shop\n已關閉\nSwiftTechBuy Phone Repair & Retail Chicago\n★ 3.0\n•\nCell phone store\n已關閉\n\n如果你是找二手機店（手機買賣／回收／整新機），我先以你目前可能在 芝加哥（Chicago） 附近整理幾家：\n\n2A Electronics\n\n收購二手 iPhone、Samsung、iPad、MacBook 等，也有維修和整新機。\n\n地址：4859 W Irving Park Rd, Chicago, IL 60641\n\nChicago Gadgets\n\n有販售測試過的二手機（iPhone、Samsung、MacBook、Pixel 等），提供保固。\n\n地址：4529 N Kedzie Ave, Chicago, IL 60625\n\nSwiftTechBuy\n\n買賣二手手機、平板、Apple Watch，也提供手機維修。\n\n地址：6810 W North Ave, Chicago, IL 60707\n\n如果你是要：\n\n買便宜二手機\n\n賣掉舊手機換現金\n\n修手機\n\n找華人手機店\n\n告訴我你的需求和附近區域（例如 Chinatown、Uptown、Naperville 等），我可以再幫你縮小範圍。",
+  "evidence_method": "Opened a new logged-out conversation, selected web search before submission, sent the exact fixed prompt once, and copied the completed rendered answer. The visible map cards and answer text were preserved, while source labels were excluded from ranking.",
+  "exclusion_reason": "回答明確採芝加哥附近情境，與正式台灣測量條件不符，且平台地區無法獨立核對；因此不能計為正式非前三。"
+}

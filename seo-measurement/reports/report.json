@@ -24,7 +24,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -40,7 +40,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -56,7 +56,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -72,7 +72,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -88,7 +88,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -104,7 +104,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -120,7 +120,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -136,7 +136,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -152,7 +152,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -168,7 +168,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -184,7 +184,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -200,7 +200,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -216,7 +216,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -232,7 +232,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -248,7 +248,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -264,7 +264,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -280,7 +280,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -296,7 +296,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -312,7 +312,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -328,7 +328,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -344,7 +344,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -360,7 +360,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -376,7 +376,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -392,7 +392,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -408,7 +408,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         }
@@ -435,7 +435,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -451,7 +451,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -467,7 +467,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -483,7 +483,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -499,7 +499,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -515,7 +515,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -531,7 +531,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -547,7 +547,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -563,7 +563,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -579,7 +579,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -595,7 +595,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -611,7 +611,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -627,7 +627,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -643,7 +643,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -659,7 +659,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -675,7 +675,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -691,7 +691,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -707,7 +707,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -723,7 +723,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -739,7 +739,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -755,7 +755,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -771,7 +771,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -787,7 +787,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -803,7 +803,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -819,7 +819,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         }
@@ -846,7 +846,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -862,7 +862,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -878,7 +878,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -894,7 +894,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -910,7 +910,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -926,7 +926,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -942,7 +942,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -958,7 +958,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -974,7 +974,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -990,7 +990,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1006,7 +1006,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1022,7 +1022,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1038,7 +1038,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1054,7 +1054,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1070,7 +1070,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1086,7 +1086,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1102,7 +1102,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1118,7 +1118,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1134,7 +1134,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1150,7 +1150,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1166,7 +1166,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1182,7 +1182,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1198,7 +1198,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1214,7 +1214,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         },
@@ -1230,7 +1230,7 @@
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": 0,
+          "single_top_three_count": null,
           "selected_record_ids": [],
           "stable": "unknown"
         }
