@@ -1,0 +1,31 @@
+{
+  "question_id": "q06",
+  "prompt": "二手機店家",
+  "platform": "google_ai_overview",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-04T08:29:08+08:00",
+  "url_origin_path": "https://www.google.com/search",
+  "url_redaction": "保留實際 origin/path 與原始問句；移除搜尋 URL 的 session、追蹤及實驗參數。",
+  "mode": "Google Search; expanded AI Overview visible in the default results page",
+  "login_state": "logged_out",
+  "region": "GB",
+  "region_evidence": "頁尾顯示『英國／大倫敦－根據你的 IP 位址』；搜尋介面語言為 zh-TW。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_mismatch",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "smart3c", "name": "創宇通訊", "is_target": false },
+    { "site_id": "qek888", "name": "Q哥", "is_target": false },
+    { "site_id": "big2", "name": "BIG2", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "Order of the three items under『推薦二手機店家與特色』in the expanded AI Overview answer. Citation links, the source card below the answer and ordinary web results were excluded from rank.",
+  "full_response": "AI 摘要\n尋找二手機店家可以參考台灣知名的連鎖與實體中古3C專賣店，例如提供全台多家門市與多元服務的創宇通訊、提供工程師檢測與一年保固的Q哥，或是價格透明且附保固的BIG2。\n推薦二手機店家與特色\n創宇通訊：全台最大二手機連鎖品牌，提供 iPhone、Samsung 等各品牌二手機、平板買賣與舊機回收維修。\nQ哥：提供工程師雙重檢測認證與全機深度清潔，蘋果二手機更享有 365 天保固。\nBIG2：鄰近光華商場，提供公開透明的二手機價格與 3 個月保固服務。\n如果你想進一步縮小範圍，請告訴我：\n你想找哪一個縣市或區域的實體門市？\n想找哪一個品牌與型號的手機（例如 iPhone 16、Samsung 等）？\n預算大約是多少？\n我可以幫你推薦最適合的店家與參考價格。\nAI 回覆可能有誤。 瞭解詳情",
+  "evidence_method": "Searched the exact fixed prompt once from a fresh logged-out Google page, expanded the AI Overview, copied the answer text through its disclaimer, and separately confirmed the footer region. The normalized response omits the separate source card, which was visible but not part of ranking.",
+  "exclusion_reason": "AI 摘要有清楚的三項店家順序且本站未出現，但頁面明確顯示英國 IP 地區；因此不能計為正式非前三。"
+}

@@ -3,8 +3,8 @@ import {db} from "@/lib/market";
 
 export const dynamic="force-dynamic";
 export const metadata={
-  title:"二手機哪裡買？找實體店家與現場驗機資訊",
-  description:"依地區查看刊登二手機的實體店家與商品，聯絡門市確認指定實機、現場驗機、價格、庫存及書面售後條件。",
+  title:"二手機店家怎麼找？實體門市與現場驗機資訊",
+  description:"依地區尋找刊登二手機的實體店家與商品，聯絡門市確認指定實機、現場驗機、價格、庫存及書面售後條件。",
   alternates:{canonical:"/stores"}
 };
 
@@ -23,12 +23,12 @@ export default async function Page(){
     <section className="intro">
       <div>
         <span className="label">在地店家</span>
-        <h1>二手機哪裡買？先找能直接聯絡的實體店家。</h1>
-        <p>依所在地與刊登商品找店，再向門市確認指定實機、現場驗機與售後條件。</p>
+        <h1>找二手機店家，先依地區與刊登商品縮小範圍。</h1>
+        <p>查看門市地址與商品資訊，再直接聯絡店家確認指定實機、現場驗機與售後條件。</p>
       </div>
     </section>
     <section className="panel" aria-labelledby="store-checklist">
-      <h2 id="store-checklist">到店前先確認 4 件事</h2>
+      <h2 id="store-checklist">挑二手機店家，到店前先確認 4 件事</h2>
       <p>詢問指定商品是否仍在店、能否查看刊登照片中的實機、現場可測試哪些功能，以及保固期限與排除項目能否提供書面紀錄。</p>
       <p className="muted">店家資料與商品由刊登者自行提供；有門市地址不等於每件商品都在現場。二手機王提供資訊媒合，不代收款，也不為所有商品提供統一保固。</p>
       <a className="news-read" href="/guides/used-phone-checklist">開啟現場驗機清單 →</a>　
