@@ -34,7 +34,7 @@ export function RetailerMarketReferenceCard({ result, showModel = true }: { resu
 export function RetailerMarketOverview({ references, brand = '全部品牌', query = '' }: { references: RetailerMarketReference[]; brand?: string; query?: string }) {
   const normalized = query.normalize('NFKC').toLowerCase().replace(/\s+/g, '');
   const visible = references.filter(row => (brand === '全部品牌' || row.brand === brand) && (`${row.brand}${row.model}${row.storage}`.normalize('NFKC').toLowerCase().replace(/\s+/g, '').includes(normalized) || row.quotes.some(quote => quote.storeName.toLowerCase().includes(query.toLowerCase()))));
-  return <section className="retailer-market" aria-label="二手機市場刊登價參考">
+  return <section id="market-reference-results" className="retailer-market" aria-label="二手機市場刊登價參考">
     <div className="sectionhead"><h2>店家刊登價參考</h2><span className="muted">同機型・同容量</span></div>
     <p className="muted">與本站商品分開收錄。以下依品牌與搜尋字詞篩選；預算及地區篩選僅套用到下方本站商品。</p>
     {visible.length > 0 ? <div className="retailer-reference-grid">{visible.map(result => <RetailerMarketReferenceCard key={`${result.brand}-${result.model}-${result.storage}`} result={result}/>)}</div> : <p className="notice">此篩選條件尚無 {MAX_QUOTE_AGE_DAYS} 天內的店家價格樣本，暫不提供均價。</p>}

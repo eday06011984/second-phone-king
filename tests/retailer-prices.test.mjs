@@ -172,6 +172,9 @@ test('rendered reference labels uncertainty and retains direct source links and 
   for (const row of data.quotes) assert.ok(html.includes(row.url.replaceAll('&', '&amp;')), row.url);
   assert.ok(!html.includes('手機王'));
   assert.ok(!html.includes('waiting'));
+  assert.ok(html.includes('id="market-reference-results"'));
+  const marketplaceSource = await readFile(new URL('../app/marketplace.tsx', import.meta.url), 'utf8');
+  assert.ok(marketplaceSource.includes("getElementById('market-reference-results')?.scrollIntoView"));
   const result = compareRetailerPrices({ brand: 'Apple', model: 'iPhone 13', storage: '128GB', condition: '輕微使用痕跡' }, data, Date.parse(data.updatedAt));
   const summary = renderToStaticMarkup(createElement(RetailerPriceSummary, { result }));
   assert.ok(summary.includes('部分稅別未明'));
