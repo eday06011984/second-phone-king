@@ -1,0 +1,32 @@
+{
+  "question_id": "q08",
+  "prompt": "二手手機推薦平台",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-05T08:48:47+08:00",
+  "url": "https://chatgpt.com/uc/6ac2f3dc-63c0-83ea-a3f9-3c941c77e234",
+  "mode": "ChatGPT; web search selected before submission; exact underlying model not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的使用者地區；回答使用『台灣常用平台』標題不能代替平台地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "indeterminate_context_unknown",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "carousell", "name": "旋轉拍賣 Carousell", "is_target": false },
+    { "site_id": "shopee", "name": "蝦皮購物", "is_target": false },
+    { "site_id": "ruten", "name": "露天拍賣", "is_target": false },
+    { "site_id": "facebook-marketplace", "name": "Facebook Marketplace", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "Named websites in rendered order in the『台灣常用平台』table. The generic category『專業二手 3C 店』was not treated as a website; source labels and later repeated names were excluded.",
+  "full_response": "如果你想找二手手機推薦平台，可以依『買手機』或『賣手機』需求選：\n\n台灣常用平台\n\n平台｜適合｜優點｜注意\n旋轉拍賣 Carousell｜買/賣 iPhone、Android｜二手手機種類多，可面交或平台交易｜要看賣家評價，避免私下匯款\n蝦皮購物｜想要交易保障｜商品量大、付款流程較完整｜手續費可能反映在價格\n露天拍賣｜老牌拍賣用戶｜分類完整｜需要挑可靠賣家\nFacebook Marketplace｜想撿便宜、附近面交｜價格常較低｜詐騙風險較高，建議公共場所面交\n專業二手 3C 店｜怕買到問題機｜通常有檢測、保固｜價格可能比私人賣家高\n\n如果你是『買二手手機』\n我會優先考慮：\n最推薦：專業二手手機商\n適合不想踩雷的人，看是否提供電池健康度、螢幕/鏡頭檢測、保固期限、退換貨政策。\n想買便宜：旋轉拍賣、蝦皮。優先選有大量評價的賣家、實拍照片、提供 IMEI/序號查詢。\n想撿超低價：FB Marketplace。建議現場測 Face ID / 指紋、Wi-Fi、藍牙、相機、充電，並確認登出 Apple ID / Google 帳號。\n\n如果你是『賣二手手機』\n想賣高價：旋轉拍賣、蝦皮、自售社群。\n想快速換現金：手機回收平台或二手店（速度快但價格通常較低）。\n\n買二手 iPhone 特別檢查\n設定 → 一般 → 關於本機，看型號與容量\n設定 → 電池 → 電池健康度\n確認沒有『啟用鎖定』（Apple ID 未登出）\n查是否為整新機、維修機或更換零件\n\n如果你告訴我你在哪個地區（例如台灣/香港/中國大陸/美國）以及想買 iPhone 還是 Android、預算多少，我可以幫你挑更適合的平台。",
+  "visible_source_labels": ["Carousell", "優3c", "iMCheck"],
+  "evidence_method": "Opened a new logged-out conversation, selected web search before submission, sent the exact fixed prompt once, and copied the completed rendered answer. Visible source labels were preserved separately and were not used as ranking evidence.",
+  "exclusion_reason": "有可判讀的平台清單且本站未出現，但 ChatGPT 使用者地區無法核對；回答自行寫台灣不能代替 region=TW，因此不能計為正式非前三。"
+}
