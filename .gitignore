@@ -50,3 +50,6 @@ next-env.d.ts
 # Private migration snapshots and exports; never include in public assets.
 /migration/*.local.*
 /migration/photos/
+
+# Temporary same-filesystem news publication writes (normally removed immediately).
+/content/.news-publication-*/

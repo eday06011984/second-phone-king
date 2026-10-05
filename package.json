@@ -15,8 +15,10 @@
     "test": "npm run test:auth && npm run test:retailer-prices && npm run test:news",
     "test:auth": "node migration/test-auth.mjs && node migration/test-line.mjs",
     "test:retailer-prices": "node --test tests/retailer-prices.test.mjs",
-    "test:news": "node --test scripts/validate-news.test.mjs",
-    "validate:news": "node scripts/validate-news.mjs"
+    "test:news": "node --test scripts/*news*.test.mjs",
+    "validate:news": "node scripts/validate-news.mjs",
+    "validate:news:publication": "node scripts/validate-news-publication.mjs",
+    "publish:news": "node scripts/publish-reviewed-news.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

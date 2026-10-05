@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { mkdtempSync, readFileSync, writeFileSync, rmSync, existsSync } from "node:fs";
+import { mkdtempSync, readFileSync, writeFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -83,36 +83,18 @@ test("CLI rejects bad JSON and unreadable files", () => {
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 
-test("workflow gate: four required failures cannot reach commit or push", () => {
+test("scheduled feed collection has no publication credentials or commit/push path", () => {
   const workflow = readFileSync(new URL("../.github/workflows/daily-news.yml", import.meta.url), "utf8");
   assert.match(workflow, /- cron: "15 18 \* \* \*"/);
-  assert.doesNotMatch(workflow, /continue-on-error|always\(\)/);
-  assert.match(workflow, /if: \$\{\{ success\(\) && steps.validate-news.outcome == 'success' \}\}/);
-  const validateCommand = workflow.match(/id: validate-news\n\s+run: (.+)/)[1];
-  const commitBody = workflow.split("      - name: Commit and push when news changed\n")[1]
-    .split("        run: |\n")[1].split("\n").map(line => line.replace(/^          /, "")).join("\n");
-  assert.ok(workflow.indexOf(validateCommand) < workflow.indexOf("- name: Commit and push"));
-  const dir = mkdtempSync(join(tmpdir(), "news-gate-"));
-  try {
-    const path = join(dir, "news.json");
-    const marker = join(dir, "git-calls");
-    // Execute the actual workflow commands in one fail-fast shell (a stricter
-    // version of the sequential Actions success gate). Git is a local stub.
-    const shell = `git() { printf '%s\\n' "$*" >> "$GIT_MARKER"; if [ "$1" = diff ]; then return 1; fi; };\n${validateCommand.replace("node scripts/validate-news.mjs", '"$NODE" "$VALIDATOR" "$NEWS"')}\n${commitBody}`;
-    for (const [, mutate] of cases.slice(0, 4)) {
-      const news = fixture(); mutate(news); writeFileSync(path, JSON.stringify(news));
-      const result = spawnSync("bash", ["-e", "-o", "pipefail", "-c", shell], {
-        encoding: "utf8", env: { ...process.env, NODE: process.execPath, VALIDATOR: validator, NEWS: path, GIT_MARKER: marker },
-      });
-      assert.equal(result.status, 1, result.stderr);
-      assert.equal(existsSync(marker), false, "validation failure must not reach git");
-    }
-    writeFileSync(path, JSON.stringify(fixture()));
-    const valid = spawnSync("bash", ["-e", "-o", "pipefail", "-c", shell], {
-      encoding: "utf8", env: { ...process.env, NODE: process.execPath, VALIDATOR: validator, NEWS: path, GIT_MARKER: marker },
-    });
-    assert.equal(valid.status, 0, valid.stderr);
-    assert.match(readFileSync(marker, "utf8"), /commit -m/);
-    assert.match(readFileSync(marker, "utf8"), /push/);
-  } finally { rmSync(dir, { recursive: true, force: true }); }
+  assert.match(workflow, /contents: read/);
+  assert.match(workflow, /actions\/upload-artifact@v4/);
+  assert.match(workflow, /path: work\/news-candidates.json/);
+  assert.doesNotMatch(workflow, /contents: write|git (?:commit|push)|publish-reviewed-news|continue-on-error/);
+  const publication = readFileSync(new URL("../.github/workflows/news-publication.yml", import.meta.url), "utf8");
+  assert.match(publication, /pull_request:/);
+  assert.match(publication, /merge_group:/);
+  assert.doesNotMatch(publication, /paths:/);
+  assert.match(publication, /fetch-depth: 0/);
+  assert.match(publication, /npm run validate:news:publication/);
+  assert.doesNotMatch(publication, /contents: write|git (?:commit|push)|continue-on-error/);
 });
