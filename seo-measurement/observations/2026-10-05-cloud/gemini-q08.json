@@ -1,0 +1,33 @@
+{
+  "question_id": "q08",
+  "prompt": "二手手機推薦平台",
+  "platform": "gemini",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-05T08:49:33+08:00",
+  "url": "https://gemini.google.com/app/59591a94b3ebfc3b",
+  "mode": "Flash-Lite; web search used by the platform",
+  "login_state": "logged_out",
+  "region": "GB",
+  "region_evidence": "側欄顯示『英國／根據 IP 位址』；回答則採香港平台與港鐵面交情境。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_mismatch",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "revibe", "name": "Revibe", "is_target": false },
+    { "site_id": "ok-store", "name": "OK Store", "is_target": false },
+    { "site_id": "ireborn", "name": "iReborn", "is_target": false },
+    { "site_id": "carousell", "name": "Carousell（旋轉拍賣）", "is_target": false },
+    { "site_id": "facebook-price-hk", "name": "Facebook 二手 3C 群組／Price.com.hk 二手買賣區", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "Named recommendation list items in rendered order across the three answer sections. Generic marketplace categories, parenthetical examples inside another item's description and citation labels were excluded; the final Facebook/Price.com.hk item is preserved as one ambiguous list position.",
+  "full_response": "尋找二手手機平台時，主要可以根據『是否有第三方專業檢測/保固』以及『交易方式（線上或實體）』來分類。以下為你整理出不同類型的推薦平台與選購建議：\n\n一、專業翻新與有保固的網上平台\nRevibe：專門提供電子產品與智能手機的翻新平台，通常提供較長期的保養（如12個月），並有清晰的外觀等級分類。\n各大網購平台『福利機/認證整新機』專區：例如大型電商的官方福利品，來源多為展機或官方認整機，享有基本網購保障和短天期保固。\n\n二、本地實體店舖與專門網店\n旺角先達廣場一帶信譽良好的實體店（如 OK Store 等）：許多店家在網路上（如 Carousell、Price.com.hk 或自家網站）都有明碼實價的現貨列表，列明手機型號、容量及機況，支援現場交收與驗機。\niReborn：提供經過檢測的中古與二手手機，並附帶本地配送服務。\n\n三、C2C 個人拍賣與社群平台\nCarousell（旋轉拍賣）：香港非常主流的二手買賣平台，上面有很多個人用戶或小型商戶放售手機。建議查看賣家的評價星級與歷史評分。\nFacebook 二手 3C 買賣群組 / Price.com.hk 二手買賣區：可以直接與賣家對話、議價。\n\n購買二手手機的實用避坑建議\n堅持面交驗機；確認 iCloud / Google 帳號已登出，並測試相機、Face ID / 指紋、通話、揚聲器、充電孔及螢幕觸控。檢查電池健康度與零件更換紀錄。\n\n如果你正在尋找特定品牌（如 iPhone 或是 Android）或有特定的預算範圍，歡迎告訴我，我可以為你提供更具體的挑選方向！",
+  "visible_source_labels": ["NSYS Group", "優仕德數位｜二手手機專賣"],
+  "evidence_method": "Opened a new logged-out Gemini conversation, sent the exact fixed prompt once, preserved the completed rendered answer, and separately recorded the visible Flash-Lite and IP-region labels. Citation controls were not used as ranking evidence.",
+  "exclusion_reason": "回覆可判讀但採香港情境，平台又明示英國 IP；與正式繁體中文台灣條件不符，因此不能計為正式非前三。"
+}
