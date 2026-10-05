@@ -1303,5 +1303,110 @@
         "date": "2026-10-02"
       }
     ]
+  },
+  {
+    "slug": "ps5-qssr-ai-upscaling-used-console-check",
+    "title": "PS5 加入 QSSR AI 升頻：買二手主機別把遊戲支援誤當硬體升級",
+    "category": "遊戲主機",
+    "description": "Sony 將 QSSR AI 升頻帶到一般 PS5。選購二手主機時，應分清主機型號、遊戲更新與畫質選項。",
+    "publishedAt": "2026-10-05T09:17:05+08:00",
+    "updatedAt": "2026-10-05T09:17:05+08:00",
+    "sections": [
+      {
+        "heading": "官方公布的 QSSR 更新",
+        "paragraphs": [
+          "Sony Interactive Entertainment 於 10 月 1 日宣布，Quick Spectral Super Resolution（QSSR）開始導入一般 PS5。這項 AI 升頻技術源自 Sony 與 AMD 的 Project Amethyst，採用較精簡的神經網路架構並針對 PS5 調校；官方表示，它可改善影像細節與時間穩定性，但 PS5 Pro 的 PSSR 仍是較高階方案。"
+        ]
+      },
+      {
+        "heading": "首批支援不等於所有遊戲自動升級",
+        "paragraphs": [
+          "官方首批列出《Marvel’s Wolverine》與《Ghost of Yōtei》，兩款遊戲透過更新加入 QSSR 圖形選項，未來也會向更多 PlayStation 開發者提供。這代表效果仍取決於個別遊戲是否整合、是否已安裝相應更新及玩家選用的圖形模式，不能把「PS5 支援 QSSR」解讀為所有舊遊戲都會自動提升畫質。"
+        ]
+      },
+      {
+        "heading": "二手 PS5 交機前怎麼驗",
+        "paragraphs": [
+          "購買二手 PS5 時，先核對是標準版、數位版或 PS5 Pro，再檢查系統能否正常更新、帳號是否已移除、光碟機與 HDMI 輸出是否正常。若店家以 QSSR 作為賣點，應要求在明確支援的遊戲內確認選項；畫質也會受顯示器解析度與更新率影響。本文整理官方資訊，未進行實機畫質或效能測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "PlayStation Blog",
+        "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5",
+        "date": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "slug": "intel-btr-used-pc-security-update-check",
+    "title": "Intel 說明 BTR 推測執行研究：二手電腦先更新，不必只看新聞急換處理器",
+    "category": "資訊安全",
+    "description": "Intel 回應 Branch Target Reuse 研究，建議維持作業系統更新。舊電腦安全評估應同時核對支援期限與韌體。",
+    "publishedAt": "2026-10-05T09:17:05+08:00",
+    "updatedAt": "2026-10-05T09:17:05+08:00",
+    "sections": [
+      {
+        "heading": "BTR 研究與 Intel 的判斷",
+        "paragraphs": [
+          "Intel 於 10 月 1 日發布 Branch Target Reuse（BTR）說明。研究描述在特定 JIT 環境中重用舊的間接分支預測項目，影響暫態執行並可能在特定條件下暴露敏感資訊；公開展示聚焦 Linux cBPF 與其他啟用 JIT 的執行環境。"
+        ]
+      },
+      {
+        "heading": "官方沒有把它列為新的 Intel 硬體漏洞",
+        "paragraphs": [
+          "Intel 評估後表示，該行為已涵蓋在既有 Spectre v2、Branch History Injection 與 Intra-mode Branch Target Injection 指引內，不認為 BTR 是需要新增 Intel 專屬緩解措施的硬體漏洞。官方建議維持作業系統更新並遵循適用的安全指引，也提到會為 Linux 核心的 BPF JIT 提交額外強化更新。"
+        ]
+      },
+      {
+        "heading": "二手電腦真正該核對的安全條件",
+        "paragraphs": [
+          "看到處理器安全研究時，不宜只憑新聞標題決定淘汰電腦。選購二手機應先確認作業系統仍在支援期、Windows Update 或 Linux 套件更新正常、BIOS／UEFI 與處理器微碼可由原廠維護，再檢查是否殘留企業管理、BitLocker 或其他帳號鎖定。若裝置已停止接收安全更新，才是較直接的長期風險訊號。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Intel Product Security Center",
+        "url": "https://www.intel.com/content/www/us/en/security-center/announcement/intel-security-announcement-2026-10-01-001.html",
+        "date": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "slug": "microsoft-mai-streaming-voice-model-data-check",
+    "title": "Microsoft 推出即時轉錄與多語音模型：語音 AI 不只比速度，也要看同意與資料流向",
+    "category": "AI 科技",
+    "description": "Microsoft 發布 MAI-Transcribe-2-Streaming 與兩款語音模型。導入客服或語音服務前，應先確認語言、費用與資料治理。",
+    "publishedAt": "2026-10-05T09:17:05+08:00",
+    "updatedAt": "2026-10-05T09:17:05+08:00",
+    "sections": [
+      {
+        "heading": "三款語音模型的官方資訊",
+        "paragraphs": [
+          "Microsoft AI 於 10 月 1 日公布 MAI-Transcribe-2-Streaming、MAI-Voice-2.1 與 MAI-Voice-2.1-Flash。官方表示，即時轉錄模型支援 60 種語言與連續語言偵測；兩款語音模型支援 23 種語言、26 個地區設定，並可讓同一個聲音跨語言輸出。"
+        ]
+      },
+      {
+        "heading": "效能與價格數字都有前提",
+        "paragraphs": [
+          "Microsoft 宣稱轉錄模型收到音訊後約 100 毫秒即可產生初步文字，Voice Flash 可在約 150 毫秒端到端延遲下生成 45 秒音訊；官方同時公布按音訊時數或字元計價的方案。這些數字來自官方測試與指定服務條件，實際體驗仍會受網路、音訊品質、語言、應用整合與使用區域影響，不能視為任何手機或電腦都能離線達到的結果。"
+        ]
+      },
+      {
+        "heading": "導入語音客服前先做資料治理",
+        "paragraphs": [
+          "若店家用語音 AI 做客服、逐字稿或多語導覽，應先確認錄音是否會送往雲端、保存多久、誰能存取，以及顧客是否明確同意。官方表示語音模型具備防止濫用的同意保護，但服務提供者仍須自行設計告知、刪除、權限與人工覆核流程；特別是聲音複製功能，不應只因技術可用就省略身分與授權查核。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft AI",
+        "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+        "date": "2026-10-01"
+      }
+    ]
   }
 ]
