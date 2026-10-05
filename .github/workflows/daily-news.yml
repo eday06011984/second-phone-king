@@ -1,4 +1,4 @@
-name: Update daily 3C news
+name: Collect daily 3C news candidates
 
 on:
   schedule:
@@ -7,14 +7,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: daily-news-update
   cancel-in-progress: false
 
 jobs:
-  update-news:
+  collect-candidates:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,19 +23,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Test news validator
-        run: node --test scripts/validate-news.test.mjs
-      - name: Append verified articles
+      - name: Test news checks
+        run: npm run test:news
+      - name: Validate published archive
+        run: npm run validate:news
+      - name: Collect unreviewed source candidates
         run: node scripts/update-news.mjs
-      - name: Validate news data
-        id: validate-news
-        run: node scripts/validate-news.mjs
-      - name: Commit and push when news changed
-        if: ${{ success() && steps.validate-news.outcome == 'success' }}
-        run: |
-          if git diff --quiet -- content/news.json; then exit 0; fi
-          git config user.name "second-phone-king-news-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/news.json
-          git commit -m "chore(news): update daily 3C news"
-          git push
+      - name: Preserve candidates for editorial review
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-candidates-${{ github.run_id }}
+          path: work/news-candidates.json
+          retention-days: 7
+          if-no-files-found: error

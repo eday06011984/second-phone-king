@@ -1,13 +1,17 @@
 /**
- * Daily, source-first news updater.
+ * Daily official-feed candidate collector (never a publisher).
  *
- * This intentionally does not rewrite or delete the existing archive.  It only
- * appends articles that have a verifiable source URL and publication date.
+ * Raw feed text is unreviewed source material, not original Traditional Chinese.
+ * Save it outside public content for the editorial workflow in NEWS_WORKFLOW.md.
  */
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { dirname } from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { MAX_DAILY_ARTICLES, taipeiDate } from "./news-publication.mjs";
+import { validateNews } from "./validate-news.mjs";
 
 const NEWS_FILE = new URL("../content/news.json", import.meta.url);
-const MAX_DAILY_ARTICLES = 3;
+const CANDIDATES_FILE = new URL("../work/news-candidates.json", import.meta.url);
 const MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const FRESH_AGE_MS = 48 * 60 * 60 * 1000;
 
@@ -63,85 +67,65 @@ function parseFeed(xml, feed) {
   })).filter(item => item.title && item.url && item.publishedAt);
 }
 
-function taipeiDate(value) {
-  return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(value));
-}
-
-function slugify(title) {
-  const ascii = title.normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-  const fallback = `mobile-news-${Date.now().toString(36)}`;
-  return (ascii || fallback).slice(0, 72).replace(/-$/, "");
-}
-
-function articleFrom(item, usedSlugs) {
-  const published = new Date(item.publishedAt);
-  const publishedAt = published.toISOString();
-  const sourceDate = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Taipei", year: "numeric", month: "2-digit", day: "2-digit" }).format(published);
-  const summary = item.description || `${item.source.name} 公開了與手機及 3C 產品相關的新資訊。`;
-  let slug = slugify(item.title);
-  let suffix = 2;
-  while (usedSlugs.has(slug)) slug = `${slugify(item.title).slice(0, 66)}-${suffix++}`;
-  usedSlugs.add(slug);
-
-  return {
-    slug,
-    title: item.title,
-    category: item.source.category,
-    description: summary.slice(0, 180),
-    publishedAt,
-    updatedAt: publishedAt,
-    sections: [
-      { heading: "官方資訊", paragraphs: [`${item.source.name}於 ${sourceDate} 發布公告：${summary}`] },
-      { heading: "購機觀察", paragraphs: ["公告內容應以來源頁的適用市場、機型、版本與實際供貨資訊為準。選購二手機時，請向店家確認實機型號、功能狀態、配件與保固，不要只依新聞標題推定所有功能都可使用。"] },
-      { heading: "交機前的確認重點", paragraphs: ["建議在付款前開機確認基本功能、帳號移除狀態與軟體版本，並保留商品描述及保固憑證。本文為資訊整理與購機建議，不代表實機測試或價格承諾。"] },
-    ],
-    sources: [{ name: item.source.name, url: item.url, date: sourceDate }],
+/** Read-only with respect to the published archive; safe to run without an editor. */
+export async function collectCandidates(news, { now = Date.now(), fetchFeed = fetch } = {}) {
+  const errors = validateNews(news, { now });
+  if (errors.length) throw new Error(errors.join("\n"));
+  const today = taipeiDate(now);
+  const publishedToday = news.filter(article => taipeiDate(article.publishedAt) === today).length;
+  const slotsRemaining = Math.max(0, MAX_DAILY_ARTICLES - publishedToday);
+  const document = {
+    kind: "feed-candidates", generatedAt: new Date(now).toISOString(),
+    publicationDay: today, publishedToday, slotsRemaining,
+    editorialRequired: true, candidates: [], failures: [],
   };
+  if (!slotsRemaining) return document;
+  const responses = await Promise.allSettled(FEEDS.map(async feed => {
+    const response = await fetchFeed(feed.url, {
+      headers: { "user-agent": "second-phone-king-news-updater/1.0" },
+      signal: AbortSignal.timeout(30_000),
+    });
+    if (!response.ok) throw new Error(`${feed.name}: HTTP ${response.status}`);
+    return parseFeed(await response.text(), feed);
+  }));
+  document.failures = responses.filter(result => result.status === "rejected").map(result => String(result.reason.message));
+  const urls = new Set(news.flatMap(article => article.sources.map(source => source.url)));
+  const titles = new Set(news.map(article => article.title.trim().toLowerCase()));
+  const candidates = responses.flatMap(result => result.status === "fulfilled" ? result.value : [])
+    .filter(item => {
+      const published = Date.parse(item.publishedAt);
+      return Number.isFinite(published) && now - published <= MAX_AGE_MS && published <= now && isMobileRelevant(item);
+    })
+    .sort((a, b) => {
+      const aFresh = now - Date.parse(a.publishedAt) <= FRESH_AGE_MS ? 1 : 0;
+      const bFresh = now - Date.parse(b.publishedAt) <= FRESH_AGE_MS ? 1 : 0;
+      return bFresh - aFresh || Date.parse(b.publishedAt) - Date.parse(a.publishedAt);
+    });
+  for (const item of candidates) {
+    const title = item.title.trim().toLowerCase();
+    if (urls.has(item.url) || titles.has(title)) continue;
+    urls.add(item.url); titles.add(title);
+    document.candidates.push({
+      sourceTitle: item.title, sourceSummary: item.description,
+      sourcePublishedAt: item.publishedAt, category: item.source.category,
+      // A candidate date is provisional: the editor must check the original page.
+      sources: [{ name: item.source.name, url: item.url, date: taipeiDate(item.publishedAt) }],
+    });
+    if (document.candidates.length >= slotsRemaining) break;
+  }
+  return document;
 }
 
-const now = new Date();
-const today = taipeiDate(now);
-const news = JSON.parse(await readFile(NEWS_FILE, "utf8"));
-const todayCount = news.filter(article => taipeiDate(article.publishedAt) === today).length;
-const needed = Math.max(0, MAX_DAILY_ARTICLES - todayCount);
-
-if (!needed) {
-  console.log(`Already have ${todayCount} articles for ${today} (Asia/Taipei). Nothing to add.`);
-  process.exit(0);
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  try {
+    const news = JSON.parse(await readFile(NEWS_FILE, "utf8"));
+    const document = await collectCandidates(news);
+    await mkdir(dirname(fileURLToPath(CANDIDATES_FILE)), { recursive: true });
+    await writeFile(CANDIDATES_FILE, `${JSON.stringify(document, null, 2)}\n`);
+    for (const failure of document.failures) console.warn(failure);
+    console.log(`Staged ${document.candidates.length} unreviewed candidate(s) in work/news-candidates.json; ${document.slotsRemaining} daily slot(s) remain. Published archive unchanged. Original Traditional Chinese writing and source review are required.`);
+  } catch (error) {
+    console.error(`Candidate collection failed:\n${error.message}`);
+    process.exitCode = 1;
+  }
 }
-
-const responses = await Promise.allSettled(FEEDS.map(async feed => {
-  const response = await fetch(feed.url, { headers: { "user-agent": "second-phone-king-news-updater/1.0" } });
-  if (!response.ok) throw new Error(`${feed.name}: HTTP ${response.status}`);
-  return parseFeed(await response.text(), feed);
-}));
-const candidates = responses.flatMap(result => result.status === "fulfilled" ? result.value : []);
-for (const result of responses) if (result.status === "rejected") console.warn(result.reason.message);
-
-const existingUrls = new Set(news.flatMap(article => article.sources.map(source => source.url)));
-const existingTitles = new Set(news.map(article => article.title.trim().toLowerCase()));
-const usedSlugs = new Set(news.map(article => article.slug));
-const selected = candidates
-  .filter(item => {
-    const published = new Date(item.publishedAt);
-    return !Number.isNaN(published.valueOf()) && now - published <= MAX_AGE_MS && published <= now
-      && isMobileRelevant(item)
-      && !existingUrls.has(item.url) && !existingTitles.has(item.title.trim().toLowerCase());
-  })
-  // Prefer the last 48 hours; only then fall back to older items within 7 days.
-  .sort((a, b) => {
-    const aFresh = now - new Date(a.publishedAt) <= FRESH_AGE_MS ? 1 : 0;
-    const bFresh = now - new Date(b.publishedAt) <= FRESH_AGE_MS ? 1 : 0;
-    return bFresh - aFresh || new Date(b.publishedAt) - new Date(a.publishedAt);
-  })
-  .slice(0, needed)
-  .map(item => articleFrom(item, usedSlugs));
-
-if (!selected.length) {
-  console.log("No new verified official-source articles found; archive left unchanged.");
-  process.exit(0);
-}
-
-await writeFile(NEWS_FILE, `${JSON.stringify([...news, ...selected], null, 2)}\n`);
-console.log(`Added ${selected.length} article(s); ${Math.max(0, needed - selected.length)} slot(s) left unfilled because no verified source was available.`);
