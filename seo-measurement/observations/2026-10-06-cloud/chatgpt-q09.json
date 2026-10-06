@@ -1,0 +1,31 @@
+{
+  "question_id": "q09",
+  "prompt": "二手 iPhone 哪裡買",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-06T08:17:38+08:00",
+  "url": "https://chatgpt.com/uc/6ac43e09-b338-83ea-b6c3-93866854e3f0",
+  "mode": "ChatGPT; web search selected before submission; exact underlying model not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的使用者地區；回答自行使用『在台灣』及『高雄』情境，不能代替平台地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "indeterminate_context_unknown",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "green-apple-3c-auction", "name": "高雄青蘋果3C競標", "is_target": false },
+    { "site_id": "shopee", "name": "蝦皮購物", "is_target": false },
+    { "site_id": "eprice", "name": "ePrice 比價王", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "Named websites or stores in first rendered order under『比較推薦的地方』. Generic channel categories were excluded. SOGI手機王 appeared only as a source label and was not treated as a recommendation.",
+  "full_response": "在台灣買二手 iPhone，可以看你的需求選管道：\n\n比較推薦的地方\n\n二手機店（最適合怕踩雷的人）\n優點：可以現場看機、測試、通常有保固。\n缺點：價格通常比私人賣家高。\n可找有實體店面的二手機通路，例如高雄青蘋果3C競標等。\n\n大型電商／拍賣平台\n蝦皮購物有大量二手 iPhone 商品，可以看賣家評價、交易紀錄。\n優點：選擇多、價格容易比較。\n缺點：要小心翻修機、改機、描述不實。\n\n手機比價平台\nePrice 比價王有二手機行情資訊，可以先查大概價格，避免買貴。\n\n私人面交\n例如社團、論壇、二手交易平台。\n通常價格最低，但要自己驗機。\n\n買二手 iPhone 必檢查\n\n確認沒有啟用鎖定（Apple ID 鎖）\n賣家要先登出 iCloud，不能顯示『iPhone 已為擁有者鎖定』。\n\n看電池健康度\n設定 → 電池 → 電池健康度與充電。\n\n檢查零件\n設定 → 一般 → 關於本機 → 查看『零件與維修記錄』。\n\n測試功能\nFace ID / Touch ID\n相機\n喇叭、麥克風\nWi-Fi、藍牙\n充電孔\n\n不要只看外觀\n外殼很新不代表沒修過。\n\n如果你是在高雄買，我會比較建議：\n先看有保固的二手機店\n再比蝦皮價格\n最後才考慮私人面交\n\n你如果告訴我預算（例如 5000、10000、15000）＋想買 iPhone 幾代，我可以幫你挑比較划算的型號。",
+  "visible_source_labels": ["蝦皮購物", "ePrice 比價王", "SOGI手機王", "Apple 支援"],
+  "evidence_method": "Opened a new logged-out conversation, selected web search before submission, sent the exact fixed prompt once, and copied the completed rendered answer. Source labels were preserved separately and were not used as recommendation order unless the same name appeared in the answer body as a recommendation.",
+  "exclusion_reason": "有可判讀的推薦順序且本站未出現，但 ChatGPT 使用者地區無法核對；回答自行採台灣／高雄情境不能代替 region=TW，因此不能計為正式非前三。"
+}
