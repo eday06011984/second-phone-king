@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "095a16ba023e1231e3b2b49b9379731c98327198",
+  "previous_pull_request": 8,
+  "formal_records_added": 0,
+  "completed_responses_observed": 3,
+  "failed_query_attempts": 0,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q09"],
+      "unsubmitted_question_ids": ["q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q09 取得完整推薦清單，但頁面地區無法核對；回答採台灣／高雄情境不能代替平台設定證據。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q09"],
+      "unsubmitted_question_ids": ["q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q09 取得完整推薦清單，但平台明示英國 IP；不納入正式台灣統計。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q09"],
+      "unsubmitted_question_ids": ["q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q09 取得完整 AI 摘要，但結果頁明示英國／大倫敦 IP；不納入正式台灣統計。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q09。三平台皆為直接平台完整回覆，本站皆未出現；但 ChatGPT 地區未知，Gemini 與 Google 明示英國 IP，故沒有修改 results.json，也沒有把引用來源、贊助商品或一般搜尋結果當成推薦名次。"
+}
