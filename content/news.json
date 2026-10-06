@@ -1408,5 +1408,110 @@
         "date": "2026-10-01"
       }
     ]
+  },
+  {
+    "slug": "huawei-qualcomm-patent-license-used-phone-check",
+    "title": "Qualcomm、華為簽多年度專利授權：買二手華為手機別誤判晶片、5G 與 GMS",
+    "category": "手機產業",
+    "description": "Qualcomm 與華為公布涵蓋 5G、運算、AI 與網路的專利授權協議；二手買家仍須分別確認晶片、頻段、Google 服務與更新。",
+    "publishedAt": "2026-10-06T09:38:40+08:00",
+    "updatedAt": "2026-10-06T09:38:40+08:00",
+    "sections": [
+      {
+        "heading": "官方公布的是專利授權，不是新品規格",
+        "paragraphs": [
+          "Qualcomm 與華為於 10 月 5 日宣布多年期廣泛專利授權協議，內容包含雙方在 5G、運算、AI 與網路等技術領域的專利交互授權，以及 Qualcomm 購買部分華為在美國的運算、AI、網路與其他技術專利；交易仍須取得必要的監管核准。"
+        ]
+      },
+      {
+        "heading": "不能把協議直接解讀成晶片或服務恢復",
+        "paragraphs": [
+          "這份公告談的是智慧財產授權與專利交易，沒有宣布特定華為手機改用哪一款 Snapdragon、恢復哪些 5G 功能，或重新取得 Google Mobile Services。換句話說，若賣家用這則消息推論既有機型日後一定增加功能，仍缺乏官方產品公告支持；這是依公告範圍做出的編輯判讀。"
+        ]
+      },
+      {
+        "heading": "二手華為手機應逐項核對",
+        "paragraphs": [
+          "購買前應確認完整型號與銷售地區、處理器、台灣電信頻段與 VoLTE 相容性、Google Play／GMS 是否原生可用、目前系統與安全更新，以及本地保固或維修來源。跨區機與改裝軟體尤其要現場測試通話、行動數據、通知、銀行 App 與帳號清除狀態，不要只依品牌合作新聞判斷。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Qualcomm Newsroom",
+        "url": "https://www.qualcomm.com/news/releases/2026/10/huawei-and-qualcomm-announce-broad-patent-license-agreement",
+        "date": "2026-10-05"
+      }
+    ]
+  },
+  {
+    "slug": "chromeos-beta-channel-used-chromebook-check",
+    "title": "ChromeOS Beta 更新：買二手 Chromebook 先查更新通道與支援期限",
+    "category": "電腦軟體",
+    "description": "Google 更新 ChromeOS／ChromeOS Flex Beta 通道；二手 Chromebook 的版本號，必須連同通道與自動更新期限一起判讀。",
+    "publishedAt": "2026-10-06T09:38:40+08:00",
+    "updatedAt": "2026-10-06T09:38:40+08:00",
+    "sections": [
+      {
+        "heading": "官方更新的是 Beta 通道",
+        "paragraphs": [
+          "Chrome Releases 於 10 月 5 日公告，ChromeOS 與 ChromeOS Flex 的 Beta 通道更新至 OS 16820.18.0，瀏覽器版本為 155.0.8059.31，並推送至多數 ChromeOS 裝置。公告同時提供錯誤回報與 Beta 社群管道，顯示這不是一般使用者的 Stable 通道公告。"
+        ]
+      },
+      {
+        "heading": "版本較新不代表更適合日常使用",
+        "paragraphs": [
+          "Beta 通道可能比 Stable 顯示更高版本號，但用途是提前測試，不能只看數字就判定裝置比較新、比較安全或比較值錢。二手 Chromebook 若被前任切到 Beta 或 Dev，可能面臨穩定性差異；回到 Stable 時也可能需要清除本機資料，因此交機前應先弄清楚目前通道。"
+        ]
+      },
+      {
+        "heading": "交機前查通道、更新期限與管理鎖定",
+        "paragraphs": [
+          "建議在設定中的 ChromeOS 資訊頁核對型號、版本與更新通道，再查該型號的自動更新期限。也要確認能正常更新、可移除前任 Google 帳號、沒有學校或公司的管理註冊，並測試鍵盤、觸控板、連接埠、Wi‑Fi、電池與充電。ChromeOS Flex 裝置還要確認實際硬體與功能相容性，不能把 Flex 與原生 Chromebook 視為完全相同。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Chrome Releases",
+        "url": "https://chromereleases.googleblog.com/",
+        "date": "2026-10-05"
+      }
+    ]
+  },
+  {
+    "slug": "ray-ban-meta-gen3-audio-ai-glasses-buying-check",
+    "title": "Ray-Ban Meta Gen 3 與 Audio 在印度公布：買 AI 眼鏡先看地區、隱私與保固",
+    "category": "穿戴裝置",
+    "description": "Meta 在印度公布 Ray-Ban Meta Gen 3、Audio 與 Muse 規劃；評估新舊 AI 眼鏡時，規格、地區功能及錄影告知都要分開確認。",
+    "publishedAt": "2026-10-06T09:38:40+08:00",
+    "updatedAt": "2026-10-06T09:38:40+08:00",
+    "sections": [
+      {
+        "heading": "印度市場公布的硬體與功能",
+        "paragraphs": [
+          "Meta 於 10 月 1 日宣布 Ray-Ban Meta Gen 3 在印度上市，提供三種鏡框與 27 種顏色、鏡片組合。官方標示電池最長約 9 小時、採 6 麥克風陣列、12MP 相機並支援 3K 影片，錄影時會透過內建 LED 提醒周遭人物；實際續航仍會受使用方式影響。"
+        ]
+      },
+      {
+        "heading": "Audio 與 Muse 仍要看上市時程",
+        "paragraphs": [
+          "同一公告也預告 43 克的 Ray-Ban Meta Audio，標示單次最長約 12 小時，充電盒另提供最多 48 小時使用時間；Muse 語音代理則規劃在未來數月導入。這些資訊屬印度市場公告與未來規劃，不能直接當成台灣已上市、所有語言皆支援或二手裝置一定可用。"
+        ]
+      },
+      {
+        "heading": "買 AI 眼鏡比一般耳機多三項檢查",
+        "paragraphs": [
+          "除了鏡框尺寸、鏡片、麥克風、喇叭、相機、充電盒與電池狀態，還應確認前任帳號已解除、裝置能重新配對，且所需 App 與功能在台灣可用。使用相機與錄音功能時也要尊重現場規定及他人同意，不能因設備有提示燈就省略告知。跨區購買前則應問清楚保固、維修與處方鏡片服務。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Meta Newsroom",
+        "url": "https://about.fb.com/news/2026/10/announcing-ranveer-singh-as-brand-ambassador-for-ray-ban-and-ray-ban-meta-in-india-along-with-exciting-new-updates-to-our-ai-glasses/",
+        "date": "2026-10-01"
+      }
+    ]
   }
 ]
