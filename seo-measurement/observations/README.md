@@ -48,6 +48,8 @@ Google 頁面顯示「台灣／高雄市鼓山區－根據你的活動記錄」�
 
 完整本輪紀錄見 [2026-10-06-cloud/README.md](2026-10-06-cloud/README.md)。ChatGPT、Gemini 與 Google AI 摘要皆取得完整回覆，本站均未在可判讀的具名推薦順序中出現。ChatGPT 平台地區無法核對；Gemini 與 Google 明示英國 IP，因此三筆均排除正式台灣統計，不能算正式非前三。各平台 q10–q25 本輪未提交；引用標籤、贊助產品、一般搜尋結果與來源卡片沒有被當成推薦排名。
 
+後續 repository 狀態：PR #10 已於 2026-10-06 02:37:31 UTC（Asia/Taipei 10:37:31）合併至 main，merge commit 為 `93167555ce9e0a75e61045f0fd90b424c4f0d018`；該 commit 的 `Workers Builds: second-phone-king` check 為 success。完整 Build／Version ID 與證據連結見 [合併後狀態補記](2026-10-06-cloud/README.md#合併後狀態補記2026-10-06)。此為合併與建置紀錄，不代表正式網域內容已驗證，也不改變 q09 排除正式統計的結論。
+
 ## 持續觀察與提交
 
 已在對話中設定每日台灣時間上午約 8 點執行的觀察與優化任務；排程由對話任務管理，不是此 repo 的 GitHub Actions。排程觸發不保證平台必定可用。每輪先讀 main 與既有 PR，直接測量固定問句，保存失敗及無法判定紀錄，完成核對後才追加正式結果並重產報表。

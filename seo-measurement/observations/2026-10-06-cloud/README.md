@@ -35,4 +35,20 @@ npm run build
 git diff --check
 ```
 
+## 建立 PR 當下的狀態（歷史紀錄）
+
 本輪由已包含 PR #8 的最新 main 建立新分支與 PR；新 PR 保持 open，不自行合併、不執行正式部署。Cloudflare PR 分支預覽若成功，也不等於正式站上線。
+
+## 合併後狀態補記（2026-10-06）
+
+以上「新 PR 保持 open、不自行合併、不執行正式部署」保留為建立 PR 當下的歷史描述；後續 repository 狀態如下，不再代表 PR #10 的目前狀態。
+
+- [PR #10](https://github.com/eday06011984/second-phone-king/pull/10) 已於 **2026-10-06 02:37:31 UTC（Asia/Taipei 10:37:31）** 合併至 main。
+- 對應 main merge commit：[ `93167555ce9e0a75e61045f0fd90b424c4f0d018` ](https://github.com/eday06011984/second-phone-king/commit/93167555ce9e0a75e61045f0fd90b424c4f0d018)。
+- 該 merge commit 的 [`Workers Builds: second-phone-king` check](https://github.com/eday06011984/second-phone-king/runs/112080984909) 為 `completed / success`，完成時間為 **2026-10-06 02:39:08 UTC（Asia/Taipei 10:39:08）**。
+- Cloudflare Build ID：[`9d000614-97e6-4e50-8a51-60c88bf7066b`](https://dash.cloudflare.com/ac5870e70dd69e60e6adad39dfe3b8c9/workers/services/view/second-phone-king/production/builds/9d000614-97e6-4e50-8a51-60c88bf7066b)。
+- Cloudflare Version ID：`e948d85d-9f74-425a-a67e-14bc45a5b4d8`。
+
+本補記核對範圍為 GitHub PR 狀態與該 main merge commit 的 Cloudflare check。**Workers build success 不等於已驗證正式網域內容**；本次未直接核對正式網域頁面是否呈現該版本，不據此宣稱正式站內容驗收完成。
+
+q09 三平台的原始觀察與排除理由維持不變：ChatGPT 地區未知，Gemini 與 Google 為英國 IP，三筆仍排除正式台灣統計。PR 合併與建置成功不構成排名證據；本補記不新增正式排名、不改動 `results.json` 或固定 25 題，亦不回寫歷史測量結果。
