@@ -1,0 +1,30 @@
+{
+  "question_id": "q10",
+  "prompt": "二手 iPhone 價格怎麼比較",
+  "platform": "google_ai_overview",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-07T08:22:24+08:00",
+  "url": "https://www.google.com/search?q=%E4%BA%8C%E6%89%8B+iPhone+%E5%83%B9%E6%A0%BC%E6%80%8E%E9%BA%BC%E6%AF%94%E8%BC%83",
+  "mode": "Google Search default All results; AI Overview present",
+  "login_state": "logged_out",
+  "region": "GB",
+  "region_evidence": "Google 首頁與結果頁頁尾顯示『英國』；結果頁精確位置顯示『不明－無法判斷位置』。介面語言為繁體中文。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_mismatch",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "jyes", "name": "傑昇通信", "is_target": false },
+    { "site_id": "landtop", "name": "地標網通", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "只取 AI 摘要正文『各大通訊行（如傑昇通信或地標網通）』的首次具名順序；AI 摘要之後的一般搜尋結果、影片與相關問題沒有計入。",
+  "full_response": "AI 摘要\n比較二手 iPhone 價格時，應先參考各大通訊行（如傑昇通信或地標網通）公布的最新官方回收與舊換新行情表，作為市場基準價。\n\n比較二手 iPhone 價格的 4 個步驟\n\n查閱回收基準：參考連鎖通訊行或專業維修站的公開報價，了解目前各機型的最高回收價與收購行情。\n確認機況分級：二手價落差取決於外觀新舊、功能是否完全正常及電池健康度（通常低於 80% 需扣分或自費更換）。\n核對配件完整性：原廠完整盒裝通常能比單機多折抵數百元。\n評估通路保障：私人轉手價格雖低但風險高；通訊行或維修中心售出的二手機附帶店家保固（通常 3 到 6 個月），價格相對透明但略高。\n\n為了給您更具體的建議，想請問您：\n您想比較的型號和容量是什麼？\n您是打算買二手機還是把舊手機拿去回收？\n\nAI 回覆可能有誤。 瞭解詳情",
+  "visible_source_labels": ["傑昇通信", "地標網通"],
+  "evidence_method": "Opened a new logged-out Google homepage, observed the UK footer, sent the exact fixed prompt once in default Search, and preserved only the completed AI Overview block. Ordinary web results below it were excluded from the response and ranking.",
+  "exclusion_reason": "AI 摘要有可判讀的具名推薦順序且本站未出現，但 Google 明示英國地區，不能算正式台灣非前三。"
+}
