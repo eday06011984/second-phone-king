@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "a118868682e00c46ff0930c9659e835326d40432",
+  "previous_pull_request": 11,
+  "formal_records_added": 1,
+  "completed_responses_observed": 3,
+  "failed_query_attempts": 0,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q10"],
+      "unsubmitted_question_ids": ["q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q10 取得完整推薦順序，但頁面地區無法核對；回覆提到台灣不能代替平台地區證據，故只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q10"],
+      "unsubmitted_question_ids": ["q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q10 在全新登出 Flash-Lite 對話完成，側欄明示台灣／根據 IP 位址；本站未出現，已納入正式 not_present。",
+      "single_top_three": false,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q10"],
+      "unsubmitted_question_ids": ["q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q10 在預設全部結果取得完整 AI 摘要，但頁面明示英國，故只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q10。三平台均直接操作實際網頁、各送出一次；Gemini 明示台灣而納入 1 筆正式 not_present，ChatGPT 地區未知、Google 為英國而排除。引用標籤與一般搜尋結果沒有當成推薦名次。"
+}

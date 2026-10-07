@@ -1,0 +1,30 @@
+{
+  "question_id": "q10",
+  "prompt": "二手 iPhone 價格怎麼比較",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-07T08:22:24+08:00",
+  "url": "https://chatgpt.com/uc/6ac5905c-f9f4-83ea-9e36-29ee73e4144b",
+  "mode": "logged-out ChatGPT; web search selected before sending; exact model name not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；回覆提到台灣行情不能代替平台地區證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_unknown",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "eprice", "name": "ePrice", "is_target": false },
+    { "site_id": "sogi", "name": "SOGI 手機王", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "只取正文『二手機報價網站，例如 ePrice、SOGI』的首次具名順序；SOGI 與 faqs.tw 的來源標籤沒有另計名次。",
+  "full_response": "比較二手 iPhone 價格，建議不要只看「型號」，要用同規格條件比，否則很容易買貴。可以照下面順序：\n\n1. 先固定比較條件\n\n同一支 iPhone，要比：\n\n型號：例如 iPhone 15、15 Pro、15 Pro Max\n容量：128GB / 256GB / 512GB\n版本：台灣公司貨通常較好轉手\n外觀等級：全新未拆、9成新、有傷\n電池健康度：85%以上通常較受歡迎\n保固狀態：Apple 保固剩餘時間\n維修紀錄：是否換過螢幕、電池、主機板\n\n目前台灣二手機行情可參考二手機報價網站，例如 ePrice、SOGI 等，會依型號整理市場價格。\n\n2. 用「同型號平均價」判斷便宜或貴\n\n例如你要買 iPhone 15 128GB：\n\n找 10～20 台同條件商品\n排除：\n價格低很多但沒寫細節\n電池低於 80%\n有重大維修\n非正常交易帳號\n取中間價格當合理行情\n\n如果某台比市場平均低很多，要仔細檢查原因。\n\n3. 大概估價公式\n\n可以粗略用：\n\n二手價 ≈ 同款新機價格 × 保值率\n\n影響折價：\n\n一年內：通常跌幅較小\nPro / Pro Max：通常比一般版保值\n高容量：二手加價幅度通常不如新品價差\n電池健康下降：可能影響數千元\n明顯刮傷：約減價數百～數千元\n\n4. 買家驗機重點\n\n面交或收到手機時檢查：\n\n設定 → 一般 → 關於本機\nIMEI\n型號\n容量\n設定 → 電池 → 電池健康度\nFace ID 是否正常\n相機所有倍率是否正常\n螢幕觸控是否有死角\nTrue Tone 是否存在\n是否登出 iCloud\n是否有「零件與服務紀錄」\n\n5. 快速判斷買哪種比較划算\n\n通常：\n\n追求便宜：買前一～兩代一般版\n追求使用年限：買 Pro 系列\n最保值：Pro Max\n避開太舊：iPhone X、11 等雖便宜，但電池與更新年限要考慮\n\n如果你告訴我：\n\n想買的型號（例如 iPhone 15 Pro）\n容量\n預算\n買來自用還是轉賣\n\n我可以幫你估合理二手價區間。",
+  "visible_source_labels": ["SOGI手機王", "faqs.tw"],
+  "evidence_method": "Opened a new logged-out ChatGPT conversation, selected web search, sent the exact fixed prompt once, waited for the completed rendered response, and preserved its visible text. Source labels were recorded separately and not used as recommendation order.",
+  "exclusion_reason": "回覆有可判讀的具名推薦順序且本站未出現，但 ChatGPT 頁面沒有可核對的平台地區，不能假填台灣，故不計為正式非前三。"
+}
