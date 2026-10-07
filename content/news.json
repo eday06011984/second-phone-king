@@ -1513,5 +1513,119 @@
         "date": "2026-10-01"
       }
     ]
+  },
+  {
+    "slug": "android-october-2026-security-patch-used-phone-check",
+    "title": "Android 10 月安全更新修補多項重大漏洞：買二手機先查修補日期",
+    "category": "手機安全",
+    "description": "Google 公布 2026 年 10 月 Android 安全公告；二手 Android 手機是否安全，不能只看系統版本，還要核對安全性更新與 Google Play 系統更新日期。",
+    "publishedAt": "2026-10-07T09:23:15+08:00",
+    "updatedAt": "2026-10-07T09:23:15+08:00",
+    "sections": [
+      {
+        "heading": "官方確認：2026-10-01 修補等級涵蓋哪些風險",
+        "paragraphs": [
+          "Android 開放原始碼計畫於 10 月 5 日發布 2026 年 10 月安全公告。官方說明，安全性修補等級為 2026-10-01 或更新的裝置，已納入本期公告列出的修補；其中 Framework 有不需額外權限與使用者互動即可造成遠端阻斷服務的重大風險，System 元件也包含多項重大權限提升或阻斷服務問題。",
+          "公告另列出 Telephonycore 與 Wi‑Fi 的 Google Play 系統更新項目。這代表 Android 系統安全更新與 Google Play 系統更新可能分開顯示，不能只看到其中一項日期較新，就直接判定整台手機已完整更新。"
+        ]
+      },
+      {
+        "heading": "買二手機：版本號不等於已收到本月修補",
+        "paragraphs": [
+          "AOSP 公告提供的是平台修補基準，各品牌與電信版本仍須由製造商安排韌體推送。選購二手 Android 手機時，應在「關於手機」或安全性設定中同時查看 Android 安全性更新與 Google Play 系統更新日期，並確認裝置仍在原廠支援期內。",
+          "若商品頁只寫 Android 版本，卻未提供安全性修補日期，可請店家補上設定畫面。較新的 Android 大版本，不保證已裝妥最新品牌韌體；反過來說，公告列出漏洞也不代表每台未更新裝置都已遭利用。"
+        ]
+      },
+      {
+        "heading": "交機後先做的安全整理",
+        "paragraphs": [
+          "完成原廠重置並移除前使用者帳號後，先連上可信任的 Wi‑Fi，依序安裝系統、安全性與 Google Play 系統更新，再更新瀏覽器與常用 App。確認重新開機後顯示的修補日期，再登入銀行、支付、雲端相簿或工作帳號。",
+          "若機型已停止安全更新，可依用途評估風險：只作離線備用與仍要處理敏感資料，所需的安全條件不同。編輯建議是把「還能開機」與「仍適合登入重要帳號」視為兩個問題。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Android Open Source Project｜Android Security Bulletin—October 2026",
+        "url": "https://source.android.com/docs/security/bulletin/2026/2026-10-01",
+        "date": "2026-10-05"
+      }
+    ]
+  },
+  {
+    "slug": "firefox-157-0-1-security-update-used-computer-check",
+    "title": "Firefox 157.0.1 修補檔案處理弱點：二手電腦登入前先更新瀏覽器",
+    "category": "軟體更新",
+    "description": "Mozilla 發布 Firefox 157.0.1，修補一項中度風險的檔案處理緩解措施繞過問題；接手二手電腦時，瀏覽器更新與舊設定檔清理同樣重要。",
+    "publishedAt": "2026-10-07T09:23:15+08:00",
+    "updatedAt": "2026-10-07T09:23:15+08:00",
+    "sections": [
+      {
+        "heading": "官方確認：157.0.1 修補一項中度風險弱點",
+        "paragraphs": [
+          "Mozilla 於 10 月 6 日發布安全公告 MFSA 2026-104，Firefox 157.0.1 修補 CVE-2026-106016。官方將影響等級列為中度，問題屬於 File Handling 元件的緩解措施繞過；公告未把它列為重大或高風險漏洞。",
+          "這次是 157 系列的安全維護更新，不是另一輪介面改版。已安裝 Firefox 157 的使用者，仍應開啟「說明／關於 Firefox」確認更新完成，而不是只看到主版本號 157 就停止檢查。"
+        ]
+      },
+      {
+        "heading": "二手電腦不能沿用賣家的瀏覽器環境",
+        "paragraphs": [
+          "接手二手 Windows、Mac 或 Linux 電腦時，最穩妥的做法是先完成可信任的系統重灌或原廠重置，再安裝最新瀏覽器。若直接沿用原有設定檔，可能同時保留擴充套件、下載處理規則、網站權限、Cookie 或同步帳號。",
+          "若店家展示機必須保留既有系統，可先確認 Firefox 版本至少為 157.0.1，再檢查是否存在不明擴充套件與企業政策。版本更新只修補程式問題，無法替代帳號登出與資料清除。"
+        ]
+      },
+      {
+        "heading": "更新後的實用檢查",
+        "paragraphs": [
+          "更新完成後重新啟動 Firefox，再到版本畫面核對 157.0.1 或更新版本。常用下載功能的使用者，可重新檢查 PDF、壓縮檔與其他檔案類型的開啟方式，避免舊設定讓不熟悉的程式自動處理檔案。",
+          "編輯分析：瀏覽器是二手裝置最早接觸帳號密碼與下載檔案的軟體之一，因此更新優先順序應放在登入之前。這不代表 Firefox 特別不安全，而是任何瀏覽器都應維持在官方支援版本。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Mozilla Foundation Security Advisory 2026-104",
+        "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-104/",
+        "date": "2026-10-06"
+      }
+    ]
+  },
+  {
+    "slug": "smartthings-now-local-control-used-smart-home-check",
+    "title": "SmartThings Now 加入情境卡片與本機控制：買二手智慧家庭裝置先查 Hub",
+    "category": "智慧家庭",
+    "description": "Samsung 更新 SmartThings，新增情境卡片、離線診斷與本機控制；二手 Hub、電視與家電能否使用，仍要核對型號、帳號解除與 Matter 支援。",
+    "publishedAt": "2026-10-07T09:23:15+08:00",
+    "updatedAt": "2026-10-07T09:23:15+08:00",
+    "sections": [
+      {
+        "heading": "官方確認：SmartThings Now 與新版首頁登場",
+        "paragraphs": [
+          "Samsung 於 10 月 6 日公布 SmartThings 平台更新。新版首頁頂端加入 SmartThings Now 卡片，依使用情境提供資訊與可立即執行的控制；系統也會參考過去一週的使用狀況，建議調整常用裝置、服務與自動化流程。",
+          "官方並表示平台目前有 4.7 億註冊使用者、支援超過 430 個 Works with SmartThings 認證品牌。這些數字描述整體生態系規模，不代表每一款舊家電或第三方裝置都具備相同功能。"
+        ]
+      },
+      {
+        "heading": "本機控制可降低雲端依賴，但有硬體條件",
+        "paragraphs": [
+          "當手機與相容 SmartThings Hub 位於同一個 Wi‑Fi 網路時，新功能可讓手機直接和 Hub 溝通，不必每次繞經雲端。Samsung 的受控測試顯示回應時間約可改善 30%，實際表現仍會依住家網路與裝置環境而異。",
+          "官方列出的本機控制支援包含 SmartThings Station、SmartThings V2、V3、V4 Hub，以及具 Hub 功能的部分 Samsung 電視與 Family Hub。更新也加入 Matter 1.6 支援與更多裝置類別，但仍需逐項核對實際產品、地區與韌體。"
+        ]
+      },
+      {
+        "heading": "買二手 Hub、電視或家電要查三件事",
+        "paragraphs": [
+          "第一，要求賣家把裝置自原帳號與家庭移除並完成重置；第二，確認型號是否真的內建或相容 SmartThings Hub；第三，查明裝置的 Matter、Thread 或其他協定需求，避免把「可加入 SmartThings」誤認為所有功能都能離線運作。",
+          "智慧家庭設備常與門鎖、攝影機、家庭成員和位置自動化相連。交機後應重新建立家庭、成員與自動化規則，不要沿用陌生帳號或舊例行程序。編輯建議：相容性與帳號清理，往往比外觀成色更直接影響二手智慧家庭設備是否值得買。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom｜Samsung Introduces ‘SmartThings Now’",
+        "url": "https://news.samsung.com/global/samsung-introduces-smartthings-now-in-new-platform-update-that-brings-more-intuitive-user-experiences",
+        "date": "2026-10-06"
+      }
+    ]
   }
 ]
