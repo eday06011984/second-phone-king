@@ -1627,5 +1627,119 @@
         "date": "2026-10-06"
       }
     ]
+  },
+  {
+    "slug": "chrome-156-android-staged-rollout-used-phone-check",
+    "title": "Chrome 156 開始在 Android 分批推送：二手機別只看 App 顯示「已安裝」",
+    "category": "手機軟體",
+    "description": "Google 釋出 Android 版 Chrome 156，初期只推送給少部分使用者；接手二手機時，瀏覽器版本、Play 商店更新與帳號清理要分開確認。",
+    "publishedAt": "2026-10-08T09:24:44+08:00",
+    "updatedAt": "2026-10-08T09:24:44+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Chrome 156 採分階段發布",
+        "paragraphs": [
+          "Google Chrome Releases 於 10 月 7 日公告，Android 版 Chrome 156.0.8078.25 已開始釋出，初期只提供給少部分使用者，之後再透過 Google Play 擴大供應。這表示同一天查看兩支手機，可能仍看到不同版本；尚未收到更新不等於裝置故障。",
+          "公告只確認版本與分批推送狀態，沒有列出本文可據以宣稱的特定新功能或效能提升。因此不應把主版本號直接解讀成手機速度、安全性或二手價值的保證。"
+        ]
+      },
+      {
+        "heading": "二手機檢查：Play 商店狀態與實際版本要一起看",
+        "paragraphs": [
+          "接手 Android 二手機後，可先完成原廠重置並登入自己的 Google 帳號，再到 Play 商店檢查 Chrome 更新；接著在 Chrome 的「設定／關於 Chrome」核對實際版本。若商店尚未提供 156，可稍後再查，不建議從不明網站下載安裝檔來搶先更新。",
+          "商品頁若只寫「可使用 Chrome」，資訊仍不足。還應確認 Android 系統與安全性修補日期、Play Protect 狀態，以及該機型是否仍在原廠更新期內；瀏覽器更新無法替代作業系統更新。"
+        ]
+      },
+      {
+        "heading": "登入重要帳號前，先清理舊瀏覽器資料",
+        "paragraphs": [
+          "若展示機或賣家保留了原本環境，應確認舊使用者的同步帳號、Cookie、儲存密碼、網站權限與擴充功能均已移除。最穩妥的交機方式仍是可信任的原廠重置，再重新安裝更新。",
+          "編輯建議：分批推送期間應以官方商店與版本畫面為準，不要把「今天還沒收到」誤判為硬體異常，也不要為追版本而犧牲安裝來源安全。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Chrome Releases｜Chrome for Android Update",
+        "url": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01286554645.html",
+        "date": "2026-10-07"
+      }
+    ]
+  },
+  {
+    "slug": "garmin-enduro-4-used-gps-watch-buying-check",
+    "title": "Garmin Enduro 4 主打長續航與進階地圖：買二手 GPS 錶先驗電池與按鍵",
+    "category": "穿戴裝置",
+    "description": "Garmin 發表 Enduro 4，加入新的電力模式、耐力指標與地圖引擎；官方續航是在特定日照與模式條件下量得，二手交易仍要實機驗證。",
+    "publishedAt": "2026-10-08T09:24:44+08:00",
+    "updatedAt": "2026-10-08T09:24:44+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：太陽能長續航與新訓練工具",
+        "paragraphs": [
+          "Garmin 於 10 月 6 日發表 Enduro 4。官方標示在特定太陽能與使用條件下，智慧手錶模式最長可達 90 天、活動模式最長可達 320 小時；同時加入 Max Accuracy、Max Battery 等電力模式，以及坡度調整配速、Stamina zones、stamina curve 與 Garmin Epic 多日活動紀錄。",
+          "硬體採 51mm 錶徑、Power Sapphire 鏡面、鈦金屬錶圈與纖維強化聚合物錶殼，官方標示重量 66 克、10 ATM 防水、64GB 儲存空間，並配有白光與紅光 LED 手電筒。建議售價為 899.99 美元；台灣供貨、售價與保固仍應另查當地官方資訊。"
+        ]
+      },
+      {
+        "heading": "續航數字要連同測試條件解讀",
+        "paragraphs": [
+          "Garmin 在註解中說明，320 小時活動模式假設持續處於 50,000 lux 光照，並使用延長電池模式；90 天智慧手錶模式則假設每日在同等光照下戶外活動 3 小時。實際續航會受 GPS 模式、螢幕、感測器、音樂、通知、溫度與電池老化影響。",
+          "因此二手賣家若只引用官方最高續航，不能代表個別手錶仍可達到同樣時間。較實用的做法是查看近期活動耗電紀錄，並用一次完整戶外 GPS 活動觀察電量下降、定位與心率感測是否穩定。"
+        ]
+      },
+      {
+        "heading": "二手交機可檢查的項目",
+        "paragraphs": [
+          "現場可逐一測試五顆按鍵、充電接點、觸控與背光、GPS 定位、心率與高度資料，再檢查鏡面、錶耳和底殼是否有撞擊或進水痕跡。10 ATM 是新品規格，不能用來保證一支曾拆修或受撞擊的二手錶仍維持原密封狀態。",
+          "也應請賣家從 Garmin Connect 解除裝置並完成重置，確認序號、地區保固、配件與充電線來源。本文整理官方規格並提供購機檢查方向，不是本站實測或耐用度保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Garmin Newsroom｜Enduro 4 smartwatch redefines ultraperformance",
+        "url": "https://www.garmin.com/en-US/newsroom/press-release/outdoor/enduro-4-smartwatch-redefines-ultraperformance-with-extreme-battery-life-and-advanced-training-features/",
+        "date": "2026-10-06"
+      }
+    ]
+  },
+  {
+    "slug": "dell-pro-rugged-13-14-used-laptop-check",
+    "title": "Dell Pro Rugged 13 Extreme、14 登場：二手強固筆電不能只看防護標示",
+    "category": "筆電新品",
+    "description": "Dell 推出兩款強固型 AI PC；IP、防摔與選配規格各不相同，二手買家要核對完整型號、維修紀錄、電池與企業管理狀態。",
+    "publishedAt": "2026-10-08T09:24:44+08:00",
+    "updatedAt": "2026-10-08T09:24:44+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：全強固與半強固是兩種產品",
+        "paragraphs": [
+          "Dell 於 10 月 1 日公布 Dell Pro Rugged 13 Extreme 與 Dell Pro Rugged 14。13 Extreme 是 13.3 吋全強固機種，官方標示 IP66、六英尺防摔測試與最高 1,400 nits 螢幕亮度；Rugged 14 則為 14 吋半強固機種，標示 IP53、三英尺防摔測試與最高 1,100 nits 亮度。",
+          "兩款皆採 Intel Core Ultra Series 3 處理器，並提供熱插拔電池、Wi‑Fi 7、選配 5G、GPS 與最高 5MP RGB+IR 相機等配置；Rugged 14 可選 RTX PRO 500 筆電 GPU 與最高 64GB LPCAMM2 記憶體。這些是產品系列可選規格，不代表每一台二手機都完整具備。"
+        ]
+      },
+      {
+        "heading": "IP 與防摔標示不能替個別機況背書",
+        "paragraphs": [
+          "強固等級描述新品在指定測試條件下的設計能力，實際二手機若曾拆機、換殼、摔落或更換密封件，防水防塵能力可能已不同。購買前應要求維修紀錄，檢查連接埠蓋、螺絲、轉軸、外殼接縫、鍵盤與螢幕是否有變形或液體痕跡。",
+          "也要分清 13 Extreme 與 14 的防護差異，不能把 IP66 或六英尺防摔宣稱套到 14 吋機型。即使外觀厚實，也不建議用潑水或摔落方式自行驗機，以免造成無法逆轉的損壞。"
+        ]
+      },
+      {
+        "heading": "企業退役機還要查管理與選配",
+        "paragraphs": [
+          "這類產品常用於政府、公共安全、製造與戶外工作。接手企業退役機時，除了 BIOS 密碼、Windows 啟用、TPM、公司管理註冊與儲存裝置清除，也要核對 5G 模組、GPS、相機、顯示器亮度、記憶體、SSD 與顯示晶片的實際配置。",
+          "交機時可分別測試兩顆熱插拔電池、充電器、車載底座或其他專用配件，並查詢序號保固狀態。編輯判讀：強固機的價值很大一部分來自完整密封、配件與企業級管理狀態，不能只以機殼成色或型號名稱定價。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Dell Technologies Newsroom｜New Rugged Laptops",
+        "url": "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~10~dell-technologies-introduces-new-rugged-laptops-built-for-the-most-demanding-field-environments.htm",
+        "date": "2026-10-01"
+      }
+    ]
   }
 ]
