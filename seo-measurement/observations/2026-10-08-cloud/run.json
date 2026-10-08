@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "06f33c54fc1ae593326abf5361cef200cc0dc2e4",
+  "previous_pull_request": 12,
+  "formal_records_added": 2,
+  "completed_responses_observed": 1,
+  "failed_query_attempts": 2,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q11"],
+      "unsubmitted_question_ids": ["q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q11 取得完整推薦順序，但頁面地區無法核對；回覆自行採台灣情境不能代替平台地區證據，故只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q11"],
+      "unsubmitted_question_ids": ["q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q11 在全新登出 Flash-Lite 對話送出，側欄明示台灣／根據 IP 位址；平台回報錯誤 1096，已納入正式 failed。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q11"],
+      "unsubmitted_question_ids": ["q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q11 從明示台灣的全新登出首頁送出後進入異常流量 reCAPTCHA；沒有操作驗證或重試，已納入正式 failed。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q11。三平台均直接操作實際網頁、各實際送出一次；ChatGPT 地區未知而排除，Gemini 與 Google 明示台灣但分別遇錯誤 1096 與異常流量驗證，兩筆正式保留為 failed。沒有把失敗改成未出現、沒有 AI 摘要或完成排名。"
+}
