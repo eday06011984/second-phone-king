@@ -417,7 +417,7 @@
     {
       "platform": "gemini",
       "total_questions": 25,
-      "untested_questions": 24,
+      "untested_questions": 23,
       "single_top_three_records": 0,
       "confirmed_stable_questions": 0,
       "stable_total": null,
@@ -588,14 +588,14 @@
         {
           "id": "q11",
           "prompt": "Samsung 二手機哪裡買",
-          "attempted": false,
+          "attempted": true,
           "measured_dates": 0,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
             "not_present": 0,
             "indeterminate": 0,
-            "failed": 0
+            "failed": 1
           },
           "single_top_three_count": null,
           "selected_record_ids": [],
@@ -830,7 +830,7 @@
     {
       "platform": "google_ai_overview",
       "total_questions": 25,
-      "untested_questions": 25,
+      "untested_questions": 24,
       "single_top_three_records": null,
       "confirmed_stable_questions": 0,
       "stable_total": null,
@@ -999,14 +999,14 @@
         {
           "id": "q11",
           "prompt": "Samsung 二手機哪裡買",
-          "attempted": false,
+          "attempted": true,
           "measured_dates": 0,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
             "not_present": 0,
             "indeterminate": 0,
-            "failed": 0
+            "failed": 1
           },
           "single_top_three_count": null,
           "selected_record_ids": [],
@@ -2849,6 +2849,62 @@
         }
       ],
       "single_top_three": false
+    },
+    {
+      "id": "gemini-q11-2026-10-08T08-51-59+08-00",
+      "question_id": "q11",
+      "platform": "gemini",
+      "prompt": "Samsung 二手機哪裡買",
+      "status": "failed",
+      "measured_at": "2026-10-08T08:51:59+08:00",
+      "mode": "Gemini Flash-Lite; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "發生錯誤 (1096)"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "Gemini 側欄明確顯示「台灣／根據 IP 位址」。於全新登出 Flash-Lite 對話逐字輸入固定問句並實際送出一次，平台回報錯誤 1096，沒有取得回覆；不算未出現、無可判定清單或完成實測日期。",
+      "date": "2026-10-08",
+      "target_rank": null,
+      "top_three_sites": [],
+      "single_top_three": null
+    },
+    {
+      "id": "google_ai_overview-q11-2026-10-08T08-51-59+08-00",
+      "question_id": "q11",
+      "platform": "google_ai_overview",
+      "prompt": "Samsung 二手機哪裡買",
+      "status": "failed",
+      "measured_at": "2026-10-08T08:51:59+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量 reCAPTCHA；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。",
+      "date": "2026-10-08",
+      "target_rank": null,
+      "top_three_sites": [],
+      "single_top_three": null
     }
   ]
 }

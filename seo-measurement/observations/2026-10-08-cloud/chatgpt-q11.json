@@ -1,0 +1,32 @@
+{
+  "question_id": "q11",
+  "prompt": "Samsung 二手機哪裡買",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-08T08:51:59+08:00",
+  "url": "https://chatgpt.com/uc/6ac6e8a4-2af4-83ea-949d-3dc34528f453",
+  "mode": "logged-out ChatGPT; web search selected before sending; exact model name not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；回覆自行採台灣／高雄情境不能代替平台地區證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_unknown",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "boss-phone-kaohsiung-sogo", "name": "強老闆中古機－高雄 Sogo 店", "is_target": false },
+    { "site_id": "boss-phone-kaohsiung-wujia", "name": "強老闆中古機－高雄五甲店", "is_target": false },
+    { "site_id": "sogi", "name": "SOGI 手機王", "is_target": false },
+    { "site_id": "shopee", "name": "蝦皮購物", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "依正文首次具名推薦順序記錄兩間強老闆中古機門市、SOGI 手機王與蝦皮購物。SOGI手機王、SOGI、Shopee 等來源標籤沒有重複計入或用來補名次。",
+  "full_response": "如果你要買 Samsung 二手機（台灣），可以看這幾種管道：\n\n實體中古手機店（比較推薦）\n可以現場看外觀、測螢幕、電池、相機，也通常有短期保固。\n例如高雄有一些中古機門市會有 Galaxy A、S、Z 系列二手機可挑。像 強老闆中古機-高雄Sogo店、強老闆中古機-高雄五甲店 都有 Samsung 二手機資訊可參考。\n\n二手手機比價平台\nSOGI 手機王 有整理 Samsung 二手機行情與門市報價，適合先查價格再去買。\n\n網路平台\n蝦皮購物 上有很多 Samsung 二手機，但建議挑「有實體店」「提供保固」的賣家，避免買到泡水機、維修機或改裝機。\n\n購買時建議檢查：\n\nIMEI 是否和盒裝／手機一致\n螢幕有沒有烙印（尤其 Galaxy S、Note、Z 系列 OLED）\n電池健康度與充電狀況\n指紋、人臉辨識、相機、防水膠狀態\n是否有保固或至少 7～30 天測試期\n\n如果你在高雄，我也可以幫你整理「高雄哪幾間 Samsung 二手機店比較值得去」；如果你告訴我預算（例如 3000、5000、10000 元）和想買的系列（S / A / Z），我可以直接推薦型號。",
+  "visible_source_labels": ["SOGI手機王", "SOGI", "Shopee"],
+  "evidence_method": "Opened a new logged-out ChatGPT conversation, selected web search, sent the exact fixed prompt once, waited for the completed rendered response, and preserved its visible text. Source labels were recorded separately and not used as recommendation order.",
+  "exclusion_reason": "回覆有可判讀的具名推薦順序且本站未出現，但 ChatGPT 頁面沒有可核對的平台地區；回答自行採台灣情境不能證明平台地區，故不計為正式非前三。"
+}

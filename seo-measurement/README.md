@@ -12,7 +12,7 @@ node scripts/seo-measurement.mjs report
 node --test scripts/seo-measurement.test.mjs
 ```
 
-- 正式資料：`seo-measurement/results.json`。初始建立的 25 問句 × 3 平台 = 75 筆 `not_tested` 空白基準仍完整保留；截至 2026-10-07，另已追加 1 筆 Gemini q10 的正式 `not_present` 實測，共 76 筆記錄。該次未進前三，同問句同平台尚未累積三個不同台北日期，穩定判定仍為未知。條件不符或未知的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
+- 正式資料：`seo-measurement/results.json`。初始建立的 25 問句 × 3 平台 = 75 筆 `not_tested` 空白基準仍完整保留；截至 2026-10-08，另已追加 1 筆 Gemini q10 的正式 `not_present`，以及 Gemini、Google AI 摘要各 1 筆 q11 的正式 `failed`，共 78 筆記錄。只有 q10 有可判讀排名且該次未進前三；q11 失敗沒有完成實測日期，所有穩定判定仍為未知。條件不符或未知的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
 - 閱讀報表：`seo-measurement/reports/report.md`。
 - 完整機器可讀報表：`seo-measurement/reports/report.json`，含所有原始紀錄、推導名次、單次前三、每問句各狀態筆數及穩定判定採用的紀錄 ID。
 - 每次資料更新後重跑 validate / report；輸出可重現，不加入每次執行的時間戳。
