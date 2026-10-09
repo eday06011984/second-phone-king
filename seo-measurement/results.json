@@ -1441,6 +1441,41 @@
       "site_link": null,
       "recommended_sites": [],
       "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量 reCAPTCHA；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。"
+    },
+    {
+      "id": "google_ai_overview-q12-2026-10-09T08-25-49+08-00",
+      "question_id": "q12",
+      "platform": "google_ai_overview",
+      "prompt": "二手機怎麼挑",
+      "status": "not_present",
+      "measured_at": "2026-10-09T08:25:49+08:00",
+      "mode": "Google Search default All results; AI Overview present; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "挑選二手機時，首重選擇有信譽的實體商家或官方認證通路，並現場仔細檢查外觀、功能與電池健康度。\n\n挑選二手機的完整重點如下：\n\n挑選與購買管道\n推薦通路：選擇提供售後保固的 Q哥、創宇通訊或專業維修中心，比私下跟個人賣家面交更有保障。\n價格警覺：避開價格遠低於市場行情的異常機，高機率是拼裝機、泡水機或有問題的黑心機。\n\n核心檢查重點\n外觀與螺絲：檢查螢幕刮痕、邊框凹陷，以及螢幕與邊框縫隙是否均勻；檢視底部螺絲是否有被拆卸過的痕跡。\n身分碼（IMEI）：在撥號介面輸入 *#06# 查詢 IMEI 碼，核對是否與手機盒裝一致，並確認非電信黑名單或贓機。\n帳號清除：確認前機主已完全登出並解除綁定 iCloud 或 Google 帳號，且能正常重置手機。\n電池健康度：若買二手 iPhone，建議挑選電池健康度在 85% 以上的機型，避免買來不久就需自費更換電池。\n硬體功能測試：現場測試通話、雙鏡頭拍照、Face ID / 指紋辨識、Wi-Fi、充電、喇叭與實體按鍵是否完全正常。\n\n了解二手市場的內部運作與常見細節可以參考這部影片：\n超便宜二手機你敢買？全台最大二手機供應鏈開箱【超認真少年】 ...\nYouTube · 超認真少年Imserious\n\n如果你想進一步縮小範圍，請告訴我：\n你想找的是 iPhone 還是 Android？\n你的預算範圍大約是多少？\n主要的使用需求是什麼（例如：拍照、日常順暢、打遊戲等）？\n我可以為你推薦最合適的機型與挑選建議。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "qek888",
+          "name": "Q哥",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        }
+      ],
+      "notes": "Google 首頁與結果頁皆明確顯示台灣，結果頁並顯示依 IP 位址為高雄市左營區。於全新登出搜尋頁逐字送出固定問句一次；推薦順序只取 AI 摘要正文『推薦通路』的具名項目，未使用來源卡、延伸影片或一般搜尋結果。本站未出現。"
     }
   ]
 }
