@@ -164,11 +164,11 @@ test('rendered reference labels uncertainty and retains direct source links and 
   const compiled = ts.transpileModule(componentSource, { fileName: 'retailer-price-comparison.tsx', compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX } }).outputText;
   const moduleUrl = new URL('../.sites-runtime/retailer-prices/retailer-price-comparison.mjs', import.meta.url);
   await writeFile(moduleUrl, compiled);
-  const { RetailerMarketOverview, RetailerPriceSummary, default: Comparison } = await import(moduleUrl.href);
+  const { RetailerMarketOverview, RetailerPriceMethod, default: Comparison } = await import(moduleUrl.href);
   const data = validateRetailerDataset(JSON.parse(await readFile(new URL('../content/retailer-prices.json', import.meta.url), 'utf8')));
   const references = retailerMarketReferences(data, Date.parse(data.updatedAt));
   const html = renderToStaticMarkup(createElement(RetailerMarketOverview, { references }));
-  for (const text of ['NT$ 7,433', '混合機況刊登價參考', '2 筆未確認稅別', '1 筆庫存待確認', 'NT$ 9,000', '副廠認證電池健康度 90%', '單店刊登', '稅別未明']) assert.ok(html.includes(text), text);
+  for (const text of ['店家個別刊登價格', '2 筆未確認稅別', '1 筆庫存待確認', 'NT$ 9,000', '副廠認證電池健康度 90%', '單店刊登', '稅別未明']) assert.ok(html.includes(text), text);
   for (const row of data.quotes) assert.ok(html.includes(row.url.replaceAll('&', '&amp;')), row.url);
   assert.ok(!html.includes('手機王'));
   assert.ok(!html.includes('waiting'));
@@ -176,16 +176,21 @@ test('rendered reference labels uncertainty and retains direct source links and 
   const marketplaceSource = await readFile(new URL('../app/marketplace.tsx', import.meta.url), 'utf8');
   assert.ok(marketplaceSource.includes("getElementById('market-reference-results')?.scrollIntoView"));
   const result = compareRetailerPrices({ brand: 'Apple', model: 'iPhone 13', storage: '128GB', condition: '輕微使用痕跡' }, data, Date.parse(data.updatedAt));
-  const summary = renderToStaticMarkup(createElement(RetailerPriceSummary, { result }));
-  assert.ok(summary.includes('部分稅別未明'));
-  assert.ok(summary.includes('部分庫存待確認'));
   const detail = renderToStaticMarkup(createElement(Comparison, { result }));
-  assert.ok(detail.includes('樣本不足 3 家'));
-  assert.ok(detail.includes('NT$ 7,433'));
-  assert.ok(detail.includes('混合機況刊登價參考'));
+  const method = renderToStaticMarkup(createElement(RetailerPriceMethod));
+  const available = compare([quote('a', 10000), quote('b', 18000), quote('c', 24000)]);
+  const availableDetail = renderToStaticMarkup(createElement(Comparison, { result: available }));
+  const availableOverview = renderToStaticMarkup(createElement(RetailerMarketOverview, { references: [available.marketReference] }));
+  for (const rendered of [html, detail, method, availableDetail, availableOverview]) {
+    assert.doesNotMatch(rendered, /均價|平均|等權|樣本範圍|報價範圍|NT\$ 7,433|NT\$ 17,333/);
+  }
+  for (const text of ['NT$ 6,300', 'NT$ 6,999', 'NT$ 9,000', '店家個別刊登價格']) assert.ok(detail.includes(text), text);
+  for (const text of ['NT$ 10,000', 'NT$ 18,000', 'NT$ 24,000']) assert.ok(availableDetail.includes(text), text);
+  assert.equal(renderToStaticMarkup(createElement(Comparison, { result: compare([]) })), '');
+  assert.doesNotMatch(marketplaceSource, /RetailerPriceSummary|均價|平均/);
   const filtered = renderToStaticMarkup(createElement(RetailerMarketOverview, { references, query: 'iPhone 13' }));
   assert.ok(!filtered.includes('iPhone 14'));
   const absent = renderToStaticMarkup(createElement(RetailerMarketOverview, { references, brand: 'Samsung' }));
-  assert.ok(absent.includes('暫不提供均價'));
+  assert.ok(absent.includes('天內的店家刊登價格'));
   assert.ok(!absent.includes('NT$'));
 });
