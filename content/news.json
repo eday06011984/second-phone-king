@@ -1741,5 +1741,119 @@
         "date": "2026-10-01"
       }
     ]
+  },
+  {
+    "slug": "surface-laptop-ultra-rtx-spark-used-ai-pc-check",
+    "title": "Surface Laptop Ultra、RTX Spark Dev Box 開放預購：買 AI PC 先分清統一記憶體與地區售價",
+    "category": "筆電新品",
+    "description": "Microsoft 公布採用 NVIDIA RTX Spark 的 Surface Laptop Ultra 與桌上型 Dev Box；高記憶體與本機 AI 規格亮眼，但實際配置、相容性、上市地區與保固仍要逐項核對。",
+    "publishedAt": "2026-10-09T09:47:26+08:00",
+    "updatedAt": "2026-10-09T09:47:26+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：兩款 Surface 採用 RTX Spark",
+        "paragraphs": [
+          "Microsoft 於 10 月 7 日開放 Surface Laptop Ultra 與 Surface RTX Spark Dev Box 預購。Surface Laptop Ultra 採 NVIDIA RTX Spark 平台，官方列出的最高配置包括 6,144 核心 Blackwell RTX GPU、20 核心 Grace CPU、128GB 統一記憶體，以及最高 1 petaflop 的 FP4 AI 理論運算能力；不同配置的記憶體與可由 GPU 使用的容量並不相同。",
+          "官方也列出 15 吋觸控螢幕、可由使用者更換的儲存裝置、三個 USB-C、HDMI、USB-A、SD 讀卡機與 3.5mm 耳機孔。Surface RTX Spark Dev Box 則把相同平台放進小型桌機，鎖定本機推論、評估與開發工作。"
+        ]
+      },
+      {
+        "heading": "售價與上市資訊不能直接套用台灣市場",
+        "paragraphs": [
+          "Microsoft 表示 Surface Laptop Ultra 於 10 月 16 日起在指定市場供貨，美國建議售價 2,599 美元起；Dev Box 的 5,999 美元預購則限定 Microsoft 美國官網，預計 11 月出貨。這些資訊不能直接換算成台灣售價、上市時程或保固條件，購買前應以台灣官方通路的完整型號與條款為準。",
+          "同一系列的「最高 128GB」與「最高 1 petaflop」也不是每台現貨的共同規格。比較新機或日後的二手機時，應核對處理器／GPU 配置、實際統一記憶體、SSD 容量、作業系統版本、充電器與地區保固，而不是只看 RTX Spark 或 Surface Laptop Ultra 名稱。"
+        ]
+      },
+      {
+        "heading": "二手與跨平台使用的檢查方向",
+        "paragraphs": [
+          "統一記憶體由 CPU、GPU、作業系統、應用程式與模型工作負載共同使用，不能直接拿總容量和傳統筆電的 RAM 加獨立顯示記憶體做一對一比較。若主要用途是剪輯、遊戲或特定 Windows 軟體，仍應先確認 Arm 架構的應用程式、驅動程式、外接裝置與遊戲相容性。",
+          "日後選購二手機時，可再檢查電池循環與續航、SSD 是否曾更換、所有連接埠、散熱噪音、企業管理鎖定與 Microsoft 帳號移除狀態。本文整理官方規格與編輯購機方向，不是本站實測，也不把理論運算數字視為每項工作都能達到的效能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Devices Blog｜Pre-order our most powerful Surface devices ever",
+        "url": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+        "date": "2026-10-07"
+      }
+    ]
+  },
+  {
+    "slug": "google-account-passkey-used-phone-handover-check",
+    "title": "Google 再推帳戶 Passkey：二手機交機前別忘了檢查舊裝置憑證",
+    "category": "帳號安全",
+    "description": "Google 說明如何以指紋、臉部或裝置 PIN 建立 Passkey；換機或出售二手機時，還要檢查帳戶中的舊裝置、復原方式與同步憑證。",
+    "publishedAt": "2026-10-09T09:47:26+08:00",
+    "updatedAt": "2026-10-09T09:47:26+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Passkey 以裝置解鎖方式登入",
+        "paragraphs": [
+          "Google 於 10 月 8 日再次說明 Google 帳戶 Passkey 的設定方式。Passkey 可用裝置上的指紋、臉部辨識或 PIN 完成登入；Google 表示生物辨識資料保留在裝置上，不會分享給 Google，且 Passkey 的設計可降低一般密碼常見的網路釣魚風險。",
+          "官方提供的基本流程是前往 g.co/passkeys，選擇建立 Passkey，再依畫面指示完成。這項說明是在推廣帳戶安全功能，並不代表每一台舊手機都已正確移除原使用者的憑證或復原設定。"
+        ]
+      },
+      {
+        "heading": "換機重點：先確認憑證保留在哪裡",
+        "paragraphs": [
+          "Passkey 可能由裝置或密碼管理工具保存，實際同步與可用範圍取決於使用者的設定與平台。出售舊手機前，建議先在 Google 帳戶安全性頁面檢查 Passkey、已登入裝置、兩步驟驗證與復原方式，移除不再使用或無法辨識的項目。",
+          "只刪除瀏覽器資料或移除桌面捷徑，不能當作完整交機。應先在新裝置驗證自己仍能登入與復原帳戶，再從舊裝置登出、移除帳號並依原廠流程執行清除；若是公司或學校裝置，還要確認管理員政策。"
+        ]
+      },
+      {
+        "heading": "買二手機時不要接手前任帳號狀態",
+        "paragraphs": [
+          "買家開機時若看到前任使用者的 Google 帳戶、螢幕鎖或要求原帳號驗證，不應接受賣家以「之後再處理」帶過。應由賣家先完成解除帳號與原廠重置，買家再以自己的網路與帳號走完啟用流程。",
+          "Passkey 能降低部分釣魚風險，但不能取代裝置鎖、系統更新、可信任的復原方式與備份。以上為編輯整理的交機檢查建議；各 Android 品牌的重置保護與帳號移除介面可能不同，仍以裝置官方說明為準。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog｜How to set up a Google Account passkey",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/how-to-set-up-passkey/",
+        "date": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "slug": "acer-september-2026-pc-tablet-revenue-market-check",
+    "title": "宏碁 9 月 PC、平板營收成長：市場熱度不等於二手價格保證",
+    "category": "市場觀察",
+    "description": "宏碁公布 2026 年 9 月、第三季與前九月營收成長；公司營收可觀察產品線動能，但不能直接當成個別新品或二手機的成交價與保值率。",
+    "publishedAt": "2026-10-09T09:47:26+08:00",
+    "updatedAt": "2026-10-09T09:47:26+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：9 月與第三季營收成長",
+        "paragraphs": [
+          "宏碁於 10 月 8 日公告，2026 年 9 月合併營收為新台幣 347.4 億元，年增 17.6%、月增 15.1%；第三季初步合併營收為 918.2 億元，年增 25.1%、季增 7.6%；今年前九月初步合併營收為 2,495.5 億元，年增 24.0%。",
+          "產品線方面，官方列出的 9 月年增幅包括 PC 14.8%、Chromebook 4.2%、商用產品 7.0%、平板 126.6%；前九月相對去年同期則分別成長 21.4%、11.1%、34.2% 與 12.7%。這些數字是公司營收資料，不是台灣二手市場的成交量統計。"
+        ]
+      },
+      {
+        "heading": "編輯分析：營收成長不能直接推導保值",
+        "paragraphs": [
+          "營收會受到新品上市、通路備貨、產品組合、商用標案、匯率與比較基期影響；即使某產品線成長，也不代表所有型號都漲價、缺貨或更保值。二手機價格還會受到世代、處理器、記憶體、電池、外觀、保固與實際供需左右。",
+          "因此不宜把公司單月營收直接轉成「現在是買點」或「舊機一定保值」的結論。對消費者更有用的做法，是逐台比較可核對的店家刊登價格、完整配置與售後條件，而不是用單一公司財務數字取代商品檢查。"
+        ]
+      },
+      {
+        "heading": "購買 Acer 新舊裝置的實際檢查項目",
+        "paragraphs": [
+          "比較筆電、Chromebook 或平板時，先確認完整型號與上市年份，再核對處理器、記憶體能否升級、儲存空間、螢幕、電池健康度、充電器、系統更新期限與台灣保固。商用退役機還要檢查 BIOS 密碼、公司管理註冊與作業系統授權。",
+          "若賣家引用品牌成長或熱銷說法，仍應回到該台實機的序號、維修紀錄、功能測試與退換條件。本文只整理宏碁官方財務資訊並說明其解讀限制，未推算市場平均價格，也不預測特定型號未來售價。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Acer Newsroom｜September consolidated revenues",
+        "url": "https://news.acer.com/acer-reports-september-consolidated-revenues-of-nt3474-billion-highest-in-14-years",
+        "date": "2026-10-08"
+      }
+    ]
   }
 ]
