@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "44ade0479f100c5db4441a6bf2cd1f94fff2961b",
+  "previous_pull_request": 13,
+  "formal_records_added": 1,
+  "completed_responses_observed": 2,
+  "failed_query_attempts": 1,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q12"],
+      "unsubmitted_question_ids": ["q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q12 完成回覆，但頁面地區未知，且正文只有購買管道類型、沒有具名推薦網站清單；只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q12"],
+      "unsubmitted_question_ids": ["q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q12 在全新登出 Flash-Lite 對話送出後顯示錯誤 1096；本次頁面未顯示可核對地區，故只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q12"],
+      "unsubmitted_question_ids": ["q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q12 在明示台灣的全新登出搜尋頁取得 AI 摘要；正文依序具名 Q哥與創宇通訊，本站未出現，正式記為 not_present。",
+      "single_top_three": false,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q12。三平台均直接操作實際網頁、各送出一次；Google AI 摘要符合正式條件，ChatGPT 地區未知且沒有具名推薦清單，Gemini 錯誤且地區未知。沒有重試挑結果，沒有把來源標籤或一般搜尋結果當成推薦名次。"
+}

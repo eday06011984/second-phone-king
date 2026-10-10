@@ -830,8 +830,8 @@
     {
       "platform": "google_ai_overview",
       "total_questions": 25,
-      "untested_questions": 24,
-      "single_top_three_records": null,
+      "untested_questions": 22,
+      "single_top_three_records": 0,
       "confirmed_stable_questions": 0,
       "stable_total": null,
       "stable_unknown_questions": 25,
@@ -1015,33 +1015,37 @@
         {
           "id": "q12",
           "prompt": "二手機怎麼挑",
-          "attempted": false,
-          "measured_dates": 0,
+          "attempted": true,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
-            "not_present": 0,
+            "not_present": 1,
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": null,
-          "selected_record_ids": [],
+          "single_top_three_count": 0,
+          "selected_record_ids": [
+            "google_ai_overview-q12-2026-10-09T08-25-49+08-00"
+          ],
           "stable": "unknown"
         },
         {
           "id": "q13",
           "prompt": "買二手機注意事項",
-          "attempted": false,
-          "measured_dates": 0,
+          "attempted": true,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
             "not_present": 0,
-            "indeterminate": 0,
+            "indeterminate": 1,
             "failed": 0
           },
           "single_top_three_count": null,
-          "selected_record_ids": [],
+          "selected_record_ids": [
+            "google_ai_overview-q13-2026-10-10T08-38-40+08-00"
+          ],
           "stable": "unknown"
         },
         {
@@ -2902,6 +2906,84 @@
       "recommended_sites": [],
       "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量 reCAPTCHA；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。",
       "date": "2026-10-08",
+      "target_rank": null,
+      "top_three_sites": [],
+      "single_top_three": null
+    },
+    {
+      "id": "google_ai_overview-q12-2026-10-09T08-25-49+08-00",
+      "question_id": "q12",
+      "platform": "google_ai_overview",
+      "prompt": "二手機怎麼挑",
+      "status": "not_present",
+      "measured_at": "2026-10-09T08:25:49+08:00",
+      "mode": "Google Search default All results; AI Overview present; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "挑選二手機時，首重選擇有信譽的實體商家或官方認證通路，並現場仔細檢查外觀、功能與電池健康度。\n\n挑選二手機的完整重點如下：\n\n挑選與購買管道\n推薦通路：選擇提供售後保固的 Q哥、創宇通訊或專業維修中心，比私下跟個人賣家面交更有保障。\n價格警覺：避開價格遠低於市場行情的異常機，高機率是拼裝機、泡水機或有問題的黑心機。\n\n核心檢查重點\n外觀與螺絲：檢查螢幕刮痕、邊框凹陷，以及螢幕與邊框縫隙是否均勻；檢視底部螺絲是否有被拆卸過的痕跡。\n身分碼（IMEI）：在撥號介面輸入 *#06# 查詢 IMEI 碼，核對是否與手機盒裝一致，並確認非電信黑名單或贓機。\n帳號清除：確認前機主已完全登出並解除綁定 iCloud 或 Google 帳號，且能正常重置手機。\n電池健康度：若買二手 iPhone，建議挑選電池健康度在 85% 以上的機型，避免買來不久就需自費更換電池。\n硬體功能測試：現場測試通話、雙鏡頭拍照、Face ID / 指紋辨識、Wi-Fi、充電、喇叭與實體按鍵是否完全正常。\n\n了解二手市場的內部運作與常見細節可以參考這部影片：\n超便宜二手機你敢買？全台最大二手機供應鏈開箱【超認真少年】 ...\nYouTube · 超認真少年Imserious\n\n如果你想進一步縮小範圍，請告訴我：\n你想找的是 iPhone 還是 Android？\n你的預算範圍大約是多少？\n主要的使用需求是什麼（例如：拍照、日常順暢、打遊戲等）？\n我可以為你推薦最合適的機型與挑選建議。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "qek888",
+          "name": "Q哥",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        }
+      ],
+      "notes": "Google 首頁與結果頁皆明確顯示台灣，結果頁並顯示依 IP 位址為高雄市左營區。於全新登出搜尋頁逐字送出固定問句一次；推薦順序只取 AI 摘要正文『推薦通路』的具名項目，未使用來源卡、延伸影片或一般搜尋結果。本站未出現。",
+      "date": "2026-10-09",
+      "target_rank": null,
+      "top_three_sites": [
+        {
+          "site_id": "qek888",
+          "name": "Q哥",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        }
+      ],
+      "single_top_three": false
+    },
+    {
+      "id": "google_ai_overview-q13-2026-10-10T08-38-40+08-00",
+      "question_id": "q13",
+      "platform": "google_ai_overview",
+      "prompt": "買二手機注意事項",
+      "status": "indeterminate",
+      "measured_at": "2026-10-10T08:38:40+08:00",
+      "mode": "Google Search default All results; AI Overview present; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "購買二手手機時，建議優先選擇有信譽、提供保固的實體店面，並從以下五大核心項目進行仔細檢查：\n\n1. 帳號與解鎖狀態（最重要）\n- 重置手機：現場要求賣家將手機「重置（回復原廠設定）」，確認沒有綁定任何 Google 帳號、Apple ID 或原廠雲端鎖定。\n- 啟用鎖定：若開機時顯示「已為擁有者鎖定」或有 MDM 企業鎖定，絕對不要購買。\n- SIM卡鎖定：插入自己的 SIM 卡，確認無電信業者鎖定，且 4G/5G、Wi-Fi、熱點、藍牙都能正常連線。\n\n2. 硬體與外觀檢查\n- 螢幕與觸控：顯示純色畫面檢查有無亮暗點；用手指在畫面上滑動測試各區域觸控是否靈敏。\n- 外觀與受潮：檢查機身有無明顯凹痕、裂紋；部分手機 SIM 卡槽內有受潮貼紙，若變紅代表曾進水。\n- 實體按鍵與生物辨識：測試音量鍵、電源鍵、靜音鍵，並實際設定 Face ID 或指紋辨識測試解鎖。\n\n3. 相機與通話功能\n- 相機鏡頭：前後鏡頭都要拍照、錄影、測試自動對焦與不同倍率，對著白牆拍以確認鏡頭內部有無黑點或入塵。\n- 聲音與通話：撥打電話測試聽筒、麥克風、喇叭是否有雜音，並錄影測試收音與震動功能。\n\n4. 電池健康度與零件\n- 電池狀態：查看設定中的電池健康度（iPhone 通常建議 80% 以上較佳），並觀察背蓋有無膨脹。\n- 維修紀錄：若為 iPhone，可至「設定 -> 一般 -> 關於本機」檢查零件與維修記錄，確認是否更換過非原廠零件。\n- 充電測試：帶自己的充電線與豆腐頭（或行動電源），測試有線充電、無線充電孔會不會鬆動或異常發燙。\n\n5. 交易管道與售後保障\n- 挑選管道：避免來路不明的個人網路賣家，建議找提供測試合格報告、14天內非人為故障換機、以及 3 至 6 個月保固的專業店家。你可以參考 Apple 支援提供的官方二手檢查建議。\n\n如果方便告訴我：\n- 你打算買的是 iPhone 還是 Android？\n- 大約的預算是多少？\n我可以提供更具體的機型推薦或驗機小技巧！"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "Google 首頁與結果頁皆明確顯示台灣，結果頁並顯示依 IP 位址為高雄市左營區。於全新登出搜尋頁逐字送出固定問句一次。AI 摘要正文沒有具名推薦網站清單；圓方電信、炘馳通訊、Apple 支援、零壹通訊、創宇通訊、Instagram 帳號與 Q哥為引用來源或後續卡片，Apple 支援在正文也只是檢查建議來源，均未用來建立推薦順序。本站未出現，但單次前三因無可判讀清單而維持未知。",
+      "date": "2026-10-10",
       "target_rank": null,
       "top_three_sites": [],
       "single_top_three": null
