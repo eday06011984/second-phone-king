@@ -1,5 +1,7 @@
 # 二手機王新聞更新
 
+> 2026-10-09：因收錄資料不足，市場／店家平均價格功能已停用。維護新聞、指南與 SEO 文案時，不得宣稱本站提供市場均價、統計行情或自動恢復該顯示；可引用逐筆可核對的店家刊登價格。歷史觀測證據保留原文。
+
 Repository: eday06011984/second-phone-king
 Branch: main
 Production Worker: second-phone-king
