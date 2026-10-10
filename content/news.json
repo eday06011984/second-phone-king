@@ -1855,5 +1855,110 @@
         "date": "2026-10-08"
       }
     ]
+  },
+  {
+    "slug": "oppo-find-x10-global-launch-preview-buying-check",
+    "title": "OPPO Find X10 系列預告 10 月 21 日全球發表：買新機先分清預告規格與台灣上市資訊",
+    "category": "手機新品",
+    "description": "OPPO 預告 Find X10 系列將於 10 月 21 日全球發表；相機、晶片與電池資訊已公開，但價格、地區版本與完整供貨仍待公布。",
+    "publishedAt": "2026-10-10T09:43:03+08:00",
+    "updatedAt": "2026-10-10T09:43:03+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：雙 2 億與三 2 億畫素版本先行曝光",
+        "paragraphs": [
+          "OPPO 於 10 月 8 日宣布，Find X10 系列將在 10 月 21 日於西班牙馬略卡全球發表。官方預告 Find X10 採雙 2 億畫素相機，Find X10 Pro Max 則採超廣角、主鏡頭與望遠鏡頭皆為 2 億畫素的三鏡頭配置，並搭配 LUMO True Image Engine。這些是發表前的廠商規格說明，本站尚未進行實機測試。"
+        ]
+      },
+      {
+        "heading": "影像與效能：型號之間仍有差異",
+        "paragraphs": [
+          "依官方資訊，Find X10 的兩顆 2 億畫素相機，以及 Find X10 Pro Max 的三顆後置相機，支援 4K 120fps 與 8K 30fps；系列也加入 Open Gate 全感光區錄影。處理器方面，Find X10 採 Dimensity 9600M，Pro Max 為 Dimensity 9600 Pro。消費者比較時應逐一對照型號，不能把 Pro Max 的功能直接套用到全系列。"
+        ]
+      },
+      {
+        "heading": "購機分析：電池容量與上市條件要看地區",
+        "paragraphs": [
+          "OPPO 表示兩款手機在多數市場配置 8,000mAh 電池，但註明部分市場為 7,150mAh；完整規格、售價與供貨地區要到 10 月 21 日才公布。若考慮海外版或日後二手機，建議先核對完整型號、行動網路頻段、系統服務、保固地區與電池標示，再比較通路價格。預告中的續航與電池健康數據來自 OPPO 實驗室，不等同個別裝置的實際表現。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "OPPO Global Newsroom",
+        "url": "https://www.oppo.com/en/newsroom/press/oppo-findx10series-upcoming-launch/",
+        "date": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-wallet-usdc-us-region-used-galaxy-check",
+    "title": "Samsung Wallet 將在美國導入 USDC：二手 Galaxy 跨區使用先查資格與帳戶",
+    "category": "手機服務",
+    "description": "Samsung Wallet 預計 10 月底在美國向符合資格的 Galaxy 用戶提供 USDC 功能；台灣用戶不應把美國公告視為本地已開放。",
+    "publishedAt": "2026-10-10T09:43:03+08:00",
+    "updatedAt": "2026-10-10T09:43:03+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：首波限定美國符合資格的 Galaxy 用戶",
+        "paragraphs": [
+          "Samsung Electronics America 於 10 月 7 日宣布，Samsung Wallet 預計在 10 月最後一週加入穩定幣功能，首波支援 USDC，對象是美國符合資格的 Galaxy 用戶。官方表示可轉至相容的加密錢包，或匯往超過 60 個國家的合資格銀行帳戶；這項公告並未表示台灣版 Samsung Wallet 已同步開放。"
+        ]
+      },
+      {
+        "heading": "裝置只是入口，資格仍與地區及服務方有關",
+        "paragraphs": [
+          "官方說明，轉帳需在已註冊裝置上以生物辨識驗證，相關託管與基礎設施由 Bastion、Coinbase 等合作方提供。是否能使用仍取決於裝置相容性、帳戶資格、所在地法規與服務條款；即使同為 Galaxy 手機，也不能只靠型號或安裝 Samsung Wallet 就推定功能可用。"
+        ]
+      },
+      {
+        "heading": "二手機交接：先移除支付與錢包資料",
+        "paragraphs": [
+          "購買跨區二手 Galaxy 時，可先確認完整型號、銷售地區、韌體與 Samsung Wallet 顯示的實際服務，再決定是否符合需求。出售前則應依官方流程移除支付卡、錢包服務與 Samsung 帳號，完成備份後再恢復原廠設定。穩定幣功能涉及匯率、法規與服務風險，本文只整理裝置與帳戶檢查重點，不構成投資或轉帳建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung U.S. Newsroom",
+        "url": "https://news.samsung.com/us/samsung-wallet-bring-stablecoin-access-eligible-galaxy-users-us/",
+        "date": "2026-10-07"
+      }
+    ]
+  },
+  {
+    "slug": "geforce-now-fire-tv-membership-cloud-gaming-check",
+    "title": "GeForce NOW 將支援 Fire TV 內購會員：雲端遊戲不代表任何電視棒都能跑",
+    "category": "遊戲與串流",
+    "description": "NVIDIA 宣布 Fire TV 用戶未來可透過 Amazon 直接購買 GeForce NOW 會員；選設備前仍要核對型號、地區、網路與控制器。",
+    "publishedAt": "2026-10-10T09:43:03+08:00",
+    "updatedAt": "2026-10-10T09:43:03+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Fire TV 內購仍待後續開放",
+        "paragraphs": [
+          "NVIDIA 於 10 月 8 日宣布，Fire TV 用戶未來數週將能透過 Amazon 直接購買 GeForce NOW 會員，並同步公布《Gears of War: E-Day》等十款本週加入的遊戲。官方使用「即將」與「未來數週」描述，代表這不是所有地區、所有裝置當下都已可用的功能。"
+        ]
+      },
+      {
+        "heading": "雲端效能不等於本地硬體規格",
+        "paragraphs": [
+          "NVIDIA 表示 Ultimate 會員可使用雲端 RTX 5080 等級效能，服務也涵蓋低功耗筆電、Mac、行動裝置、掌機與部分瀏覽器。這些效能由遠端伺服器提供，不能視為 Fire TV 或舊電腦本身具備同級顯示晶片；畫面解析度、更新率與延遲仍會受方案、裝置、網路及遊戲支援影響。"
+        ]
+      },
+      {
+        "heading": "購機分析：先查相容清單與整套成本",
+        "paragraphs": [
+          "若想用二手 Fire TV 或舊設備玩雲端遊戲，建議先核對精確型號、作業系統版本、GeForce NOW App 是否在所在地區提供，以及藍牙控制器、電視 HDMI 規格與家中網路品質。會員、遊戲授權、控制器及網路費用應分開計算；有條件的話先用日票或現有裝置測試輸入延遲，再決定是否添購硬體。以上為購機評估建議，並非本站串流效能測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+        "date": "2026-10-08"
+      }
+    ]
   }
 ]
