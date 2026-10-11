@@ -1,0 +1,31 @@
+{
+  "question_id": "q14",
+  "prompt": "二手機驗機清單",
+  "platform": "google_ai_overview",
+  "source": "direct_platform",
+  "included_in_formal_statistics": true,
+  "captured_at": "2026-10-11T08:43:07+08:00",
+  "url": "https://www.google.com/search?q=%E4%BA%8C%E6%89%8B%E6%A9%9F%E9%A9%97%E6%A9%9F%E6%B8%85%E5%96%AE",
+  "url_redaction": "只保留原始查詢參數，移除不影響證據判讀的工作階段與追蹤參數。",
+  "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+  "login_state": "logged_out",
+  "region": "TW",
+  "region_evidence": "搜尋前首頁頁尾顯示『台灣』；結果頁頁尾顯示『台灣』及『左營區 高雄市－根據你的 IP 位址』；介面語言為繁體中文。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "not_present",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "smart3c", "name": "創宇通訊", "is_target": false },
+    { "site_id": "yahoo-news", "name": "Yahoo 新聞驗機攻略", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": false,
+  "ranking_scope": "只依 AI 摘要正文結尾『您可以參考創宇通訊或 Yahoo 新聞驗機攻略』的首次具名順序記錄兩個延伸參考網站。Yahoo 新聞、Threads、圓方電信、零壹通訊、淘寶等段落旁引用來源與下方相關結果卡片未用來補推薦名次。",
+  "full_response": "購買二手機時，建議在現場面交並依照以下重點完整檢測，避免買到拼裝機或有問題的手機：\n\n1. 外觀與結構檢查\n- 機身與螢幕：檢查背蓋玻璃、邊框是否有明顯碰撞、凹陷、裂痕或嚴重刮痕。\n- 鏡頭玻璃：確認鏡頭是否破裂、有霧化現象，或是內部是否有「入塵、黑點」影響拍照。\n- 實體按鍵：測試音量鍵、電源鍵、靜音鍵，確認按壓回饋靈敏不卡頓。\n- 受潮與拆修痕跡：檢查底部的螺絲是否有被扭動、拆修過的痕跡；部分手機 SIM 卡槽內有受潮變色貼紙（正常為白色，進水會變成紅色或粉紅色）。\n\n2. 螢幕與顯示功能\n- 純色與亮暗點：在瀏覽器搜尋全黑、全白、紅、綠、藍等純色圖片，檢查有無亮點、暗點、綠線或螢幕烙印。\n- 觸控靈敏度：用手指壓著圖示在螢幕四周來回拖曳、畫圈，確保沒有局部觸控失靈的死角。\n- 原彩顯示 (True Tone)：如果是 iPhone，請至控制中心檢查是否有「原彩顯示」功能（若換過副廠螢幕通常會消失）。\n\n3. 核心功能與生物辨識\n- Face ID / 指紋辨識：現場設定並測試臉部或指紋解鎖，確認感應迅速、無失效提示。\n- 相機與閃光燈：測試前後鏡頭拍照、廣角/望遠變焦、自動對焦、錄影（含收音是否同步）以及 LED 閃光燈。\n- 通話與音訊：實際撥打電話，測試聽筒聲音、麥克風收音，以及擴音喇叭有無破音。\n- 網路與連線：測試 Wi-Fi、行動網路 (4G/5G)、熱點分享、藍牙耳機配對及 GPS 定位。\n\n4. 電池與充電\n- 電池健康度：iPhone 可在「設定」>「電池」>「電池健康度與充電」查看最大容量百分比（低於 80%~85% 建議殺價或考慮更換）。Android 手機可透過官方檢測工具（如 Samsung Members）或代碼查詢。\n- 充電功能：攜帶自己的充電線與豆腐頭，測試有線充電、無線充電（MagSafe）是否穩定，並留意孔位會不會鬆動。\n\n5. 系統、帳號與序號查核\n- 重置與雲端帳號：確認前手已完全登出 iCloud（Apple ID）或 Google 帳號，並將手機「回復原廠設定」，確認沒有「啟用鎖定（Activation Lock）」或被遠端鎖機。\n- SIM 卡限制：現場插入自己的 SIM 卡，確認無電信商綁定，並檢查是否顯示「沒有 SIM 卡限制」。\n- IMEI / 序號核對：撥打 *#06# 或在設定中查看序號，核對機身、系統顯示與盒裝上的三碼是否一致，並可至 Apple 官方順暢支援網站查詢保固與機型狀態。\n- 零件與服務紀錄（iPhone 適用）：至「設定」>「一般」>「關於本機」檢查是否有顯示「未知零件」，確認零件皆為原廠更換。\n\n您可以參考創宇通訊或 Yahoo 新聞驗機攻略獲得更詳細的圖文對照。\n\n如果你要買的是 iPhone 還是 Android 手機？或者預算大約多少？我可以幫你整理更針對性的檢查重點。",
+  "visible_source_labels": ["Yahoo新聞", "Threads／topwinfix", "圓方電信", "零壹通訊", "淘寶", "Apple 官方支援網站", "創宇通訊", "瘋先生"],
+  "evidence_method": "Opened a new logged-out Google homepage whose footer displayed Taiwan, submitted the exact fixed prompt once, expanded the AI Overview, and preserved its rendered text. The result footer also displayed Taiwan and an IP-derived Kaohsiung location. Only the two sites explicitly recommended in the AI Overview body were ordered; citation labels, related cards, and ordinary search results were excluded.",
+  "exclusion_reason": null
+}
