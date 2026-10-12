@@ -2070,5 +2070,117 @@
         "date": "2026-10-08"
       }
     ]
+  },
+  {
+    "slug": "huawei-october-2026-security-update-used-phone-check",
+    "title": "華為 10 月安全公告列出多項重大漏洞：買二手機先查系統版本與更新狀態",
+    "category": "手機安全",
+    "description": "華為 10 月手機與平板安全公告涵蓋 HarmonyOS、EMUI 與多個第三方元件修補；二手華為裝置應核對完整型號、系統版本及實際安全更新日期。",
+    "publishedAt": "2026-10-12T09:11:00+08:00",
+    "updatedAt": "2026-10-12T09:11:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：不同 HarmonyOS、EMUI 版本的修補範圍不同",
+        "paragraphs": [
+          "華為於 10 月 10 日更新 2026 年 10 月手機與平板安全公告，列出自家元件及第三方函式庫修補。官方清單包含圖形模組與事件通知管理的高嚴重度權限控管問題，也涵蓋檔案解析、ArkWeb、WLAN、定位、藍牙與自動填入服務等項目；第三方函式庫部分另列多項 Critical 與 High 等級 CVE。",
+          "公告的受影響版本分布在 HarmonyOS 7.0、6.1、4.x 及 EMUI 16、15、14.x，但每個弱點的適用版本不同。這份清單說明修補內容，不代表所有機型會在同一天收到更新，也不能只看品牌或系列名稱判定裝置已安全。"
+        ]
+      },
+      {
+        "heading": "購機分析：系統名稱相同，不等於安全修補日期相同",
+        "paragraphs": [
+          "查看二手華為手機或平板時，應在實機設定頁核對完整型號、HarmonyOS／EMUI 版本、安全修補日期與可用更新，並向賣家確認是否為跨區版本。不同市場、電信商與機型的推送進度可能不同；能正常開機或安裝 App，不代表已包含最新修補。",
+          "若裝置長期未更新、無法連到官方更新服務或仍受企業管理限制，應先釐清原因，再登入銀行、郵件與密碼管理器等重要帳號。"
+        ]
+      },
+      {
+        "heading": "交機前：先更新、重設，再處理帳號",
+        "paragraphs": [
+          "付款前可連上可信任網路檢查更新並重新啟動，確認帳號、裝置尋找功能與管理設定已由前使用者移除，再依官方流程重設。本文整理官方安全公告與購機檢查重點，未對特定二手機進行漏洞或滲透測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "HUAWEI Support｜Security Bulletins for HUAWEI Phones/Tablets, October 2026",
+        "url": "https://consumer.huawei.com/en/support/bulletin/2026/10/",
+        "date": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "slug": "asus-rog-gt-bn98-wifi8-router-buying-check",
+    "title": "ASUS ROG GT-BN98 WiFi 8 路由器出貨：買新路由器別只看 25,000Mbps",
+    "category": "網路設備",
+    "description": "ASUS 宣布 ROG Rapture GT-BN98 WiFi 8 路由器開始出貨；標示頻寬是多頻段理論總和，實際使用還要看終端支援、區域頻譜與網路環境。",
+    "publishedAt": "2026-10-12T09:11:00+08:00",
+    "updatedAt": "2026-10-12T09:11:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：四頻 WiFi 8、雙 10G 與四個 2.5G 連接埠",
+        "paragraphs": [
+          "ASUS ROG 於 10 月 6 日宣布 Rapture GT-BN98 開始出貨。官方標示這款四頻 WiFi 8 路由器的總頻寬最高 25,000Mbps，配備兩個 10G 與四個 2.5G 連接埠，並加入 Adaptive QoE、WiFi Insight、GTNet 路由與 AiProtection 等功能。",
+          "ASUS 將 WiFi 8 的重點放在多裝置、長距離與干擾環境下的穩定性。GTNet 則是整合在管理介面的第三方服務，會依延遲與壅塞選擇遊戲伺服器路徑；是否可用、方案與地區條件仍應依實際設定確認。"
+        ]
+      },
+      {
+        "heading": "購機分析：25,000Mbps 不是單一手機的下載速度",
+        "paragraphs": [
+          "25,000Mbps 是多個無線頻段的理論總和，不能直接當成一台手機、電腦或遊戲主機的實際速度。終端裝置支援的頻段、天線數、頻寬，寬頻方案、距離、牆面與鄰近干擾，都會影響連線表現。",
+          "官方產品頁也提醒 WiFi 8 功能需要相容用戶端，而且標準仍處於草案階段；實際效能會隨網路、環境與裝置而異。若考慮海外版本，還要確認 6GHz 頻譜、法規、電源與保固是否適用台灣。"
+        ]
+      },
+      {
+        "heading": "換路由器前：先盤點寬頻、網路孔與終端設備",
+        "paragraphs": [
+          "購買前可先列出家中寬頻速率、數據機與交換器規格、NAS／電腦網路孔、主要 WiFi 用戶端及涵蓋範圍，再判斷 10G、2.5G 與四頻功能是否真的會用到。若購買二手路由器，應確認可恢復原廠設定、管理員帳號已清除、韌體能正常更新，並核對發票與保固。本文未對 GT-BN98 進行吞吐量或延遲實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom｜ASUS Republic of Gamers Ships ROG Rapture GT-BN98 Router",
+        "url": "https://press.asus.com/news/press-releases/rog-rapture-gt-bn-98-next-gen-wi-fi-8-gaming-router",
+        "date": "2026-10-06"
+      }
+    ]
+  },
+  {
+    "slug": "windows-search-insider-inline-actions-used-pc-check",
+    "title": "Windows Search 測試直接執行設定動作：買二手電腦別把 Insider 預覽當正式功能",
+    "category": "Windows 軟體",
+    "description": "微軟在 Windows Insider Experimental channel 測試新版搜尋與內嵌動作；目前只屬預覽且先支援英文，不能當作所有 Windows 11 電腦的既有功能。",
+    "publishedAt": "2026-10-12T09:11:00+08:00",
+    "updatedAt": "2026-10-12T09:11:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：搜尋結果可直接切換部分系統設定",
+        "paragraphs": [
+          "微軟於 10 月 7 日介紹以 WinUI 3 重建的 Windows Search 預覽版，將結果集中在單一清單，加入錯字與同義詞比對，並測試可直接從搜尋結果執行的內嵌動作。首批動作包括深色模式、夜間光線、藍牙、降低螢幕亮度、靜音及排列視窗，手機相關動作則預計後續加入。",
+          "微軟表示早期測試顯示新版搜尋更快、資源使用較低，但這仍是預覽階段的官方描述，不等於所有電腦在所有使用情境都有相同表現。"
+        ]
+      },
+      {
+        "heading": "目前只在 Experimental channel 逐步測試",
+        "paragraphs": [
+          "這項功能自 10 月 7 日起分批提供給 Windows Insider Experimental channel，初期僅支援英文，指定版本為 26340.9616 與 28120.3181，且需開啟實驗功能並重新啟動電腦。它不是 Windows 11 正式版普遍可用功能，名稱、介面與功能都可能在測試後調整或取消。",
+          "因此看到展示影片或賣家說明時，應先確認裝置的 Windows 版本、語言與更新通道，不要把 Insider 功能當成一般消費者已獲得的固定規格。"
+        ]
+      },
+      {
+        "heading": "二手電腦交機：穩定版、啟用與管理狀態更重要",
+        "paragraphs": [
+          "查看二手 Windows 電腦時，應核對版本、啟用狀態、更新通道與是否受公司或學校管理。若裝置為了試用新功能加入 Insider，不必因此認定更有價值；重要工作用電腦可先評估回到穩定版的成本與資料備份需求。",
+          "交機前還要確認 BitLocker 復原金鑰、Microsoft 帳號、裝置尋找、MDM、BIOS 密碼與硬體健康狀態均已妥善處理，再依官方流程重設。本文整理預覽功能與購機注意事項，未對特定二手電腦進行效能測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Insider Blog｜From searching to doing: Building a faster, more streamlined Windows Search",
+        "url": "https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/",
+        "date": "2026-10-07"
+      }
+    ]
   }
 ]
