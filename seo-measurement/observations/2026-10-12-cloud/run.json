@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "93f72c39a914314ae3a844b747620e0a77989bb1",
+  "previous_pull_request": 15,
+  "formal_records_added": 1,
+  "completed_responses_observed": 1,
+  "failed_query_attempts": 2,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q15"],
+      "unsubmitted_question_ids": ["q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q15 完成回覆，但頁面地區未知，且正文是電池健康度查看與檢查說明、沒有具名推薦網站清單；只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q15"],
+      "unsubmitted_question_ids": ["q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q15 在全新登出 Flash-Lite 對話送出後立即顯示錯誤 1096；沒有取得回覆，且本次頁面未顯示可核對地區，故只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q15"],
+      "unsubmitted_question_ids": ["q16", "q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q15 從明示台灣的全新登出搜尋頁送出後進入異常流量 reCAPTCHA；沒有操作驗證、重試或取得搜尋結果／AI 摘要，正式保留為 failed。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q15。三平台均直接操作實際網頁、各送出一次；Google 搜尋前明示台灣但被 reCAPTCHA 阻擋，ChatGPT 地區未知且沒有具名推薦清單，Gemini 未取得回覆且地區未知。沒有重試挑結果，沒有把來源標籤或一般搜尋結果當成推薦名次。"
+}
