@@ -1960,5 +1960,115 @@
         "date": "2026-10-08"
       }
     ]
+  },
+  {
+    "slug": "chromeos-stable-october-security-update-used-chromebook-check",
+    "title": "ChromeOS 穩定版修補多項重大漏洞：買二手 Chromebook 先查版本與更新期限",
+    "category": "系統安全",
+    "description": "Google 於 10 月 9 日更新 ChromeOS／ChromeOS Flex 穩定通道，包含多項重大安全修補；二手 Chromebook 除了看當前版本，也要確認機型是否仍在自動更新期限內。",
+    "publishedAt": "2026-10-11T09:45:00+08:00",
+    "updatedAt": "2026-10-11T09:45:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：穩定通道更新至 16805.33.0",
+        "paragraphs": [
+          "Google Chrome Releases 於 10 月 9 日公告，ChromeOS 與 ChromeOS Flex 穩定通道正向多數裝置推送 OS 版本 16805.33.0，搭配瀏覽器版本 154.0.8037.151。官方同時列出瀏覽器與系統元件的多項安全修補，其中包含 Critical 與 High 等級問題；實際收到更新的時間仍可能因機型與分批推送而不同。"
+        ]
+      },
+      {
+        "heading": "購機分析：版本號與可更新年限是兩件事",
+        "paragraphs": [
+          "查看二手 Chromebook 時，可在設定中的 ChromeOS 資訊頁核對目前版本並執行「檢查更新」，但一次成功更新不代表未來仍會持續支援。還應用完整型號查詢 Google 公布的自動更新期限，並確認裝置不是被學校或公司管理的機器。",
+          "ChromeOS Flex 與原生 Chromebook 的硬體認證、功能支援及更新方式也不完全相同；賣家只說「可裝 ChromeOS」不足以判定相容性。若是自行安裝 Flex 的舊筆電，應再查認證機型清單、攝影機、觸控板、休眠與 Wi‑Fi 是否正常。"
+        ]
+      },
+      {
+        "heading": "交機前：先更新、重設，再登入重要帳號",
+        "paragraphs": [
+          "付款前可連上可信任網路完成更新並重新啟動，確認沒有企業註冊提示、異常延伸功能或無法移除的管理政策。接著依官方流程清除前使用者資料，再以自己的帳號登入；若機型已接近停止更新，應把後續安全風險與使用年限納入價格比較。本文整理官方版本資訊與購機檢查重點，未對特定二手機進行安全測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Chrome Releases｜Stable Channel Update for ChromeOS / ChromeOS Flex",
+        "url": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-chromeos.html",
+        "date": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "slug": "youtube-taiwan-ai-shopping-games-features-buying-check",
+    "title": "YouTube 台灣推出 6 項 AI 與互動功能：看開箱買 3C，別把 AI 摘要當實測",
+    "category": "影音與購物",
+    "description": "YouTube 在台推出購物在地化、遊戲角落與「問問 YouTube」等功能；從影片研究 3C 商品更方便，但 AI 整理與創作者推薦仍不能取代規格、價格及實機確認。",
+    "publishedAt": "2026-10-11T09:45:00+08:00",
+    "updatedAt": "2026-10-11T09:45:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：購物、遊戲與 AI 探索陸續在台推出",
+        "paragraphs": [
+          "Google 台灣於 10 月 7 日公布 YouTube Brandcast 2026 消息，宣布在台推出或陸續推出六項 AI 與互動功能。官方列出的重點包括商品標記在地化、免額外下載即可遊玩的「YouTube 遊戲角落」、直播寶石與熱推機制、「問問 YouTube」購物探索、「問問 Studio」，以及可連續觀看集數的 YouTube Shorts 系列。",
+          "其中遊戲角落標示可在 YouTube 介面遊玩超過 1,000 款遊戲，登入後可跨手機與電腦同步進度；「問問 YouTube」則可針對影片中的商品提問並整理開箱比較重點。官方使用「推出」與「陸續推出」兩種描述，實際帳號是否已能使用仍要以介面為準。"
+        ]
+      },
+      {
+        "heading": "編輯分析：AI 整理能加速研究，不能替你驗機",
+        "paragraphs": [
+          "AI 對影片內容的摘要，主要幫助快速定位資訊，不能證明創作者實測方法完整，也不能確認你要買的那一台二手機狀況。開箱影片可能使用不同地區版本、軟體版本或贊助樣機；畫面中出現的價格與促銷也可能已失效。",
+          "透過購物標記前往商家時，還是要另外核對完整型號、容量、保固、退換貨、配件與賣方身分。若是二手商品，應要求目前實機照片、序號或可驗證的商品資料，不要只依 AI 回答、影片留言或創作者推薦付款。"
+        ]
+      },
+      {
+        "heading": "使用建議：把影片當線索，保留可核對證據",
+        "paragraphs": [
+          "研究 3C 商品時，可先用影片與 AI 功能整理候選規格，再回到品牌官方頁、店家商品頁與實機檢查逐項驗證。遇到跨境商品標記時，還要確認台灣頻段、插頭、稅費、保固地區及售後窗口。生成式 AI 內容則可留意平台標籤，但標籤存在或不存在都不等於內容一定真實。以上為編輯購機建議，並非本站對 YouTube 功能或特定商品的實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 台灣｜YouTube Brandcast 2026",
+        "url": "https://blog.google/intl/zh-tw/products/explore-get-answers/youtube-brandcast-2026/",
+        "date": "2026-10-07"
+      }
+    ]
+  },
+  {
+    "slug": "google-cloud-gemini-agent-workspace-permission-device-check",
+    "title": "Google Cloud 發表 Gemini 代理：公司資料會跟著帳號走，換二手電腦先查權限",
+    "category": "AI 與雲端",
+    "description": "Google Cloud 公布可在 Workspace 與多種工具中運作的 Gemini 代理；企業導入時，裝置、帳號、資料分享與稽核權限必須分開管理。",
+    "publishedAt": "2026-10-11T09:45:00+08:00",
+    "updatedAt": "2026-10-11T09:45:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：單一代理整合 Workspace 與企業工具",
+        "paragraphs": [
+          "Google Cloud 於 10 月 8 日公布 Gemini 代理，定位為可處理知識工作、內容創作、程式編寫與工具操作的通用工作代理。官方表示，它可在網頁、iOS、Android、Windows、Mac、命令列與 Google Workspace 等環境使用，並能連結 Microsoft 365、Slack、Git、Jira、資料庫及 MCP 伺服器等工具。",
+          "公告亦介紹具獨立 Workspace 帳戶、郵件、日曆與雲端硬碟的「同事代理」。Google 表示代理會以自己的身分運作，只能查看被分享的內容，並遵循既有分享及成員資格設定；實際功能、方案與管理選項仍應以企業租戶和管理員設定為準。"
+        ]
+      },
+      {
+        "heading": "編輯分析：AI 在雲端，風險不只存在電腦裡",
+        "paragraphs": [
+          "企業資料若透過帳號、雲端硬碟或第三方連接器提供給代理，單純清除或更換筆電不一定會撤銷這些存取權。反過來說，購買二手電腦也不會自動取得前公司雲端資料；真正要檢查的是裝置管理、瀏覽器工作資料、登入權杖、共享權限與連接器授權是否已移除。",
+          "導入能持續執行與調度多個子代理的工具時，企業應先定義最小權限、可使用資料範圍、批准步驟、費用上限與稽核責任。官方功能說明不等於每個組織已完成風險評估，也不能把 AI 產出的內容直接當成已驗證事實。"
+        ]
+      },
+      {
+        "heading": "二手設備交接：裝置重設之外，還要處理帳號端",
+        "paragraphs": [
+          "出售公司筆電前，應先由管理員撤銷工作帳號工作階段、裝置註冊、瀏覽器同步、API 權杖與第三方連接器，再依組織流程抹除儲存裝置。購入退役商務電腦時，則要確認沒有 MDM、BIOS 密碼或無法解除的企業註冊。個人使用者若在共用或二手裝置登入雲端 AI，也應避免保存密碼並在離開前登出。以上為裝置與權限管理分析，並非特定企業環境的資安稽核。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 台灣｜Google Cloud 推出 Gemini 代理",
+        "url": "https://blog.google/intl/zh-tw/products/cloud/google-cloud-gemini/",
+        "date": "2026-10-08"
+      }
+    ]
   }
 ]
