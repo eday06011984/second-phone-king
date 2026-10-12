@@ -1,0 +1,31 @@
+{
+  "question_id": "q12",
+  "prompt": "二手機怎麼挑",
+  "platform": "google_ai_overview",
+  "source": "direct_platform",
+  "included_in_formal_statistics": true,
+  "captured_at": "2026-10-09T08:25:49+08:00",
+  "url": "https://www.google.com/search?q=%E4%BA%8C%E6%89%8B%E6%A9%9F%E6%80%8E%E9%BA%BC%E6%8C%91",
+  "url_redaction": "只保留原始查詢參數，移除不影響證據判讀的工作階段與追蹤參數。",
+  "mode": "Google Search default All results; AI Overview present; logged out",
+  "login_state": "logged_out",
+  "region": "TW",
+  "region_evidence": "搜尋前首頁頁尾顯示『台灣』；結果頁頁尾顯示『台灣』及『左營區 高雄市－根據你的 IP 位址』；介面語言為繁體中文。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "not_present",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    { "site_id": "qek888", "name": "Q哥", "is_target": false },
+    { "site_id": "smart3c", "name": "創宇通訊", "is_target": false }
+  ],
+  "target_rank": null,
+  "single_top_three": false,
+  "ranking_scope": "只依 AI 摘要正文『推薦通路』首次具名順序記錄 Q哥與創宇通訊；『專業維修中心』是通路類型。來源卡與延伸影片未用來補推薦名次。",
+  "full_response": "挑選二手機時，首重選擇有信譽的實體商家或官方認證通路，並現場仔細檢查外觀、功能與電池健康度。\n\n挑選二手機的完整重點如下：\n\n挑選與購買管道\n推薦通路：選擇提供售後保固的 Q哥、創宇通訊或專業維修中心，比私下跟個人賣家面交更有保障。\n價格警覺：避開價格遠低於市場行情的異常機，高機率是拼裝機、泡水機或有問題的黑心機。\n\n核心檢查重點\n外觀與螺絲：檢查螢幕刮痕、邊框凹陷，以及螢幕與邊框縫隙是否均勻；檢視底部螺絲是否有被拆卸過的痕跡。\n身分碼（IMEI）：在撥號介面輸入 *#06# 查詢 IMEI 碼，核對是否與手機盒裝一致，並確認非電信黑名單或贓機。\n帳號清除：確認前機主已完全登出並解除綁定 iCloud 或 Google 帳號，且能正常重置手機。\n電池健康度：若買二手 iPhone，建議挑選電池健康度在 85% 以上的機型，避免買來不久就需自費更換電池。\n硬體功能測試：現場測試通話、雙鏡頭拍照、Face ID / 指紋辨識、Wi-Fi、充電、喇叭與實體按鍵是否完全正常。\n\n了解二手市場的內部運作與常見細節可以參考這部影片：\n超便宜二手機你敢買？全台最大二手機供應鏈開箱【超認真少年】 ...\nYouTube · 超認真少年Imserious\n\n如果你想進一步縮小範圍，請告訴我：\n你想找的是 iPhone 還是 Android？\n你的預算範圍大約是多少？\n主要的使用需求是什麼（例如：拍照、日常順暢、打遊戲等）？\n我可以為你推薦最合適的機型與挑選建議。",
+  "visible_source_labels": ["www.qek888.com", "鼎威維修", "www.ucool3c.com", "YouTube／超認真少年Imserious"],
+  "evidence_method": "Opened a new logged-out Google homepage whose footer displayed Taiwan, submitted the exact fixed prompt once, and preserved the rendered AI Overview text. The result footer also displayed Taiwan and an IP-derived Kaohsiung location. Source cards and ordinary search results were not used as recommendation order.",
+  "exclusion_reason": null
+}
