@@ -2182,5 +2182,110 @@
         "date": "2026-10-07"
       }
     ]
+  },
+  {
+    "slug": "google-play-services-2640-wallet-ask-play-used-android-check",
+    "title": "Google Play 服務 26.40 更新：二手 Android 不只看系統版本",
+    "category": "手機軟體",
+    "description": "Google Play 服務與 Play 商店同步更新錢包、系統管理及 AI 評論摘要；買二手 Android 時，還要核對哪些更新狀態？",
+    "publishedAt": "2026-10-13T09:37:00+08:00",
+    "updatedAt": "2026-10-13T09:37:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：錢包、Play 商店與系統服務同步更新",
+        "paragraphs": [
+          "Google 於 10 月 12 日更新系統服務說明：Google Play 服務 26.40 加入 Google Wallet 掃描新增收據、改善交易通知中的商家名稱，並新增應用程式內訊息中心；系統管理服務也包含可更新性、連線、效能與穩定度改善。Google Play 商店 53.6 則為 Ask Play 加入來自使用者評論的摘要與直接引用，並新增社群貼文 AI 摘要等功能。官方同時提醒，部分功能可能仍屬實驗性質，只向特定使用者開放。"
+        ]
+      },
+      {
+        "heading": "購機分析：Android 大版本相同，服務狀態仍可能不同",
+        "paragraphs": [
+          "二手 Android 手機即使顯示相同的 Android 版本，Google Play 系統更新、Play 商店與 Google Play 服務版本仍可能不同；帳號地區、裝置型號及分批推出也會影響功能是否出現。看機時可到系統設定核對 Android 安全性更新與 Google Play 系統更新日期，再打開 Play 商店確認可正常更新應用程式。不要只憑新聞中的功能清單，就認定每台手機已具備相同體驗。"
+        ]
+      },
+      {
+        "heading": "交機前：付款、帳號與通知要分開驗證",
+        "paragraphs": [
+          "若交易重點包含 Google Wallet，可先確認手機具備正常螢幕鎖定、NFC 與未被修改的系統環境；但支付卡片是否能加入仍取決於銀行、地區與服務規則，店家不能只靠硬體外觀保證。交機前也應移除前任使用者帳號、重新設定自己的安全鎖定，並檢查 Play Protect 與更新功能。以上是依官方更新整理的編輯建議，並非特定二手機的功能保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google System Services Release Notes",
+        "url": "https://support.google.com/product-documentation/answer/14343500?hl=en",
+        "date": "2026-10-12"
+      }
+    ]
+  },
+  {
+    "slug": "pixel-buds-pro2-2a-update-used-earbuds-check",
+    "title": "Pixel Buds Pro 2、2a 功能更新：二手耳機先核對手機與手錶條件",
+    "category": "3C 配件",
+    "description": "Google 為 Pixel Buds Pro 2 與 Pixel Buds 2a 推出動態降噪、輕觸靜音與睡眠整合等功能；哪些體驗需要搭配特定裝置？",
+    "publishedAt": "2026-10-13T09:37:00+08:00",
+    "updatedAt": "2026-10-13T09:37:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：兩款耳機獲得多項新功能",
+        "paragraphs": [
+          "Google 於 10 月 6 日在 Pixel Buds 官方支援社群公布更新。Pixel Buds Pro 2 與 Pixel Buds 2a 可使用輕觸將通話麥克風靜音或解除靜音、快速啟動即時翻譯，並以 Gemini 語音控制部分耳機設定；配合 Pixel Watch 的睡眠偵測時，耳機能在使用者入睡後暫停媒體、關閉觸控並讓通知靜音。動態主動降噪則是 Pixel Buds Pro 2 專屬，會依耳塞密合度調整音訊與降噪。"
+        ]
+      },
+      {
+        "heading": "購機分析：同一項功能可能需要整套裝置",
+        "paragraphs": [
+          "功能名稱看起來都在耳機上，但實際條件不同：睡眠整合需要相容的 Pixel Watch，輕觸靜音依官方說明需搭配 Pixel 手機，動態降噪只列在 Pro 2。選購二手耳機前，應先核對完整型號、自己的手機與手錶是否相容，以及功能在所在地區和帳號是否已推出；原始 Pixel Buds Pro 或其他型號不能因名稱相近就視為同樣支援。"
+        ]
+      },
+      {
+        "heading": "二手耳機檢查：電池、充電盒與重設比外觀重要",
+        "paragraphs": [
+          "現場可將耳機從前任帳號解除並恢復原廠設定，再分別測試左右耳、麥克風、觸控、降噪、充電盒與充電接點。真無線耳機電池無法只靠外觀判斷，建議實際播放並觀察兩耳耗電是否明顯失衡，也要確認耳塞配件與清潔狀況。韌體新增功能不會修復老化電池或受潮損傷；以上為購機檢查建議，並非本站實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Pixel Buds Help Community",
+        "url": "https://support.google.com/googlepixelbuds/thread/470579319/a-huge-pixel-buds-update-is-coming-your-way",
+        "date": "2026-10-06"
+      }
+    ]
+  },
+  {
+    "slug": "meta-muse-wonder-agent-ai-cloud-pc-buying-check",
+    "title": "Meta 發表 Muse Wonder 代理型 AI：買電腦前先分清雲端與本機需求",
+    "category": "AI 與電腦",
+    "description": "Meta 推出 Muse Wonder 與 Muse Wonder Full，主打可處理多步驟代理任務；消費者不應只用「AI 電腦」標籤判斷是否需要換機。",
+    "publishedAt": "2026-10-13T09:37:00+08:00",
+    "updatedAt": "2026-10-13T09:37:00+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：模型面向代理任務與程式開發",
+        "paragraphs": [
+          "Meta 於 10 月 12 日公布 Muse Wonder 與 Muse Wonder Full，定位為可處理個人與專業代理任務的模型，包括理解文件、處理多步驟問題及協助建立應用程式。官方表示 Muse Wonder 已透過 Meta Model API 與 Muse Code 提供給開發者，Muse Wonder Full 則提供給 Muse Code 訂閱者。這項公告描述的是模型與開發服務，並不是新款消費型電腦或手機的上市規格。"
+        ]
+      },
+      {
+        "heading": "購機分析：雲端模型不等於一定要換高階硬體",
+        "paragraphs": [
+          "若工具主要透過雲端 API 或訂閱服務運作，使用者端硬體負擔、可用功能與費用模式，和在電腦本機執行模型並不相同。準備購買新舊電腦時，應先確認實際要用的軟體、作業系統、記憶體、顯示卡、網路需求與訂閱方案，再判斷是否需要升級；不能只看到『代理型 AI』或『AI PC』字樣，就推定某台電腦能離線執行完整模型。"
+        ]
+      },
+      {
+        "heading": "使用代理工具：權限與資料範圍要先設定",
+        "paragraphs": [
+          "代理工具可能依任務讀取文件、操作開發環境或呼叫外部服務，導入前應先確認登入帳號、檔案存取、第三方連線與付款權限，並保留人工覆核步驟。若以二手電腦承接工作資料，還要先清除舊帳號與裝置管理設定、重新加密儲存空間。上述為依官方公告延伸的編輯分析；Meta 並未因此公告特定消費硬體的效能或相容保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Meta Newsroom",
+        "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+        "date": "2026-10-12"
+      }
+    ]
   }
 ]
