@@ -1,0 +1,29 @@
+{
+  "question_id": "q17",
+  "prompt": "二手機 A 級 B 級差在哪",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-14T08:59:11+08:00",
+  "url": "https://chatgpt.com/uc/6aced3d2-4500-83ea-9484-f4226d7e08c8",
+  "mode": "logged-out ChatGPT; web search selected before sending; exact model name not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；繁體中文回覆不能代替平台地區證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "response_context_unknown",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [],
+  "target_rank": null,
+  "single_top_three": null,
+  "ranking_scope": "正文比較 A 級與 B 級的外觀使用痕跡，沒有具名推薦網站清單；資料來源標籤未用來建立推薦名次。",
+  "full_response": "如果你說的是二手機（手機）的 A 級、B 級，通常差別主要在外觀新舊程度，不是一定代表功能好壞。不同店家的標準會有差異，但大致如下：\n\n等級｜外觀狀況｜常見情況\nA 級｜較新、使用痕跡少｜可能有細小刮痕、輕微磨損，但拿在手上看起來接近漂亮機\nB 級｜使用痕跡明顯｜可能有較多刮痕、邊框掉漆、小凹痕，但功能通常正常\n\n簡單比喻：\n- A 級 = 前一個人用得比較愛惜\n- B 級 = 用過一段時間，有歲月痕跡\n\n買二手機不要只看 A/B 級，建議另外確認：\n- 電池健康度（尤其 iPhone）\n- 螢幕有沒有烙印、觸控問題\n- 是否換過螢幕或電池\n- Face ID / 指紋是否正常\n- 防水能力是否還在\n- 保固多久\n\n如果是 iPhone 二手 A 級跟 B 級，通常價差可能幾百到幾千元，看型號與店家分級標準。\n\n如果你告訴我是哪一支手機（例如 iPhone 15、S24），我也可以幫你判斷 A 級值不值得多花錢。",
+  "visible_source_labels": [
+    "smart3c.com.tw"
+  ],
+  "evidence_method": "Opened a new logged-out ChatGPT conversation, selected web search before sending, submitted the exact fixed prompt once, waited until generation controls returned to idle, and preserved the rendered answer text. Source labels were recorded separately and not used as recommendation order.",
+  "exclusion_reason": "ChatGPT 頁面沒有可核對的平台地區，且正文沒有可判讀的具名推薦網站清單；故不納入正式排名。"
+}
