@@ -830,7 +830,7 @@
     {
       "platform": "google_ai_overview",
       "total_questions": 25,
-      "untested_questions": 18,
+      "untested_questions": 17,
       "single_top_three_records": 0,
       "confirmed_stable_questions": 0,
       "stable_total": null,
@@ -1117,14 +1117,14 @@
         {
           "id": "q18",
           "prompt": "二手機店家跟個人賣家怎麼選",
-          "attempted": false,
+          "attempted": true,
           "measured_dates": 0,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
             "not_present": 0,
             "indeterminate": 0,
-            "failed": 0
+            "failed": 1
           },
           "single_top_three_count": null,
           "selected_record_ids": [],
@@ -3120,6 +3120,34 @@
       "recommended_sites": [],
       "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量驗證；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。",
       "date": "2026-10-14",
+      "target_rank": null,
+      "top_three_sites": [],
+      "single_top_three": null
+    },
+    {
+      "id": "google_ai_overview-q18-2026-10-15T08-18-25+08-00",
+      "question_id": "q18",
+      "platform": "google_ai_overview",
+      "prompt": "二手機店家跟個人賣家怎麼選",
+      "status": "failed",
+      "measured_at": "2026-10-15T08:18:25+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量驗證；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。",
+      "date": "2026-10-15",
       "target_rank": null,
       "top_three_sites": [],
       "single_top_three": null

@@ -6,7 +6,7 @@
 |---|---:|---:|---:|---:|---:|
 | chatgpt | 25 | 未知 | 0 | 未知 | 25 |
 | gemini | 23 | 0 | 0 | 未知 | 25 |
-| google_ai_overview | 18 | 0 | 0 | 未知 | 25 |
+| google_ai_overview | 17 | 0 | 0 | 未知 | 25 |
 
 ## chatgpt
 
