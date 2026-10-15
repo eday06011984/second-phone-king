@@ -2287,5 +2287,116 @@
         "date": "2026-10-12"
       }
     ]
+  },
+  {
+    "slug": "windows-11-kb5127648-october-update-used-pc-check",
+    "title": "Windows 11 10 月安全更新：24H2 家用版與專業版停止更新前先確認版本",
+    "category": "Windows 軟體",
+    "description": "Microsoft 發布 KB5127648，並提醒 Windows 11 24H2 Home／Pro 已到最後一次月度安全更新；選購二手電腦時，版本、更新資格與周邊相容性都要一起核對。",
+    "publishedAt": "2026-10-14T09:26:14+08:00",
+    "updatedAt": "2026-10-14T09:26:14+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：KB5127648 涵蓋 24H2、25H2 與 26H2",
+        "paragraphs": [
+          "Microsoft 於 10 月 13 日發布 Windows 11 累積安全更新 KB5127648，適用於 24H2、25H2 與 26H2。官方說明本次包含安全性改善，也持續推送新版 Secure Boot 憑證，並修正部分多使用者環境的檔案總管黑畫面、AC-3 音訊、Always On VPN、列印、遊戲滑鼠輸入與冷開機後指紋登入等問題。",
+          "同一頁也提醒，Windows 11 24H2 Home 與 Pro 的 10 月月度安全更新是最後一次更新；之後不再取得每月安全與非安全性預覽更新。這項期限針對特定版本與版本別，不能只看電腦外觀或『已安裝 Windows 11』就判斷後續支援。"
+        ]
+      },
+      {
+        "heading": "編輯分析：二手電腦要查版本，不只查是否已啟用",
+        "paragraphs": [
+          "購買二手 Windows 電腦時，可在「設定／系統／系統資訊」核對版本、版本別與 OS 組建，再開啟 Windows Update 檢查是否能正常取得更新。若仍停在 24H2 Home 或 Pro，應確認硬體是否符合升級條件、是否受公司管理，以及賣家能否在交機前完成更新。",
+          "更新頁仍列有 USB Audio Class 1.0 裝置的已知問題，部分症狀僅獲局部修正。使用外接音效卡、多聲道 USB 音訊或特殊周邊的買家，應把相容性實測納入交機流程，而不是把累積更新視為所有周邊問題都已解決。"
+        ]
+      },
+      {
+        "heading": "交機前：先備份、更新，再測試周邊",
+        "paragraphs": [
+          "安裝更新前先備份重要資料，更新後重新啟動並檢查音訊、列印、指紋、VPN 與遊戲輸入是否正常。二手設備還要確認 BitLocker 復原金鑰、Microsoft 帳號、裝置尋找、MDM 與 BIOS 密碼已妥善移除。以上為依官方更新整理的購機建議，並非本站對特定電腦的相容性保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Support｜KB5127648 Windows 11 security update",
+        "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+        "date": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "chrome-155-android-staged-update-used-phone-check",
+    "title": "Chrome 155 Android 更新分批推出：二手機瀏覽器版本也要核對",
+    "category": "手機軟體",
+    "description": "Google 將 Chrome 155.0.8059.79 分批推送至 Android；買二手機時，系統能開機不代表瀏覽器與 WebView 已更新。",
+    "publishedAt": "2026-10-14T09:26:14+08:00",
+    "updatedAt": "2026-10-14T09:26:14+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Chrome 155 先向部分 Android 使用者推出",
+        "paragraphs": [
+          "Google Chrome Releases 於 10 月 13 日公告，Chrome 155.0.8059.79 已先向一小部分 Android 使用者推出，並將透過 Google Play 在接下來幾天逐步提供。這種分批發布代表同一天、同一機型的不同裝置，看到的可用版本也可能不同。",
+          "官方公告確認的是版本與推送節奏，沒有把每台 Android 裝置的更新時間視為固定承諾。帳號地區、Google Play 狀態、裝置相容性與製造商設定，都可能影響實際收到更新的時間。"
+        ]
+      },
+      {
+        "heading": "購機分析：瀏覽器與系統元件都可能落後",
+        "paragraphs": [
+          "查看二手 Android 手機時，可在 Chrome 的應用程式資訊或「關於 Chrome」核對版本，並到 Play 商店檢查待更新項目。許多 App 也會透過 Android System WebView 顯示網頁內容，因此只更新 Chrome、只看 Android 大版本，仍不足以掌握整體網頁元件狀態。",
+          "若裝置無法登入 Play 商店、長期收不到 Chrome 或 WebView 更新，應先釐清是否為系統過舊、跨區韌體、企業管理或帳號問題，再登入銀行、郵件與購物帳號。"
+        ]
+      },
+      {
+        "heading": "交機前：重設後再驗證更新與同步",
+        "paragraphs": [
+          "交機時先移除前任使用者帳號並依官方流程重設，再以自己的帳號確認 Play Protect、Chrome 與 WebView 能正常更新。書籤、密碼及付款資料應透過自己的同步或匯入流程建立，不要沿用賣家的瀏覽器資料。本文依官方發布資訊整理，未把分批推出當成所有裝置已完成更新。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Chrome Releases｜Chrome for Android Update",
+        "url": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01360129943.html",
+        "date": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "asus-xa-p2n-e2-vera-agentic-ai-server-buying-analysis",
+    "title": "ASUS 發表 XA P2N-E2 代理型 AI 伺服器：別把資料中心規格當成一般 AI PC",
+    "category": "AI 與電腦",
+    "description": "ASUS 在 OCP 2026 公布搭載 NVIDIA Vera CPU 的 2U AI 伺服器；企業級代理運算規格與消費型 AI PC 的用途、電力及部署條件完全不同。",
+    "publishedAt": "2026-10-14T09:26:14+08:00",
+    "updatedAt": "2026-10-14T09:26:14+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Vera CPU 搭配彈性 GPU 加速",
+        "paragraphs": [
+          "ASUS 於 10 月 13 日發布 XA P2N-E2，這是一款採 NVIDIA MGX 架構、搭載 NVIDIA Vera CPU 的 2U 伺服器，定位於代理型 AI 與強化學習工作負載。官方指出，它可處理程式執行、工具呼叫、沙盒、資料處理與協調等模型之外的執行工作，並支援最多兩張雙槽 NVIDIA RTX PRO 6000 Blackwell Server Edition GPU。",
+          "ASUS 同場展示從單機到機櫃級 AI 基礎設施，涵蓋運算、網路、內容記憶體、推論與儲存；個別產品與配置的供貨仍依地區而異。這些資訊描述的是企業資料中心方案，不是一般桌機或筆電的上市規格。"
+        ]
+      },
+      {
+        "heading": "編輯分析：代理型 AI 的需求不等於買更大的顯示卡",
+        "paragraphs": [
+          "代理工作除了模型推論，還可能需要 CPU 單執行緒效能、記憶體頻寬、網路、儲存、沙盒隔離與權限管理。企業評估時應先盤點模型位置、同時使用量、資料敏感度、延遲、電力、散熱與維運能力，再決定雲端服務、工作站或機櫃伺服器；不能只從 GPU 型號推定整體效能。",
+          "一般消費者或小型店家若只是使用雲端 AI 工具，通常不會直接需要 2U 伺服器。選購新舊 AI PC 時，仍應回到實際軟體支援、記憶體、儲存、網路與訂閱成本，不要把資料中心級『代理型 AI』標籤當成換機的充分理由。"
+        ]
+      },
+      {
+        "heading": "採購前：把整機條件與售後責任寫清楚",
+        "paragraphs": [
+          "企業採購或二手流通時，應核對完整料號、CPU、GPU、記憶體、電源、機櫃尺寸、散熱、韌體、保固地區與維護合約；同系列可選配置不代表每台現貨都含相同加速器。本文整理官方規格與採購判斷重點，未對 XA P2N-E2 進行效能、功耗或價格測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom｜XA P2N-E2 with NVIDIA Vera CPU",
+        "url": "https://press.asus.com/news/press-releases/asus-ocp-2026-xa-p2n-e2-nvidia-vera-ai-servers/",
+        "date": "2026-10-13"
+      }
+    ]
   }
 ]
