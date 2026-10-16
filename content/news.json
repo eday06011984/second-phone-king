@@ -2398,5 +2398,116 @@
         "date": "2026-10-13"
       }
     ]
+  },
+  {
+    "slug": "firefox-158-security-update-used-computer-check",
+    "title": "Firefox 158 修補多項高風險漏洞：二手電腦交機後先更新瀏覽器",
+    "category": "電腦安全",
+    "description": "Mozilla 發布 Firefox 158，修補多項高風險漏洞；接手二手電腦時，瀏覽器版本、擴充套件與同步帳號都應重新檢查。",
+    "publishedAt": "2026-10-15T09:50:34+08:00",
+    "updatedAt": "2026-10-15T09:50:34+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Firefox 158 修補多項高風險問題",
+        "paragraphs": [
+          "Mozilla 於 10 月 13 日發布安全公告 MFSA 2026-106，將 Firefox 158 列為修補版本，整體影響等級為高。公告列出應用程式更新元件的權限提升、網路元件的沙箱逃逸與釋放後使用、IndexedDB 儲存、圖形、JavaScript 引擎、DOM 與音訊／視訊等多個元件問題。",
+          "這份公告說明的是已在 Firefox 158 修補的弱點，不代表每台電腦已自動完成更新。企業管理、離線使用、權限限制或長期未啟動瀏覽器，都可能讓實際版本落後。"
+        ]
+      },
+      {
+        "heading": "編輯分析：二手電腦的瀏覽器也是交機項目",
+        "paragraphs": [
+          "接手二手電腦時，不應只確認 Windows、macOS 或 Linux 能正常開機。瀏覽器可能保留舊版程式、過期擴充套件、企業政策與前任使用者的同步設定；若直接登入郵件、銀行或購物帳號，風險會落在最常使用的網路入口。",
+          "建議在乾淨的系統帳號中開啟 Firefox「說明／關於 Firefox」核對版本並完成更新，再檢查更新通道與是否受組織管理。擴充套件應逐一確認用途、開發者與權限，不需要的項目直接移除。"
+        ]
+      },
+      {
+        "heading": "交機後：清除舊資料，再建立自己的同步",
+        "paragraphs": [
+          "先確認前任使用者的 Firefox 帳號、已儲存密碼、付款資料與憑證已移除，必要時建立全新設定檔。完成系統與瀏覽器更新後，再以自己的帳號登入同步，並檢查下載、鏡頭、麥克風與通知等網站權限。本文依 Mozilla 官方公告整理，未聲稱特定二手電腦曾遭漏洞利用。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Mozilla Foundation Security Advisory｜Firefox 158",
+        "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-106/",
+        "date": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-galaxy-ai-bixby-language-support-used-phone-check",
+    "title": "Galaxy AI 與 Bixby 擴充語言支援：二手機功能仍要看機型與地區",
+    "category": "手機軟體",
+    "description": "Samsung 擴充 Galaxy AI 與 Bixby 的語言支援；買二手 Galaxy 前，仍要核對機型、地區、帳號與軟體版本。",
+    "publishedAt": "2026-10-15T09:50:34+08:00",
+    "updatedAt": "2026-10-15T09:50:34+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：翻譯、摘要與語音助理新增語言",
+        "paragraphs": [
+          "Samsung 於 10 月 14 日宣布擴充 Galaxy AI 與 Bixby 的語言支援。Call Assist、Note Assist、Interpreter 與 Transcript Assist 新增匈牙利語和馬來語，使 Galaxy AI 的支援範圍增至 24 種語言；Now Nudge 另新增八種語言，Bixby 則加入波蘭語、泰語與越南語。",
+          "官方表示 Bixby 新語言自 10 月 14 日開始推出，新的 Galaxy AI 語言將在後續數週陸續提供；詳細時程與功能仍依裝置、國家及地區而異，部分語言需從設定下載語言套件。"
+        ]
+      },
+      {
+        "heading": "編輯分析：系列名稱相同，不代表功能完全一致",
+        "paragraphs": [
+          "選購二手 Galaxy 時，商品標示支援 Galaxy AI，不能直接推定所有翻譯、摘要或 Bixby 語言都能使用。實際差異可能來自完整型號、銷售地區、One UI 版本、Samsung 帳號、網路連線與分批推送進度。",
+          "若特別需要通話翻譯或離線語言套件，可請店家在實機的「軟體資訊」與相關功能設定中核對，並以自己的使用語言試聽與輸入。官方也提醒，口音、方言、音量與環境噪音都可能影響辨識結果。"
+        ]
+      },
+      {
+        "heading": "交機前：先更新，再用自己的帳號測試",
+        "paragraphs": [
+          "建議確認前任 Samsung 與 Google 帳號已移除，依官方流程重設後再檢查系統與 Galaxy Store 更新。測試時可分別驗證文字輸入、語音辨識、語言下載與需要網路的功能，不要只看選單是否出現。本文整理官方發布條件與二手購機檢查重點，並非對個別機型功能的保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom｜Galaxy AI language support",
+        "url": "https://news.samsung.com/global/samsung-expands-language-support-across-ai-experiences-on-galaxy",
+        "date": "2026-10-14"
+      }
+    ]
+  },
+  {
+    "slug": "asus-expertbook-a7-amd-used-business-laptop-check",
+    "title": "ASUS ExpertBook A7 發表：超薄商務 AI 筆電，二手選購別只看標示續航",
+    "category": "電腦新品",
+    "description": "ASUS 發表 14 吋 ExpertBook A7 商務筆電；從記憶體、SSD、OLED 螢幕到官方續航條件，整理新舊機比較重點。",
+    "publishedAt": "2026-10-15T09:50:34+08:00",
+    "updatedAt": "2026-10-15T09:50:34+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：1 公分機身與 Ryzen AI 平台",
+        "paragraphs": [
+          "ASUS 於 10 月 14 日發表 ExpertBook A7（14 吋 AMD），採 6000 系列鋁合金一體成形機身，官方標示厚度最低 1 公分、重量 1.2 公斤起。配置最高為 AMD Ryzen AI 7 345、50 NPU TOPS、16GB LPDDR5X 記憶體與 512GB PCIe SSD，螢幕為 14 吋 2880×1800 OLED、最高 120Hz。",
+          "官方規格表列出兩個具充電與顯示輸出的 USB4 Type-C、USB-A、HDMI 2.1b、耳機孔、Wi‑Fi 6E、指紋辨識與獨立 TPM 2.0，並承諾五年 BIOS 與驅動安全更新；實際配置與供貨會依國家及版本不同。"
+        ]
+      },
+      {
+        "heading": "編輯分析：最高規格與續航數字不能套用所有機器",
+        "paragraphs": [
+          "官方所稱最長 21 小時續航，是以指定的 Ryzen AI 5、16GB 記憶體、512GB SSD 與 65Wh 電池，在螢幕亮度 50%、音量 50%及有線耳機播放本機 FHD 影片的實驗室條件取得。實際辦公、視訊、無線連線與螢幕亮度不同時，使用時間通常會改變。",
+          "購買新機或日後流入二手市場時，應核對處理器完整型號、12GB 或 16GB 焊接記憶體、SSD 容量、螢幕表面版本與保固地區。機身相同不代表配置相同，而焊接記憶體更應在付款前確認是否足夠。"
+        ]
+      },
+      {
+        "heading": "二手檢查：電池、OLED 與商務管理一起驗",
+        "paragraphs": [
+          "交機時可查看電池循環與健康狀態，以純色畫面檢查 OLED 是否有烙印、亮點或色偏，並逐一測試 USB4 充電、外接螢幕、HDMI、鍵盤、觸控板、鏡頭與指紋。商務機還要確認 BIOS 密碼、BitLocker、Windows 啟用與公司裝置管理已解除。本文採用官方規格並提供購機分析，沒有進行續航、耐用度或效能實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom｜ExpertBook A7 (14-inch AMD)",
+        "url": "https://press.asus.com/news/press-releases/asus-expertbook-a7-14-amd/",
+        "date": "2026-10-14"
+      }
+    ]
   }
 ]
