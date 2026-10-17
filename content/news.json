@@ -2509,5 +2509,116 @@
         "date": "2026-10-14"
       }
     ]
+  },
+  {
+    "slug": "rog-bulwark-dock-dg310-handheld-tv-buying-check",
+    "title": "ROG Bulwark Dock DG310 發表：掌機接電視前先核對充電與輸出條件",
+    "category": "3C 配件",
+    "description": "ASUS 發表 ROG Bulwark Dock DG310 掌機擴充底座；4K 144Hz、供電與連接埠都要連同掌機、電視及線材一起核對。",
+    "publishedAt": "2026-10-16T09:20:47+08:00",
+    "updatedAt": "2026-10-16T09:20:47+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：6 合 1 連接與 HDMI 2.1",
+        "paragraphs": [
+          "ASUS ROG 新聞稿頁面於 10 月 16 日列出 Bulwark Dock DG310。這款擴充底座以一條固定式 60 公分 USB-C 線連接 ROG Xbox Ally 系列，提供 HDMI 2.1、1Gb 乙太網路、三個 USB-A 3.2 Gen 1，以及搭配 100W 充電器時最高 80W 的 USB-C 供電。",
+          "官方標示 HDMI 輸出最高支援 4K 144Hz，並包含 VRR、ALLM 與 HDR；底座也提供一鍵藍牙配對與四種 RGB 燈效。這些是產品能力上限，實際顯示與充電表現仍取決於掌機、螢幕、遊戲、電源與線材是否共同支援。"
+        ]
+      },
+      {
+        "heading": "編輯分析：看到 HDMI 2.1，不等於任何組合都能跑滿",
+        "paragraphs": [
+          "購買掌機底座時，應先確認自己的掌機型號、USB-C 影像輸出與供電規格，再核對電視或螢幕支援的解析度、更新率、VRR 與 HDR。若其中一段只支援較低規格，畫面會依整條連線中最低的能力運作。",
+          "官方提到以 100W 充電器可提供最高 80W 供電，因此底座本身不能取代足瓦且相容的電源。準備外接 SSD、鍵盤、滑鼠或網路線時，也要把周邊耗電、USB 頻寬與擺放散熱空間一併考量。"
+        ]
+      },
+      {
+        "heading": "新舊配件交機：逐孔測試比看外觀重要",
+        "paragraphs": [
+          "二手底座可依序測試 USB-C 接頭與固定線是否鬆動、HDMI 輸出是否穩定、乙太網路速度、三個 USB-A 埠及充電狀態，再以實際遊戲確認畫面、聲音與喚醒功能。也應核對隨附電源、保固地區與完整料號。本文整理官方規格與購買檢查重點，未進行效能、溫度或相容性實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom｜ROG Bulwark Dock DG310",
+        "url": "https://press.asus.com/news/press-releases/rog-bulwark-dock-dg310-xbox-ally-accessories/",
+        "date": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "slug": "windows-11-photos-app-insider-used-pc-check",
+    "title": "Windows 11 相片 App 改版預覽：二手電腦別把 Insider 功能當成現成規格",
+    "category": "電腦軟體",
+    "description": "Microsoft 預覽新版 Windows 11 相片 App；新舊電腦使用者應分清 Insider 分批推送、雲端同步與硬體支援條件。",
+    "publishedAt": "2026-10-16T09:20:47+08:00",
+    "updatedAt": "2026-10-16T09:20:47+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：Gallery、Editor 與 Viewer 同步改版",
+        "paragraphs": [
+          "Microsoft 於 10 月 15 日介紹 Windows 11 新版相片 App，包含整合本機、OneDrive 與 iCloud 內容的 Gallery、以 WinUI 3 重建的原生 Editor，以及重新設計的 Viewer。Gallery 可依日期、人物與自然語言搜尋照片；Editor 支援 HDR、HEIC 與 WebP 編輯，並加入物件移除與 Relight 等工具。",
+          "官方表示新版體驗先從 Windows Insider 開始分批推出，預計稍後才擴大到所有 Windows 11 使用者。官方測試中 Editor 載入快 25%，Viewer 平均啟動快 15%、HEIC 圖片最高快 30%；這些數字來自受控測試，實際表現會隨裝置與設定不同。"
+        ]
+      },
+      {
+        "heading": "編輯分析：App 功能不等於二手電腦硬體保證",
+        "paragraphs": [
+          "看到 Windows 11 或相片 App 更新，不代表每台二手電腦已收到相同版本，也不代表自然語言搜尋等功能一定可用。實際狀態可能受 Insider 通道、Microsoft Store 更新、處理器架構、支援硬體、語言、帳號與地區影響。",
+          "若賣家以新版相片功能作為賣點，應在實機核對 Windows 版本、相片 App 版本與更新通道，再用本機照片測試開啟、搜尋和編輯。不要把官方受控環境的速度提升，直接當成個別二手機的效能結果。"
+        ]
+      },
+      {
+        "heading": "交機前：本機照片與雲端帳號要一起清理",
+        "paragraphs": [
+          "二手電腦交機前，應確認前任使用者的 Microsoft、OneDrive 與 iCloud 帳號都已登出，本機圖片庫、快取與共享相簿不再保留舊資料；買方登入後也要重新檢查相片備份和同步範圍。重要照片應另存第二份備份，再測試 HEIC、WebP、HDR 與一般 JPEG 是否能正常讀寫。本文為官方功能整理與二手使用建議，未對特定電腦進行速度測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Experience Blog｜Meet the new Photos app on Windows 11",
+        "url": "https://blogs.windows.com/windowsexperience/2026/10/15/meet-the-new-photos-app-on-windows-11/",
+        "date": "2026-10-15"
+      }
+    ]
+  },
+  {
+    "slug": "samsung-health-sleep-running-coach-used-watch-check",
+    "title": "Samsung Health 睡眠與跑步教練更新：買二手 Galaxy Watch 先查支援條件",
+    "category": "穿戴裝置",
+    "description": "Samsung Health 降低睡眠教練資料門檻並擴充跑步功能；買二手 Galaxy Watch 前，仍要核對手錶世代、手機與 App 版本。",
+    "publishedAt": "2026-10-16T09:20:47+08:00",
+    "updatedAt": "2026-10-16T09:20:47+08:00",
+    "sections": [
+      {
+        "heading": "官方資訊：三天睡眠資料即可開始教練計畫",
+        "paragraphs": [
+          "Samsung 於 10 月 14 日公布 Samsung Health 更新。Sleep Coaching 的起始條件由一個月內七天資料，調整為過去兩週內至少三天資料；系統會結合問卷與睡眠紀錄，建立四至八週的個人化計畫，並依每週變化調整建議。",
+          "Running Coach 訓練層級由 10 級增加至 12 級，並支援把 Strava 的跑步、越野跑與單車路線匯入 Samsung Health。官方表示功能自 10 月起逐步推出，時間與可用性仍會因市場、型號及軟體更新而異。"
+        ]
+      },
+      {
+        "heading": "編輯分析：功能名稱相同，支援世代仍不同",
+        "paragraphs": [
+          "官方條件指出，Sleep Coaching 需 Samsung Health 6.24 以上、Android 11 以上的 Galaxy 手機，並搭配 Galaxy Watch4 系列或更新手錶、Galaxy Fit3 之後機型或 Galaxy Ring。Running Coach 則需 Android 10 以上、Samsung Health 6.30.2 以上、Samsung 帳號，以及 Galaxy Watch8 系列或更新手錶。",
+          "因此二手手錶商品若只寫『支援 Samsung Health』仍不夠。買家應核對完整型號、手機系統、App 版本、帳號與地區，並確認想用的是睡眠教練、Energy Score、跑步教練還是 Strava 路線，避免把某一項相容性誤當成全部功能都能使用。"
+        ]
+      },
+      {
+        "heading": "交機檢查：感測、電池與健康資料都要重新開始",
+        "paragraphs": [
+          "現場可檢查心率與睡眠感測區是否破損、充電是否穩定、按鍵與觸控是否正常，並確認手錶已解除前任帳號與手機配對。完成重設後再以自己的裝置測試同步與 GPS；健康分數及教練建議僅供個人參考，不能取代醫療判斷。本文依官方支援條件整理，未宣稱特定二手穿戴裝置的感測準確度或電池表現。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom｜Samsung Health update",
+        "url": "https://news.samsung.com/global/samsung-health-makes-sleep-coaching-easier-to-start-and-tailors-weekly-guidance",
+        "date": "2026-10-14"
+      }
+    ]
   }
 ]

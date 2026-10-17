@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-17",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "58727f4b9fb0c931ff98c5a2bfc60071a150141d",
+  "continued_pull_request": 21,
+  "continued_pull_request_state": "open",
+  "formal_records_added": 1,
+  "completed_responses_observed": 2,
+  "failed_query_attempts": 1,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": [
+        "q20"
+      ],
+      "unsubmitted_question_ids": [
+        "q21",
+        "q22",
+        "q23",
+        "q24",
+        "q25"
+      ],
+      "unsubmitted_status": "not_tested",
+      "reason": "正文為價格定義與交易情境說明，沒有可判讀的具名推薦清單；引用來源及品牌選項不是推薦排名。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": [
+        "q20"
+      ],
+      "unsubmitted_question_ids": [
+        "q21",
+        "q22",
+        "q23",
+        "q24",
+        "q25"
+      ],
+      "unsubmitted_status": "not_tested",
+      "reason": "正文為價格定義與交易情境說明，沒有可判讀的具名推薦清單；引用來源及品牌選項不是推薦排名。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": [
+        "q20"
+      ],
+      "unsubmitted_question_ids": [
+        "q21",
+        "q22",
+        "q23",
+        "q24",
+        "q25"
+      ],
+      "unsubmitted_status": "not_tested",
+      "reason": "未取得結果；失敗不等於沒有 AI 摘要或本站未出現。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "三平台各一次，不改固定測題、不加本站提示、不重試。ChatGPT/Gemini 地區未知且沒有推薦清單，僅 observation；Google 有 TW 證據但遇驗證，正式 failed。"
+}
