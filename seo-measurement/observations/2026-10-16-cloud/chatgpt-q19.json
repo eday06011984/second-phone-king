@@ -1,0 +1,33 @@
+{
+  "question_id": "q19",
+  "prompt": "如何找可以現場驗機的二手機店",
+  "platform": "chatgpt",
+  "source": "direct_platform",
+  "included_in_formal_statistics": false,
+  "captured_at": "2026-10-16T08:17:11+08:00",
+  "url": "https://chatgpt.com/uc/6ad16cdd-5bd8-83ea-9b0b-803d695dbc48",
+  "mode": "logged-out ChatGPT; web search selected before sending; exact model name not displayed",
+  "login_state": "logged_out",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；回覆自行採高雄情境，不能代替平台地區證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "observation_status": "completed_response",
+  "brand_mentioned": false,
+  "site_link": null,
+  "observed_recommendation_order": [
+    "強老闆中古機－覺民店",
+    "青蘋果3C 高雄巨蛋旗艦店",
+    "只賣 3C",
+    "鼎霖通訊",
+    "DADO3C"
+  ],
+  "target_rank": null,
+  "single_top_three": false,
+  "ranking_scope": "只取正文『高雄可以先詢問的二手機店』編號清單，不採用來源標籤、地圖項目或圖片順序；本站未出現。",
+  "full_response": "如果你想買二手機（例如 iPhone、Samsung），找得到可以現場驗機、當面測試、確認沒問題再付款的店，比只看網路評價或賣家提供的照片安全很多。\n\n我會建議你優先找有實體店面、願意讓你完整測試手機，而且能提供購買憑證與售後保固的二手機店。\n\n一、怎麼找可以現場驗機的店？\n\nGoogle Maps 搜尋：輸入「二手機現場驗機」、「二手 iPhone 實體店」、「二手機買賣可當面測試」。\n\n先私訊或打電話確認：不要只看店家寫「保固 30 天」，要確認能否在付款前自己操作、檢查零件與功能。\n\n優先選有實體門市的店家：確認地址、近期評論，以及是否有明確的退換貨和保固規則。\n\n確認能不能使用驗機工具：例如 3uTools（iPhone）、Android 系統診斷功能，或你自己攜帶的檢測工具。\n\n二、高雄可以先詢問的二手機店\n\n我先整理幾間高雄有實體門市、提供二手機買賣或相關服務的店家。以下是值得先聯絡確認的名單，不代表每間都已確認允許買家自行完整驗機。\n\n重設檢視\n展開地圖\n\n地圖資料目前無法使用\n\n1. 強老闆中古機－覺民店\n\n高雄市三民區覺民路168號\n\n有二手機買賣、福利機及手機維修服務。\n\n電話：07-398-3308\n\n營業時間：11:00–21:00\n\n來源：\nexcellence-mobile.com.tw\n+1\n\n2. 青蘋果3C 高雄巨蛋旗艦店\n\n高雄市左營區博愛二路638號\n\n有二手手機及其他二手 3C 買賣。\n\n可先詢問指定型號、現場測試流程及保固條件。\n\n來源：\n青蘋果3C｜二手3C收購買賣專門店\n+1\n\n3. 只賣 3C\n\n高雄市仁武區仁雄路190號\n\n官網列有 iPhone、Android 等二手機販售。\n\n官網標示有專業檢測及三個月店保，可再確認買家能否自行驗機。\n\n來源：\n只賣 3C\n\n4. 鼎霖通訊\n\n高雄市三民區建工路407號\n\n有 iPhone、Samsung 及 Android 二手機現貨資訊。\n\n可先詢問是否能到店看指定機況、測試所有功能。\n\n來源：\n高雄二手機現貨專區｜二手機買賣｜鼎霖通訊\n\n5. DADO3C\n\n高雄市三民區建興路466號3樓\n\n提供二手機買賣及手機維修。\n\n電話：0916-796-051\n\n營業時間：每日 13:00–22:00\n\n來源：\ndado3c.com\n\n三、到店驗機，這幾項一定要做\n現場驗機清單\n\n0/6\n\n核對 IMEI、型號、容量與手機來源\n確認 Apple ID／Google 帳號已解除，沒有啟用鎖\n檢查電池健康度、螢幕、相機、喇叭、麥克風\n測試 Face ID／Touch ID、指紋辨識、充電及按鍵\n確認是否換過螢幕、電池或其他零件\n問清楚保固期限、退換貨條件並取得購買憑證\n四、我可以幫你縮小到更適合的店\n\n你先告訴我兩件事，我就能進一步幫你找：\n\n1. 你要找哪一種手機？\n\niPhone\nSamsung 三星\n其他 Android\n\n2. 你方便去哪裡？\n\n高雄不限區域\n三民區／左營區／鼓山區\n鳳山區／仁武區\n苓雅區／前鎮區／新興區\n\n預算大約多少？\n\n5,000 元以下\n5,000–10,000 元\n10,000–20,000 元\n20,000 元以上\n幫我找符合條件的店家",
+  "platform_state_after_response": "回覆完整結束；登入按鈕仍顯示，網路搜尋模式仍啟用。",
+  "evidence_method": "Opened a new logged-out ChatGPT page, selected web search before sending, submitted the exact fixed prompt once, waited for completion, read the settled conversation state, and captured the complete rendered response text. No retry was attempted.",
+  "exclusion_reason": "頁面沒有可核對的台灣地區；回覆採高雄情境仍不能回填 region: TW，故不納入正式排名。"
+}
