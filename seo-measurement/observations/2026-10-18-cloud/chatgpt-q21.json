@@ -1,0 +1,40 @@
+{
+  "question_id": "q21",
+  "prompt": "二手機免費刊登平台",
+  "source": "direct_platform",
+  "captured_at": "2026-10-18T08:18:52+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有可核對的平台地區；回覆採台灣情境不等於平台地區證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "observation_status": "completed_response",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "exclusion_reason": "平台地區未知，僅 observation，不納入正式排名。",
+  "text_normalization": "保留完整可讀回覆及來源標籤，合併排版空白；表格轉為 tab 分欄。平台原文不等於本站查證或認同其費率、功能或保固主張。",
+  "platform": "chatgpt",
+  "url": "https://chatgpt.com/uc/6ad41014-4ff0-83ea-ad08-b11fc75fe002",
+  "mode": "logged-out ChatGPT; web search selected before sending; exact model not displayed",
+  "full_response": "如果你想在台灣把二手手機免費刊登出售，可以優先考慮以下平台。若目標是 不用付刊登費、直接找買家交易，建議先從 Facebook Marketplace、旋轉拍賣及露天市集開始。\n\n台灣二手機免費刊登平台\n\n1. 旋轉拍賣 Carousell\n\n優先推薦\n\n適合：iPhone、Samsung、Android 二手機。\n\n優點：方便拍照刊登、私訊議價。\n\n費用：基本刊登通常免費，部分交易方式可能產生費用。\n\n前往旋轉拍賣刊登\n\n來源：\n台灣最大的個人買賣平台之一\n+1\n\n2. Facebook Marketplace\n\n適合：想直接面交、避免平台成交抽成的賣家。\n\n優點：可尋找附近買家，也能分享至二手買賣社團。\n\n費用：一般個人刊登通常免費。\n\n前往 Facebook Marketplace\n\n來源：\nfaqs.tw\n+1\n\n3. 露天市集\n\n適合：二手手機、舊款手機、手機配件。\n\n優點：有商品搜尋及拍賣功能。\n\n費用：刊登與成交費用須依商品類別及平台現行規則確認。\n\n前往露天市集\n\n4. PTT 批踢踢實業坊 二手交易看板\n\n適合：熟悉論壇操作、想自行議價的手機賣家。\n\n優點：一般發文不需支付刊登費。\n\n注意：依各看板規定刊登，留意帳號資格限制。\n\n前往 PTT\n\n怎麼選最划算？\n\n你的需求\t建議平台\n完全免費刊登、面交\tFacebook Marketplace\n專門賣二手商品\t旋轉拍賣\n想增加搜尋曝光\t旋轉拍賣＋Facebook\n想快速換現金\t二手機收購店（但通常收購價較低）\n\n提醒： 免費刊登不代表所有成交方式都免手續費。刊登時不要公開 IMEI、序號或個人資料；遇到買家要求掃 QR Code、操作 ATM 或支付所謂認證費，請提高警覺。\n\n想幫你再縮小範圍：你要賣的是哪一種手機？\n\n1. 手機類型\n\nApple iPhone\nSamsung 三星\n其他 Android 手機\n多品牌、大量二手機\n\n2. 你最在意什麼？\n\n完全免費刊登，成交也不想被抽成\n曝光多、希望快速賣出\n可以大量刊登，最好適合手機商家\n\n3. 你的身分\n\n個人賣一兩支手機\n手機店或二手機商家\n幫我找最適合的平台",
+  "observed_recommendation_order": [
+    "Facebook Marketplace",
+    "旋轉拍賣 Carousell",
+    "露天市集",
+    "PTT"
+  ],
+  "ranking_scope": "按正文首次推薦順序：開頭已依序推薦 Facebook、旋轉拍賣、露天；後續編號清單首次新增 PTT。不是只取後續編號順序，不採圖片、引用或表單選項。",
+  "response_links": [
+    "https://tw.carousell.com/?utm_source=chatgpt.com",
+    "https://www.facebook.com/marketplace/?utm_source=chatgpt.com",
+    "https://www.ruten.com.tw/?utm_source=chatgpt.com",
+    "https://www.ptt.cc/?utm_source=chatgpt.com"
+  ],
+  "evidence_method": "全新登出對話，送出前確認網路搜尋 pressed，固定原文只送出一次。完成狀態 complete/settled，擷取 DIL content。"
+}

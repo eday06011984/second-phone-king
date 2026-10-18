@@ -1,0 +1,45 @@
+{
+  "question_id": "q21",
+  "prompt": "二手機免費刊登平台",
+  "source": "direct_platform",
+  "captured_at": "2026-10-18T08:18:52+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": "TW",
+  "region_evidence": "搜尋前首頁頁尾顯示『台灣』；結果頁顯示『台灣／鼓山區 高雄市－根據你的 IP 位址』。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": true,
+  "observation_status": "not_present",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "exclusion_reason": null,
+  "text_normalization": "保留完整可讀回覆及來源標籤，合併排版空白；表格轉為 tab 分欄。平台原文不等於本站查證或認同其費率、功能或保固主張。",
+  "platform": "google_ai_overview",
+  "url": "https://www.google.com/search?q=%E4%BA%8C%E6%89%8B%E6%A9%9F%E5%85%8D%E8%B2%BB%E5%88%8A%E7%99%BB%E5%B9%B3%E5%8F%B0",
+  "url_redaction": "移除追蹤與工作階段參數，保留原始 q；輸入只提交一次且網址 q 精確等於固定問句。",
+  "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+  "full_response": "台灣提供免費刊登二手機或3C產品的熱門平台與管道如下：\n\n* Carousell 旋轉拍賣：全台最大的綜合型二手拍賣 App，一般個人賣家上架與 AI 上架功能免費，支援私訊議價與超商貨到付款。 [1] \n* 厝邊 MyNeighbor：主打在地鄰近社群的二手交易平台，提供 0 刊登費、0 交易費與 0 手續費，著重在地當面交易與好鄰指數評價。 [2] \n* Yahoo奇摩拍賣：賣家刊登商品免費（成交時才收取 2.49% 的成交手續費），適合想透過大型電商平台曝光的賣家。 [3] \n* Facebook 買賣社團 / Marketplace：如「二手3C買賣交換中心」等臉書社團或 Facebook Marketplace，完全免費刊登，可直接與買家私訊議價，但需自行留意交易安全。 [4] \n* PTT 實業坊（MacShop 版 / Mobilesales 版）：適合熟知 PTT 交易規範的用戶，免費發文，主要以 3C 與手機玩家居多。 [5] \n\n如果你想進一步了解，可以告訴我：\n\n* 你這支二手機的品牌與型號\n* 你希望是線上寄送還是面交\n\n我可以幫你評估哪一個平台最容易脫手。\n\n[1] [https://play.google.com](https://play.google.com/store/apps/details?id=com.thecarousell.Carousell&hl=zh_TW)\n[2] [https://play.google.com](https://play.google.com/store/apps/details?id=tw.com.opusplus.myneighbor&hl=gsw)\n[3] [https://tw.campaign.bid.yahoo.com](https://tw.campaign.bid.yahoo.com/activity?p=auc-1-0-230609-seller)\n[4] [https://www.used-phone.com.tw](https://www.used-phone.com.tw/blog/usedmobileplatform)\n[5] [https://www.kocpc.com.tw](https://www.kocpc.com.tw/archives/519141)",
+  "observed_recommendation_order": [
+    "Carousell 旋轉拍賣",
+    "厝邊 MyNeighbor",
+    "Yahoo奇摩拍賣",
+    "Facebook Marketplace",
+    "PTT"
+  ],
+  "ranking_scope": "只計展開後 AI 摘要正文五個平台；Google Play、優仕德數位、電腦王阿達是引用來源。一般網頁搜尋結果的本站 /join 與 /about 不計入 AI 品牌提及或名次。",
+  "evidence_method": "全新登出 Google 首頁，逐字送出固定問句一次；展開『顯示更多 AI 摘要』，讀取全文並使用摘要『複製文字』保存完整內容與來源網址。沒有重查或改用 AI 模式。",
+  "separate_organic_observation": {
+    "target_visible": true,
+    "pages": [
+      "/join",
+      "/about"
+    ],
+    "formal_ai_rank": false,
+    "note": "只是本次網頁結果可見，不作穩定 Google SEO 排名宣稱。"
+  }
+}

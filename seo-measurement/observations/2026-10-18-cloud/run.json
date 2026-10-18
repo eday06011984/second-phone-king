@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-18",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "7f9a25ee3956a139bd8002331b76b6ec1a6044fb",
+  "continued_pull_request": 21,
+  "formal_records_added": 1,
+  "completed_responses_observed": 3,
+  "failed_query_attempts": 0,
+  "submitted_question_ids": [
+    "q21"
+  ],
+  "unsubmitted_question_ids": [
+    "q22",
+    "q23",
+    "q24",
+    "q25"
+  ],
+  "unsubmitted_status": "not_tested",
+  "notes": "三平台各一次，全新登出，不引導本站。ChatGPT/Gemini 地區未知只存 observations；Google TW 完整摘要 not_present。Gemini 提及／引用本站但正文第 8，不冒充前三或正式排名。"
+}
