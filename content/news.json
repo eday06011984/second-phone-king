@@ -2731,5 +2731,116 @@
     ],
     "publishedAt": "2026-10-17T09:55:18.257+08:00",
     "updatedAt": "2026-10-17T09:55:18.257+08:00"
+  },
+  {
+    "slug": "android-scam-protection-rollout-used-phone-check",
+    "title": "Android 公布新防詐措施：螢幕分享與來電轉接保護，推出時間不同",
+    "category": "手機軟體",
+    "description": "Google 公布訊息、螢幕分享及來電轉接防詐措施，但支援機型與推出時程各異。買二手 Android 時，別把新聞公告當成所有手機都已具備的功能。",
+    "sections": [
+      {
+        "heading": "官方消息：不是一次更新就有全部防護",
+        "paragraphs": [
+          "Google 於 2026 年 10 月 14 日介紹 Android 新防詐措施，包括 Google Messages 可自行選擇啟用的增強保護模式、擴大聊天通知詐騙提醒，以及螢幕分享與來電轉接防護。增強保護模式預計在接下來數週推出，部分分析會使用 Private AI Compute，並非所有功能都只在手機本機執行。",
+          "依公告註腳，將登入與付款畫面遮蔽保護延伸至 Chrome 和 Android WebView 的功能，本月開始向 Android 15 以上裝置推出；來電轉接防護則預計 12 月初起提供給 Pixel 與部分裝置。各項功能的機型條件不同，不能解讀為今天所有 Android 手機都已完整啟用。"
+        ]
+      },
+      {
+        "heading": "編輯分析：用『型號、版本、功能』三層核對",
+        "paragraphs": [
+          "購買二手 Android 時，可以先記下完整型號與目前系統版本，再核對官方功能支援說明及實機設定。某項功能存在於同品牌的新機，不代表舊款也適用；同樣地，能更新系統，也不等於已收到每一項分批推出的服務。",
+          "若店家以『AI 防詐』作為賣點，建議請其說明具體是哪個功能、在哪個 App 運作，以及是否需要另外啟用。可以查看正常的設定頁面，不必透過點擊可疑連結、輸入轉接碼或分享敏感畫面來驗證。"
+        ]
+      },
+      {
+        "heading": "使用提醒：沒有跳出警告，不代表訊息可信",
+        "paragraphs": [
+          "編輯建議將自動提醒視為輔助，而不是交易保證。遇到要求轉帳、交付驗證碼或開啟螢幕分享的陌生聯絡，先停止操作，再從自己已知的官方管道查證。本文整理的是官方公布的功能與時程，沒有進行防詐效果實測，也不據此比較品牌安全排名。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 官方部落格｜Android 新防詐措施",
+        "url": "https://blog.google/security/new-android-scam-protections/",
+        "date": "2026-10-14"
+      }
+    ],
+    "publishedAt": "2026-10-18T09:51:17.677+08:00",
+    "updatedAt": "2026-10-18T09:51:17.677+08:00"
+  },
+  {
+    "slug": "xbox-nano-controller-taiwan-availability-buying-check",
+    "title": "Xbox Nano 控制器公布：台灣列入 11 月上市市場，先確認手感與遊戲相容性",
+    "category": "3C 配件",
+    "description": "Xbox Nano 主打小尺寸，支援 Xbox Wireless、藍牙與可自訂按鍵。官方列出台灣上市規劃，但美元預購價不等於台灣售價，選購也要核對遊戲支援。",
+    "sections": [
+      {
+        "heading": "官方消息：小尺寸控制器，預計 11 月起上市",
+        "paragraphs": [
+          "Microsoft 於 2026 年 10 月 14 日透過 Xbox Wire 發表 Xbox Nano Controller。控制器保留 18 個標準遊戲輸入，具備充電式電池、可自訂的 Action Button，並支援 Xbox Wireless 與藍牙連線。",
+          "公告列出 49.99 美元預購價，並表示 11 月起上市的市場包含台灣；實際價格與供貨依國家而異。文中搭配部分 Samsung 電視或 Meta Quest 的節慶優惠則限美國，不應直接當成台灣購買會附贈的內容。"
+        ]
+      },
+      {
+        "heading": "編輯分析：攜帶方便與長時間好握，是兩個問題",
+        "paragraphs": [
+          "小控制器適合納入隨身配件比較，但建議實際試握後再決定。可以留意拇指移動到搖桿與面板按鍵時是否自然、食指是否容易碰到肩鍵，以及雙手同時操作會不會擁擠。外型較小，不代表每個人的手都更舒服。",
+          "打算配手機、平板或電腦使用時，請逐項確認裝置連線方式、作業系統，以及常玩的遊戲是否接受控制器輸入。『能完成藍牙配對』只代表連線的一部分，不能保證遊戲內的全部按鍵、自訂快捷鍵或震動效果都可使用。"
+        ]
+      },
+      {
+        "heading": "選購檢查：把控制器與服務費分開比較",
+        "paragraphs": [
+          "若用途是雲端遊戲，編輯建議另外確認當地服務資格、會員方案與網路條件，不要把買到控制器等同於已取得遊戲使用權。比較其他二手控制器時，則可要求測試搖桿回中、按鍵連點、充電與斷線情況；本文沒有實測 Nano 的延遲、續航或耐用度。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xbox Wire｜Meet the XBOX Nano Controller",
+        "url": "https://news.xbox.com/en-us/2026/10/14/xbox-nano-controller/",
+        "date": "2026-10-14"
+      }
+    ],
+    "publishedAt": "2026-10-18T09:51:17.677+08:00",
+    "updatedAt": "2026-10-18T09:51:17.677+08:00"
+  },
+  {
+    "slug": "rog-xbox-ally-x20-oled-handheld-buying-check",
+    "title": "ROG Xbox Ally X20 開賣公告：OLED 掌機與 AR 套裝，先分清真正會用到的配備",
+    "category": "3C 新品",
+    "description": "ASUS 公布 ROG Xbox Ally X20 上市資訊，搭載 7.4 吋 OLED 與 Ryzen AI Z2 Extreme。整理美元單機及套裝差異，並提醒掌機選購與二手驗機重點。",
+    "sections": [
+      {
+        "heading": "官方消息：單機與含 AR 眼鏡套裝分開販售",
+        "paragraphs": [
+          "ASUS 於 2026 年 10 月 15 日宣布 ROG Xbox Ally X20 開放購買，採用 7.4 吋 OLED ROG Nebula HDR 螢幕與 AMD Ryzen AI Z2 Extreme 處理器，外觀為 ROG 20 週年設計。官方列出單機 1,299 美元，以及搭配 ROG XREAL R1 Edition 20 AR 眼鏡、dbrand 保護殼與 Pelican 收納箱的 2,499 美元套裝。這些不是本文查證的台灣售價。",
+          "公告也介紹 Armoury Crate SE 的更新，包括遊戲設定檔調整，以及將充電功率限制為 65W 的 Travel Mode。官方將此模式定位為改善交通工具座位電源的相容性，並不代表每個航班或列車插座都能正常供電。"
+        ]
+      },
+      {
+        "heading": "編輯分析：先決定掌機怎麼用，再決定套裝值不值",
+        "paragraphs": [
+          "若主要是在家短時間遊玩，應先評估單機螢幕、握持與常玩遊戲的表現；如果經常旅行，再比較眼鏡、保護殼和收納設備的攜帶需求。配件數量多不一定更適合自己，建議把每項配件列為獨立用途，而不是只看套裝名稱。",
+          "實際續航與遊戲流暢度需要在相同遊戲、畫質及功耗設定下比較。本文沒有進行實測，因此不會把處理器名稱、OLED 或官方散熱設計說明換算成保證幀率，也不預測上一代掌機的二手跌價幅度。"
+        ]
+      },
+      {
+        "heading": "二手驗機提醒：留意畫面、操控與帳號交接",
+        "paragraphs": [
+          "若轉而選購既有二手掌機，編輯建議檢視均勻背景下的畫面、搖桿回中與各按鍵輸入，並確認充電器規格及連接埠狀況。購買前先約定帳號登出與系統交接方式，不要將賣家帳號裡的遊戲視為必然隨硬體轉讓的資產。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom｜ROG Xbox Ally X20 上市公告",
+        "url": "https://press.asus.com/news/press-releases/rog-xbox-ally-x20-anniversary-edition-available/",
+        "date": "2026-10-15"
+      }
+    ],
+    "publishedAt": "2026-10-18T09:51:17.677+08:00",
+    "updatedAt": "2026-10-18T09:51:17.677+08:00"
   }
 ]

@@ -1,0 +1,37 @@
+{
+  "question_id": "q22",
+  "prompt": "通訊行如何刊登二手機",
+  "source": "direct_platform",
+  "captured_at": "2026-10-19T08:09:07+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "observation_status": "completed_response",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "exclusion_reason": "平台頁面未顯示可核對地區，不能以回覆中的台灣或高雄字樣假填 TW。",
+  "text_normalization": "保留完整可讀回覆，合併排版空白；平台範例與商業主張不是本站查證或採用的事實。",
+  "platform": "chatgpt",
+  "url": "https://chatgpt.com/uc/6ad55f55-1df0-83ea-b27b-6e12bd139438",
+  "mode": "ChatGPT logged out; web search selected before send; exact model not displayed",
+  "full_response": "通訊行要刊登二手機，通常可以透過 二手機買賣平台、Facebook 社團、LINE 社群，以及自己的店面粉專 來增加曝光。如果你是台灣的通訊行，想把店內收購或寄賣的二手機刊登出去，可以依照以下方式操作。\n\n一、通訊行二手機可以刊登在哪裡？\n\n1. Facebook Marketplace／二手機買賣社團\n\n適合直接接觸附近想買手機的客人。可以刊登 iPhone、Samsung 等二手機，附上店面地址、手機狀況、售價及保固資訊。社團是否允許商家刊登，需先確認版規。\n\n2. 旋轉拍賣 Carousell\n\n可研究是否適合刊登二手機、累積商品曝光。刊登前要確認最新的商家帳號規則、手機類商品規範及相關費用。\n\n3. LINE 官方帳號\n\n適合經營回頭客。每天或每週發布現貨清單、價格、保固和門市自取資訊，讓客人直接私訊詢問。\n\n4. Google 商家檔案\n\n適合讓搜尋附近通訊行的客人找到你。可以透過商家檔案發布門市消息、商品照片與促銷資訊，實際可用的商品功能依帳號而定。\n\n二、實際刊登二手機的步驟\n\n以旋轉拍賣為例：\n\n註冊並完成帳號驗證。\n點選刊登商品，選擇手機相關分類。\n拍攝手機正面、背面、側邊及瑕疵照片。\n填寫品牌、型號、容量、顏色、電池健康度、機況及售價。\n設定面交或其他交易方式，刊登後透過平台回覆買家。\n\n注意：旋轉拍賣有商品刊登規範，不能只刊登一則沒有具體商品資料的通訊行廣告；每支手機應有真實、清楚的商品資訊。\n台灣旋轉拍賣 幫助中心\n+1\n\n旋轉拍賣官方刊登守則\n旋轉拍賣賣家新手教學\n\n三、二手機刊登文案範例\n寫作\n\n📱【通訊行二手機現貨｜保固安心買】\n\n🔥 iPhone 二手機優惠販售中！\n\n📱 型號：iPhone 13 128GB 🎨 顏色：依現貨為準 🔋 電池健康度：依實機檢測 ✨ 機況：實際照片為準 💰 售價：NT$＿＿＿ 🛡️ 保固：＿＿＿\n\n✅ 現場看機、實機測試 ✅ 支援門市面交 ✅ 可詢問舊機換購、手機回收\n\n📍 門市地址：＿＿＿＿ 💬 歡迎私訊詢問現貨與最新價格\n\n數量有限，售出即更新庫存！\n\n四、我可以幫你找更適合通訊行的刊登管道\n\n你說的「刊登二手機」，比較接近下面哪一種？\n\n1. 你想把二手機賣給誰？\n\n一般消費者，零售一支一支賣\n其他通訊行，一次批發多支\n通訊行同行交流、互相調貨\n刊登收購廣告，吸引客人賣舊機\n\n2. 主要經營哪種手機？\n\niPhone 為主\nSamsung、OPPO 等 Android 手機\n全部品牌都有\n\n3. 門市在哪個縣市？\n\n高雄\n台南\n台中\n台北\n其他縣市\n幫我找適合的刊登平台\n\n如果你是要找通訊行同行批發二手機的平台，而不是一般拍賣網站，告訴我你要批發還是零售，我就能針對這個方向幫你找。",
+  "observed_recommendation_order": [
+    "Facebook",
+    "LINE",
+    "Carousell",
+    "Google 商家檔案"
+  ],
+  "ranking_scope": "依全文首次推薦：導言先提及 Facebook 及 LINE，不只取後面編號。平台圖片與引用來源不作額外推薦；結尾高雄等預設選項未操作、未提交，不是已核對地區。",
+  "completion_evidence": "WebMCP assistant complete=true, outcome=complete, terminal=settled",
+  "source_links": [
+    "https://support.carousell.com/hc/zh-tw/articles/360000689008-商品刊登守則",
+    "https://blog.carousell.com/tw/旋轉新聞-carousell-news/如何在旋轉拍賣販售/"
+  ]
+}
