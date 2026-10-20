@@ -1559,6 +1559,224 @@
       "site_link": null,
       "recommended_sites": [],
       "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量 reCAPTCHA；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。"
+    },
+    {
+      "id": "google_ai_overview-q16-2026-10-13T08-09-03+08-00",
+      "question_id": "q16",
+      "platform": "google_ai_overview",
+      "prompt": "二手機保固要注意什麼",
+      "status": "failed",
+      "measured_at": "2026-10-13T08:09:03+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量驗證；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。"
+    },
+    {
+      "id": "google_ai_overview-q17-2026-10-14T09-00-25+08-00",
+      "question_id": "q17",
+      "platform": "google_ai_overview",
+      "prompt": "二手機 A 級 B 級差在哪",
+      "status": "failed",
+      "measured_at": "2026-10-14T09:00:25+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量驗證；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。"
+    },
+    {
+      "id": "google_ai_overview-q18-2026-10-15T08-18-25+08-00",
+      "question_id": "q18",
+      "platform": "google_ai_overview",
+      "prompt": "二手機店家跟個人賣家怎麼選",
+      "status": "failed",
+      "measured_at": "2026-10-15T08:18:25+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量驗證；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。"
+    },
+    {
+      "id": "google_ai_overview-q19-2026-10-16T08-18-45+08-00",
+      "question_id": "q19",
+      "platform": "google_ai_overview",
+      "prompt": "如何找可以現場驗機的二手機店",
+      "status": "failed",
+      "measured_at": "2026-10-16T08:18:45+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "搜尋前 Google 首頁頁尾明確顯示台灣。於全新登出搜尋頁逐字送出固定問句一次後，Google 顯示異常流量 reCAPTCHA；沒有操作驗證、重載、改走其他入口或重試，也沒有取得搜尋結果或 AI 摘要。"
+    },
+    {
+      "id": "google_ai_overview-q20-2026-10-17T08-52-49+08-00",
+      "question_id": "q20",
+      "platform": "google_ai_overview",
+      "prompt": "二手機價格和收購價有什麼不同",
+      "status": "failed",
+      "measured_at": "2026-10-17T08:52:49+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "全新登出 Google 首頁逐字送出一次後出現異常流量 reCAPTCHA；未操作驗證、重載、改入口或重試。"
+    },
+    {
+      "id": "google_ai_overview-q21-2026-10-18T08-18-52+08-00",
+      "question_id": "q21",
+      "platform": "google_ai_overview",
+      "prompt": "二手機免費刊登平台",
+      "status": "not_present",
+      "measured_at": "2026-10-18T08:18:52+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "台灣提供免費刊登二手機或3C產品的熱門平台與管道如下：\n\n* Carousell 旋轉拍賣：全台最大的綜合型二手拍賣 App，一般個人賣家上架與 AI 上架功能免費，支援私訊議價與超商貨到付款。 [1] \n* 厝邊 MyNeighbor：主打在地鄰近社群的二手交易平台，提供 0 刊登費、0 交易費與 0 手續費，著重在地當面交易與好鄰指數評價。 [2] \n* Yahoo奇摩拍賣：賣家刊登商品免費（成交時才收取 2.49% 的成交手續費），適合想透過大型電商平台曝光的賣家。 [3] \n* Facebook 買賣社團 / Marketplace：如「二手3C買賣交換中心」等臉書社團或 Facebook Marketplace，完全免費刊登，可直接與買家私訊議價，但需自行留意交易安全。 [4] \n* PTT 實業坊（MacShop 版 / Mobilesales 版）：適合熟知 PTT 交易規範的用戶，免費發文，主要以 3C 與手機玩家居多。 [5] \n\n如果你想進一步了解，可以告訴我：\n\n* 你這支二手機的品牌與型號\n* 你希望是線上寄送還是面交\n\n我可以幫你評估哪一個平台最容易脫手。\n\n[1] [https://play.google.com](https://play.google.com/store/apps/details?id=com.thecarousell.Carousell&hl=zh_TW)\n[2] [https://play.google.com](https://play.google.com/store/apps/details?id=tw.com.opusplus.myneighbor&hl=gsw)\n[3] [https://tw.campaign.bid.yahoo.com](https://tw.campaign.bid.yahoo.com/activity?p=auc-1-0-230609-seller)\n[4] [https://www.used-phone.com.tw](https://www.used-phone.com.tw/blog/usedmobileplatform)\n[5] [https://www.kocpc.com.tw](https://www.kocpc.com.tw/archives/519141)"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "carousell",
+          "name": "Carousell 旋轉拍賣",
+          "is_target": false
+        },
+        {
+          "site_id": "myneighbor",
+          "name": "厝邊 MyNeighbor",
+          "is_target": false
+        },
+        {
+          "site_id": "yahoo-auctions",
+          "name": "Yahoo奇摩拍賣",
+          "is_target": false
+        },
+        {
+          "site_id": "facebook-marketplace",
+          "name": "Facebook Marketplace",
+          "is_target": false
+        },
+        {
+          "site_id": "ptt",
+          "name": "PTT",
+          "is_target": false
+        }
+      ],
+      "notes": "搜尋前首頁頁尾顯示『台灣』；結果頁顯示『台灣／鼓山區 高雄市－根據你的 IP 位址』。 全新登出 Google 首頁，逐字送出固定問句一次；展開『顯示更多 AI 摘要』，讀取全文並使用摘要『複製文字』保存完整內容與來源網址。沒有重查或改用 AI 模式。 只計展開後 AI 摘要正文五個平台；Google Play、優仕德數位、電腦王阿達是引用來源。一般網頁搜尋結果的本站 /join 與 /about 不計入 AI 品牌提及或名次。"
+    },
+    {
+      "id": "google_ai_overview-q22-2026-10-19T08-07-25+08-00",
+      "question_id": "q22",
+      "platform": "google_ai_overview",
+      "prompt": "通訊行如何刊登二手機",
+      "status": "failed",
+      "measured_at": "2026-10-19T08:07:25+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明確顯示『台灣』。 固定問句只送出一次。沒有操作 reCAPTCHA、重載、改入口或重試；沒有取得結果，不能記成無 AI 摘要或本站未出現。"
+    },
+    {
+      "id": "google_ai_overview-q23-2026-10-20T08-54-09+08-00",
+      "question_id": "q23",
+      "platform": "google_ai_overview",
+      "prompt": "二手機店家如何增加網路曝光",
+      "status": "failed",
+      "measured_at": "2026-10-20T08:54:09+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。 錯誤頁時間 2026-10-20T00:54:09Z 換算台北 08:54:09。原問句提交一次；未操作 reCAPTCHA、重載、換入口或重試。沒有結果，不能記為沒有 AI 摘要或未出現。"
     }
   ]
 }

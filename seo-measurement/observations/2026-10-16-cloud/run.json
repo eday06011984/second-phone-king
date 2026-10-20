@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "e26bc61c90531410650d6c35cc2220a9188584ec",
+  "continued_pull_request": 21,
+  "continued_pull_request_state": "open",
+  "formal_records_added": 1,
+  "completed_responses_observed": 1,
+  "partial_responses_observed": 0,
+  "failed_query_attempts": 2,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q19"],
+      "unsubmitted_question_ids": ["q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q19 完成具名高雄店家清單，本站未出現；頁面地區未知，只存 completed_response observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q19"],
+      "unsubmitted_question_ids": ["q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q19 送出後持續顯示停止回覆，但超過一分鐘沒有助理文字；沒有重送，且頁面地區未知，只存 generation_stalled_no_response observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q19"],
+      "unsubmitted_question_ids": ["q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q19 從明示台灣的全新登出搜尋頁送出後進入異常流量 reCAPTCHA；沒有操作驗證、重試或取得搜尋結果／AI 摘要，正式保留為 failed。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q19。三平台均直接操作實際網頁、各送出一次；ChatGPT 完成回覆但平台地區未知，Gemini 沒有產生可讀回覆，Google 搜尋前明示台灣但被異常流量驗證阻擋。沒有重試挑結果，沒有把一般搜尋結果或引用來源當成推薦名次。"
+}

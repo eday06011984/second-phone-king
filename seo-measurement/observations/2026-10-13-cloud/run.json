@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-13",
+  "timezone": "Asia/Taipei",
+  "base_main_commit": "de55acc81eb229989daaba68782437032d745166",
+  "previous_pull_request": 15,
+  "previous_pull_request_state": "merged",
+  "formal_records_added": 1,
+  "completed_responses_observed": 2,
+  "failed_query_attempts": 1,
+  "platforms": [
+    {
+      "platform": "chatgpt",
+      "submitted_question_ids": ["q16"],
+      "unsubmitted_question_ids": ["q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q16 完成保固說明，但頁面地區未知且正文沒有具名推薦網站清單，只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "gemini",
+      "submitted_question_ids": ["q16"],
+      "unsubmitted_question_ids": ["q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q16 完成保固說明，頁面另顯示停止提示，但本次地區未知且正文沒有具名推薦網站清單，只存 observation。",
+      "single_top_three": null,
+      "stable_total": null
+    },
+    {
+      "platform": "google_ai_overview",
+      "submitted_question_ids": ["q16"],
+      "unsubmitted_question_ids": ["q17", "q18", "q19", "q20", "q21", "q22", "q23", "q24", "q25"],
+      "prior_observation_question_ids": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08", "q09", "q10", "q11", "q12", "q13", "q14", "q15"],
+      "unsubmitted_status": "not_tested",
+      "reason": "q16 從明示台灣的全新登出搜尋頁送出後進入異常流量驗證；沒有操作驗證、重試或取得搜尋結果／AI 摘要，正式保留為 failed。",
+      "single_top_three": null,
+      "stable_total": null
+    }
+  ],
+  "notes": "本輪只補下一個未觀察問句 q16。三平台均直接操作實際網頁、各送出一次；Google 搜尋前明示台灣但被異常流量驗證阻擋，ChatGPT 與 Gemini 地區未知且沒有具名推薦清單。沒有重試挑結果，沒有把資料來源標籤或一般搜尋結果當成推薦名次。"
+}
