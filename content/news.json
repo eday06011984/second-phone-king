@@ -2953,5 +2953,116 @@
     ],
     "publishedAt": "2026-10-19T09:27:48.948+08:00",
     "updatedAt": "2026-10-19T09:27:48.948+08:00"
+  },
+  {
+    "slug": "gemini-notebook-slides-video-review-workflow-update",
+    "title": "Gemini Notebook 新增生成前審閱：簡報與影片可先改大綱",
+    "category": "軟體更新",
+    "description": "Google 10 月 19 日公布 Gemini Notebook 協作製作更新，讓使用者在生成簡報或影片前確認主題、調整大綱與視覺方向；功能將於一週內陸續開放。",
+    "sections": [
+      {
+        "heading": "先討論內容，再產生作品",
+        "paragraphs": [
+          "Google 於 2026 年 10 月 19 日宣布，Gemini Notebook 的 Slide Decks 與 Video Overviews 增加製作過程中的調整選項。使用者可在對話中提出需求，由系統依據匯入來源建議主題，確認後再決定呈現內容、視覺風格與格式。"
+        ]
+      },
+      {
+        "heading": "Review 開關保留最後確認機會",
+        "paragraphs": [
+          "開啟 Review 後，可在工作區檢視簡報的大綱筆記或影片的製作筆記，提出修改意見，例如增加開場摘要或更換場景順序，再按 Proceed 產生成品。不需要這個步驟的人，仍可略過審閱直接生成。",
+          "官方表示，新流程將在接下來一週陸續提供給全球所有 Gemini Notebook 使用者。因此，公告發布不代表每個帳號立即看到相同介面；本文未將尚未出現的功能視為操作故障。"
+        ]
+      },
+      {
+        "heading": "編輯分析：店家製作產品介紹，先核對資料再談版型",
+        "paragraphs": [
+          "對需要整理手機規格、機況與售後說明的店家，生成前審閱的價值在於提早發現內容安排不當，而不是讓 AI 代替查證。建議把各機型的來源分清楚，尤其別把新品官方規格和個別二手機的電池、維修紀錄混在一起。",
+          "審閱時可要求每頁只處理一個比較項目，完成後仍逐項核對數字、保固條件與照片對應。這是編輯工作流程建議，不是本站對生成品質、正確率或製作速度的實測結果。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 官方部落格",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+        "date": "2026-10-19"
+      }
+    ],
+    "publishedAt": "2026-10-20T09:41:54.775+08:00",
+    "updatedAt": "2026-10-20T09:41:54.775+08:00"
+  },
+  {
+    "slug": "samsung-art-store-paris-2026-tv-subscription-check",
+    "title": "Samsung Art Store 增 19 件巴黎藝博作品：買電視先確認訂閱與支援型號",
+    "category": "3C 生活",
+    "description": "Samsung 10 月 20 日宣布 Art Store 加入 19 件 Art Basel Paris 2026 參展畫廊作品。這是付費內容服務更新，不代表所有 Samsung 電視都能使用。",
+    "sections": [
+      {
+        "heading": "藝術內容更新，不是新電視發表",
+        "paragraphs": [
+          "Samsung 於 2026 年 10 月 20 日宣布，Samsung Art Store 新增 19 件來自 Art Basel Paris 2026 參展畫廊的作品，在提供此服務的市場供相容 Samsung Art TV 使用。精選內容包括 Elene Shatberashvili 的 Poppies #4，以及 Hans Op de Beeck 的 The Lounge (black and white)。"
+        ]
+      },
+      {
+        "heading": "服務需付費，OLED 也不是全系列支援",
+        "paragraphs": [
+          "官方註明 Art Store 需要付費訂閱，費用、支援電視及可用作品會因國家或地區不同，也可能變更。公告列舉的相容產品包含部分 2025、2026 年電視與 The Frame 系列；其中 OLED 僅限指定型號，例如全球市場的 S95H、歐洲市場的 S99H，不能以品牌或面板類型一概判斷。",
+          "本次公告未提供可直接套用於台灣所有機型的訂閱報價，本文因此不推算台幣費用，也不把服務內容更新寫成免費送畫或永久擁有作品。"
+        ]
+      },
+      {
+        "heading": "編輯分析：二手電視驗機要把內容服務分開看",
+        "paragraphs": [
+          "若藝術展示是購機重點，付款前應記錄完整型號與銷售地區，請賣家示範本機的 Art Store 入口，並確認自己的帳號可用方案。賣家當場能播放一幅作品，不足以證明訂閱會隨電視移轉。",
+          "內容服務與硬體狀態也應分開驗收：檢查面板顯示、輸入端子及遙控器，再比較適合自己的訂閱成本。以上是購買檢查建議，不代表本站已實測這批作品的畫質或各款電視的相容性。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-art-store-unveils-curated-collection-from-art-basel-paris-2026",
+        "date": "2026-10-20"
+      }
+    ],
+    "publishedAt": "2026-10-20T09:41:54.775+08:00",
+    "updatedAt": "2026-10-20T09:41:54.775+08:00"
+  },
+  {
+    "slug": "apple-tv-4k-fourth-generation-upgrade-compatibility-check",
+    "title": "Apple TV 4K 第四代公布：換機前分清 Siri AI 與新硬體功能",
+    "category": "新品與購機",
+    "description": "Apple 10 月 13 日公布第四代 Apple TV 4K，搭載 A19，預計 11 月 13 日開賣。Siri AI 並非第四代獨有，四喇叭環繞音效則另有硬體條件。",
+    "sections": [
+      {
+        "heading": "新款硬體與上市時間",
+        "paragraphs": [
+          "Apple 於 2026 年 10 月 13 日公布第四代 Apple TV 4K，搭載 A19 晶片與 AV1 解碼器，並加入三個遠場麥克風。官方公告的開賣日為 11 月 13 日；截至本文刊登時仍是未來日期，不能當作已全面到貨。"
+        ]
+      },
+      {
+        "heading": "Siri AI 不等於必須買第四代",
+        "paragraphs": [
+          "公告表示，第二代及以後的 Apple TV 4K 也能使用 Siri AI；此功能以測試版形式提供，須使用 tvOS 27.2，並由家庭擁有者搭配支援 Apple Intelligence 的 iPhone 或 iPad 設定。首波提供地區為美國、澳洲、加拿大、印度、紐西蘭、新加坡、南非與英國，語言為英文；不可據此宣稱台灣繁體中文已完整開放。",
+          "四喇叭環繞配置則要求第四代 Apple TV 4K，以及四顆 HomePod 第二代或 HomePod mini 2；前方與後方各自需為相同型號的一對，並使用最新系統。這與舊款是否能使用 Siri AI 是不同條件。"
+        ]
+      },
+      {
+        "heading": "編輯分析：先列出真正需要的升級",
+        "paragraphs": [
+          "若只是想替既有電視增加串流播放功能，建議先比較自己常用服務、連線方式與整套設備成本，不要只因 AI 名稱就淘汰仍符合需求的播放器。若目標是新的四喇叭配置，則應把相容喇叭也計入預算，而非只比較主機價格。",
+          "購買二手 Apple TV 時，請核對實際世代、遙控器型號與帳號登出狀態，現場試播自己的常用服務。本文整理官方條件，未測試播放速度、聲場或台灣上市供貨；實際地區功能與售價仍須向當地官方及通路確認。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+        "date": "2026-10-13"
+      }
+    ],
+    "publishedAt": "2026-10-20T09:41:54.775+08:00",
+    "updatedAt": "2026-10-20T09:41:54.775+08:00"
   }
 ]
