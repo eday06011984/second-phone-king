@@ -3064,5 +3064,116 @@
     ],
     "publishedAt": "2026-10-20T09:41:54.775+08:00",
     "updatedAt": "2026-10-20T09:41:54.775+08:00"
+  },
+  {
+    "slug": "android-auto-gemini-personal-intelligence-account-privacy-check",
+    "title": "Android Auto 導入 Gemini 個人化功能：先確認帳號、地區與資料權限",
+    "category": "軟體更新",
+    "description": "Google 10 月 20 日宣布 Gemini 已在 Android Auto 與內建 Google 的車款使用，Personal Intelligence 則依帳號與地區分批推出，必須由使用者主動連接應用程式。",
+    "sections": [
+      {
+        "heading": "Gemini 車載服務與個人化功能是兩件事",
+        "paragraphs": [
+          "Google 於 2026 年 10 月 20 日表示，Gemini 已在 Android Auto 與內建 Google 的車款全球提供，使用者可用自然語句進行導航、通話、播放內容或詢問資訊。另行推出的 Personal Intelligence 會在取得同意後，連接 Gmail、Google 日曆、Google 相簿、Google 地圖、YouTube 與搜尋等服務，協助回答與個人行程或既有資料有關的問題。"
+        ]
+      },
+      {
+        "heading": "Android Auto 先推出，帳號與地區有限制",
+        "paragraphs": [
+          "Personal Intelligence 從 Android Auto 開始推出，內建 Google 的車款則預計在未來數月陸續加入。官方註明，目前適用對象為年滿 18 歲的合資格個人 Google 帳號，不包含 Workspace 商務、企業或教育帳號，也排除歐洲經濟區、瑞士、英國與奈及利亞。",
+          "應用程式不會自動連接，使用者可在 Gemini 設定中選擇開啟或關閉。對於內建 Google 的車款，官方表示只有手機連接在車內時才會分享個人化回覆；未啟用 Personal Intelligence 仍可使用導航、音樂、通話與一般問答。"
+        ]
+      },
+      {
+        "heading": "編輯分析：買二手車機或換手機，不要只看 Gemini 標誌",
+        "paragraphs": [
+          "這次更新主要取決於帳號資格、所在地區、車載平台與應用程式授權，不是看到 Gemini 圖示就代表所有個人化功能都已開放。驗車時可分別測試 Android Auto 連線、麥克風、導航及通話，再用自己的帳號確認可用功能。",
+          "交售二手手機或車輛前，應解除藍牙與 Android Auto 配對、移除車機中的個人帳號，並檢查 Gemini 已連接哪些應用程式。這是隱私與交機建議，本文未實測不同車款的語音辨識速度或台灣帳號開放狀況。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 官方部落格",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+        "date": "2026-10-20"
+      }
+    ],
+    "publishedAt": "2026-10-21T09:11:00.849+08:00",
+    "updatedAt": "2026-10-21T09:11:00.849+08:00"
+  },
+  {
+    "slug": "asus-zenwifi-bn12-wifi8-mesh-buying-check",
+    "title": "ASUS ZenWiFi BN12 開始出貨：WiFi 8 Mesh 別只看 19Gbps",
+    "category": "網路與配件",
+    "description": "ASUS 10 月 20 日宣布 ZenWiFi BN12 開始出貨，主打 WiFi 8 Mesh、雙 10G 網路埠與干擾分析；購買前仍要核對終端設備、網路方案與實際空間。",
+    "sections": [
+      {
+        "heading": "三頻 WiFi 8 Mesh 正式進入出貨階段",
+        "paragraphs": [
+          "ASUS 於 2026 年 10 月 20 日宣布 ZenWiFi BN12 開始出貨。官方資料將它定位為三頻 WiFi 8 Mesh 系統，標示總速率最高 19Gbps，並列出 Smart AiMesh、Adaptive QoE 與 WiFi Insight 等功能，用於節點協調、流量分配及干擾分析。"
+        ]
+      },
+      {
+        "heading": "有線規格完整，但最高數字不是單機實測速度",
+        "paragraphs": [
+          "ZenWiFi BN12 配置兩個 10G Ethernet 與三個 2.5G Ethernet 連接埠，雙機組合的官方覆蓋標示最高 7,000 平方英尺。這些是品牌公布的規格與條件，不代表每個房間、每支手機或每條寬頻都能達到 19Gbps。",
+          "WiFi 8 強調連線可靠度、中長距離表現與多設備協調；實際效益仍受到終端裝置支援、牆面材質、節點位置、回程連線與干擾影響。官方公告沒有列出台灣售價與到貨通路，本文不自行換算或推測。"
+        ]
+      },
+      {
+        "heading": "編輯分析：升級前先找出家中真正的瓶頸",
+        "paragraphs": [
+          "若現有問題是跨樓層死角，可先用既有路由器測量節點位置，確認是否能鋪設有線回程；若瓶頸是舊手機只支援較早 WiFi 世代或寬頻速度不高，更換高階 Mesh 未必能讓單機下載速度明顯增加。",
+          "選購時建議核對 WAN／LAN 速率、節點數量、管理功能是否需要帳號，以及舊設備能否加入同一套 AiMesh。本文整理官方功能與採購檢查點，不是對覆蓋範圍、延遲或吞吐量的實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-zenwifi-bn12-wifi-8-mesh-router-shipping/",
+        "date": "2026-10-20"
+      }
+    ],
+    "publishedAt": "2026-10-21T09:11:00.849+08:00",
+    "updatedAt": "2026-10-21T09:11:00.849+08:00"
+  },
+  {
+    "slug": "samsung-ai-appliance-seven-year-updates-model-region-check",
+    "title": "Samsung 展示 AI 家電長期維護：七年更新不能套用所有型號",
+    "category": "智慧家庭",
+    "description": "Samsung 10 月 20 日整理五地 AI 家電展示，並在東南亞活動提及最長七年軟體更新與遠端診斷；消費者仍須依型號、地區及服務條款確認。",
+    "sections": [
+      {
+        "heading": "五個地區展示不同智慧家電情境",
+        "paragraphs": [
+          "Samsung 於 2026 年 10 月 20 日公布 The Brief 系列活動整理，內容涵蓋美國、歐洲、拉丁美洲、西南亞與東南亞，共有約 270 名來自 23 個國家的媒體與創作者參與。展示主題依地區不同，包括廚房食材辨識、節能家電、SmartThings 串聯、穿戴裝置連動空調及商用 HVAC。"
+        ]
+      },
+      {
+        "heading": "最長七年更新與遠端管理是在特定展示中提出",
+        "paragraphs": [
+          "在 10 月 14 日於越南河內舉行的東南亞場次，Samsung 提到部分產品結合最長七年的軟體更新，以及 Home Appliance Remote Management 遠端家電管理服務。後者可遠端診斷潛在問題並提供處理指引。",
+          "官方文章沒有列出一份適用全球所有家電的完整型號清單，也沒有表示每台舊款或每個地區都保證七年更新。功能名稱、年限與遠端服務可用性，仍應以當地產品頁、保固條款及實際型號為準。"
+        ]
+      },
+      {
+        "heading": "編輯分析：智慧家電也要查軟體支援與帳號狀態",
+        "paragraphs": [
+          "選購展示品或二手智慧家電時，除了壓縮機、馬達、冷卻與漏水等硬體狀況，也應確認 WiFi 模組、SmartThings 配對、韌體版本及原帳號是否已解除。遠端診斷是維護工具，不等同延長硬體保固或免費維修。",
+          "若把長期軟體支援列為購買理由，建議請通路在訂單上寫明完整型號，並保存當地官方支援頁面與條款。以上是依公告整理的檢查建議，本站未對個別家電的節能幅度或遠端診斷準確度進行測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/tailored-for-every-home-samsung-the-brief-goes-global-with-ai-powered-home-appliances",
+        "date": "2026-10-20"
+      }
+    ],
+    "publishedAt": "2026-10-21T09:11:00.849+08:00",
+    "updatedAt": "2026-10-21T09:11:00.849+08:00"
   }
 ]
