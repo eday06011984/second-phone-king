@@ -12,13 +12,14 @@
     "start": "node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js dev --config dist/server/wrangler.json --local --persist-to .wrangler/state --ip 127.0.0.1 --inspector-port 0",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .sites-runtime",
     "db:generate": "drizzle-kit generate",
-    "test": "npm run test:auth && npm run test:retailer-prices && npm run test:news",
+    "test": "npm run test:auth && npm run test:retailer-prices && npm run test:news && npm run test:seo-links",
     "test:auth": "node migration/test-auth.mjs && node migration/test-line.mjs",
     "test:retailer-prices": "node --test tests/retailer-prices.test.mjs",
     "test:news": "node --test scripts/*news*.test.mjs",
     "validate:news": "node scripts/validate-news.mjs",
     "validate:news:publication": "node scripts/validate-news-publication.mjs",
-    "publish:news": "node scripts/publish-reviewed-news.mjs"
+    "publish:news": "node scripts/publish-reviewed-news.mjs",
+    "test:seo-links": "node --experimental-strip-types --test tests/topical-links.test.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
