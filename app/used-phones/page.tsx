@@ -23,7 +23,8 @@ const questions=[
 ["如何找可以現場驗機的二手機店","先從店家頁的所在地、地址與聯絡方式建立候選名單；出發前逐家確認指定型號與容量是否仍有當日庫存、是否需預約、付款前可測哪些功能，以及能否自備 SIM 卡和充電設備。到店後核對實機與刊登照片、序號或 IMEI、機況、維修說明及書面保固。地址與店家頁只代表聯絡線索，不等於商品在店或店家已同意完整驗機。", "/stores", "查看店家地址與聯絡方式"],
 ["通訊行可以免費刊登二手機嗎？","二手機王目前提供初期免費刊登，店家可建立專頁、管理商品，每件商品最多放六張照片。未來收費方案與時間尚未訂定，調整前會公告並由店家選擇。", "/join", "了解免費刊登方案"]
 ];
-export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 10 月 17 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
+export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 10 月 23 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
+<section aria-labelledby="used-phone-start"><h2 id="used-phone-start">找二手機，先回答四個問題</h2><p>先確認是要購買、找實體店家，還是了解售價與收購價差異；接著列出預算、偏好的 iOS／Android 與主要用途，最後決定是否需要現場驗機。想直接看店家刊登可前往<a href="/market">二手機商品</a>，需要當面看機則先查<a href="/stores">店家地址與聯絡方式</a>；商品是否仍在店及可測項目，都要在出發前向店家確認。</p></section>
 <section aria-labelledby="buying-channels">
 <h2 id="buying-channels">中古手機哪裡買？先比較購買管道</h2>
 <p>先決定是否需要現場驗機，再比較商品資訊、付款方式與售後條件。以下是選購時可用的核對方向，不是店家排名，也不代表某類賣家一定有保固。</p>
