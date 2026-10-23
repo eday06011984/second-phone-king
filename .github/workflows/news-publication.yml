@@ -21,5 +21,7 @@ jobs:
           node-version: 22
       - name: Test news checks
         run: npm run test:news
+      - name: Test crawlable topical links
+        run: npm run test:seo-links
       - name: Validate archive, new publication day and shared quota against fresh main
         run: npm run validate:news:publication
