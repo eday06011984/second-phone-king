@@ -3,7 +3,7 @@ import {origin} from "@/lib/site";
 import {jsonld} from "@/lib/market";
 export const metadata={title:"二手機推薦怎麼選？價格比較、驗機與店家挑選",description:"二手機推薦先依預算、作業系統與用途縮小範圍，再從容量、電池、維修紀錄到保固逐項比較。二手機王整理中古手機購買流程、店家資訊與驗機指南。",alternates:{canonical:"/used-phones"}};
 const questions=[
-["二手機推薦怎麼選？","先列出預算、iOS 或 Android，以及主要用途，再縮小型號和容量。候選機型仍要逐支比較實際機況、電池、維修紀錄、更新支援與書面保固；沒有一款手機適合所有人。", "/guides/compare-used-phone-prices", "建立同條件比較表"],
+["二手機推薦怎麼選？","先訂出包含已確認電池、配件或維修支出的總預算，再依 iOS 或 Android，以及通訊社群、拍照、遊戲、追劇、工作或備用機等主要用途縮小型號和容量。候選機型仍要逐支比較實際機況、電池、維修紀錄、更新支援與書面保固；沒有一款手機適合所有人。", "/guides/compare-used-phone-prices", "建立同條件比較表"],
 ["二手機怎麼選？","先決定總預算、作業系統、主要用途和容量，再固定同型號比較外觀、螢幕、電池、充電、相機、通話與收音、連線、按鍵、維修紀錄及書面保固。交機前核對序號或 IMEI，確認前機主已解除 iCloud 或 Google 帳號且手機可正常重置；價格外也要預留已確認需要的電池、配件或維修支出。", "/guides/used-phone-checklist", "開啟二手機挑選與驗機清單"],
 ["買二手機有哪些注意事項？","交機前先核對型號、容量、實拍、序號或 IMEI 與總費用，請賣方解除 iCloud、Google 帳號及裝置管理並確認可正常重置。現場測試螢幕與觸控、相機、通話與收音、Wi-Fi、藍牙、行動網路、充電、按鍵及生物辨識，再問清楚電池、維修、泡水、退換與書面保固；未提供的資訊要列為待確認。", "/guides/used-phone-checklist", "開啟購買注意事項與驗機清單"],
 ["二手機購買前要問賣家什麼","先問清楚型號、容量、顏色、實拍、序號或 IMEI、手機來源與購買證明；再逐項確認電池、摔落或進水、維修與零件更換、各項功能、帳號或裝置管理限制、配件及實際總價。付款前另問能否完整驗機與重設啟用、書面保固與退換方式；沒有提供的資料標示待確認，口頭說明請留在可保存的商品或交易紀錄。", "/guides/used-phone-checklist", "查看提問與驗機清單"],
@@ -23,7 +23,7 @@ const questions=[
 ["如何找可以現場驗機的二手機店","先從店家頁的所在地、地址與聯絡方式建立候選名單；出發前逐家確認指定型號與容量是否仍有當日庫存、是否需預約、付款前可測哪些功能，以及能否自備 SIM 卡和充電設備。到店後核對實機與刊登照片、序號或 IMEI、機況、維修說明及書面保固。地址與店家頁只代表聯絡線索，不等於商品在店或店家已同意完整驗機。", "/stores", "查看店家地址與聯絡方式"],
 ["通訊行可以免費刊登二手機嗎？","二手機王目前提供初期免費刊登，店家可建立專頁、管理商品，每件商品最多放六張照片。未來收費方案與時間尚未訂定，調整前會公告並由店家選擇。", "/join", "了解免費刊登方案"]
 ];
-export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 10 月 23 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
+export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 10 月 24 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
 <section aria-labelledby="used-phone-start"><h2 id="used-phone-start">找二手機，先回答四個問題</h2><p>先確認是要購買、找實體店家，還是了解售價與收購價差異；接著列出預算、偏好的 iOS／Android 與主要用途，最後決定是否需要現場驗機。想直接看店家刊登可前往<a href="/market">二手機商品</a>，需要當面看機則先查<a href="/stores">店家地址與聯絡方式</a>；商品是否仍在店及可測項目，都要在出發前向店家確認。</p></section>
 <section aria-labelledby="buying-channels">
 <h2 id="buying-channels">中古手機哪裡買？先比較購買管道</h2>

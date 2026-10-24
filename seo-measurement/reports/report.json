@@ -830,7 +830,7 @@
     {
       "platform": "google_ai_overview",
       "total_questions": 25,
-      "untested_questions": 9,
+      "untested_questions": 8,
       "single_top_three_records": 0,
       "confirmed_stable_questions": 0,
       "stable_total": null,
@@ -855,14 +855,14 @@
         {
           "id": "q02",
           "prompt": "二手機推薦",
-          "attempted": false,
+          "attempted": true,
           "measured_dates": 0,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
             "not_present": 0,
             "indeterminate": 0,
-            "failed": 0
+            "failed": 1
           },
           "single_top_three_count": null,
           "selected_record_ids": [],
@@ -3416,6 +3416,34 @@
       "recommended_sites": [],
       "notes": "送出前 Google 首頁頁尾明示『台灣』。 錯誤頁時間 2026-10-23T00:17:13Z，換算台北 08:17:13。固定問句提交一次；未操作驗證、重載、改入口或重試。沒有結果，不能記為沒有 AI 摘要或本站未出現。",
       "date": "2026-10-23",
+      "target_rank": null,
+      "top_three_sites": [],
+      "single_top_three": null
+    },
+    {
+      "id": "google_ai_overview-q02-2026-10-24T08-49-29+08-00",
+      "question_id": "q02",
+      "platform": "google_ai_overview",
+      "prompt": "二手機推薦",
+      "status": "failed",
+      "measured_at": "2026-10-24T08:49:29+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-10-24T00:49:29Z，換算台北 08:49:29。固定問句提交一次；未操作驗證、重載、改入口或重試。沒有結果，不能記為沒有 AI 摘要或本站未出現。",
+      "date": "2026-10-24",
       "target_rank": null,
       "top_three_sites": [],
       "single_top_three": null
