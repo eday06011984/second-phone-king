@@ -3402,5 +3402,119 @@
     ],
     "publishedAt": "2026-10-23T09:19:23.603+08:00",
     "updatedAt": "2026-10-23T09:19:23.603+08:00"
+  },
+  {
+    "slug": "iphone-duo-store-launch-foldable-handover-check",
+    "title": "iPhone Duo 正式到店：首批摺疊 iPhone 交機先做哪些檢查？",
+    "category": "手機新品",
+    "description": "Apple 宣布 iPhone Duo 於 10 月 23 日在全球 Apple Store 登場；首批購機除了供貨與方案，更應在交機時檢查摺疊結構、雙螢幕與資料移轉。",
+    "sections": [
+      {
+        "heading": "10 月 23 日全球門市登場，但供貨與方案仍要查當地頁面",
+        "paragraphs": [
+          "Apple 於 2026 年 10 月 23 日宣布 iPhone Duo 在全球 Apple Store 正式登場，並展示美國、英國、印度與中國等地門市的首發情況。官方也表示，消費者可透過 Apple Store、Apple 官網及 Apple Store App 選購，門市提供實機操作與產品說明。",
+          "新聞稿提到 Apple Trade In、分期與電信商優惠等服務，但這些方案會受國家、付款方式及當地條款影響。「全球登場」不代表每個市場、容量與顏色都有現貨，也不能把美國門市的金融或換購安排直接視為台灣方案。"
+        ]
+      },
+      {
+        "heading": "Personal Setup 能協助移轉，不等於所有資料都會自動完成",
+        "paragraphs": [
+          "Apple 表示門市 Personal Setup 可協助使用者安全移轉資料，並安排介紹 iPhone Duo 與 iOS 27 的 Today at Apple 課程。這些服務可降低首次設定門檻，但實際移轉仍受到舊機系統版本、儲存空間、雲端同步狀態、eSIM 與第三方 App 登入方式影響。",
+          "換機前應先完成獨立備份，確認照片、通訊錄、訊息、驗證器與通訊軟體資料是否可還原。若銀行、工作或身分驗證 App 綁定舊機，先查清楚轉移流程，再清除或交售原手機，避免只看到新機已能開機就認定資料移轉完整。"
+        ]
+      },
+      {
+        "heading": "編輯分析：摺疊機交機要把結構與軟體一起驗收",
+        "paragraphs": [
+          "首批 iPhone Duo 交機時，可在不同亮度與純色畫面下檢查內外螢幕，逐區測試觸控，再多次正常開闔，觀察轉軸阻尼、展開平整度、異音、保護層邊緣與折痕周圍是否有亮點。相機、麥克風、喇叭、充電、無線連線及 Face ID 也應逐項確認。",
+          "若未來購買二手機，還要核對序號、保固、維修與零件紀錄、電池狀態及啟用鎖定。首發活動照片只能證明產品已在部分門市上市，不能推定個別機器的耐用度、台灣庫存或二手價格；應以實機狀況與賣方書面保障為準。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/iphone-duo-arrives-at-apple-store-locations-worldwide/",
+        "date": "2026-10-23"
+      }
+    ],
+    "publishedAt": "2026-10-24T09:24:29.575+08:00",
+    "updatedAt": "2026-10-24T09:24:29.575+08:00"
+  },
+  {
+    "slug": "gemini-4-argon-access-plans-cloud-hardware-check",
+    "title": "Gemini 4 Argon 開放多種付費入口：使用 AI 前先分清雲端方案與硬體需求",
+    "category": "AI 與軟體",
+    "description": "Google 公布 Gemini 4 Argon 的五個社群作品，並說明 API、Antigravity、Gemini App 與 AI Mode 的使用資格；不同入口、訂閱與資料處理方式不能混為一談。",
+    "sections": [
+      {
+        "heading": "五個展示案例是創作示範，不是統一效能測試",
+        "paragraphs": [
+          "Google 於 2026 年 10 月 23 日整理五個使用 Gemini 4 Argon 建立的社群作品，包括水上飛機模擬、即時資料地球儀、互動式噴射引擎、由單張圖片建立 3D 馬車，以及多人網頁遊戲。官方用這些案例說明模型處理視覺程式設計、空間推理與多步驟工作的方法。",
+          "案例由不同創作者、工具與資料來源完成，文章沒有提供相同提示、相同時間或相同成本下的橫向測試。因此，這些展示適合用來理解可能的工作流程，不能直接當成本站實測，也不能保證每位使用者輸入相同要求都會得到相同結果。"
+        ]
+      },
+      {
+        "heading": "API、開發工具與消費者介面的資格不同",
+        "paragraphs": [
+          "Google 表示 Gemini 4 Argon 已向開發者與企業提供，可透過 AI Studio 的 API 及 Gemini 平台使用；Google Antigravity 需要 Google AI Ultra 或付費 Pro 訂閱，Gemini App 與 Search 的 AI Mode 也列出 Ultra 或 Pro 訂閱資格。這些入口面向的操作方式、計費與資料處理情境不同。",
+          "想在手機或電腦使用時，應先確認所在地區、帳號類型、訂閱層級及實際介面是否出現模型選項。雲端模型的主要運算不等於在本機完成；購買新電腦或高階顯示卡前，要先確認自己的工作是否真的需要本機 3D、編譯或渲染，而不是只因模型名稱升級硬體。"
+        ]
+      },
+      {
+        "heading": "編輯分析：採用 AI 工具要先做小型驗證與成本紀錄",
+        "paragraphs": [
+          "個人與小型商家可先選一個可核對的工作，例如整理商品規格或建立簡單互動頁，記錄提示、人工修正時間、訂閱或 API 成本及錯誤類型，再評估是否擴大使用。涉及價格、保固、法律或客戶資料時，輸出仍需由負責人查核，不能以展示作品取代審核。",
+          "若使用二手電腦執行相關工作，基本驗收仍包括瀏覽器支援、記憶體、儲存空間、網路穩定與帳號安全；只有需要本機開發、3D 或其他重負載軟體時，才進一步比較處理器與顯示卡。先分清雲端與本機工作，較能避免為未使用的硬體規格付費。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google 官方部落格",
+        "url": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/",
+        "date": "2026-10-23"
+      }
+    ],
+    "publishedAt": "2026-10-24T09:24:29.575+08:00",
+    "updatedAt": "2026-10-24T09:24:29.575+08:00"
+  },
+  {
+    "slug": "windows-11-insider-phone-controls-speed-test-used-pc-check",
+    "title": "Windows 11 Insider 新增手機控制與網速測試：正式版電腦不一定看得到",
+    "category": "軟體更新",
+    "description": "Microsoft 釋出 10 月 23 日 Windows 11 Insider 測試版本，加入快速設定手機控制與網速測試；功能仍限測試通道，且 Android、iPhone 支援程度不同。",
+    "sections": [
+      {
+        "heading": "新功能分布在 Beta 與 Experimental 測試版本",
+        "paragraphs": [
+          "Microsoft 於 2026 年 10 月 23 日向 Windows Insider 的 Beta 與 Experimental 通道發布多個 Windows 11 預覽版本。官方列出的版本包含 Build 26220.9757、26340.9767，以及針對 26H1 與未來平台的其他測試組建。",
+          "本次重點包括在快速設定中篩選功能旗標、管理已連接手機，以及直接執行網路速度測試。這些內容屬於 Insider 預覽，並非所有正式版 Windows 11 電腦立即具備；即使版本編號接近，所在通道與分批推出狀態仍會影響功能是否出現。"
+        ]
+      },
+      {
+        "heading": "Android 手機控制較完整，iPhone 初期以狀態資訊為主",
+        "paragraphs": [
+          "官方說明，快速設定的 Mobile devices 體驗可讓支援的 Android 手機切換勿擾、調整鈴聲模式或播放聲音尋找裝置；iPhone 初期則以較有限的狀態資訊為主，實際能力也會因手機平台與裝置設定而異。",
+          "另一項網速測試可從快速設定、Wi-Fi 或行動網路選單，以及工作列網路圖示啟動，顯示下載、上傳與延遲。單次測試只反映當下連線，不代表電腦網卡、路由器或網路方案在所有時間的最高表現。"
+        ]
+      },
+      {
+        "heading": "編輯分析：二手電腦先查通道，再判斷缺功能原因",
+        "paragraphs": [
+          "驗收二手 Windows 電腦時，先到系統資訊與 Windows Update 核對版本、組建與是否加入 Insider Program。賣家若展示預覽功能，應確認那是正式支援還是測試通道；若買家重視穩定性，不宜把實驗性選項當成永久規格或加價理由。",
+          "手機連線還應測試藍牙、Wi-Fi、必要應用程式與自己的帳號權限；網路問題則要用多個時間與位置交叉檢查。切換或離開預覽通道前先備份資料並依 Microsoft 指引操作，避免為追求一項測試功能影響日常工作環境。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Insider Blog",
+        "url": "https://blogs.windows.com/windows-insider/2026/10/23/announcing-new-builds-for-23-october-2026/",
+        "date": "2026-10-23"
+      }
+    ],
+    "publishedAt": "2026-10-24T09:24:29.575+08:00",
+    "updatedAt": "2026-10-24T09:24:29.575+08:00"
   }
 ]
