@@ -3516,5 +3516,119 @@
     ],
     "publishedAt": "2026-10-24T09:24:29.575+08:00",
     "updatedAt": "2026-10-24T09:24:29.575+08:00"
+  },
+  {
+    "slug": "apple-tv-f1-dolby-atmos-multiview-device-region-check",
+    "title": "Apple TV F1 加入 Dolby Atmos 與多視角：台灣用戶先別急著升級設備",
+    "category": "影音與串流",
+    "description": "Apple 公布美國 F1 轉播加入 Dolby Atmos、Dolby Vision 與最多四畫面多視角；功能同時受地區、訂閱、播放裝置及影音設備支援限制。",
+    "sections": [
+      {
+        "heading": "美國 F1 轉播新增沉浸音效與多視角",
+        "paragraphs": [
+          "Apple 於 2026 年 10 月 22 日宣布，美國 Apple TV 的 F1 轉播從美國大獎賽開始加入 Dolby Atmos，並搭配既有的 Dolby Vision。官方也表示，多視角功能可在單一畫面放入最多四個直播訊號，支援範圍從 Apple 裝置與串流播放器擴大至部分智慧電視。",
+          "官方列出的內容還包括英文與西班牙文講評、車手追蹤、計時資料、混合車載鏡頭與頒獎台訊號。不過這次公告描述的是美國訂閱服務；Apple 明確說明觀看 F1 需要美國 Apple TV 訂閱，不能直接推定台灣帳號或其他市場具有相同賽事權利與功能。"
+        ]
+      },
+      {
+        "heading": "Dolby 標誌不代表整套設備都能完整輸出",
+        "paragraphs": [
+          "Apple 說明 Dolby Vision 與 Dolby Atmos 需要受支援的 Apple 裝置，以及相容的電視、Soundbar 或家庭劇院系統。實際效果還會受到播放端、HDMI 連線、影音接收器、電視音訊回傳設定與內容格式影響；只看到電視或喇叭盒上的單一 Dolby 標誌，不足以確認完整訊號鏈。",
+          "若為了串流賽事購買二手 Apple TV 4K、電視或 Soundbar，可先查完整型號與官方規格，再以相同 App 測試畫面模式、聲音格式及穩定性。二手商品頁寫有 4K、HDR 或 Atmos，也應分別確認，不能把其中一項支援當成其他功能的保證。"
+        ]
+      },
+      {
+        "heading": "編輯分析：先確認內容能看，再評估硬體升級",
+        "paragraphs": [
+          "台灣使用者最先要查的是服務地區與帳號資格，其次才是家中設備是否支援。若內容本身不在所在地區提供，即使更換高階電視或音響，也不會自動取得轉播；反之，既有設備若已能正確輸出相容格式，就沒有必要只為新聞中的功能名稱立即換機。",
+          "驗收二手影音設備時，建議測試 HDMI 埠、遙控器、Wi-Fi、有線網路、音訊回傳與韌體更新，並確認裝置已解除前任帳號。本文依官方公告整理相容性重點，未對特定電視、音響或串流裝置進行畫質、音質與延遲測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/formula-1-united-states-grand-prix-streams-live-on-apple-tv-this-weekend/",
+        "date": "2026-10-22"
+      }
+    ],
+    "publishedAt": "2026-10-25T09:24:23.962+08:00",
+    "updatedAt": "2026-10-25T09:24:23.962+08:00"
+  },
+  {
+    "slug": "jbl-playback-gallery-l100-classic-80-used-speaker-check",
+    "title": "JBL 展示 80 年音響演進：買二手經典喇叭不能只看外型與年份",
+    "category": "3C 配件",
+    "description": "Samsung 公開 JBL Playback Gallery 展覽內容，從早期家用喇叭到限量 L100 Classic 80；二手音響的型號、單體、箱體與維修紀錄仍需逐項核對。",
+    "sections": [
+      {
+        "heading": "官方展覽串起專業音響與家用產品歷史",
+        "paragraphs": [
+          "Samsung Global Newsroom 於 2026 年 10 月 23 日介紹在首爾舉行的 JBL Playback Gallery。展覽於 10 月 24 日至 31 日開放，內容涵蓋 1929 年使用 Lansing Manufacturing 喇叭的收音機、1957 年推出的 JBL Paragon，以及源自 4310 錄音室監聽喇叭、1970 年上市的 L100 Century。",
+          "現場也展示 Summit K2、耳機、藍牙喇叭與 PartyBox 等產品，並加入 Bowers & Wilkins 60 週年展區。這是一篇品牌歷史與展覽報導，不是不同年代產品在相同條件下的量測比較，也沒有提供二手市場價格。"
+        ]
+      },
+      {
+        "heading": "L100 Classic 80 是限量紀念型號，仍應核對序號與配對",
+        "paragraphs": [
+          "官方指出，L100 Classic 80 結合 1970 年代 L100 的設計元素與現代技術，全球限量 800 對，每組附有工程師簽名紀念牌及獨立序號。對二手買家而言，『限量』不等於商品一定完整或保值，仍要確認左右聲道是否為原配、序號與附件是否一致，以及賣方能否提供來源紀錄。",
+          "舊款或復刻喇叭外觀相近，內部單體、分音器與接線卻可能不同。商品若使用『經典 L100』等概括名稱，應要求完整型號、背板與單體近照；若曾換單體、修分音器或整理箱體，也要請賣方清楚列出零件與施工內容。"
+        ]
+      },
+      {
+        "heading": "編輯分析：二手喇叭驗收要把聲音與結構分開看",
+        "paragraphs": [
+          "現場可先以左右聲道相同音量播放熟悉素材，確認高、中、低音單體都有輸出，沒有摩擦聲、爆音或明顯音量差，再查看懸邊、箱體接縫、端子與網罩。大型喇叭也要事先核對尺寸、重量、擴大機負載能力及運送方式，避免只因復古外觀就忽略使用條件。",
+          "品牌歷史能解釋產品定位，卻不能證明個別二手品的剩餘壽命。購買前應把實際聆聽、維修紀錄、配件、運輸風險與店家保固一起評估；本文為依官方資料整理的選購提醒，並非本站實機或音質測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/inside-jbl-playback-gallery-80-years-of-sound-innovation",
+        "date": "2026-10-23"
+      }
+    ],
+    "publishedAt": "2026-10-25T09:24:23.962+08:00",
+    "updatedAt": "2026-10-25T09:24:23.962+08:00"
+  },
+  {
+    "slug": "microsoft-flint-interactive-ai-chart-data-verification-check",
+    "title": "Microsoft Flint-interactive 讓 AI 圖表可點選探索：漂亮互動仍不能取代資料查核",
+    "category": "AI 與軟體",
+    "description": "Microsoft Research 公開 Flint-interactive，以高階語意事件建立可縮放、篩選與連動的 AI 圖表；它是開發工具，不代表資料與結論會自動正確。",
+    "sections": [
+      {
+        "heading": "從靜態圖表走向可點選、篩選與連動畫面",
+        "paragraphs": [
+          "Microsoft Research 於 2026 年 10 月 22 日介紹 Flint-interactive。這套語言建立在 Flint 之上，讓使用者或 AI 代理以較高階的語意事件與更新操作，描述點選、篩選、縮放、醒目標示及跨圖表連動，而不必逐一處理底層繪圖事件。",
+          "官方範例包括在兩張散佈圖之間同步選取資料、由表格反向標示圖中資料點，以及拖曳時間位置更新多個城市的天氣資訊。Flint 的編譯器負責處理視覺與互動相依關係，目標是降低反覆產生程式碼、除錯與版面修正的成本。"
+        ]
+      },
+      {
+        "heading": "這是研究與開發工具，不是一般圖表的正確性認證",
+        "paragraphs": [
+          "Microsoft 說明可透過 Flint-MCP 與 MCP Apps 在聊天或畫布環境建立互動圖表，也能以 Flint Interactive Canvas 製作儀表板與資料故事。實際使用仍需要依官方設定指引部署；文章沒有宣稱任何電腦開箱即具備這項功能，也未提供所有環境的效能保證。",
+          "互動介面能幫助讀者探索資料，但資料來源、時間範圍、單位、缺漏值與圖表尺度仍由建立者負責。AI 若讀錯欄位或使用不完整資料，即使圖表能流暢縮放與連動，結論仍可能錯誤；因此不能把『可互動』當成『已查證』。"
+        ]
+      },
+      {
+        "heading": "編輯分析：先用小資料驗證，再決定是否升級電腦",
+        "paragraphs": [
+          "個人或店家若想把互動圖表用於庫存、價格或營運報告，可先用一份能人工核對的小型資料集測試，逐筆比對篩選結果、座標、標籤與匯總數字，再記錄生成時間、錯誤與人工修正成本。公開前還應保留資料來源與更新日期，避免互動效果掩蓋過期資料。",
+          "這類工具是否需要更高階電腦，取決於資料量、瀏覽器、開發環境與是否在本機執行模型。購買新機或二手工作站前，應先觀察現有設備的記憶體、處理器負載與實際等待時間，再針對瓶頸升級；官方研究展示本身不能當成硬體採購規格。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Research Blog",
+        "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+        "date": "2026-10-22"
+      }
+    ],
+    "publishedAt": "2026-10-25T09:24:23.962+08:00",
+    "updatedAt": "2026-10-25T09:24:23.962+08:00"
   }
 ]
