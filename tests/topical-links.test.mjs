@@ -59,3 +59,23 @@ test('news CTA goes directly to marketplace and page templates emit native ancho
  assert.match(guide,/relatedGuides\(slug,\[\.\.\.knowledge,\.\.\.guides\]\)/);
  assert.match(guide,/<a href=\{'\/guides\/'\+x\.slug\}>\{x\.title\}<\/a>/);
 });
+
+
+test('keyboard navigation bypasses the shared header and focuses a unique main landmark',()=>{
+ const layout=read('app/layout.tsx');
+ assert.match(layout, /<body><a className="skip-link" href="#main-content">跳至主要內容<\/a><header>/);
+ assert.match(layout, /<main id="main-content" tabIndex=\{-1\} className="wrap">/);
+ assert.equal((layout.match(/id="main-content"/g)||[]).length,1);
+ const css=read('app/globals.css');
+ assert.match(css,/\.skip-link:focus\{transform:translateY\(0\)/);
+});
+
+test('search exposes selection and result changes and offers buyers a filter recovery action',()=>{
+ const market=read('app/marketplace.tsx');
+ assert.match(market,/aria-pressed=\{brand===b\}/);
+ assert.match(market,/role="status" aria-live="polite" aria-atomic="true"/);
+ assert.match(market,/const clearFilters=\(\)=>\{setBrand\('全部品牌'\);setCity\('全部地區'\);setBudget\('不限預算'\);setQuery\(''\)\}/);
+ assert.equal((market.match(/onClick=\{clearFilters\}/g)||[]).length,2);
+ assert.match(market,/rows.length\?<button type="button" className="btn light" onClick=\{clearFilters\}>清除篩選，查看全部商品/);
+ assert.doesNotMatch(market,/rows.length\?'我要刊登商品'/);
+});
