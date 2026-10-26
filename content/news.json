@@ -3630,5 +3630,110 @@
     ],
     "publishedAt": "2026-10-25T09:24:23.962+08:00",
     "updatedAt": "2026-10-25T09:24:23.962+08:00"
+  },
+  {
+    "slug": "gemini-small-business-tools-data-check",
+    "title": "Gemini 新增小型企業工具：店家導入 AI 前先守住資料與人工覆核",
+    "category": "AI 工具",
+    "description": "Google 為 Gemini 加入小型企業入口、品牌風格與資料整理功能。店家使用 AI 處理商品與營運資料時，哪些環節仍要人工確認？",
+    "sections": [
+      {
+        "heading": "官方資訊：新工具開始向全球使用者推出",
+        "paragraphs": [
+          "Google 於 10 月 20 日公布 Gemini 的小型企業專用入口，可協助建立品牌素材、整理財務資料與理解顧客回饋，並能連接 Google Business Profile、Google Ads、Google Workspace，以及部分第三方服務。官方表示相關入口、行銷與財務技能及連接功能將在接下來數日陸續向全球 Gemini 使用者推出；實際可用項目仍應以帳號、地區與服務介面為準。"
+        ]
+      },
+      {
+        "heading": "店家應用：先從可覆核的工作開始",
+        "paragraphs": [
+          "對二手機店而言，AI 可先用在整理顧客常見問題、產生商品說明初稿或歸納活動成效，但型號、容量、電池健康度、價格與保固等商品事實，仍須回到庫存資料與實機逐項核對。生成內容若直接發布，錯誤可能同時出現在網站、社群與廣告，因此應保留人工審稿與版本紀錄。"
+        ]
+      },
+      {
+        "heading": "資料與權限：能連接不代表都該連接",
+        "paragraphs": [
+          "啟用任何外部服務前，建議先確認它會讀取哪些資料、誰能授權，以及如何撤銷存取。含有顧客姓名、聯絡方式、交易紀錄或未公開進貨成本的檔案，不宜為了方便就直接上傳；可先以去識別化範例測試流程，再依店內權限與隱私規範決定是否正式使用。以上為二手機王的營運建議，不代表本站已實測所有功能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+        "date": "2026-10-20"
+      }
+    ],
+    "publishedAt": "2026-10-26T09:11:25.812+08:00",
+    "updatedAt": "2026-10-26T09:11:25.812+08:00"
+  },
+  {
+    "slug": "cloudflare-origin-range-requests-large-files",
+    "title": "Cloudflare 開放 Origin Range Requests：影片與大檔下載為何可能更順",
+    "category": "網路服務",
+    "description": "Cloudflare 推出 Origin Range Requests，改善大型檔案的分段快取。這項更新對商品影片、檔案下載與一般手機使用者有何意義？",
+    "sections": [
+      {
+        "heading": "官方資訊：分段快取功能向所有方案開放",
+        "paragraphs": [
+          "Cloudflare 於 10 月 23 日宣布 Origin Range Requests，可透過 Cache Rule 套用在適合的大型可快取檔案流量，且不必自行設定固定分段大小。HTTP Range Request 讓播放器跳到影片中段或下載工具續傳時，只要求所需的位元組，而不是每次重新取得完整檔案。"
+        ]
+      },
+      {
+        "heading": "數據怎麼看：官方結果不等於每個網站的保證",
+        "paragraphs": [
+          "Cloudflare 表示，新實作在其 R2 工作負載中把第 99 百分位的首位元組時間約減半，後續改善也讓 R2 與類似工作負載的分層快取流量約減少 6%。這是官方在特定系統與流量條件下的結果，不是二手機王的獨立測試；實際效果仍會受原始伺服器、檔案格式、快取規則與使用者網路影響。"
+        ]
+      },
+      {
+        "heading": "使用者與店家的實際意義",
+        "paragraphs": [
+          "若二手機商品頁放有長影片、韌體檔或大型說明文件，正確的分段傳輸可減少跳轉播放與中斷續傳時的不必要流量；但它不會提高手機處理器、儲存裝置或行動網路本身的速度。網站管理者也不應對所有內容一律開啟，應先確認檔案可快取、回應支援範圍請求，再觀察命中率與錯誤紀錄。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Cloudflare Blog",
+        "url": "https://blog.cloudflare.com/origin-range-requests/",
+        "date": "2026-10-23"
+      }
+    ],
+    "publishedAt": "2026-10-26T09:11:25.812+08:00",
+    "updatedAt": "2026-10-26T09:11:25.812+08:00"
+  },
+  {
+    "slug": "asus-enterprise-agentic-ai-pc-buying-check",
+    "title": "華碩發表企業 Agentic AI 方案：高階 AI 主機不等於一般店務必需",
+    "category": "AI 電腦",
+    "description": "華碩公布涵蓋資料中心、邊緣設備與桌面系統的企業 Agentic AI 方案。採購新機或二手工作站前，先釐清工作負載與總成本。",
+    "sections": [
+      {
+        "heading": "官方資訊：從資料中心延伸到桌面端",
+        "paragraphs": [
+          "華碩於 10 月 21 日在 NVIDIA GTC Berlin 公布企業 Agentic AI 方案，整合 AI 基礎設施、軟體與服務，產品範圍包含伺服器、邊緣系統、工作站與個人電腦。官方也列出 ASUS AI HUB、NVIDIA AI Enterprise，以及多款桌面與行動 AI 系統，訴求讓企業能從開發、治理一路部署到實際環境。"
+        ]
+      },
+      {
+        "heading": "採購觀察：先把任務轉成可量化需求",
+        "paragraphs": [
+          "企業級 AI 方案的規模跨度很大，不能只看「AI 電腦」名稱就推定適合一般店務。若用途只是文書、庫存管理、圖片裁切與雲端 AI 服務，應先盤點軟體需求、同時使用人數、資料是否必須留在本機，以及現有設備的瓶頸；只有模型大小、顯示記憶體、持續運算時間等需求明確後，才適合比較工作站或專用系統。"
+        ]
+      },
+      {
+        "heading": "二手工作站還要檢查支援與耗用成本",
+        "paragraphs": [
+          "評估二手 AI 工作站時，除了處理器與顯示卡，還要核對電源、散熱、記憶體擴充、驅動支援、作業系統與商用軟體授權。專業設備的購入價格只是總成本一部分，長時間運作的用電、噪音、保固與維修料件都會影響使用效益。本文依官方公告整理，未對所列設備進行效能或功耗測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-enterprise-agentic-ai-solution-gtc-berlin-2026/",
+        "date": "2026-10-21"
+      }
+    ],
+    "publishedAt": "2026-10-26T09:11:25.812+08:00",
+    "updatedAt": "2026-10-26T09:11:25.812+08:00"
   }
 ]
