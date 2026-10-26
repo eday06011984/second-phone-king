@@ -1897,6 +1897,40 @@
       "site_link": null,
       "recommended_sites": [],
       "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-10-25T01:02:23Z，換算台北 09:02:23。固定問句提交一次；未操作 reCAPTCHA、重載、改入口或重試。沒有結果，不能記為沒有 AI 摘要或本站未出現。"
+    },
+    {
+      "id": "google_ai_overview-q04-2026-10-26T08-49-37+08-00",
+      "question_id": "q04",
+      "platform": "google_ai_overview",
+      "prompt": "二手機購買平台",
+      "status": "not_present",
+      "measured_at": "2026-10-26T08:49:37+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "台灣常見且具公信力的二手機與福利機購買平台與通路，主要分為連鎖實體店家、電信業者，以及線上／社群拍賣平台三大類型：\n\n1. 專業 3C 連鎖與實體／線上通路（較有保障、附保固）\n• 創宇通訊：全台知名的二手機連鎖品牌，提供各大品牌（iPhone、Samsung、vivo、OPPO 等）手機、平板、筆電買賣與舊機回收，有實體門市與線上通路。\n• Q哥：提供工程師雙重檢測、外觀分級（7成至99成新）、深度清潔與電池續航力認證；蘋果二手機提供最高 365 天保固。\n• 保衛站：提供經過 18 項功能檢測的認證二手機，並附帶 90 天保固。\n• 點子3C：專營二手手機、平板、筆電與相機，提供全品項專業檢測分級與保固服務。\n\n2. 電信公司官方通路（品質穩定、附帶售後）\n• 中華電信網路門市：提供官方認證分級的二手／福利手機（如 A 級、B+ 級等），購機來源與品質具一定信賴度。\n• 神腦國際：不定期上架智慧手機二手良品，皆附有官方保固期（通常約 6 個月）與免運服務。\n\n3. C2C／個人二手交易平台（價格彈性大，但需面交或慎選賣家）\n• 旋轉拍賣（Carousell）：熱門的二手 3C 與手機買賣平台，可直接向個人賣家議價或面交，但需小心遇到不良機況。\n• Facebook 社群與 PTT（如 MacShop 板、MobileSales 板、二手手機交流社團）：價格通常較透明，但買賣雙方交易風險需自行評估，建議優先選擇當面驗機。\n\n購買二手手機的實用建議\n1. 確認保固期限：向店家購買時，務必問清楚保固天數與保固範圍（電池是否包含在內）。\n2. 現場／收到貨立即驗機：檢查螢幕顯示、Face ID／指紋辨識、相機、喇叭、網路連線、充電功能，以及 IMEI 碼是否一致。\n3. 避免來路不明的個人賣家：網拍個人賣家若價格低得不合常理，常有黑屏、零件拼裝或帳號鎖定等風險。\n\n如果你能告訴我：你想找哪一個品牌與型號（例如 iPhone 15 或 Samsung）？偏好實體門市面交還是網路下單宅配？預算大概是多少？我可以幫你提供更具體的挑選建議！"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {"site_id": "smart3c", "name": "創宇通訊", "is_target": false},
+        {"site_id": "qek888", "name": "Q哥", "is_target": false},
+        {"site_id": "guardstation", "name": "保衛站", "is_target": false},
+        {"site_id": "idea3c", "name": "點子3C", "is_target": false},
+        {"site_id": "cht", "name": "中華電信網路門市", "is_target": false},
+        {"site_id": "senao", "name": "神腦國際", "is_target": false},
+        {"site_id": "carousell", "name": "旋轉拍賣（Carousell）", "is_target": false},
+        {"site_id": "facebook", "name": "Facebook 社群", "is_target": false},
+        {"site_id": "ptt", "name": "PTT", "is_target": false}
+      ],
+      "notes": "搜尋前首頁頁尾顯示『台灣』；結果頁顯示『台灣／東區 臺南市－根據你的 IP 位址』。全新登出 Google 首頁逐字送出固定問句一次，展開完整 AI 摘要。只依摘要三個分類內具名通路的首次出現順序計算；引用、相關結果卡片與一般網頁搜尋結果全部排除。"
     }
   ]
 }
