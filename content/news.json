@@ -3735,5 +3735,110 @@
     ],
     "publishedAt": "2026-10-26T09:11:25.812+08:00",
     "updatedAt": "2026-10-26T09:11:25.812+08:00"
+  },
+  {
+    "slug": "ipad-mini-oled-a20-pro-upgrade-check",
+    "title": "新 iPad mini 改用 OLED 與 A20 Pro：舊款換新先看螢幕、容量與配件",
+    "category": "平板電腦",
+    "description": "Apple 發表配備 8.5 吋 OLED、A20 Pro 與 IP67 防護的新 iPad mini。升級或選購二手 iPad 前，哪些規格與配件相容性需要核對？",
+    "sections": [
+      {
+        "heading": "官方資訊：螢幕、晶片與連線全面更新",
+        "paragraphs": [
+          "Apple 於 10 月 26 日發表新一代 iPad mini，採用 8.5 吋 OLED 螢幕、A20 Pro 晶片與 IP67 防塵防水設計，並把橫向視訊用的 12MP Center Stage 前置相機移到長邊。官方列出的容量為 128GB、256GB 與 512GB，Wi-Fi 版加入 Wi-Fi 7 與 Bluetooth 6，行動網路版則採用 C2 數據機系統。"
+        ]
+      },
+      {
+        "heading": "升級判斷：先看用途，不只比較跑分",
+        "paragraphs": [
+          "OLED、較高亮度與更快晶片，對繪圖、遊戲、影片與戶外閱讀較有感；若主要用途是筆記、網頁和串流，舊款的電池健康度、剩餘容量與實際售價可能比峰值效能更重要。Apple 公布的效能與亮度數據屬官方條件測試，本文沒有進行獨立實測，也不應直接套用到每個 App。"
+        ]
+      },
+      {
+        "heading": "買新機或二手機都要確認配件世代",
+        "paragraphs": [
+          "官方指出新機支援 Apple Pencil Pro 與 Apple Pencil USB-C，但保護殼、鍵盤、螢幕保護貼是否能沿用，仍要依機身尺寸、鏡頭與按鍵位置逐一確認。選購二手 iPad mini 時，建議再檢查啟用鎖、觸控與 OLED 顯示均勻度、USB-C 充電、揚聲器及 Wi-Fi；防水等級不是進水保固，也不能把外觀完整當成防護仍有效的證明。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+        "date": "2026-10-26"
+      }
+    ],
+    "publishedAt": "2026-10-27T09:09:40.289+08:00",
+    "updatedAt": "2026-10-27T09:09:40.289+08:00"
+  },
+  {
+    "slug": "galaxy-buds-on-open-ear-used-earbuds-check",
+    "title": "Galaxy Buds On 開放式耳夾耳機：選購前先檢查配對、漏音與衛生",
+    "category": "3C 配件",
+    "description": "Samsung 介紹首款開放式 Galaxy Buds On，主打耳夾設計、環境感知與語音功能。新機或二手耳機該怎麼確認適配與功能限制？",
+    "sections": [
+      {
+        "heading": "官方資訊：開放式設計兼顧環境聲",
+        "paragraphs": [
+          "Samsung 於 10 月 27 日介紹 Galaxy Buds On，這是品牌首款採耳夾式開放設計的耳機。官方展示語音控制、頭部手勢、Quick Voice Memo、Intelligent Clear Call 與 Gemini Live 等功能；其中 Gemini Live 需要搭配支援 Galaxy AI 的手機，Quick Voice Memo 也需要指定的錄音與 Bixby 應用程式及額外設定。"
+        ]
+      },
+      {
+        "heading": "開放式不等於適合所有環境",
+        "paragraphs": [
+          "開放式耳機可讓使用者較容易察覺周遭動態，適合通勤、散步或需要與人交談的場合，但隔音、低頻感受與漏音表現會受音量、耳形和環境影響。Samsung 也註明安靜場所可能更容易聽到漏音，因此門市試戴時應以自己常用音量測試，不要只依宣傳情境判斷。"
+        ]
+      },
+      {
+        "heading": "二手耳機交機前的實際檢查",
+        "paragraphs": [
+          "若購買二手 Galaxy Buds On，應確認左右耳能正常充電與配對、觸控或按壓區域反應一致，並測試麥克風、聲道、電池續航及充電盒接口。耳夾接觸皮膚的部位要依原廠允許方式清潔，無法妥善消毒、外殼破裂或電池異常發熱的商品不宜交易；AI 與語音功能也要用實際手機、帳號和地區環境確認。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/hands-on-comfort-convenience-and-more-a-day-with-galaxy-buds-on",
+        "date": "2026-10-27"
+      }
+    ],
+    "publishedAt": "2026-10-27T09:09:40.289+08:00",
+    "updatedAt": "2026-10-27T09:09:40.289+08:00"
+  },
+  {
+    "slug": "firefox-emudhra-certificate-update-device-check",
+    "title": "Firefox 封鎖外洩憑證：二手手機與電腦更新瀏覽器後再登入",
+    "category": "資安更新",
+    "description": "Mozilla 因 eMudhra 中繼憑證私鑰外洩，透過 OneCRL 與 Firefox 更新封鎖受影響憑證。使用二手機或二手電腦前，該如何確認保護已套用？",
+    "sections": [
+      {
+        "heading": "官方資訊：先以 OneCRL 完成封鎖",
+        "paragraphs": [
+          "Mozilla 於 10 月 20 日說明，八張 eMudhra 中繼憑證相關私鑰遭到外洩，可能被用來簽發冒充其他網站的 HTTPS 憑證。Mozilla 表示，標準設定的 Firefox 已透過 OneCRL 自動封鎖受影響憑證，不必等待使用者重新啟動瀏覽器；同時也發布桌面與 Android 版 Firefox 158.0.1，以及對應 ESR 更新，補強未正常接收 OneCRL 的少數自訂環境。"
+        ]
+      },
+      {
+        "heading": "Android 使用者還要留意後續修正版",
+        "paragraphs": [
+          "官方在 10 月 21 日補充，Firefox Android 158.0.2 修正部分裝置啟動後未立即套用內建 OneCRL 封鎖清單的問題。這不代表所有裝置都曾遭攔截，也不能只看到 HTTPS 鎖頭就判定網站一定可信；較穩妥的做法是從正式商店更新瀏覽器，並核對網址、帳號登入通知與系統時間。"
+        ]
+      },
+      {
+        "heading": "二手裝置交機：更新與帳號清除要一起做",
+        "paragraphs": [
+          "二手手機或電腦在登入銀行、信箱與社群帳號前，應先完成作業系統與瀏覽器更新，確認自動更新功能未被關閉，再移除前任使用者的同步帳號、憑證、擴充套件與已儲存密碼。若設備因系統過舊而無法取得受支援的瀏覽器版本，應把這項限制列入價格與用途評估，而不是只看硬體仍能開機。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Mozilla Security Blog",
+        "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+        "date": "2026-10-20"
+      }
+    ],
+    "publishedAt": "2026-10-27T09:09:40.289+08:00",
+    "updatedAt": "2026-10-27T09:09:40.289+08:00"
   }
 ]
