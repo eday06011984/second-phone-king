@@ -830,7 +830,7 @@
     {
       "platform": "google_ai_overview",
       "total_questions": 25,
-      "untested_questions": 6,
+      "untested_questions": 5,
       "single_top_three_records": 0,
       "confirmed_stable_questions": 0,
       "stable_total": null,
@@ -905,17 +905,19 @@
         {
           "id": "q05",
           "prompt": "二手機比價",
-          "attempted": false,
-          "measured_dates": 0,
+          "attempted": true,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
-            "not_present": 0,
+            "not_present": 1,
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": null,
-          "selected_record_ids": [],
+          "single_top_three_count": 0,
+          "selected_record_ids": [
+            "google_ai_overview-q05-2026-10-27T08-50-16+08-00"
+          ],
           "stable": "unknown"
         },
         {
@@ -3563,6 +3565,71 @@
         {
           "site_id": "guardstation",
           "name": "保衛站",
+          "is_target": false
+        }
+      ],
+      "single_top_three": false
+    },
+    {
+      "id": "google_ai_overview-q05-2026-10-27T08-50-16+08-00",
+      "question_id": "q05",
+      "platform": "google_ai_overview",
+      "prompt": "二手機比價",
+      "status": "not_present",
+      "measured_at": "2026-10-27T08:50:16+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "尋找二手手機比價與行情，主要可以透過以下幾個實用比價網站、通路平台與目前市場參考價位：\n\n常用二手機比價與查詢平台\n• 即時價格與規格比價：\n  ◦ ePrice 比價王二手機報價：提供各品牌熱門二手手機的市場參考起價。\n  ◦ SOGI手機王：查詢手機規格、新品與二手市場資訊、通訊行與網友討論。\n  ◦ BigGo 二手手機比價 與 飛比價格：跨電商平台（如蝦皮、露天等）即時比價搜尋。\n\n近期二手/福利品市場參考行情\n• Apple iPhone 系列：\n  ◦ iPhone 16 Pro Max 256GB（A級二手機，約六個月保固）：約 27,999 元（例如神腦生活）\n  ◦ iPhone 15 Pro 二手福利品（保固180天）：約 23,190 ～ 23,990 元（例如 maclove.co）\n  ◦ iPhone 17 Pro / Pro Max 二手起價：約 31,900 ～ 36,000 元起\n  ◦ iPhone 18 Pro 二手起價：約 40,000 元起\n• Android 及其他品牌：\n  ◦ Samsung Galaxy Z Fold 系列二手價：約 34,000 ～ 39,000 元起\n  ◦ Google Pixel 旗艦摺疊/Pro系列：約 38,990 元起\n  ◦ 入門二手機款（如 Vivo Y 系列）：低至數千元不等（最低約 2,500 元起）\n\n如果你有特定的手機型號、容量或預算，可以告訴我，我可以幫你找到更具體的規格與價格區間！"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "eprice",
+          "name": "ePrice 比價王",
+          "is_target": false
+        },
+        {
+          "site_id": "sogi",
+          "name": "SOGI 手機王",
+          "is_target": false
+        },
+        {
+          "site_id": "biggo",
+          "name": "BigGo",
+          "is_target": false
+        },
+        {
+          "site_id": "feebee",
+          "name": "飛比價格",
+          "is_target": false
+        }
+      ],
+      "notes": "搜尋前首頁頁尾顯示『台灣』；結果頁顯示『台灣／東區 臺南市－根據你的 IP 位址』。全新登出 Google 首頁逐字送出固定問句一次，展開完整 AI 摘要。只依『常用二手機比價與查詢平台』內具名平台首次出現順序計算；引用、來源卡片、一般搜尋結果及行情段落中的店家價格例子全部排除。",
+      "date": "2026-10-27",
+      "target_rank": null,
+      "top_three_sites": [
+        {
+          "site_id": "eprice",
+          "name": "ePrice 比價王",
+          "is_target": false
+        },
+        {
+          "site_id": "sogi",
+          "name": "SOGI 手機王",
+          "is_target": false
+        },
+        {
+          "site_id": "biggo",
+          "name": "BigGo",
           "is_target": false
         }
       ],
