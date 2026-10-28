@@ -3840,5 +3840,110 @@
     ],
     "publishedAt": "2026-10-27T09:09:40.289+08:00",
     "updatedAt": "2026-10-27T09:09:40.289+08:00"
+  },
+  {
+    "slug": "macbook-pro-m6-used-mac-upgrade-check",
+    "title": "14 吋 MacBook Pro 換上 M6：買新機或二手 Mac 先核對記憶體與電池",
+    "category": "電腦新品",
+    "description": "Apple 發表搭載 M6 的 14 吋 MacBook Pro，加入 Wi-Fi 7、Bluetooth 6 與最高 24 小時官方續航。換機前仍要依工作負載核對記憶體、連接埠與電池狀況。",
+    "sections": [
+      {
+        "heading": "官方資訊：M6、無線連線與標準記憶體更新",
+        "paragraphs": [
+          "Apple 於 10 月 27 日發表搭載 M6 的 14 吋 MacBook Pro。官方列出的 M6 配置包含 12 核心 CPU、12 核心 GPU、雙 16 核心神經網路引擎，標準統一記憶體為 16GB、最高可選 32GB；無線連線更新為 Wi-Fi 7 與 Bluetooth 6，並保留 HDMI、MagSafe 3、三個 Thunderbolt 4、SDXC 卡槽及耳機孔。"
+        ]
+      },
+      {
+        "heading": "官方效能與續航數字不能直接當成每個人的結果",
+        "paragraphs": [
+          "Apple 宣稱電池續航最長可達 24 小時，並公布相對 M5 與 M1 機型的效能增幅；這些都是指定配置與測試條件下的官方數據，實際表現會受軟體、負載、螢幕亮度、電池狀態與外接設備影響。若工作主要是文書、網頁和一般影音，不必只因晶片世代更新就忽略既有機器是否仍足夠使用。"
+        ]
+      },
+      {
+        "heading": "買二手 MacBook Pro 的核對重點",
+        "paragraphs": [
+          "比較 M6 新機與二手 Mac 時，先固定螢幕尺寸、晶片、統一記憶體與 SSD 容量，再檢查電池循環次數、最大容量、螢幕亮點、鍵盤、轉軸、充電及所有連接埠。交機前還要確認「尋找」與啟用鎖已解除、序號及保固資訊一致；統一記憶體與儲存容量通常無法在購買後自行升級，不宜只看外觀與低價。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+        "date": "2026-10-27"
+      }
+    ],
+    "publishedAt": "2026-10-28T09:09:43.117+08:00",
+    "updatedAt": "2026-10-28T09:09:43.117+08:00"
+  },
+  {
+    "slug": "asus-rx-9070-xt-onimusha-edition-used-gpu-check",
+    "title": "ASUS 推《鬼武者》RX 9070 XT 限量版：買顯卡別只看外觀與遊戲贈品",
+    "category": "電腦與遊戲",
+    "description": "ASUS 發表 TUF Gaming Radeon RX 9070 XT Onimusha Special Edition，採 16GB GDDR6 與三風扇設計。新卡或二手卡仍應核對尺寸、供電、保固與實際測試。",
+    "sections": [
+      {
+        "heading": "官方資訊：限量外觀搭配 RX 9070 XT 規格",
+        "paragraphs": [
+          "ASUS 於 10 月 27 日公布 TUF Gaming Radeon RX 9070 XT Onimusha Special Edition，以《鬼武者：劍之道》為主題設計藍金色外殼與背板。官方規格包含 AMD RDNA 4 架構、16GB GDDR6、256-bit 記憶體介面與 PCIe 5.0，散熱採三個 Axial-tech 風扇及相變 GPU 導熱墊。"
+        ]
+      },
+      {
+        "heading": "收藏版不代表任何電腦都能直接安裝",
+        "paragraphs": [
+          "這張卡採 3.125 槽厚度與大型散熱結構，選購前應先量測機殼顯卡長度、厚度與線材空間，並依完整產品規格確認電源供應器容量及接頭。PCIe 5.0 是介面支援資訊，不代表舊平台一定無法使用，也不能單靠介面世代推算實際遊戲幀率；效能仍會受 CPU、遊戲設定、驅動與散熱環境影響。"
+        ]
+      },
+      {
+        "heading": "二手限量顯卡要把本體、配件與保固分開驗",
+        "paragraphs": [
+          "購買二手卡時，建議用可重複的負載測試檢查畫面異常、溫度、風扇噪音與當機狀況，並查看金手指、螺絲、防拆標示及散熱器是否有拆修痕跡。遊戲兌換資格、限定包裝與配件可能已使用或缺失，應分別寫入交易內容；收藏溢價也不等於剩餘保固較長，仍要向賣方核對原始購買憑證與當地保固條件。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-tuf-gaming-radeon-rx-9070-xt-onimusha-special-edition/",
+        "date": "2026-10-27"
+      }
+    ],
+    "publishedAt": "2026-10-28T09:09:43.117+08:00",
+    "updatedAt": "2026-10-28T09:09:43.117+08:00"
+  },
+  {
+    "slug": "samsung-certified-renewed-amazon-us-market-check",
+    "title": "Samsung 原廠整新 Galaxy 登上美國 Amazon：台灣買家先分清市場與保固",
+    "category": "二手機市場",
+    "description": "Samsung 美國將部分 Certified Re-Newed Galaxy 手機擴大至 Amazon 銷售。原廠整新標準、電池與保固屬美國方案，不能直接套用台灣二手機。",
+    "sections": [
+      {
+        "heading": "官方資訊：美國原廠整新通路擴大",
+        "paragraphs": [
+          "Samsung Electronics America 於 10 月 21 日宣布，部分 Galaxy Certified Re-Newed 手機開始透過 Amazon.com 銷售，涵蓋 Galaxy S24 與 S25 系列共 14 種容量及顏色組合。官方表示，這些手機由 Samsung 專業人員處理，使用原廠零件並更換經認證的新電池，且須通過 147 項品質檢查。"
+        ]
+      },
+      {
+        "heading": "原廠整新、一般二手與店家整備不能混為一談",
+        "paragraphs": [
+          "Certified Re-Newed 是 Samsung 美國市場的特定方案，官方列有一年有限保固及當地 Samsung Care+ 資格；這些條件不代表平行輸入到台灣後仍適用，也不能推論所有標示「整新」的 Galaxy 都更換過新電池或完成相同檢查。比較商品時，應看清銷售主體、型號區域版本、發票、保固服務地區與書面整備內容。"
+        ]
+      },
+      {
+        "heading": "台灣購買二手 Galaxy 的實際驗收方式",
+        "paragraphs": [
+          "在台灣選購二手或店家整備 Galaxy，交機時可核對完整型號、IMEI、容量與顏色，測試螢幕、相機、充電、通話、行動網路、Wi-Fi 及 Samsung Members 診斷，並確認 Google 與 Samsung 帳號已移除。若賣方宣稱換過電池或原廠整新，應要求可核對的維修紀錄與保固文件；本文整理的是美國通路消息，不是台灣售價或保固公告。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung U.S. Newsroom",
+        "url": "https://news.samsung.com/us/samsung-galaxy-first-certified-re-newed-now-available-amazon/",
+        "date": "2026-10-21"
+      }
+    ],
+    "publishedAt": "2026-10-28T09:09:43.117+08:00",
+    "updatedAt": "2026-10-28T09:09:43.117+08:00"
   }
 ]
