@@ -30,9 +30,11 @@ export default async function Page(){
     <section className="panel" aria-labelledby="store-checklist">
       <h2 id="store-checklist">挑二手機店家，到店前先確認 4 件事</h2>
       <p>詢問指定商品是否仍在店、能否查看刊登照片中的實機、現場可測試哪些功能，以及保固期限與排除項目能否提供書面紀錄。</p>
+      <p>建立候選名單時，不把搜尋排序、星等或評論數視為平台認證；用相同欄位比較地址、實際交易對象、指定商品、驗機範圍、總費用、付款方式及書面保固，缺少資料就標示待確認。</p>
       <p className="muted">店家資料與商品由刊登者自行提供；有門市地址不等於每件商品都在現場。二手機王提供資訊媒合，不代收款，也不為所有商品提供統一保固。</p>
       <a className="news-read" href="/guides/used-phone-checklist">開啟現場驗機清單 →</a>　
-      <a className="news-read" href="/guides/store-warranty">查看保固確認清單 →</a>
+      <a className="news-read" href="/guides/store-warranty">查看保固確認清單 →</a>　
+      <a className="news-read" href="/guides/store-vs-private-seller">比較店家與個人賣家 →</a>
     </section>
     {rows.length?<div className="storelist">{rows.map(r=><a className="panel" href={`/stores/${r.id}`} key={r.id}>
       <span className="badge">{r.city}</span>
