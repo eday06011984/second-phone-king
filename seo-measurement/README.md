@@ -54,6 +54,8 @@ node --test scripts/seo-measurement.test.mjs
 
 沒有推薦清單時，即使沒看到本站也應填 indeterminate，不能憑引用順序填排名。沒有 AI 摘要的 Google 頁面可保存截圖作為 indeterminate 證據，一般搜尋結果不算 AI 回覆。不能把 `source` 改成 direct_platform 就把搜尋工具結果充當實測；程式只能驗證格式，無法證明證據真實性、截圖完整性或人工推薦順序正確，仍需人工核對。證據若放 repo，先移除不影響判讀的帳號等私人資訊。
 
+Google AI 摘要請先依 [人工採證作業](GOOGLE_AI_MANUAL.md) 核對地區、模式與完整證據；內含 q06／q07 失敗核對、三種結果映射及 schema v1 待填範本。
+
 ## 實際測量流程
 
 1. 選定平台與問句，在全新對話/搜尋使用繁體中文、台灣情境；逐字輸入問句，不加入本站名稱、網址或引導。
