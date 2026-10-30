@@ -4059,5 +4059,119 @@
     ],
     "publishedAt": "2026-10-29T09:41:31.400+08:00",
     "updatedAt": "2026-10-29T09:41:31.400+08:00"
+  },
+  {
+    "slug": "macbook-pro-proled-touch-used-mac-buying-check",
+    "title": "MacBook Pro 換上 PROLED 觸控螢幕：買新機或二手 Mac 先分清世代",
+    "category": "電腦新品",
+    "description": "Apple 公布配備 PROLED XDR、觸控操作與 M5 Pro／M5 Max 的新款 MacBook Pro；本文整理官方規格、上市地區與日後選購二手 Mac 的辨識重點。",
+    "sections": [
+      {
+        "heading": "Apple 公布哪些主要變化",
+        "paragraphs": [
+          "Apple 於 2026 年 10 月 28 日發表 14 吋與 16 吋 MacBook Pro with PROLED XDR Display。官方資料顯示，新機採用雙層 OLED 結構，支援最高 120Hz 可變更新率、P3 與 Adobe RGB 色域，並首次在 MacBook Pro 螢幕加入觸控操作；處理器則為 M5 Pro 或 M5 Max。",
+          "官方同時列出 Thunderbolt 5、HDMI、SDXC、MagSafe、耳機孔、Wi‑Fi 7 與 Bluetooth 6，並表示美國等 30 個國家與地區已於 10 月 28 日開放預購、11 月 6 日起供貨。這些是全球新聞稿資訊，台灣型號、選配、價格與到貨時間仍應以 Apple 台灣官網及本地授權通路為準。"
+        ]
+      },
+      {
+        "heading": "不要只看觸控與亮度就決定換機",
+        "paragraphs": [
+          "PROLED XDR 與觸控功能是這次明確的新賣點，但對文字處理、網頁或一般店務用途而言，現有 MacBook 的鍵盤、觸控板與外接螢幕可能已足夠。編輯分析認為，升級前應先確認常用軟體是否真的能從觸控、廣色域或 M5 Pro／M5 Max 的效能獲益，再比較記憶體、儲存空間與連接埠需求。",
+          "官方列出的亮度、對比與續航均是在特定條件下的產品數據，不等於每種使用情境都能達到相同結果。需要色彩工作的人還應確認校色流程與軟體支援；重視攜帶性的人則可比較尺寸、重量與充電器，而不是只以單一規格判斷整機價值。"
+        ]
+      },
+      {
+        "heading": "二手市場更要核對型號與螢幕狀態",
+        "paragraphs": [
+          "新舊 MacBook Pro 的外觀名稱相近，未來購買二手機時應從「關於這台 Mac」、序號查詢與實際連接埠核對晶片、年份、記憶體及儲存容量，不能只憑賣家寫有觸控或 OLED 就判定為新世代。也要留意 M6 基本款與 M5 Pro／M5 Max 專業款是不同產品線，避免把晶片名稱混為一談。",
+          "現場檢查可用純色與灰階畫面查看殘影、壞點及亮度不均，再測試觸控、鍵盤、觸控板、攝影機、喇叭與各連接埠；同時查看電池循環次數、維修紀錄、啟用鎖定及裝置管理狀態。螢幕與主機板的實際狀況，通常比外殼是否有細小刮痕更值得優先確認。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+        "date": "2026-10-28"
+      }
+    ],
+    "publishedAt": "2026-10-30T09:54:21.974+08:00",
+    "updatedAt": "2026-10-30T09:54:21.974+08:00"
+  },
+  {
+    "slug": "xreal-aura-android-xr-glasses-region-buying-check",
+    "title": "XREAL AURA Android XR 眼鏡開賣：台灣買家先看地區、連線與使用限制",
+    "category": "穿戴與配件",
+    "description": "Google 與 XREAL 推出首款採用 Android XR 的有線 XR 眼鏡 AURA；本文整理產品形式、首波市場、相容情境及購買新舊裝置前應確認的事項。",
+    "sections": [
+      {
+        "heading": "AURA 是什麼樣的 XR 裝置",
+        "paragraphs": [
+          "Google 於 2026 年 10 月 28 日宣布與 XREAL 推出 AURA，官方稱它是首款採用 Android XR 的有線 XR 眼鏡。透明鏡片可讓使用者同時看到周遭環境與空間內容，眼鏡本體重量低於 95 公克，主要運算由以線材連接的隨身運算盒負責。",
+          "官方列出的使用情境包括多視窗 Android 應用、YouTube 與 Google TV 沉浸內容、Google Photos 空間相簿、行動遊戲及有線鏡像；Gemini 可依使用者正在觀看的實體或螢幕內容提供協助。這些功能仍會受帳號、應用、內容授權、網路與地區支援限制，並非所有 Android App 都會自動變成完整 XR 體驗。"
+        ]
+      },
+      {
+        "heading": "首波上市不包含台灣",
+        "paragraphs": [
+          "Google 表示 AURA 已在美國、加拿大與韓國開放訂購，日本則自 11 月 2 日起開放；使用者須年滿 18 歲，並需要相容帳號與設定。官方文章列出的限時起價為 1,099 美元，出貨預計自 11 月中開始，但這不是台灣售價，也不代表台灣已有正式保固與售後服務。",
+          "編輯分析認為，台灣消費者若考慮跨境購買，應先確認插頭與充電、語言與帳號地區、維修寄送、退貨期限及內容服務可用性。產品採眼鏡加運算盒與線材的形式，攜帶重量不能只看眼鏡本體，也要把線材活動範圍與長時間佩戴舒適度納入評估。"
+        ]
+      },
+      {
+        "heading": "購買新機或二手 XR 眼鏡怎麼驗",
+        "paragraphs": [
+          "選購前可先確認自己的主要用途是看片、多工、遊戲還是開發，並核對需要連接的手機、電腦或遊戲裝置是否支援官方列出的鏡像與輸入方式。近視使用者還要確認鏡片方案與調整範圍；容易暈動的人宜先實際試戴，不能只依規格表推定舒適度。",
+          "若未來購入二手 AURA，應檢查透明鏡片刮傷、顯示亮暗點、追蹤與手勢、喇叭、線材接頭、運算盒電池及帳號重設是否正常，也要確認序號、購買地區與配件是否完整。XR 裝置的顯示與追蹤故障不一定能從外觀發現，面交時完成實際播放與操作測試會更可靠。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+        "date": "2026-10-28"
+      }
+    ],
+    "publishedAt": "2026-10-30T09:54:21.974+08:00",
+    "updatedAt": "2026-10-30T09:54:21.974+08:00"
+  },
+  {
+    "slug": "samsung-wallet-perks-us-region-privacy-check",
+    "title": "Samsung Wallet 加入 Rakuten 回饋：台灣 Galaxy 用戶先別把美國服務當成可用",
+    "category": "軟體更新",
+    "description": "Samsung Wallet Perks 在美國整合 Rakuten 與 Samsung Cash；本文說明適用地區、回饋流程、個人化優惠與二手 Galaxy 使用錢包服務前的安全檢查。",
+    "sections": [
+      {
+        "heading": "Samsung Wallet Perks 更新了什麼",
+        "paragraphs": [
+          "Samsung Mobile Press 於 2026 年 10 月 29 日公布 Samsung Wallet Perks，透過 Rakuten 讓符合資格的美國 Galaxy 使用者，在 Wallet 內尋找線上、實體店與餐飲回饋，並將符合條件的 Cash Back 兌入 Samsung Cash Card。官方表示合作網路涵蓋超過 3,500 個品牌及 25,000 個實體店與餐飲夥伴。",
+          "更新還可依購物活動顯示個人化優惠，Nearby 功能則會提示附近參與商家。官方同時說明，Samsung Cash Card 可用於線上或實體付款、加值與轉帳；部分功能需要身分驗證、已註冊或驗證的 Samsung Cash 帳戶，以及額外的使用者資料。"
+        ]
+      },
+      {
+        "heading": "這是美國服務，不是台灣同步上線",
+        "paragraphs": [
+          "官方的推出範圍是美國，並明確註明資格、參與品牌、回饋內容與 Samsung Cash 功能可能不同。台灣 Galaxy 手機即使能開啟 Samsung Wallet，也不代表會出現 Perks、Rakuten 回饋或 Samsung Cash Card；購機與申辦付款服務前應以台灣 Samsung Wallet 的正式支援頁為準。",
+          "編輯分析認為，回饋整合能減少在多個 App 之間切換，但個人化推薦與附近優惠也意味著使用者需要重新查看資料授權。看到高回饋比例時，仍要核對適用商家、上限、排除項目、兌換方式與到帳時間，不應為了回饋額外購買原本不需要的商品。"
+        ]
+      },
+      {
+        "heading": "二手 Galaxy 登入錢包前先做安全檢查",
+        "paragraphs": [
+          "購入二手 Galaxy 手機時，應先完成原廠重設與系統安全更新，確認沒有前任機主的 Samsung Account、Google 帳號、螢幕鎖定或裝置管理設定，再從官方商店更新 Samsung Wallet。若裝置曾解鎖系統、刷入非官方韌體或無法通過安全檢查，付款與錢包功能可能受影響。",
+          "出售手機前則要移除 Wallet 中的付款卡、票證與數位鑰匙，登出 Samsung Account，清除裝置並從帳號的裝置清單解除關聯。金融與身分資料不能只靠刪除 App 處理；完成重設後重新開機確認進入初始設定畫面，才是較完整的交接方式。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Mobile Press",
+        "url": "https://www.samsungmobilepress.com/articles/samsung-wallet-cash-back-experience-rakuten-samsung-cash",
+        "date": "2026-10-29"
+      }
+    ],
+    "publishedAt": "2026-10-30T09:54:21.974+08:00",
+    "updatedAt": "2026-10-30T09:54:21.974+08:00"
   }
 ]
