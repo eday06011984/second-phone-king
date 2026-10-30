@@ -3945,5 +3945,119 @@
     ],
     "publishedAt": "2026-10-28T09:09:43.117+08:00",
     "updatedAt": "2026-10-28T09:09:43.117+08:00"
+  },
+  {
+    "slug": "chrome-gmail-enhanced-autofill-privacy-region-check",
+    "title": "Chrome 可從 Gmail 提示訂單與航班資料：開啟自動填寫前先看隱私與地區",
+    "category": "軟體更新",
+    "description": "Google 為 Chrome 強化自動填寫加入 Gmail 資料提示，初期僅在美國向符合條件的 Gemini in Chrome 使用者推出；本文整理可用條件、資料控制與二手裝置登入前的檢查重點。",
+    "sections": [
+      {
+        "heading": "Google 公布了什麼",
+        "paragraphs": [
+          "Google 於 2026 年 10 月 28 日宣布，Chrome 的強化自動填寫可在使用者填表時，透過 Gemini 與 Personal Intelligence，從 Gmail 提示訂單編號、包裹追蹤資訊與航班預訂等內容。這項功能不是把所有郵件直接顯示在網頁上，而是依填表情境提出可供使用者選擇的建議。",
+          "官方表示敏感資料會加密，使用者也能在 Chrome 設定中管理是否啟用強化自動填寫及其可存取的資料。不過初期推出範圍是美國，支援桌面版、Android 與 iOS，且帳號必須是已啟用 Personal Intelligence 的 Gemini in Chrome 使用者；台灣帳號或其他地區裝置不應直接假設已經可用。"
+        ]
+      },
+      {
+        "heading": "便利性增加，也要重新檢查帳號權限",
+        "paragraphs": [
+          "這項更新的價值在於減少切換 Gmail、複製訂單資訊再貼到表單的步驟，但同時代表瀏覽器會依授權範圍讀取更多個人情境。編輯觀察是：使用共用電腦、門市公用設備或經常讓他人操作手機的人，應先確認 Chrome 使用的是哪個 Google 帳號，再決定是否開啟相關存取。",
+          "即使畫面出現自動建議，也應核對收件人、航班日期及訂單編號後再送出；遇到要求密碼、一次性驗證碼或完整金融資料的陌生頁面，不應因為瀏覽器能自動填入就降低警覺。官方目前只說明推出條件與控制方式，並未承諾所有網站、語言與帳號都會同時支援。"
+        ]
+      },
+      {
+        "heading": "二手手機與電腦交接前的實用檢查",
+        "paragraphs": [
+          "購買二手手機或電腦時，除了登出舊機上的 Google 帳號，也要清除 Chrome 個人資料、同步內容與網站登入狀態。若裝置曾由他人使用，建議先重設系統、完成安全更新，再登入自己的帳號並逐項檢查同步與自動填寫設定。",
+          "準備出售裝置的人則應確認 Gmail、Chrome 與 Gemini 相關服務均已登出，並從 Google 帳號的裝置清單移除舊機。這些步驟比只刪除瀏覽紀錄更完整，也能降低下一位使用者看到訂單、地址或旅程資訊的風險。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/",
+        "date": "2026-10-28"
+      }
+    ],
+    "publishedAt": "2026-10-29T09:41:31.400+08:00",
+    "updatedAt": "2026-10-29T09:41:31.400+08:00"
+  },
+  {
+    "slug": "asus-rog-720hz-oled-monitor-hardware-burnin-check",
+    "title": "ROG 720Hz OLED 電競螢幕亮相：升級前先算顯卡輸出與烙印風險",
+    "category": "3C 新品",
+    "description": "ASUS 公布 24.5 吋 ROG Swift OLED PG259QWS Ace 與 Strix OLED XG259QWPG Ace；本文整理 720Hz、540Hz、連接規格及 OLED 長期使用的選購重點。",
+    "sections": [
+      {
+        "heading": "兩款電競螢幕的主要差異",
+        "paragraphs": [
+          "ASUS ROG 於 2026 年 10 月 28 日宣布 Swift OLED PG259QWS Ace 與 Strix OLED XG259QWPG Ace 上市資訊。兩款均採用 24.5 吋、1920×1080 的 TrueBlack Glossy Tandem WOLED 面板，官方標示 0.02ms GTG 反應時間、最高 1700 nits HDR 峰值亮度、99.5% DCI-P3 色域與真 10-bit 色彩。",
+          "PG259QWS Ace 的原生更新率為 720Hz，配置 DisplayPort 2.1 UHBR20，並加入可顯示傾角、高度與觀看距離的 Position Sensor；XG259QWPG Ace 則為 540Hz，使用 DisplayPort 1.4 DSC。兩者均有兩組 HDMI 2.1、耳機孔、可變更新率及 OLED Care Pro，但不能只看同樣的面板名稱就把連接能力視為完全相同。"
+        ]
+      },
+      {
+        "heading": "720Hz 不代表任何電腦都能完整使用",
+        "paragraphs": [
+          "高更新率的實際效果取決於顯示卡輸出、線材、遊戲幀率與連接埠規格。PG259QWS Ace 要發揮 720Hz，官方特別列出 DisplayPort 2.1 UHBR20；若顯示卡只能在遊戲中輸出較低幀率，或使用不符規格的線材與轉接器，就無法因為螢幕標示 720Hz 而自動獲得同等流暢度。",
+          "兩款螢幕皆為 FHD 解析度，產品方向明確偏向競技遊戲。編輯分析認為，重視 4K 文字細緻度、影音剪輯空間或單機遊戲畫質的人，應把解析度、桌面距離與主要用途一起比較；高更新率只是其中一項規格，不應取代整體需求判斷。"
+        ]
+      },
+      {
+        "heading": "購買新機或二手 OLED 的檢查重點",
+        "paragraphs": [
+          "ASUS 表示 Tandem WOLED 使用雙層發光結構，並搭配 Neo Proximity Sensor、散熱設計與 OLED Care Pro，官方新聞稿亦提到三年保固包含 OLED 烙印。不過各市場的實際保固條款、起算方式與可受理情況仍應以購買地區的保固文件為準，不能只憑全球新聞稿推定台灣售後條件。",
+          "若日後購買二手品，建議用全白、灰階與單色畫面檢查殘影、亮度不均與壞點，確認累積使用情境、連接埠、原廠電源與序號保固。競技螢幕長時間顯示固定介面，面板狀態往往比外觀刮痕更值得優先檢查。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/rog-swift-oled-pg259qws-ace-720hz-gaming-monitor/",
+        "date": "2026-10-28"
+      }
+    ],
+    "publishedAt": "2026-10-29T09:41:31.400+08:00",
+    "updatedAt": "2026-10-29T09:41:31.400+08:00"
+  },
+  {
+    "slug": "playstation-prism-dualsense-ps5-cover-compatibility-check",
+    "title": "PlayStation Prism 透明配件登場：買 DualSense 與 PS5 外殼先查相容型號",
+    "category": "遊戲與配件",
+    "description": "PlayStation 公布 Prism Collection 透明 DualSense 控制器與 PS5 主機外殼；台灣玩家購買前應先分清預購地區、外殼型號、保固與二手配件狀態。",
+    "sections": [
+      {
+        "heading": "Prism Collection 有哪些產品",
+        "paragraphs": [
+          "Sony Interactive Entertainment 於 2026 年 10 月 28 日公開 PlayStation Prism Collection，包括透明外觀的 DualSense 無線控制器與 PS5 主機外殼，提供 Flare Orange、Emerald Green 與 Graphite Gray 三種顏色，外層採高光澤透明設計。",
+          "官方規劃 2026 年 11 月 10 日起開放預購，並自 2027 年 2 月 4 日起陸續上市。公告同時強調，實際上市日、零售價格與供貨地區可能不同；主機外殼在部分市場由 PlayStation Direct 獨家供應，其他地區則可能只有少量指定通路。台灣是否販售及售價仍應等待本地正式資訊。"
+        ]
+      },
+      {
+        "heading": "透明外觀不等於功能升級",
+        "paragraphs": [
+          "這次官方重點是顏色、材質與外觀設計，公告沒有宣稱控制器加入新的操作功能。編輯分析認為，已經持有狀況良好 DualSense 的玩家，應把 Prism Collection 視為造型與收藏選擇，而不是效能升級；購買前可先比較自己是否真的需要第二支控制器或替換外殼。",
+          "PS5 歷經不同機身版本，主機外殼必須核對實際型號與產品標示，不能只看名稱含有 PS5 就判定相容。跨境預購還要計入運費、稅費、退換貨與區域保固，官方列出的美元、日圓、歐元及英鎊建議售價也不是台灣定價。"
+        ]
+      },
+      {
+        "heading": "二手控制器與外殼怎麼驗",
+        "paragraphs": [
+          "購買二手 DualSense 時，可先連接主機測試兩支類比搖桿是否漂移、扳機與震動回饋是否正常，並檢查 USB-C 充電、電池續航、配對鍵及外殼卡扣。透明高光澤表面也較容易看見細紋，應在充足光線下確認裂痕與拆修痕跡。",
+          "二手主機外殼則應確認卡榫完整、左右片型號一致，並避免把改裝殼或自行拆裝品誤認為原廠限定配件。若收藏價值是主要考量，原盒、序號標示與購買證明會比單看顏色更有助於核對來源。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "PlayStation Blog",
+        "url": "https://blog.playstation.com/2026/10/28/first-look-inside-the-prism-collection-with-three-new-transparent-designs-for-ps5-accessories/",
+        "date": "2026-10-28"
+      }
+    ],
+    "publishedAt": "2026-10-29T09:41:31.400+08:00",
+    "updatedAt": "2026-10-29T09:41:31.400+08:00"
   }
 ]
