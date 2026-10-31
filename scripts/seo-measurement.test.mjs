@@ -98,3 +98,38 @@ test('CLI init refuses overwrite; repeated reports are identical', () => {
     assert.equal(readFileSync(join(dir, 'report.json'), 'utf8'), first);
   } finally { rmSync(dir, { recursive: true }); }
 });
+
+test('Google manual outcomes preserve failed attempts and earliest valid response', () => {
+  const platform = 'google_ai_overview';
+  const failed = fixture(1, 1, platform, 'failed');
+  const success = { ...fixture(1, 2, platform), measured_at: '2026-01-01T10:00:00+08:00' };
+  const unknown = fixture(2, 1, platform, 'indeterminate');
+  unknown.evidence = { kind: 'screenshot', value: 'SYNTHETIC TEST ONLY: normal results without overview' };
+  const miss = fixture(3, 1, platform, 'not_present');
+  const r = report([miss, unknown, success, failed]);
+  const q = r.platforms.find(p => p.platform === platform).questions[0];
+  assert.equal(q.measured_dates, 3);
+  assert.deepEqual(q.selected_record_ids, [success.id, unknown.id, miss.id]);
+  assert.equal(q.status_counts.failed, 1);
+  assert.equal(q.stable, 'unknown');
+  assert.deepEqual(r.records.filter(x => x.platform === platform && x.status !== 'not_tested').map(x => x.single_top_three), [false, null, true, null]);
+  const onlyFailed = report([failed, fixture(2, 1, platform, 'failed'), fixture(3, 1, platform, 'failed')]);
+  const f = onlyFailed.platforms.find(p => p.platform === platform).questions[0];
+  assert.equal(f.measured_dates, 0);
+  assert.equal(f.single_top_three_count, null);
+  assert.equal(f.stable, 'unknown');
+});
+
+test('Google manual invalid evidence and unverified context cannot become formal records', () => {
+  const fail = fixture(1, 1, 'google_ai_overview', 'failed');
+  const unclear = fixture(2, 1, 'google_ai_overview', 'indeterminate');
+  for (const r of [
+    { ...fail, status: 'not_present' },
+    { ...fail, brand_mentioned: false },
+    { ...unclear, evidence: { kind: 'error', value: 'SYNTHETIC TEST ONLY' } },
+    { ...unclear, recommended_sites: fixture(1).recommended_sites },
+    { ...unclear, context: { ...unclear.context, region: null } },
+    { ...unclear, context: { ...unclear.context, fresh_session: null } },
+    { ...unclear, notes: '' },
+  ]) assert.throws(() => report([r]));
+});

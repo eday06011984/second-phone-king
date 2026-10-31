@@ -12,7 +12,7 @@ node scripts/seo-measurement.mjs report
 node --test scripts/seo-measurement.test.mjs
 ```
 
-- 正式資料：`seo-measurement/results.json`。初始建立的 25 問句 × 3 平台 = 75 筆 `not_tested` 空白基準仍完整保留；截至 2026-10-20，另已追加 Gemini q10，以及 Google AI 摘要 q12、q14、q21 共 4 筆正式 `not_present`、Gemini q11 與 Google AI 摘要 q11、q15、q16、q17、q18、q19、q20、q22、q23 共 10 筆正式 `failed`，以及 Google AI 摘要 q13 的 1 筆正式 `indeterminate`，共 90 筆記錄。q10、q12、q14、q21 各有一次可判讀排名且本站均未進前三；q13 沒有可判讀具名清單，單次前三未知；q11、q15、q16、q17、q18、q19、q20、q22、q23 的失敗沒有完成實測日期，所有穩定判定仍為未知。條件不符、未知或不完整的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
+- 正式資料：`seo-measurement/results.json`。初始建立的 25 問句 × 3 平台 = 75 筆 `not_tested` 空白基準仍完整保留；截至 2026-10-31，另已追加 Gemini q10，以及 Google AI 摘要 q04、q05、q08、q09、q12、q14、q21 共 8 筆正式 `not_present`、Gemini q11 與 Google AI 摘要 q01、q02、q03、q06、q07、q11、q15、q16、q17、q18、q19、q20、q22、q23、q24、q25 共 17 筆正式 `failed`，以及 Google AI 摘要 q13 的 1 筆正式 `indeterminate`，共 101 筆記錄。q04、q05、q08、q09、q10、q12、q14、q21 各有一次可判讀排名且本站均未進前三；q13 沒有可判讀具名清單，單次前三未知；q01、q02、q03、q06、q07、q11、q15、q16、q17、q18、q19、q20、q22、q23、q24、q25 的失敗沒有完成實測日期，所有穩定判定仍為未知。固定 25 題都已有至少一次直接平台觀察，q01 至 q09 另各有第二個觀察日期，但正式資料仍只接受完整符合條件者；後續依相同問句補足不同台北日期。條件不符、未知或不完整的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
 - 閱讀報表：`seo-measurement/reports/report.md`。
 - 完整機器可讀報表：`seo-measurement/reports/report.json`，含所有原始紀錄、推導名次、單次前三、每問句各狀態筆數及穩定判定採用的紀錄 ID。
 - 每次資料更新後重跑 validate / report；輸出可重現，不加入每次執行的時間戳。
@@ -53,6 +53,8 @@ node --test scripts/seo-measurement.test.mjs
 | failed | 阻擋、網路錯誤等沒有取得回覆；保存錯誤與原因，觀測值 null；不算完成實測日期 |
 
 沒有推薦清單時，即使沒看到本站也應填 indeterminate，不能憑引用順序填排名。沒有 AI 摘要的 Google 頁面可保存截圖作為 indeterminate 證據，一般搜尋結果不算 AI 回覆。不能把 `source` 改成 direct_platform 就把搜尋工具結果充當實測；程式只能驗證格式，無法證明證據真實性、截圖完整性或人工推薦順序正確，仍需人工核對。證據若放 repo，先移除不影響判讀的帳號等私人資訊。
+
+Google AI 摘要請先依 [人工採證作業](GOOGLE_AI_MANUAL.md) 核對地區、模式與完整證據；內含 q06／q07 失敗核對、三種結果映射及 schema v1 待填範本。
 
 ## 實際測量流程
 
