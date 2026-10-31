@@ -830,7 +830,7 @@
     {
       "platform": "google_ai_overview",
       "total_questions": 25,
-      "untested_questions": 2,
+      "untested_questions": 1,
       "single_top_three_records": 0,
       "confirmed_stable_questions": 0,
       "stable_total": null,
@@ -973,17 +973,19 @@
         {
           "id": "q09",
           "prompt": "二手 iPhone 哪裡買",
-          "attempted": false,
-          "measured_dates": 0,
+          "attempted": true,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
-            "not_present": 0,
+            "not_present": 1,
             "indeterminate": 0,
             "failed": 0
           },
-          "single_top_three_count": null,
-          "selected_record_ids": [],
+          "single_top_three_count": 0,
+          "selected_record_ids": [
+            "google_ai_overview-q09-2026-10-31T08-28-42+08-00"
+          ],
           "stable": "unknown"
         },
         {
@@ -3768,6 +3770,116 @@
         {
           "site_id": "idea3c",
           "name": "點子3C",
+          "is_target": false
+        }
+      ],
+      "single_top_three": false
+    },
+    {
+      "id": "google_ai_overview-q09-2026-10-31T08-28-42+08-00",
+      "question_id": "q09",
+      "platform": "google_ai_overview",
+      "prompt": "二手 iPhone 哪裡買",
+      "status": "not_present",
+      "measured_at": "2026-10-31T08:28:42+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "購買二手 iPhone 主要有以下幾種安全、常見且各有特色管道：\n\n1. 實體/連鎖二手 3C 與通訊行（最推薦，有門市與保固）\n• 特點：購買前可現場檢測外觀、螢幕、相機與電池狀況，享有店家提供的短中期保固（通常為 3 至 12 個月不等），比網路個人賣家安心。\n• 常見店家：\n  ◦ 神腦國際：提供官方認證的 A 級與 B+ 級二手良品，附帶保固與網路免運。\n  ◦ 創宇通訊：全台大型二手機連鎖品牌，提供多品牌中古機、福利機與舊機回收。\n  ◦ Q哥、保衛站、點子3C 等專門店：提供多層次Q&A檢測及明確的門市或線上保固方案（如 Q哥提供最高 365 天保固）。\n  ◦ 地標網通：知名連鎖通訊行，亦有提供透明的舊機回收與換購服務。\n\n2. 電商平台 / 網拍商城（價格透明、選擇多）\n• 特點：可透過網購平台享有基本鑑賞期或電商客服保障，但務必挑選有信譽的『專業 3C 商行』而非來路不明的個人賣家。\n• 常見管道：\n  ◦ Yahoo拍賣、PChome 或蝦皮商城內的認證優良店家（如 SM嚴選二手3C 等）。\n• 避雷提醒：盡量避免向沒有評價、帳號來路不明的個人私下蝦皮賣場購買，容易遇到整新機充原廠、黑屏或零件被更換的問題。\n\n3. PTT / Dcard 討論區與專屬社群（適合懂機、有面交經驗者）\n• 特點：PTT MacShop 版、MobileSales 版，或是 Facebook 的二手iPhone交易網，常有鄉民升級新機後釋出自用機，價格往往比店家便宜。\n• 避雷提醒：強烈建議面交，現場務必檢查 IMEI 序號（與盒子是否相符）、登入自己的 Apple ID 測試重置與啟用鎖、檢查相機、Face ID、通話與電池健康度。\n\n購買二手 iPhone 避坑小貼士：\n• 電池健康度：建議挑選電池健康度在 85% 以上的機型；低於 80% 可能容易效能降速或自動關機，日後可能需自費更換電池。\n• 查看有無鎖機：確保手機已完整登出前機主的 Apple ID，避免買到『iCloud 啟用鎖』的鎖定機。\n\n如果你跟我說：\n• 你預算大約多少？\n• 想買哪一個型號（例如 iPhone 12、13、14 或 15 系列）？\n我可以幫你更精準地評估合理市價與推薦適合的管道！"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "senao",
+          "name": "神腦國際",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        },
+        {
+          "site_id": "qek888",
+          "name": "Q哥",
+          "is_target": false
+        },
+        {
+          "site_id": "guardstation",
+          "name": "保衛站",
+          "is_target": false
+        },
+        {
+          "site_id": "idea3c",
+          "name": "點子3C",
+          "is_target": false
+        },
+        {
+          "site_id": "landtop",
+          "name": "地標網通",
+          "is_target": false
+        },
+        {
+          "site_id": "yahoo-auctions",
+          "name": "Yahoo 拍賣",
+          "is_target": false
+        },
+        {
+          "site_id": "pchome",
+          "name": "PChome",
+          "is_target": false
+        },
+        {
+          "site_id": "shopee-mall",
+          "name": "蝦皮商城",
+          "is_target": false
+        },
+        {
+          "site_id": "sm-selected-used-3c",
+          "name": "SM 嚴選二手 3C",
+          "is_target": false
+        },
+        {
+          "site_id": "ptt",
+          "name": "PTT",
+          "is_target": false
+        },
+        {
+          "site_id": "dcard",
+          "name": "Dcard",
+          "is_target": false
+        },
+        {
+          "site_id": "facebook-used-iphone-market",
+          "name": "Facebook 二手 iPhone 交易網",
+          "is_target": false
+        }
+      ],
+      "notes": "搜尋前首頁頁尾顯示『台灣』；結果頁顯示『台灣／東區 臺南市－根據你的 IP 位址』。全新登出 Google 首頁逐字送出固定問句一次，在『全部』分頁展開完整 AI 摘要。只依摘要三個推薦分類內具名項目的首次出現順序計算；注意事項中的鼎威維修引用、贊助產品、來源卡片、相關結果與一般網頁搜尋結果全部排除。",
+      "date": "2026-10-31",
+      "target_rank": null,
+      "top_three_sites": [
+        {
+          "site_id": "senao",
+          "name": "神腦國際",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        },
+        {
+          "site_id": "qek888",
+          "name": "Q哥",
           "is_target": false
         }
       ],
