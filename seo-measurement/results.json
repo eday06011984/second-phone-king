@@ -2078,6 +2078,30 @@
         {"site_id": "facebook-used-iphone-market", "name": "Facebook 二手 iPhone 交易網", "is_target": false}
       ],
       "notes": "搜尋前首頁頁尾顯示『台灣』；結果頁顯示『台灣／東區 臺南市－根據你的 IP 位址』。全新登出 Google 首頁逐字送出固定問句一次，在『全部』分頁展開完整 AI 摘要。只依摘要三個推薦分類內具名項目的首次出現順序計算；注意事項中的鼎威維修引用、贊助產品、來源卡片、相關結果與一般網頁搜尋結果全部排除。"
+    },
+    {
+      "id": "google_ai_overview-q10-2026-11-01T08-05-30+08-00",
+      "question_id": "q10",
+      "platform": "google_ai_overview",
+      "prompt": "二手 iPhone 價格怎麼比較",
+      "status": "failed",
+      "measured_at": "2026-11-01T08:05:30+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-11-01T00:05:30Z，換算台北 08:05:30。固定問句逐字提交一次；未操作 reCAPTCHA、重載、改入口或重試。沒有結果，不能記為沒有 AI 摘要或本站未出現。"
     }
   ]
 }
