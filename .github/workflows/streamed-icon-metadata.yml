@@ -1,0 +1,30 @@
+name: Check streamed icon metadata
+
+on:
+  pull_request:
+    branches: [main]
+  merge_group:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  metadata-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install pinned pnpm
+        run: npm install --global pnpm@11.25.0
+      - name: Install frozen dependencies and registered patch
+        run: pnpm install --frozen-lockfile
+      - name: Test installed patch and head reconciliation
+        run: npm run test:metadata
+      - name: Build production artifact
+        run: npm run build
+      - name: Verify local Worker metadata, links and 404 behavior
+        run: npm run test:metadata:build
