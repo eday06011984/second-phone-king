@@ -4520,5 +4520,119 @@
     ],
     "publishedAt": "2026-11-02T09:19:19.464+08:00",
     "updatedAt": "2026-11-02T09:19:19.464+08:00"
+  },
+  {
+    "slug": "microsoft-edge-156-scareware-notification-block-used-pc-check",
+    "title": "Edge 156 會封鎖詐騙通知：二手電腦交機後先清網站權限",
+    "category": "資安更新",
+    "description": "Microsoft 說明 Edge 156 可在偵測到通知導向詐騙頁面時停用來源網站通知。買到二手電腦後，仍應檢查瀏覽器通知與帳號同步。",
+    "sections": [
+      {
+        "heading": "詐騙網站可透過通知反覆推送假警告",
+        "paragraphs": [
+          "Microsoft 於 11 月 2 日指出，部分詐騙網站會誘導使用者允許瀏覽器通知，再持續推送假的病毒警告或安全提示。即使關閉最初的網頁，已獲准的網站仍可能透過系統通知，把使用者重新帶回詐騙頁面。",
+          "這類頁面常把「允許通知」偽裝成驗證不是機器人或其他必要步驟。遇到自稱電腦中毒的通知時，不應點擊警告內的清除、掃描或客服按鈕，也不要依照對方指示安裝遠端控制軟體或提供付款資料。"
+        ]
+      },
+      {
+        "heading": "Edge 156 可自動停用可疑來源通知",
+        "paragraphs": [
+          "依 Microsoft 說明，自 Edge 156 推出後，若 Microsoft Defender SmartScreen 或 Scareware blocker 發現某個通知導向詐騙，Edge 會自動停用該來源網站的通知。下次啟動瀏覽器時會顯示資訊列，使用者仍可到設定頁查看被封鎖的網站。",
+          "通知權限提示也新增「封鎖並回報」選項，可把要求通知權限的網址和頁面截圖提供給 SmartScreen。這項防護不代表所有詐騙都能被即時識別；Microsoft 也提醒，使用者仍可從通知的選單手動停止特定網站的後續通知。"
+        ]
+      },
+      {
+        "heading": "二手電腦不能只清桌面與下載資料夾",
+        "paragraphs": [
+          "編輯分析：買賣二手 Windows 電腦時，網站通知、瀏覽器擴充功能、同步帳號和已儲存密碼都應列入交機清單。賣家應移除個人瀏覽器設定與帳號，買家則應建立自己的系統帳號、更新 Windows 與 Edge，再檢查網站通知和擴充功能清單。",
+          "若通知仍不斷出現，可先確認它來自哪個瀏覽器或應用程式，再從該程式的設定撤銷權限。發現不明防毒軟體、遠端控制工具、企業管理設定或無法解除的帳號時，應暫停登入金融與通訊服務，必要時重新安裝可信任的作業系統。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/02/client-side-threat-detection-how-scareware-blocker-uncovered-malicious-notification-abuse/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-03T09:55:06.664+08:00",
+    "updatedAt": "2026-11-03T09:55:06.664+08:00"
+  },
+  {
+    "slug": "asus-year-end-2026-pc-promotion-total-cost-check",
+    "title": "ASUS 年末購機活動登場：贈品、抽獎不能取代規格與總成本比較",
+    "category": "購機指南",
+    "description": "ASUS 台灣推出筆電、桌機與平板年末活動，包含登錄抽獎、軟體及贈品。購機前應先核對指定型號、期限、售價與真正需求。",
+    "sections": [
+      {
+        "heading": "活動涵蓋指定筆電、桌機、一體機與平板",
+        "paragraphs": [
+          "ASUS 台灣於 11 月 2 日公布年末購機活動，期間至 12 月 13 日。購買指定 ASUS、ROG 筆電、桌機、ASUS AiO 或 ASUS Pad 並完成線上登錄，可參加華碩股票 100 股等值現金抽獎；等值金額與稅金依活動結束日收盤價計算。",
+          "官方另列出 Google AI 方案、地端 AI 軟體、電子禮券、證件照、螢幕或周邊贈品等回饋，但各自限定特定系列、處理器或顯示晶片。消費者不能只看到活動名稱就假設所有 ASUS 商品都適用，應以完整活動辦法、購買通路、發票與登錄期限為準。"
+        ]
+      },
+      {
+        "heading": "最高規格與續航都是特定配置資訊",
+        "paragraphs": [
+          "新聞稿列舉 Zenbook A16、Vivobook S14／S16 與 ROG G1000 等機型，並使用最高 NPU 算力、最長續航或最高階處理器和顯示卡說明產品。這些數字對應指定配置和官方測試條件，不能套用到同系列的每一個售價版本。",
+          "編輯分析：贈品有價值，但若為了取得贈品而購買超過需求的記憶體、顯示卡或大型桌機，總支出可能反而更高。比較時應固定處理器、記憶體、SSD、螢幕、重量、保固與作業系統，再把真正會使用的贈品價值另外計算。"
+        ]
+      },
+      {
+        "heading": "新機促銷也要和二手機完整條件比較",
+        "paragraphs": [
+          "若同時評估新品與二手電腦，新品的原廠保固、活動回饋與退換條件應納入總成本；二手機則需檢查電池健康、螢幕、鍵盤、連接埠、散熱、SSD 健康及維修紀錄。只比較標價或把抽獎機會當成現金折抵，都可能低估實際成本。",
+          "使用 Snapdragon 平台或 AI PC 功能的機型，還應核對常用 Windows 軟體、驅動程式與周邊相容性。購買後保存發票、序號、登錄畫面和活動條款；本文依官方新聞稿整理，不代表二手機王已實測續航、效能或活動兌換流程。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-year-end-promotion-2026-buy-and-win-shares/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-03T09:55:06.664+08:00",
+    "updatedAt": "2026-11-03T09:55:06.664+08:00"
+  },
+  {
+    "slug": "cloudflare-dns-targeted-zone-builds-propagation-check",
+    "title": "Cloudflare 縮短 DNS 建置延遲：改完網域仍要實際查核全球解析",
+    "category": "網路服務",
+    "description": "Cloudflare 重新設計 DNS Zone Builder，降低完整重建比例、記憶體與建置延遲。網站管理者仍不應把內部測量當成單一網域保證。",
+    "sections": [
+      {
+        "heading": "大型 DNS 區域不再每次都完整重建",
+        "paragraphs": [
+          "Cloudflare 於 11 月 2 日說明 DNS Zone Builder 的新設計。過去部分區域設定變更會讀取並比較整個 DNS 區域；面對含數千萬筆紀錄的大型區域，完整重建會占用大量記憶體，也可能拖慢其他等待中的更新。",
+          "新系統加入 targeted build planner，選擇能證明安全的最小重建範圍，再由統一排程器合併同一區域的工作。如果系統無法確定局部更新足以產生正確結果，仍會採用完整重建，而不是為了速度省略必要資料。"
+        ]
+      },
+      {
+        "heading": "官方測量顯示記憶體與尾端延遲下降",
+        "paragraphs": [
+          "Cloudflare 表示，24 小時測量中約 92.95% 的建置避免了完整重建，完整重建數量約減少 40%。Zone Builder 的記憶體峰值由 79 GiB 降至 12 GiB，下降約 85%；中位建置完成延遲則由約 7.7 秒降至約 3.3 秒。",
+          "官方也明確指出，這裡衡量的是 DNS 變更寫入 Quicksilver 前的建置完成時間，不包含 Quicksilver 把設定分送到全球網路的時間。不同方案與區域的實際情況不一，測量結果不能當作每次 DNS 修改都會在 3.3 秒內生效的服務保證。"
+        ]
+      },
+      {
+        "heading": "網站換網域或部署後仍要逐層驗證",
+        "paragraphs": [
+          "編輯分析：網站管理者修改 A、AAAA、CNAME、TXT 或其他 DNS 紀錄後，仍應使用權威 DNS 查詢、不同地區解析工具與實際 HTTPS 請求驗證結果。瀏覽器、作業系統、遞迴 DNS 與舊 TTL 快取，都可能讓個別使用者暫時看到舊資料。",
+          "網域遷移時也要保留舊站導向、TLS 憑證、canonical、sitemap 與搜尋引擎驗證紀錄，不能因底層建置變快就省略上線檢查。若正式網站仍顯示舊版本，應分開檢查 Git 提交、Cloudflare 建置、Worker 版本、DNS 解析與快取，找出真正停留的環節。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Cloudflare Blog",
+        "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-03T09:55:06.664+08:00",
+    "updatedAt": "2026-11-03T09:55:06.664+08:00"
   }
 ]
