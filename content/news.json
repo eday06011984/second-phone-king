@@ -4634,5 +4634,119 @@
     ],
     "publishedAt": "2026-11-03T09:55:06.664+08:00",
     "updatedAt": "2026-11-03T09:55:06.664+08:00"
+  },
+  {
+    "slug": "apple-health-app-traditional-chinese-used-device-check",
+    "title": "Apple 健康 App 支援繁中：二手 iPhone 與 Watch 先核對機型、版本及隱私",
+    "category": "手機軟體",
+    "description": "Apple 重新設計的健康 App 擴大支援繁體中文，但功能仍受機型、系統、地區與配件限制。換二手機前應先確認相容性與健康資料處理方式。",
+    "sections": [
+      {
+        "heading": "繁體中文支援擴大，但不是所有裝置都有完整功能",
+        "paragraphs": [
+          "Apple 於 11 月 3 日宣布，重新設計的健康 App 擴大支援繁體中文等語言。新版加入 Insights、For You 與 Longevity 分頁，可整理心臟、睡眠、活動、生命徵象與其他長期趨勢；Health Age 則會運用 Apple Watch 提供的心肺適能、靜止心率、睡眠與心率變異等資料。",
+          "官方說明顯示，新版健康 App 目前先在 iOS 27.3 開發者測試版提供，預計於 2026 年稍後以免費軟體更新推出。它需要支援 Apple Intelligence 的 iPhone 或 iPad，部分功能只限 iPhone；Health Age 需要 Apple Watch，而部分評估還需要指定 AirPods 或第三方心率裝置。"
+        ]
+      },
+      {
+        "heading": "相機動作評估採裝置端處理，健康資料仍要慎重管理",
+        "paragraphs": [
+          "Apple 表示，居家動作評估可使用 iPhone 相機與 Apple Watch 測量柔軟度、力量、平衡及動作機制，相關視覺模型在裝置端運作，影片不會被錄製、儲存或分享。這是官方描述的設計方式，實際可用項目仍會因地區、語言、年齡與法規而不同。",
+          "健康指標與演算法建議不應被視為醫療診斷。使用者若看到異常或持續不適，仍應諮詢合格醫療人員；在健康 App 加入檢驗數據前，也要確認手機的密碼、生物辨識、Apple 帳號與備份設定符合自己的隱私需求。"
+        ]
+      },
+      {
+        "heading": "二手裝置交機時要同時核對硬體與資料移轉",
+        "paragraphs": [
+          "編輯分析：想使用新版健康功能，不能只看商品名稱。購買二手 iPhone、iPad 或 Apple Watch 時，應核對完整型號、作業系統版本、電池健康、感測器、配對狀態及啟用鎖，並確認裝置是否在支援 Apple Intelligence 與相關功能的清單內。",
+          "賣方應先解除 Apple Watch 配對、登出帳號並完成資料清除；買方則應從可信任的備份移轉資料，再檢查健康資料的來源與分享權限。本文依官方公告整理，未對健康功能的準確度或個別二手機進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/11/redesigned-health-app-expands-language-support/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-04T09:49:27.329+08:00",
+    "updatedAt": "2026-11-04T09:49:27.329+08:00"
+  },
+  {
+    "slug": "asus-rog-gt-bn98-wifi-8-router-buying-check",
+    "title": "ROG WiFi 8 路由器在台上市：買高階網通先看終端、網路與連接埠",
+    "category": "3C 配件",
+    "description": "ASUS 在台推出 ROG Rapture GT-BN98 WiFi 8 路由器。標示頻寬、10G 連接埠與智慧功能是否值得升級，仍要回到終端設備及網路需求。",
+    "sections": [
+      {
+        "heading": "GT-BN98 主打 WiFi 8、25,000Mbps 與高速有線連接",
+        "paragraphs": [
+          "ASUS 台灣於 11 月 3 日宣布 ROG Rapture GT-BN98 電競路由器在台上市，官方標示總頻寬最高 25,000Mbps，並把 WiFi 8 的重點放在不同訊號條件下的穩定性與一致性，而不只是單一峰值速度。",
+          "硬體方面，GT-BN98 配備兩個 10G 與四個 2.5G 連接埠，另提供動態 QoS、WiFi Insight 頻譜分析、GTNet 路徑服務及 AiProtection 防護。官方建議售價為新台幣 27,990 元，活動贈品另有登錄期間及數量限制。"
+        ]
+      },
+      {
+        "heading": "標示總頻寬不等於單台手機的實際網速",
+        "paragraphs": [
+          "路由器標示的 25,000Mbps 是多頻段等條件下的官方規格，不能直接當成單一手機、電腦或遊戲主機可達到的下載速度。實際表現會受終端無線規格、距離、牆面、干擾、頻寬配置、網路業者方案與伺服器影響。",
+          "編輯分析：若家中終端多數仍使用較舊的 WiFi 世代，或外部網路與 NAS 只有 1Gbps，直接升級頂級路由器未必能帶來同等幅度改善。購買前應先盤點支援 WiFi 8 的裝置數量、是否真的需要 10G／2.5G 有線網路，以及住宅環境是否更適合 Mesh 多節點。"
+        ]
+      },
+      {
+        "heading": "新舊路由器都要檢查韌體、帳號與安全設定",
+        "paragraphs": [
+          "購買新機時應核對實際型號、保固、支援頻段、WAN／LAN 配置與韌體更新政策；功能名稱涉及第三方服務時，也要確認是否需要帳號、訂閱或受地區限制。資安防護功能不能取代安全密碼、韌體更新與連網裝置管理。",
+          "若購買二手路由器，應要求賣方恢復原廠設定，交機後自行更新韌體、重設管理者帳密、WiFi 密碼與遠端管理選項，並測試每個連接埠。本文整理官方規格與選購重點，未對無線覆蓋、延遲或傳輸速度進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-rog-rapture-gt-bn98-wifi-8-gaming-router-launch/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-04T09:49:27.329+08:00",
+    "updatedAt": "2026-11-04T09:49:27.329+08:00"
+  },
+  {
+    "slug": "windows-11-8gb-memory-update-used-pc-check",
+    "title": "Windows 11 改善 8GB PC：買二手電腦不能只看記憶體容量",
+    "category": "電腦軟體",
+    "description": "Microsoft 公布 Windows 11 對 8GB 電腦的記憶體與反應速度改善。官方測試結果有特定條件，二手電腦仍要完整檢查處理器、SSD 與用途。",
+    "sections": [
+      {
+        "heading": "Windows 11 調整記憶體壓縮、背景工作與應用程式",
+        "paragraphs": [
+          "Microsoft 於 11 月 3 日說明 Windows 11 對 8GB 記憶體電腦的改善，包括調整記憶體壓縮、交換時機與背景工作優先順序。官方表示，系統可讓最多 2GB 的使用中資料留在記憶體，而不是移到較慢的儲存裝置。",
+          "在 8GB 電腦上，Widgets 會在開啟時才載入；Edge 的非使用中分頁預設 15 分鐘後進入休眠，Microsoft 365 與 Teams 也有記憶體及效率調整。要取得最新改善，官方要求 Windows 11 26H2、組建 26300.9818 或更新版本，相關應用程式也必須保持更新。"
+        ]
+      },
+      {
+        "heading": "20% 與 40% 是特定測試結果，不是所有舊機保證",
+        "paragraphs": [
+          "Microsoft 公布的測量顯示，8GB 電腦部分操作最高可改善 20%，特定多工情境最高快 40%。不過官方註解明確指出，多工數字來自指定 HP 8GB 電腦、Snapdragon 處理器與實驗室流程，實際表現會因裝置、設定、檔案及背景工作而不同。",
+          "官方同時承認，3D 建模、進階影片剪輯與大型資料處理仍可從 16GB 或更多記憶體受益。因此，軟體最佳化只能改善特定瓶頸，不能讓所有 8GB 舊電腦等同於更高記憶體或更新處理器的機型。"
+        ]
+      },
+      {
+        "heading": "挑二手 Windows PC 要把整機條件和用途一起看",
+        "paragraphs": [
+          "編輯分析：選購二手 Windows 電腦時，應先列出瀏覽、文書、視訊會議、遊戲或剪輯等用途，再核對處理器世代、記憶體是否可升級、SSD 健康與容量、散熱、電池、螢幕、連接埠及 Windows 11 支援狀態。只看工作管理員顯示記憶體使用率高，也不能直接判定記憶體故障或不足。",
+          "交機前可完成系統更新並以實際常用程式測試多工，觀察重新載入、卡頓、溫度與電池耗電。本文依 Microsoft 官方資料整理，沒有重現其內部測試，也不把美國促銷價格套用為台灣市場行情。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Experience Blog",
+        "url": "https://blogs.windows.com/windowsexperience/2026/11/03/raising-the-bar-for-8-gb-windows-11-pcs-whats-improved-and-how-to-get-it/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-04T09:49:27.329+08:00",
+    "updatedAt": "2026-11-04T09:49:27.329+08:00"
   }
 ]
