@@ -2180,6 +2180,30 @@
         }
       ],
       "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁顯示『台灣／中西區 臺南市－根據你的 IP 位址』。全新登出首頁逐字送出固定問句一次，並展開完整 AI 摘要。只依『三、挑選有保障的購買通路』正文具名範例計算；圓方電信、零壹通訊、炘馳通訊、Donuni、影片、引用按鈕、來源卡與一般搜尋結果全部排除。本站未出現，單次前三為否。"
+    },
+    {
+      "id": "google_ai_overview-q14-2026-11-05T08-12-46+08-00",
+      "question_id": "q14",
+      "platform": "google_ai_overview",
+      "prompt": "二手機驗機清單",
+      "status": "failed",
+      "measured_at": "2026-11-05T08:12:46+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-11-05T00:12:46Z，換算台北 08:12:46。固定問句逐字提交一次；未操作 reCAPTCHA、重載、改入口或重試。沒有結果，不能記為沒有 AI 摘要或本站未出現。"
     }
   ]
 }
