@@ -4748,5 +4748,119 @@
     ],
     "publishedAt": "2026-11-04T09:49:27.329+08:00",
     "updatedAt": "2026-11-04T09:49:27.329+08:00"
+  },
+  {
+    "slug": "asus-rog-xg-station-3-egpu-buying-check",
+    "title": "ROG XG Station 3 採 Thunderbolt 5：外接顯示卡升級先查相容性",
+    "category": "3C 配件",
+    "description": "ASUS 發表 ROG XG Station 3 外接顯示卡擴充塢，支援 Thunderbolt 5、BTF 顯示卡及多螢幕連接。購買前仍要核對筆電介面、顯示卡尺寸與實際用途。",
+    "sections": [
+      {
+        "heading": "Thunderbolt 5、140W 供電與外接桌機顯示卡",
+        "paragraphs": [
+          "ASUS ROG 於 11 月 4 日公布 XG Station 3 外接顯示卡擴充塢。官方規格包含 Thunderbolt 5 連線，標示最高 80Gbps 雙向頻寬，並可在高流量影像傳輸時使用最高 120Gbps 的 Bandwidth Boost；連接相容筆電的上行埠亦支援最高 140W USB Power Delivery。",
+          "擴充塢可安裝 NVIDIA GeForce RTX 50、RTX PRO 6000、AMD Radeon RX 9000 與 Intel Arc 系列等桌機顯示卡，並提供 GC-HPWR 插槽支援 ASUS BTF 2.5 顯示卡。它另有下行 Thunderbolt 5、兩個 USB 10Gbps Type-C，官方表示可透過串接支援最多三台 4K 顯示器。"
+        ]
+      },
+      {
+        "heading": "介面標示不等於每台筆電都能取得同等效能",
+        "paragraphs": [
+          "Thunderbolt 5 的頻寬與供電數字是介面上限，不代表所有筆電、顯示卡與應用都能達到相同表現。實際效能仍會受到主機端 Thunderbolt 支援、處理器、驅動程式、顯示卡、螢幕輸出方式與工作負載影響，外接顯示卡也不能直接視為與桌機內接相同。",
+          "編輯分析：打算替既有筆電延長使用年限時，應先查完整型號的 Thunderbolt 版本、外接 GPU 支援與韌體更新，再核對顯示卡尺寸、功耗、連接方式及作業系統。若需求只是增加螢幕或一般文書，普通擴充基座可能比高階 eGPU 方案更符合成本。"
+        ]
+      },
+      {
+        "heading": "新舊擴充塢都要檢查接頭、散熱與配件",
+        "paragraphs": [
+          "XG Station 3 採開放式框架，能展示顯示卡並減少進氣遮擋，但使用環境仍要考慮灰塵、碰觸與線材固定。購買新機前應確認台灣上市時間、售價、保固與盒裝配件；官方本次新聞稿沒有提供所有市場的銷售資訊，不宜以海外資訊推定台灣價格。",
+          "若日後選購二手擴充塢，交機時應實際測試 Thunderbolt 連線、充電、USB 埠與顯示輸出，並檢查接點、機構與線材是否受損。本文依官方公告整理，沒有對顯示卡效能、噪音、溫度或相容機型進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-rog-xg-station-3-external-graphics-dock/",
+        "date": "2026-11-04"
+      }
+    ],
+    "publishedAt": "2026-11-05T09:53:44.337+08:00",
+    "updatedAt": "2026-11-05T09:53:44.337+08:00"
+  },
+  {
+    "slug": "samsung-galaxy-ring-sleep-apnea-feature-used-wearable-check",
+    "title": "Galaxy Ring 加入睡眠呼吸中止風險偵測：二手穿戴裝置先看地區與資格",
+    "category": "穿戴裝置",
+    "description": "Samsung 在美國讓 Galaxy Ring 支援更新版睡眠呼吸中止風險偵測。功能具地區、年齡、裝置與健康限制，不能取代醫療診斷。",
+    "sections": [
+      {
+        "heading": "美國版功能延伸至 Galaxy Ring，兩晚資料可進行評估",
+        "paragraphs": [
+          "Samsung 美國於 11 月 3 日宣布，更新版 Sleep Apnea 功能已在美國支援 Galaxy Ring 與相容 Galaxy Watch。功能透過 Samsung Health Monitor 分析睡眠期間的血氧與動作等資料，提供每小時偵測到的呼吸中斷估計資訊。",
+          "依官方說明，使用者需年滿 18 歲，並在 10 天內取得兩晚有效資料。Samsung 表示此版本先前已取得美國 FDA 許可，Galaxy Ring 因此成為可提供這項非處方睡眠呼吸中止風險偵測的智慧戒指；韓國 MFDS 也已核准更新版功能。"
+        ]
+      },
+      {
+        "heading": "目前不是台灣全面開放，也不能自行診斷",
+        "paragraphs": [
+          "這項公告描述的是美國可用狀態，不能據此推定台灣販售的 Galaxy Ring 已具備相同功能。相容性還涉及 Samsung Health Monitor、配對手機、地區帳號與軟體版本；手錶端目前列出 Galaxy Watch9 與 Wear OS 7.0 以上，Watch 7、Watch 8 支援則預計透過後續更新擴大。",
+          "官方明確指出，此功能用於偵測中度至重度睡眠呼吸中止的可能徵兆，不適用於已被診斷者，也不能取代合格醫療人員的診斷與治療。若出現持續打鼾、呼吸中斷、白天嗜睡等疑慮，應尋求專業醫療評估，而不是只依賴穿戴裝置結果。"
+        ]
+      },
+      {
+        "heading": "購買二手戒指時尺寸、電池與帳號狀態同樣重要",
+        "paragraphs": [
+          "編輯分析：以健康功能為購買理由時，應先查台灣官方支援頁面與 App 內實際可用項目，並確認手機型號、系統版本及帳號地區。戒指尺寸直接影響佩戴與感測穩定度，不能只因價格合適就忽略試戴或尺寸工具。",
+          "二手交機還應檢查外觀、充電盒、配對與重設狀態，確認前一位使用者的帳號及健康資料已移除，再自行設定螢幕鎖定、帳號安全與資料分享權限。本文沒有測試感測準確度，也不對個別健康狀況提供診斷。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Newsroom U.S.",
+        "url": "https://news.samsung.com/us/samsung-upgraded-sleep-apnea-feature-now-available-u-s-galaxy-ring-regulatory-approvals-korea/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-05T09:53:44.337+08:00",
+    "updatedAt": "2026-11-05T09:53:44.337+08:00"
+  },
+  {
+    "slug": "google-messages-phone-contacts-new-icons-app-check",
+    "title": "Google 訊息、電話與聯絡人換新圖示：功能不變，更新後這樣辨識 App",
+    "category": "手機軟體",
+    "description": "Google 開始替 Messages、Phone 與 Contacts 推出新圖示，功能沒有因此改變。面對分批更新，使用者可從開發者、來源與權限辨識官方 App。",
+    "sections": [
+      {
+        "heading": "三款通訊 App 圖示陸續換上漸層與新曲線",
+        "paragraphs": [
+          "Google 於 11 月 2 日宣布，Google Messages、Phone by Google 與 Google Contacts 開始推出更新後的圖示。新版加入較清楚的邊緣、漸層、曲線與配色，視覺風格更接近其他 Google 產品。",
+          "官方強調，這次更新不會因圖示改變而調整三款 App 的功能，使用者只會在接下來幾週陸續看到新外觀。由於採分批推出，同一時間不同手機顯示新舊圖示並不必然代表更新失敗。"
+        ]
+      },
+      {
+        "heading": "圖示變了，不需要重新授權或下載替代版本",
+        "paragraphs": [
+          "正常的圖示更新會隨官方 App 更新送達，不需要因外觀不同而解除安裝、側載 APK，或在陌生網站重新登入 Google 帳號。若有網頁或訊息宣稱必須下載另一款 App 才能繼續收發簡訊、打電話或同步聯絡人，應先停止操作並核對來源。",
+          "辨識時不要只看圖示，可在系統的 App 資訊或 Google Play 商店檢查完整名稱、開發者、安裝來源、更新日期與所要求的權限。通訊、電話與聯絡人 App 本來可能需要敏感權限，但突然索取無關的無障礙服務、裝置管理或金融資料仍值得警覺。"
+        ]
+      },
+      {
+        "heading": "二手機交機後應重新檢查預設 App 與更新來源",
+        "paragraphs": [
+          "編輯分析：購買二手 Android 手機時，外觀看到熟悉圖示並不足以證明是官方程式。完成恢復原廠設定後，應自行登入帳號、更新系統與 Play 系統元件，再確認預設簡訊、電話及聯絡人 App，避免沿用前一位使用者留下的側載程式或權限設定。",
+          "若系統內建的是手機品牌自家通訊 App，也不代表異常；重點是確認它來自裝置原廠或可信任商店，並了解更換預設 App 後的備份、垃圾訊息防護與通話功能差異。本文依 Google 公告整理，沒有宣稱圖示更新會帶來新功能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/products/messages/updated-icons-messages-phone-contacts/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-05T09:53:44.337+08:00",
+    "updatedAt": "2026-11-05T09:53:44.337+08:00"
   }
 ]
