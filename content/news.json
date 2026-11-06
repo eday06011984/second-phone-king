@@ -4862,5 +4862,119 @@
     ],
     "publishedAt": "2026-11-05T09:53:44.337+08:00",
     "updatedAt": "2026-11-05T09:53:44.337+08:00"
+  },
+  {
+    "slug": "oneplus-coloros-17-november-rollout-used-phone-check",
+    "title": "OnePlus 公布 ColorOS 17 十一月時程：二手機更新前先核對地區版本",
+    "category": "軟體更新",
+    "description": "OnePlus 列出 ColorOS 17 的十一月分批更新計畫，首波自 OnePlus 13R 開始。不同地區與機型可能不同，二手機更新前應先確認型號、版本與備份。",
+    "sections": [
+      {
+        "heading": "OnePlus 13R 先行，多款手機與平板本月接續",
+        "paragraphs": [
+          "OnePlus 社群於 11 月 4 日公布 ColorOS 17 十一月更新時程，列出的首波機型是 11 月 5 日的 OnePlus 13R；OnePlus 12 預定 11 月 17 日、OnePlus Pad 3 預定 11 月 18 日，OnePlus Open 則列在 11 月 24 日。",
+          "公告也把 OnePlus Nord 6 與 Nord CE 6 排在 11 月 26 日。官方同時提醒，實際可用時間會依地區與裝置型號不同，更新採分階段釋出；因此時程到達但手機尚未收到通知，不能直接判定裝置有故障。"
+        ]
+      },
+      {
+        "heading": "看到同名機型，也要確認地區版與目前系統",
+        "paragraphs": [
+          "同一款 OnePlus 裝置可能因銷售地區、電信商版本與原始韌體而使用不同更新管道。這次公告談的是 ColorOS 17，不能推論所有市場的同名機型都會在相同日期收到相同套件，也不應拿網路上的跨區更新檔直接覆寫。",
+          "更新前可先在設定中記錄完整型號、目前系統版本與安全性更新日期，再使用系統內建更新功能檢查。重要照片、通訊紀錄與驗證器資料應先完成備份，並保留足夠電量與儲存空間；若裝置曾解鎖或刷機，更應先釐清現況。"
+        ]
+      },
+      {
+        "heading": "二手機交機驗收，更新資格不能只靠賣家口頭承諾",
+        "paragraphs": [
+          "編輯分析：購買二手 OnePlus 手機時，賣家所稱的「可升最新系統」應以裝置內顯示的型號、地區版本與官方更新管道實際核對。能收到更新通知不等於更新一定順利，也不代表所有新功能都會在各地區同步開放。",
+          "交機後建議先恢復原廠設定、確認帳號鎖已解除，再用穩定網路完成官方更新；不要為了追上公告日期而安裝來源不明的完整韌體。本文依 OnePlus 公開時程整理，未將計畫日期當成台灣或所有市場的保證到達日。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "OnePlus Community",
+        "url": "https://community.oneplus.com/thread/2251253097332473865",
+        "date": "2026-11-04"
+      }
+    ],
+    "publishedAt": "2026-11-06T09:18:20.404+08:00",
+    "updatedAt": "2026-11-06T09:18:20.404+08:00"
+  },
+  {
+    "slug": "xbox-pc-web-cloud-update-device-buying-check",
+    "title": "Xbox 更新 PC、網頁與雲端介面：買設備前先分清本機與串流需求",
+    "category": "遊戲與雲端服務",
+    "description": "Microsoft 推出更快的 Xbox PC App 測試版，並擴大網頁、電視與 VR 的雲端體驗。選購設備時仍要分清本機執行與雲端串流的硬體、網路及訂閱需求。",
+    "sections": [
+      {
+        "heading": "Xbox Insiders 先測新版 PC App，網頁體驗逐步擴大",
+        "paragraphs": [
+          "Microsoft 於 11 月 5 日宣布，Xbox Insiders 可開始測試更新後的 Xbox PC App。官方測試顯示，App 啟動最高快 60%，首頁、商店與 Game Pass 等頁面載入最高快 50%，App 內視窗開啟最高快 65%；實際結果仍會受裝置、網路與系統設定影響。",
+          "新版也調整遊戲庫、篩選、好友、搜尋與介面設計。Xbox 雲端遊戲的新版網頁體驗將在未來幾週擴大至更多玩家，並開始把一致的外觀與導覽帶到支援的電視與 VR 頭戴裝置 App。"
+        ]
+      },
+      {
+        "heading": "介面變快，不代表舊電腦的遊戲效能同步提升",
+        "paragraphs": [
+          "官方公布的是 Xbox App 與介面的測試結果，不是 CPU、顯示卡或遊戲幀率的通用提升。若遊戲在本機安裝與執行，效能仍取決於遊戲需求、處理器、顯示卡、記憶體、儲存空間、驅動與散熱。",
+          "若主要使用雲端遊戲，重點則轉為服務是否在所在地與帳號可用、遊戲是否支援雲端、訂閱或擁有權條件、控制器相容性，以及連線延遲與穩定度。支援 Xbox App 的智慧電視或 VR 裝置，也不等於所有型號與年份都能使用相同功能。"
+        ]
+      },
+      {
+        "heading": "二手 PC 與電視應按實際玩法驗收",
+        "paragraphs": [
+          "編輯分析：購買二手 Windows PC 時，若目標是本機遊戲，應用實際遊戲或可重現的測試驗收顯示卡、儲存裝置與散熱，不能只看到 Xbox App 能順利開啟就判定整機效能足夠。帳號與遊戲授權也應由買方自行登入，不要承接賣家的帳號。",
+          "若目標是客廳雲端遊戲，可先查電視的完整型號、系統版本、官方支援清單與輸入裝置，再在預計使用的網路環境測試。新版介面降低操作等待是好事，但不會取代對相容性、網路與服務資格的確認。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xbox Wire",
+        "url": "https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-06T09:18:20.404+08:00",
+    "updatedAt": "2026-11-06T09:18:20.404+08:00"
+  },
+  {
+    "slug": "nvidia-geforce-621-14-driver-used-gpu-check",
+    "title": "NVIDIA 621.14 驅動支援新遊戲：二手顯卡先核對 DLSS 世代",
+    "category": "電腦與遊戲",
+    "description": "NVIDIA 發布 GeForce 621.14 WHQL Game Ready 驅動，加入多款遊戲最佳化與 DLSS 5 支援。選購二手顯卡時，應先確認 GPU 世代、功能相容性與驅動來源。",
+    "sections": [
+      {
+        "heading": "新版 Game Ready 驅動加入多款遊戲支援",
+        "paragraphs": [
+          "NVIDIA 於 11 月 4 日發布 GeForce RTX 與 RTX Spark 的 621.14 WHQL Game Ready 驅動，針對 World of Warcraft: Forever 提供最佳化，也支援 DOOM: The Dark Ages｜Revelations 的 Slaughter Mode。",
+          "官方同時說明，Hogwarts Legacy 自 11 月 5 日加入 DLSS 5 的 3D-Guided Neural Rendering，War Thunder 預計隨後續 Eagle's Shadow 更新加入。NVIDIA 指出的 DLSS 5 適用範圍是 GeForce RTX 50 系列顯卡與筆電、RTX Spark PC，以及 GeForce NOW Ultimate，不能套用到所有 RTX 顯卡。"
+        ]
+      },
+      {
+        "heading": "驅動版本與遊戲功能，要分開核對相容性",
+        "paragraphs": [
+          "安裝新版驅動可取得特定遊戲的支援與修正，但不代表每張顯卡都能啟用公告中的全部功能。DLSS 版本、幀生成與神經渲染等能力會受 GPU 世代、遊戲實作與選項限制，購買前應查產品完整型號與官方相容說明。",
+          "驅動應透過 NVIDIA App 或官方網站下載。更新前可記錄現有版本並建立還原準備；若新版本出現遊戲閃退、畫面異常或效能問題，可先查官方已知問題與回報管道，再評估乾淨安裝或回到先前穩定版本。"
+        ]
+      },
+      {
+        "heading": "二手顯卡驗收不能只看「支援 DLSS」標示",
+        "paragraphs": [
+          "編輯分析：二手顯卡賣場常把「RTX」或「支援 DLSS」當成單一賣點，但不同世代能用的功能並不相同。交易前應核對 GPU-Z 等工具顯示的晶片與記憶體、顯卡外觀標籤及序號，並查原廠規格，避免把系列名稱相近的產品混為一談。",
+          "交機測試還應包含穩定負載、溫度、風扇、輸出埠與實際遊戲，並留意是否有異常降頻或顯示錯誤。621.14 的發布證明軟體支援持續演進，但它不能替代對二手硬體健康與實際功能相容性的驗收。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA GeForce News",
+        "url": "https://www.nvidia.com/en-gb/geforce/news/world-of-warcraft-forever-geforce-rtx-spark-game-ready-driver/",
+        "date": "2026-11-04"
+      }
+    ],
+    "publishedAt": "2026-11-06T09:18:20.404+08:00",
+    "updatedAt": "2026-11-06T09:18:20.404+08:00"
   }
 ]
