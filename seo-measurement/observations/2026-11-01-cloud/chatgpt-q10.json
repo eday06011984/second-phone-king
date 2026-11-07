@@ -1,0 +1,33 @@
+{
+  "question_id": "q10",
+  "prompt": "二手 iPhone 價格怎麼比較",
+  "source": "direct_platform",
+  "captured_at": "2026-11-01T08:05:38+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；模型自行寫『如果你是在台灣』不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依完成後可見正文保存段落、表格與互動表單文字，合併排版空白；引用或來源元件不計入推薦順序。",
+  "platform": "chatgpt",
+  "mode": "ChatGPT logged out; web search selected before send; exact model not displayed",
+  "url": "https://chatgpt.com/uc/6ae68220-52e8-83ea-bab9-473279b7e121",
+  "observation_status": "completed_response",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "exclusion_reason": "平台頁面未顯示可核對地區；模型自行採用台灣情境不能代替正式地區條件。",
+  "full_response": "比較二手 iPhone，最重要的不是只看價格，而是要比較同容量、同機型、電池健康度、外觀及保固，才知道是不是真的划算。\n\n如果你是在台灣買二手 iPhone，我建議用以下方式比較。\n\n1. 二手 iPhone 比價重點\n\n比較項目｜建議注意\n機型｜相同型號、相同 Pro / Pro Max 等級\n容量｜128GB、256GB、512GB 分開比較\n電池健康度｜90%以上較理想\n外觀｜螢幕刮傷、機身撞傷、鏡頭狀況\n維修紀錄｜是否換過螢幕、電池、鏡頭\n保固｜是否還有 Apple 原廠保固\n功能｜Face ID、相機、喇叭、充電是否正常\n\n2. 哪裡比較二手 iPhone 價格？\n\n目前可以參考這兩個行情網站：\n• PTT 二手 iPhone 市場行情：看網友刊登價格及近期漲跌。\n• 二手 iPhone 收購參考價：看各型號、容量的收購行情。\n\n3. 我可以幫你直接做二手價格比較\n\n先告訴我你想買哪一款：\n\n想比較的 iPhone 型號\niPhone 13\niPhone 14\niPhone 15\niPhone 15 Pro\niPhone 15 Pro Max\niPhone 16\niPhone 16 Pro\niPhone 16 Pro Max\niPhone 17\niPhone 17 Pro\niPhone 17 Pro Max\n\n預算\n8,000 元以下\n8,000～10,000 元\n10,000～15,000 元\n15,000～20,000 元\n20,000～25,000 元\n25,000 元以上\n\n容量\n128GB\n256GB\n512GB\n\n機況\n不限\n電池健康度90%以上\n外觀近全新\n原廠零件、無維修紀錄\n開始比價\n\n我可以幫你整理出：\n• 各機型目前二手行情\n• 哪一款 CP 值最高\n• 合理入手價與太貴的價格\n• 哪裡買比較划算\n\n目標是幫你找到價格合理、買了不容易後悔的 iPhone。",
+  "observed_recommendation_order": [
+    {"site_id": "crawlsnek-macshop-market", "name": "PTT 二手 iPhone 市場行情（macshop.crawlsnek.com）", "is_target": false},
+    {"site_id": "gonb168-iphone-buyback", "name": "二手 iPhone 收購參考價（gonb168.net）", "is_target": false}
+  ],
+  "ranking_scope": "只依『哪裡比較二手 iPhone 價格』正文兩個行情網站的首次出現順序計算；表格、來源元件及互動表單不計入。",
+  "notes": "全新登出頁先選網路搜尋，再逐字提交一次。沒有操作預設勾選的型號、預算、容量、機況或『開始比價』。回覆內行情、電池、保固與價格宣稱只按原文保存，未由本站查證或採用。"
+}
+
