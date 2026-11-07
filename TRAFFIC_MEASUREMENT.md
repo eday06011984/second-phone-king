@@ -42,3 +42,19 @@ The JSON keeps `recordedPageviews`, `browserIdentifiers` and `people` distinct; 
 ## Tests
 
 `npm run test:traffic` runs pure policy, handler/mock-D1, QA exclusion and report tests with no production writes. `npm test`, TypeScript, focused ESLint and build should be run against the final source. Real browser/network/D1 activation is a separate acceptance step.
+
+## Daily operating procedure
+
+Use the previous complete **Asia/Taipei** calendar day (00:00–24:00); today's report is partial. Export the two queries above privately for that date, retain the raw export and retrieval time in owner-controlled storage, then run `report-traffic.mjs` with that date as both START and END. For a multi-day range, `daily` includes every date, page-level counts, and explicit null/unknown gaps. Never publish the raw exports in GitHub.
+
+Each daily report must state: date/timezone; source and export time; recorded PV; unknown unique visitors and time on site; QA probe count and last success (separate from PV); activation time/known outages; and the number/path/time of any operator-generated acceptance PV. A successful QA probe is only point-in-time evidence. Do not infer zero from absent rows, full-day coverage from positive counts, or organic growth from operator tests. Malformed or duplicate export rows fail the report rather than silently undercounting or double-counting.
+
+If Cloudflare Analytics is selected instead, first verify the exact property, metric definition, timezone, retention/export availability, sampling and reporting delay. HTTP requests, visits and unique visitors must not be relabeled as pageviews. Record which source is authoritative and leave the other collector disabled.
+
+## Revalidation — 2026-11-07
+
+Merged latest main `e038eb4a038e43d2e06e5c78b4d8630cb0dc31af` into the existing PR branch without rewriting history. All 139 news entries are identical to main. The merge changed only `content/news.json`; no store, product or SEO source data was changed by synchronization. Production D1 was not accessed or modified.
+
+Cloudflare dashboard in this session redirects to login. Existing Analytics suitability, production DB binding/schema, rate limits and live collection remain unverified. No merge to main, production deployment, migration or flag activation has been performed. Obtain authenticated access first; finish the activation checklist and explicit production authorization before collecting. The updated report supports daily gaps, but is not evidence of live traffic.
+
+Current local checks: 32 traffic, 50 news, 9 SEO-link and 20 retailer-price tests passed; publication validation passed against the main SHA above; SQLite additive/idempotent schema test and whitespace checks passed. After dependency installation completed, full npm test (including authentication), TypeScript, focused ESLint for traffic code and production build all passed. Full-repository lint was not rerun; no claim is made that existing lint debt is resolved. Remote preview and production browser-to-D1 acceptance are separate checks.

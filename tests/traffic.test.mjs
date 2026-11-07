@@ -23,3 +23,16 @@ test('missing database or failed write not counted',async()=>{assert.equal((awai
 test('empty report is unknown',()=>assert.deepEqual(summarizeDays([],'2026-10-25','2026-10-31').recordedPageviews,null));
 test('report dates and counts separated from people',()=>{const r=summarizeDays([{day:'2026-10-24',path:'/',views:5},{day:'2026-10-25',path:'/',views:2}],'2026-10-25','2026-10-31');assert.equal(r.recordedPageviews,2);assert.equal(r.people,null);assert.equal(r.browserIdentifiers,null)});
 test('client has visibility and explicit QA guards, no cookies',()=>{const s=readFileSync(new URL('../components/traffic.tsx',import.meta.url),'utf8');assert.match(s,/visibilityState !== 'visible'/);assert.match(s,/credentials:'omit'/);assert.match(s,/previous.current === pathname/);assert.match(s,/qaState\(location.search/)});
+
+test('daily report preserves missing dates and per-page counts',()=>{
+  const r=summarizeDays([{day:'2026-11-02',path:'/news',views:3},{day:'2026-11-02',path:'/',views:2}],'2026-11-01','2026-11-03');
+  assert.deepEqual(r.daily.map(d=>d.recordedPageviews),[null,5,null]);
+  assert.deepEqual(r.daily.map(d=>d.status),['unknown','recorded_events_only','unknown']);
+  assert.equal(r.daily[1].pages.length,2);assert.equal(r.uniqueVisitors,null);assert.equal(r.timeOnSite,null);
+});
+test('invalid dates and malformed exports fail rather than producing misleading counts',()=>{
+  assert.throws(()=>summarizeDays([],'2026-02-30','2026-03-01'));
+  assert.throws(()=>summarizeDays([{day:'2026-11-01',path:'/',views:'3'}],'2026-11-01','2026-11-01'));
+  const row={day:'2026-11-01',path:'/',views:3};
+  assert.throws(()=>summarizeDays([row,row],'2026-11-01','2026-11-01'));
+});
