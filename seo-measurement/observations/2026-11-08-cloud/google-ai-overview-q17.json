@@ -1,0 +1,39 @@
+{
+  "question_id": "q17",
+  "prompt": "二手機 A 級 B 級差在哪",
+  "source": "direct_platform",
+  "captured_at": "2026-11-08T08:19:36+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_in",
+  "language": "zh-TW",
+  "region": "TW",
+  "region_evidence": "搜尋前首頁頁尾明示『台灣』；結果頁頁尾亦明示『台灣』。不保存更細的個人化位置。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": true,
+  "platform": "google_ai_overview",
+  "mode": "Google Search default All results; AI Overview present and expanded; logged in",
+  "url": "https://www.google.com/search?q=%E4%BA%8C%E6%89%8B%E6%A9%9F+A+%E7%B4%9A+B+%E7%B4%9A%E5%B7%AE%E5%9C%A8%E5%93%AA",
+  "url_redaction": "只保留原始查詢參數，移除不影響證據判讀的工作階段與追蹤參數。",
+  "observation_status": "not_present",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "full_response": "二手機與福利品的 A 級與 B 級主要差異在於外觀新舊程度、使用痕跡明顯與否，部分商家也可能在保固期限或價格上有區別。詳細比較如下：\n\n比較項目｜A 級二手機 / 福利品｜B 級二手機 / 福利品\n外觀狀況｜狀況良好，外觀有輕微且正常的細微使用痕跡（如極細小的表層刮痕或輕微磨損），幾乎無明顯碰撞傷。｜有較明顯的外觀使用痕跡，可能包含較明顯的刮傷、邊角凹痕、掉漆，甚至輕微裂痕。\n功能狀態｜基本功能 100% 正常運作。｜基本功能通常正常，但部分 B 級商品可能會標示並存在輕微功能瑕疵（下單前需看清楚賣場說明）。\n價格｜售價較高（接近該型號二手行情的上段）。｜售價實惠，CP 值高，通常比 A 級便宜一截。\n適合對象｜在意外觀新舊、希望拿起來有「準新機」質感的人。｜打算裝手機殼、貼保護貼遮住外觀，或是尋找備用機、工作機、小孩用機、預算有限的人。\n\n您可以參考創宇通訊或台灣大哥大 myfone 時光機 / 認證福利機說明了解更多各通路的分級標準。\n\n如果方便告訴我：\n• 這台手機主要用途是什麼（主力機、備用機、還是給長輩/小孩用）？\n• 你對外觀新舊或電池健康度有沒有特別在意的標準？\n我可以幫你評估買 A 級還是 B 級比較划算！",
+  "observed_recommendation_order": [
+    {
+      "site_id": "smart3c",
+      "name": "創宇通訊",
+      "is_target": false
+    },
+    {
+      "site_id": "myfone",
+      "name": "台灣大哥大 myfone",
+      "is_target": false
+    }
+  ],
+  "ranking_scope": "只依 AI 摘要正文『您可以參考』後的具名通路首次出現順序計算；引用按鈕、來源卡片與下方一般搜尋結果未用來建立推薦名次。",
+  "notes": "在頁尾明示台灣的 Google 首頁逐字提交固定問句一次，並取得完整 AI 摘要。登入帳號識別與更細的個人化位置未保存。摘要中的固定成色、功能、價格、保固與適用對象說法只按原文保存，未由本站查證或採用。"
+}
