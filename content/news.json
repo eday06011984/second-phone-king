@@ -5090,5 +5090,119 @@
     ],
     "publishedAt": "2026-11-07T09:37:41.405+08:00",
     "updatedAt": "2026-11-07T09:37:41.405+08:00"
+  },
+  {
+    "slug": "motorola-signature-27-used-phone-spec-region-check",
+    "title": "motorola signature 27 發表：買旗艦機別只看相機排名與峰值亮度",
+    "category": "手機新品",
+    "description": "Motorola 公布 signature 27 的相機、螢幕、電池與更新承諾；面對高階新機或日後二手機，仍應把地區版本、維修條件與實際功能列入檢查。",
+    "sections": [
+      {
+        "heading": "官方公布的核心規格",
+        "paragraphs": [
+          "Motorola 於 11 月 5 日發表 signature 27，公布 5,000 萬畫素 Sony LYTIA LYT-910 主相機、2 億畫素潛望式長焦，以及 5,000 萬畫素超廣角與前鏡頭。官方也列出 Snapdragon 8 Elite Extreme Gen 6、7,000mAh 電池、90W 有線與 50W 無線充電等規格；這些是廠商公布資料，不等同本站實測結果。",
+          "螢幕採 Extreme AMOLED Duo 串聯式面板，官方宣稱局部峰值亮度最高 12,000 nits。機身標示 IP68／IP69、防護玻璃為 Gorilla Glass Ceramic 3，並承諾提供七年作業系統升級；實際更新起算方式、地區韌體與售後條件仍應以購買市場公告為準。"
+        ]
+      },
+      {
+        "heading": "上市地區與安全系統仍待確認",
+        "paragraphs": [
+          "官方表示 signature 27 將於未來數月在全球部分市場推出，建議售價由 1,599 美元起，但未在這則公告確認台灣上市時間、台灣售價或完整版本差異。跨境購買前要先查清頻段、eSIM、充電器、保固與零件供應，不能直接把海外資訊當成台灣規格。",
+          "Motorola 同時表示這是品牌首款支援 GrapheneOS 的裝置，後續細節將另行公布。這不代表所有地區版本、銷售批次或解鎖狀態都已具備相同支援；有這項需求的使用者，應等候相容機型清單與正式安裝文件，而不是先依宣傳文字購買。"
+        ]
+      },
+      {
+        "heading": "新機與日後二手機怎麼檢查",
+        "paragraphs": [
+          "編輯分析：相機排行榜、AI 變焦倍率與峰值亮度適合用來了解產品定位，卻不能取代實際驗機。購買時可檢查主鏡頭對焦與防手震、各焦段切換、螢幕低亮度顯示、無線充電、USB 連線和行動網路，再確認電池健康與是否曾經拆修。",
+          "若日後選購二手機，還要核對型號、序號、地區韌體與更新狀態，並確認帳號鎖、開機解鎖和安全系統是否被改動。七年更新是重要條件，但剩餘支援期、零件取得與電池老化，才會直接影響二手機的實際使用年限。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Motorola Newsroom",
+        "url": "https://motorolanews.com/motorola-signature-27-2/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-08T09:41:10.320+08:00",
+    "updatedAt": "2026-11-08T09:41:10.320+08:00"
+  },
+  {
+    "slug": "asus-xg-core-rx-9060-xt-egpu-compatibility-check",
+    "title": "ASUS XG Core RX 9060 XT 外接顯卡亮相：USB4 不等於一定相容",
+    "category": "電腦硬體",
+    "description": "ASUS 發表搭載 Radeon RX 9060 XT LP 的 XG Core 外接顯卡；購買前應先核對主機的 USB4／Thunderbolt 支援、驅動與外接螢幕配置。",
+    "sections": [
+      {
+        "heading": "小型外接盒整合 16GB 顯示卡",
+        "paragraphs": [
+          "ASUS 於 11 月 6 日公布 XG Core Radeon RX 9060 XT LP 外接顯卡，內建採 RDNA 4 架構、配備 16GB GDDR6 的 Radeon RX 9060 XT LP，透過最高 40Gbps 的 USB4 連接電腦。機身尺寸為 144 × 117 × 39mm，並提供 HDMI 與 DisplayPort 影像輸出。",
+          "官方列出的適用裝置包含相容的筆電、掌上型電腦與迷你電腦，例如 ROG Ally X、ROG Xbox Ally X，也表示可搭配相容的 Thunderbolt 3 系統。GPU Tweak III 可用於監看與調整，但實際功能與效能仍取決於主機、韌體、驅動、連線頻寬及遊戲工作負載。"
+        ]
+      },
+      {
+        "heading": "看到 USB4 標誌仍要查主機支援",
+        "paragraphs": [
+          "USB4 是傳輸規格，不代表每一台標有 USB4 的電腦都具備相同的 PCIe 通道、外接顯卡支援與韌體設定。購買前應查原廠相容清單、BIOS 更新與作業系統驅動，並確認使用內建螢幕或外接螢幕時的連線路徑。",
+          "外接顯卡的頻寬通常低於桌機內部 PCIe 插槽，實際差距也會隨解析度、遊戲與資料回傳方式改變。官方規格可用來確認介面與硬體，不能直接推算特定電腦上的幀率或把桌機顯卡成績照搬過來。"
+        ]
+      },
+      {
+        "heading": "新舊外接顯卡的驗機重點",
+        "paragraphs": [
+          "編輯分析：第一次連接時應更新主機 BIOS、晶片組與顯示驅動，再測試喚醒、休眠、熱插拔和外接螢幕。若裝置會突然斷線，問題可能來自線材、接頭、主機省電設定或驅動，不宜只用一次跑分判定顯卡故障。",
+          "選購二手外接盒時要確認原廠電源供應器與合規 USB4 線材是否齊全，檢查連接埠鬆動、風扇異音、灰塵與過熱紀錄，並在自己的主機上連續測試。缺少專用電源或線材看似便宜，後續補件與排錯成本可能更高。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-xg-core-radeon-rx-9060-xt-lp-external-graphics-dock",
+        "date": "2026-11-06"
+      }
+    ],
+    "publishedAt": "2026-11-08T09:41:10.320+08:00",
+    "updatedAt": "2026-11-08T09:41:10.320+08:00"
+  },
+  {
+    "slug": "microsoft-edge-new-tab-content-ai-source-check",
+    "title": "Edge 新分頁改版加入更多 AI 摘要：台灣用戶先看地區與來源",
+    "category": "電腦軟體",
+    "description": "Microsoft 重整 Edge 新分頁與 Discover 內容體驗，增加個人化影片與 Copilot 彙整；首波地區不含台灣，閱讀時仍要回到原始來源核對。",
+    "sections": [
+      {
+        "heading": "新分頁內容與影片推薦重新設計",
+        "paragraphs": [
+          "Microsoft 於 11 月 5 日說明新版 Edge 新分頁與 Windows 工作列 Discover 內容體驗，將推薦系統重新設計，強調內容的相關性、新鮮度與品質。官方表示內容來源涵蓋 1,500 家出版者及 3,500 名創作者，使用者可追蹤主題與來源。",
+          "新版介面提高影片比重；Microsoft 公布平台每日提供約 45,000 支影片，並稱影片互動占比達 40%。這些數字是平台自行發布的整體統計，不代表每位使用者會看到相同內容，也不能據此判斷單一來源的可信度。"
+        ]
+      },
+      {
+        "heading": "Curated by Copilot 彙整多篇報導",
+        "paragraphs": [
+          "Microsoft 也擴大 Curated by Copilot，讓系統針對同一事件彙整多篇文章並保留來源標示。AI 摘要可以協助快速掌握脈絡，但摘要可能省略限定條件；涉及軟體更新、資安、價格或上市地區時，仍應點進原文核對日期與適用範圍。",
+          "這次體驗首波面向美國、加拿大、英國、澳洲與印度，官方公告未把台灣列入首波地區。因此台灣使用者目前介面不同並不代表瀏覽器異常，是否推出及顯示內容仍以後續區域公告與帳號設定為準。"
+        ]
+      },
+      {
+        "heading": "如何管理推薦與二手電腦瀏覽器",
+        "paragraphs": [
+          "編輯分析：不想讓新分頁被資訊流占滿，可在 Edge 的新分頁設定中調整版面、追蹤主題與內容偏好；選項名稱可能隨版本與地區不同。看到 AI 彙整時，應先辨識發布者、原始日期和引用連結，不把摘要直接當成官方公告。",
+          "接手二手電腦後，建議先移除前使用者帳號、同步資料與瀏覽器設定，再建立自己的系統帳號與 Edge 設定檔。若只是登出網站而未清除瀏覽器資料，書籤、密碼、推薦偏好和同步狀態仍可能殘留，會同時影響隱私與新分頁內容。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/05/discover-more-of-what-matters-every-time-you-open-a-new-tab-in-microsoft-edge/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-08T09:41:10.320+08:00",
+    "updatedAt": "2026-11-08T09:41:10.320+08:00"
   }
 ]
