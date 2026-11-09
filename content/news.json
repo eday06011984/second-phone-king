@@ -4287,5 +4287,1036 @@
     ],
     "publishedAt": "2026-10-31T09:41:39.179+08:00",
     "updatedAt": "2026-10-31T09:41:39.179+08:00"
+  },
+  {
+    "slug": "fitbit-edge-availability-phone-subscription-used-tracker-check",
+    "title": "Fitbit Edge 正式到貨：買智慧手環先確認手機版本、訂閱與健康資料限制",
+    "category": "穿戴裝置",
+    "description": "Google 宣布 Fitbit Edge 正式上架，主打明亮螢幕、實體按鍵與長續航。購買新品或二手智慧手環前，仍要核對手機相容性、訂閱功能與感測器狀況。",
+    "sections": [
+      {
+        "heading": "官方宣布正式上架，手機版本有明確門檻",
+        "paragraphs": [
+          "Google 於 10 月 30 日宣布 Fitbit Edge 正式上架，介紹重點包括相較過往 Fitbit 手環更大、更明亮的顯示區域、實體側鍵，以及貼合手腕的曲面外型。官方同時註明，裝置需搭配多數 Android 11 以上或 iOS 16.4 以上手機，並需要 Google 帳號、Google Health 應用程式與網路連線。",
+          "部分功能另需付費的 Google Health Premium，實際供應與結果也會因地區、帳號和使用條件而異。健康功能不作醫療用途；讀者不應只看到心率、睡眠或其他健康指標名稱，就把手環資料當成疾病診斷。"
+        ]
+      },
+      {
+        "heading": "Hybrid OLED、七日續航都是官方條件資訊",
+        "paragraphs": [
+          "Google 10 月 27 日的設計說明指出，Fitbit Edge 採用 Hybrid OLED 顯示、實體側鍵與弧形機身，並標示具防水設計及最長七日電池續航，另提供四種外觀與多款可替換錶帶。上述續航是官方條件數據，會受到顯示亮度、感測器、通知、運動記錄與電池老化影響。",
+          "編輯分析：實體按鍵對運動中操作可能比全觸控直覺，但選購時仍應實際測試按鍵回饋、觸控、抬腕喚醒、充電接點與手機同步。防水設計也不能等同任何進水情境都有保固，二手裝置的密封狀態更無法只靠外觀證明。"
+        ]
+      },
+      {
+        "heading": "買二手智慧手環的交機檢查",
+        "paragraphs": [
+          "交機前先用自己的手機安裝官方應用程式並完成配對，確認型號、韌體更新、通知、運動記錄與感測器可正常使用。再觀察完整充放電、螢幕亮暗點、錶帶固定、震動、麥克風或其他實際配備，避免只因能開機就判定功能完整。",
+          "前使用者應解除帳號與同步關係，買家再以自己的 Google 帳號重新設定。貼身使用的錶帶須清潔或更換，並先分清免費功能、訂閱功能及所在地區可用項目；本文整理官方資訊與購機檢查方式，並非醫療建議或二手機王的續航實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/",
+        "date": "2026-10-30"
+      },
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-edge-design/",
+        "date": "2026-10-27"
+      }
+    ],
+    "publishedAt": "2026-11-01T09:15:10.217+08:00",
+    "updatedAt": "2026-11-01T09:15:10.217+08:00"
+  },
+  {
+    "slug": "honor-x9e-pro-11000mah-battery-region-used-phone-check",
+    "title": "HONOR X9e Pro 主打 11,000mAh：大電池二手機仍要查壽命與地區版本",
+    "category": "手機新品",
+    "description": "HONOR 在中東市場介紹 X9e Pro 的 11,000mAh 電池、耐用與影像規格。台灣買家評估海外版或未來二手機時，仍要查頻段、保固與電池狀況。",
+    "sections": [
+      {
+        "heading": "官方主打大容量電池與耐用設計",
+        "paragraphs": [
+          "HONOR 阿曼官網於 10 月 26 日介紹 X9e Pro，標示採用第四代矽碳電池、典型容量 11,000mAh，並支援 80W 有線快充與 27W 有線反向充電。官方宣稱在特定混合使用條件下可使用最長三天，並以六年電池耐久設計為賣點；這些不是二手機王的獨立測試結果。",
+          "同篇公告列出最高三公尺跌落防護，以及 IP68、IP69、IP69K 等級和受控環境下最深十公尺的防水測試。實驗室等級不能直接等同日常摔落、熱水、海水或維修後仍具相同保護，也不能視為進水損壞一定在保固範圍。"
+        ]
+      },
+      {
+        "heading": "螢幕與相機規格仍要看模式與條件",
+        "paragraphs": [
+          "官方資料另列出 6.8 吋 1.5K、120Hz 螢幕，峰值亮度最高 10,000 nits，以及 108MP 主相機和 CIPA 6.0 級防手震。峰值亮度通常對應特定顯示內容與短時間條件，108MP 也需使用相應拍攝模式，不能直接推論所有畫面或照片都會得到相同表現。",
+          "編輯分析：大電池適合重度使用者，但容量增加也要一併考量機身重量、充電器與線材相容性、長時間高溫、電池膨脹風險及維修取得性。實際選購時，整體續航與機況比單一容量數字更重要。"
+        ]
+      },
+      {
+        "heading": "海外版與二手機的核對重點",
+        "paragraphs": [
+          "這次資訊來自 HONOR 阿曼市場頁面，不能據此認定台灣已採相同規格、售價、上市時間或保固。考慮海外版時，應先核對完整型號、台灣 4G／5G 頻段、VoLTE、語言、Google 服務、充電規格與原廠維修政策，再評估是否適合日常使用。",
+          "若日後購買二手 X9e Pro，建議檢查電池循環與實際掉電、充電功率、機身是否彎曲或拆修、相機防手震、螢幕亮暗點及帳號鎖。曾摔落、泡水或拆機的裝置，不應僅憑原廠新品等級宣稱其防護仍然完整。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "HONOR Oman",
+        "url": "https://www.honor.com/om/news/honor-x9e-pro-on-burj-khalifa/",
+        "date": "2026-10-26"
+      }
+    ],
+    "publishedAt": "2026-11-01T09:15:10.217+08:00",
+    "updatedAt": "2026-11-01T09:15:10.217+08:00"
+  },
+  {
+    "slug": "apple-imac-m6-all-in-one-used-mac-buying-check",
+    "title": "M6 iMac 發表：一體機升級前先比較記憶體、連接埠與維修風險",
+    "category": "電腦新品",
+    "description": "Apple 發表搭載 M6 的 24 吋 iMac，更新無線連線、儲存效能與外接螢幕能力。買新機或二手一體機前，仍要依用途核對配置和維修成本。",
+    "sections": [
+      {
+        "heading": "24 吋 4.5K 螢幕與 M6 平台更新",
+        "paragraphs": [
+          "Apple 於 10 月 27 日發表 M6 iMac，採用 24 吋 4.5K Retina 螢幕，官方列出的亮度為 500 nits，並提供最高 12 核心 CPU 與 12 核心 GPU 配置。連線更新包括 Wi‑Fi 7、Bluetooth 6、可選 2.5Gb Ethernet，以及最多四個 Thunderbolt 4 連接埠。",
+          "官方表示新機可連接最多兩部 6K 外接螢幕，並搭載 12MP Center Stage 相機、揚聲器與三麥克風陣列。預購於 10 月 28 日開始，部分市場 11 月 6 日供貨；各地配置、價格與上市安排仍應以當地 Apple 官網為準。"
+        ]
+      },
+      {
+        "heading": "效能倍數要回到比較機型與工作內容",
+        "paragraphs": [
+          "Apple 公布相對 M4、M1 與部分 Intel iMac 的多項效能倍數，並主打本機 AI、圖像與儲存速度提升。這些數字來自指定軟體、配置和測試條件，不能直接套用到每個使用者；若主要工作是文書、網頁或一般門市系統，記憶體、儲存空間和軟體相容性可能比峰值效能更重要。",
+          "編輯分析：一體機可減少桌面線材並整合鏡頭、喇叭與螢幕，但螢幕或主機任一部分故障，都可能影響整套設備使用。若工作需要頻繁升級顯卡、儲存裝置或螢幕，模組化桌機可能更有彈性。"
+        ]
+      },
+      {
+        "heading": "新舊 iMac 比較與交機檢查",
+        "paragraphs": [
+          "比較新機與二手 iMac 時，先固定晶片世代、統一記憶體、SSD 容量、連接埠數量與網路規格，再檢查 4.5K 面板的亮暗點、烙印或色偏，以及相機、麥克風、喇叭、Thunderbolt 和有線網路。Apple silicon 機型的記憶體與儲存通常不能在購買後自行升級，不宜只看處理器名稱。",
+          "交機前還要確認「尋找」與啟用鎖已解除，序號、保固與配件一致，Magic Keyboard 的 Touch ID 及配對正常。搬運一體機時應檢查支架、機身邊角與原包裝保護；維修紀錄和售後條件，也要與售價一起評估。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/",
+        "date": "2026-10-27"
+      }
+    ],
+    "publishedAt": "2026-11-01T09:15:10.217+08:00",
+    "updatedAt": "2026-11-01T09:15:10.217+08:00"
+  },
+  {
+    "slug": "google-gmail-security-checkup-used-device-account-access",
+    "title": "Google 提醒檢查 Gmail 存取權：換二手機後別只做恢復原廠設定",
+    "category": "資安更新",
+    "description": "Google 建議檢查已登入裝置、第三方應用程式權限與復原資訊。手機或電腦換手時，賣家與買家都應另外處理雲端帳號存取。",
+    "sections": [
+      {
+        "heading": "官方列出三項兩分鐘安全檢查",
+        "paragraphs": [
+          "Google 於 10 月 30 日提醒 Gmail 使用者執行 Google 安全性檢查，步驟包括查看目前登入的裝置、移除不再使用的第三方應用程式存取權，以及確認帳號復原資訊。這三項處理的是 Google 帳號的雲端權限，不只是在單一手機裡刪除郵件或登出應用程式。",
+          "官方也把防範網路釣魚與不明寄件者列為延伸重點。讀者應從 Google 帳號內的安全性頁面進入檢查，避免依照陌生郵件或簡訊提供的連結登入；收到異常通知時，可先自行輸入官方網址再核對活動紀錄。"
+        ]
+      },
+      {
+        "heading": "恢復原廠設定不會撤銷所有遠端權限",
+        "paragraphs": [
+          "編輯分析：出售舊手機或電腦前做恢復原廠設定，主要是清除裝置內的資料與設定，不能取代帳號端的權限盤點。曾登入的瀏覽器工作階段、第三方郵件工具、備份服務或其他已授權應用程式，可能仍需要在帳號安全頁面逐一撤銷。",
+          "同樣地，買到已重置的二手機，也不代表前機主一定完成帳號解除。交機前應確認 Android 的 Google 帳號或 iPhone 的啟用鎖已移除；買家再用自己的帳號設定螢幕鎖定、雙重驗證、復原信箱與電話，避免沿用賣家留下的安全資訊。"
+        ]
+      },
+      {
+        "heading": "賣家與買家的交機清單",
+        "paragraphs": [
+          "賣家可先備份需要保留的資料，登出銀行、通訊、社群與密碼管理工具，再解除裝置尋找功能、電子支付卡片及帳號綁定；完成重置後，另用可信任裝置查看 Google 安全性檢查，確認舊機不再出現在可疑登入或授權清單。",
+          "買家則應更新作業系統與瀏覽器，檢查序號、帳號鎖與企業管理設定，再建立自己的復原方式。若發現裝置仍要求前機主密碼、存在不明管理描述檔或無法解除的帳號，應暫停交易；本文整理官方安全建議與二手機交機原則，不代表已替任何個別帳號完成檢查。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/",
+        "date": "2026-10-30"
+      }
+    ],
+    "publishedAt": "2026-11-02T09:19:19.464+08:00",
+    "updatedAt": "2026-11-02T09:19:19.464+08:00"
+  },
+  {
+    "slug": "nvidia-rtx-spark-laptop-local-ai-buying-check",
+    "title": "RTX Spark 筆電擴大上市：買本機 AI 電腦先看記憶體、軟體與價格區域",
+    "category": "電腦新品",
+    "description": "NVIDIA 公布多品牌 RTX Spark 筆電與本機 AI 更新，主打統一記憶體、AI 模型及 GPU 資源管理。選購前仍要核對實際配置與軟體成熟度。",
+    "sections": [
+      {
+        "heading": "六個品牌推出 RTX Spark 筆電",
+        "paragraphs": [
+          "NVIDIA 於 10 月 28 日表示，RTX Spark 筆電已由 ASUS、Dell、HP、Lenovo、Microsoft 與 MSI 推出。官方平台把 Blackwell RTX GPU、Grace CPU 與最高 128GB 統一記憶體整合在單一超級晶片，並以最高 1 petaflop 的 FP4 AI 效能作為頂規能力說明。",
+          "這些都是平台與最高配置資訊，不代表每一款筆電都有 128GB 記憶體或相同效能。官方列出的 2,599 美元起價屬其公告市場資訊，也不能直接換算成台灣售價、保固或供貨；購買前仍應查各品牌的完整型號、記憶體、儲存、螢幕、重量和電源規格。"
+        ]
+      },
+      {
+        "heading": "本機 AI 新增語音模型與資源分配",
+        "paragraphs": [
+          "這次更新包括可處理轉錄、說話者標記與翻譯的 Nemotron 3.5 Transcribe，以及 LFM3 開放權重模型支援。NVIDIA App 也新增 GPU 資源管理，讓使用者在前景應用程式和背景代理之間調整資源；官方註明這項功能需要在 Windows 開啟硬體加速 GPU 排程。",
+          "編輯分析：能在本機執行模型，有助於減少部分資料上傳或網路依賴，但隱私仍取決於實際使用的應用程式、模型與權限設定。官方提到的模型支援、量化版本與 Adobe 測試版功能也有不同成熟度，不能把『可執行』直接當成每項工作都比現有電腦更快。"
+        ]
+      },
+      {
+        "heading": "新機與二手 AI 筆電怎麼比較",
+        "paragraphs": [
+          "選購時先列出真正會使用的軟體與模型，再確認統一記憶體容量是否能同時滿足系統、圖形和 AI 工作。還要測量插電與電池模式的效能、風扇噪音、續航、充電器尺寸，以及驅動程式和 Windows 功能是否齊全；單看 FP4 峰值數字無法代表剪輯、遊戲或日常操作的整體體驗。",
+          "若評估二手機，除了電池健康、螢幕、鍵盤、連接埠和散熱，也要確認 BIOS、驅動、NVIDIA App 與原廠復原功能可正常更新。統一記憶體通常無法事後擴充，低容量版本即使價格較低，也可能限制較大的本機模型或創作專案。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+        "date": "2026-10-28"
+      }
+    ],
+    "publishedAt": "2026-11-02T09:19:19.464+08:00",
+    "updatedAt": "2026-11-02T09:19:19.464+08:00"
+  },
+  {
+    "slug": "samsung-q3-2026-memory-mobile-market-buying-check",
+    "title": "Samsung 記憶體業績創高：SSD、手機價格不能只靠財報猜漲跌",
+    "category": "市場觀察",
+    "description": "Samsung 第三季財報顯示 AI 需求推升記憶體與伺服器 SSD 業務，手機旗艦銷售增加但成本仍有壓力。消費者不宜據此直接預測零售價格。",
+    "sections": [
+      {
+        "heading": "AI 需求帶動記憶體與伺服器 SSD",
+        "paragraphs": [
+          "Samsung Electronics 於 10 月 29 日公布 2026 年第三季結果，表示記憶體事業的單季營收與營業利益創高，原因包括伺服器需求、HBM4 銷售與伺服器 SSD 需求。公司預期第四季記憶體需求仍將圍繞新 CPU、GPU 平台，以及個人 AI 代理服務帶動的 QLC SSD。",
+          "這些訊號主要描述 Samsung 的產品組合、企業級需求與公司展望，不能直接等同台灣消費級 SSD、記憶體或二手電腦會立刻漲價。零售價格還會受到品牌庫存、容量規格、通路促銷、匯率與保固影響，應以同一型號的實際可買價格比較。"
+        ]
+      },
+      {
+        "heading": "手機旗艦成長，成本壓力仍存在",
+        "paragraphs": [
+          "財報指出，行動裝置與網路業務的營收較前季及去年同期增加，主要受新旗艦與摺疊機上市帶動；但年增獲利受到成本壓力影響。Samsung 對第四季的規劃仍以 Galaxy S26 系列、Galaxy Z Fold8 Ultra、Z Fold8 和其他生態系產品為銷售重點。",
+          "編輯分析：旗艦銷售成長可能增加未來換機與二手供給，但財報沒有提供台灣各機型的二手成交量、折舊率或保值保證。購買二手 Galaxy 時，仍應依型號、容量、外觀、電池、螢幕、摺疊結構、維修紀錄與地區保固逐台判斷。"
+        ]
+      },
+      {
+        "heading": "用財報看方向，不用它替代比價與驗機",
+        "paragraphs": [
+          "消費者可把上游財報當成理解供需方向的背景資料，例如伺服器記憶體與 AI 基礎建設是否持續吸收產能；真正下單前，仍要查容量、介面、NAND 或 DRAM 規格、原廠保固和退換條件。不同用途的企業級產品與消費級產品，也不應只因同屬 SSD 就直接比較。",
+          "二手零組件交易則要讀取 SMART 資訊、檢查通電時間與健康狀態，並以完整寫入測試、溫度和錯誤紀錄驗證實際機況。手機交易也應確認帳號鎖、螢幕、相機、通訊、電池與原廠檢測結果；本文是官方財報的市場解讀，不是價格預測或投資建議。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "date": "2026-10-29"
+      }
+    ],
+    "publishedAt": "2026-11-02T09:19:19.464+08:00",
+    "updatedAt": "2026-11-02T09:19:19.464+08:00"
+  },
+  {
+    "slug": "microsoft-edge-156-scareware-notification-block-used-pc-check",
+    "title": "Edge 156 會封鎖詐騙通知：二手電腦交機後先清網站權限",
+    "category": "資安更新",
+    "description": "Microsoft 說明 Edge 156 可在偵測到通知導向詐騙頁面時停用來源網站通知。買到二手電腦後，仍應檢查瀏覽器通知與帳號同步。",
+    "sections": [
+      {
+        "heading": "詐騙網站可透過通知反覆推送假警告",
+        "paragraphs": [
+          "Microsoft 於 11 月 2 日指出，部分詐騙網站會誘導使用者允許瀏覽器通知，再持續推送假的病毒警告或安全提示。即使關閉最初的網頁，已獲准的網站仍可能透過系統通知，把使用者重新帶回詐騙頁面。",
+          "這類頁面常把「允許通知」偽裝成驗證不是機器人或其他必要步驟。遇到自稱電腦中毒的通知時，不應點擊警告內的清除、掃描或客服按鈕，也不要依照對方指示安裝遠端控制軟體或提供付款資料。"
+        ]
+      },
+      {
+        "heading": "Edge 156 可自動停用可疑來源通知",
+        "paragraphs": [
+          "依 Microsoft 說明，自 Edge 156 推出後，若 Microsoft Defender SmartScreen 或 Scareware blocker 發現某個通知導向詐騙，Edge 會自動停用該來源網站的通知。下次啟動瀏覽器時會顯示資訊列，使用者仍可到設定頁查看被封鎖的網站。",
+          "通知權限提示也新增「封鎖並回報」選項，可把要求通知權限的網址和頁面截圖提供給 SmartScreen。這項防護不代表所有詐騙都能被即時識別；Microsoft 也提醒，使用者仍可從通知的選單手動停止特定網站的後續通知。"
+        ]
+      },
+      {
+        "heading": "二手電腦不能只清桌面與下載資料夾",
+        "paragraphs": [
+          "編輯分析：買賣二手 Windows 電腦時，網站通知、瀏覽器擴充功能、同步帳號和已儲存密碼都應列入交機清單。賣家應移除個人瀏覽器設定與帳號，買家則應建立自己的系統帳號、更新 Windows 與 Edge，再檢查網站通知和擴充功能清單。",
+          "若通知仍不斷出現，可先確認它來自哪個瀏覽器或應用程式，再從該程式的設定撤銷權限。發現不明防毒軟體、遠端控制工具、企業管理設定或無法解除的帳號時，應暫停登入金融與通訊服務，必要時重新安裝可信任的作業系統。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/02/client-side-threat-detection-how-scareware-blocker-uncovered-malicious-notification-abuse/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-03T09:55:06.664+08:00",
+    "updatedAt": "2026-11-03T09:55:06.664+08:00"
+  },
+  {
+    "slug": "asus-year-end-2026-pc-promotion-total-cost-check",
+    "title": "ASUS 年末購機活動登場：贈品、抽獎不能取代規格與總成本比較",
+    "category": "購機指南",
+    "description": "ASUS 台灣推出筆電、桌機與平板年末活動，包含登錄抽獎、軟體及贈品。購機前應先核對指定型號、期限、售價與真正需求。",
+    "sections": [
+      {
+        "heading": "活動涵蓋指定筆電、桌機、一體機與平板",
+        "paragraphs": [
+          "ASUS 台灣於 11 月 2 日公布年末購機活動，期間至 12 月 13 日。購買指定 ASUS、ROG 筆電、桌機、ASUS AiO 或 ASUS Pad 並完成線上登錄，可參加華碩股票 100 股等值現金抽獎；等值金額與稅金依活動結束日收盤價計算。",
+          "官方另列出 Google AI 方案、地端 AI 軟體、電子禮券、證件照、螢幕或周邊贈品等回饋，但各自限定特定系列、處理器或顯示晶片。消費者不能只看到活動名稱就假設所有 ASUS 商品都適用，應以完整活動辦法、購買通路、發票與登錄期限為準。"
+        ]
+      },
+      {
+        "heading": "最高規格與續航都是特定配置資訊",
+        "paragraphs": [
+          "新聞稿列舉 Zenbook A16、Vivobook S14／S16 與 ROG G1000 等機型，並使用最高 NPU 算力、最長續航或最高階處理器和顯示卡說明產品。這些數字對應指定配置和官方測試條件，不能套用到同系列的每一個售價版本。",
+          "編輯分析：贈品有價值，但若為了取得贈品而購買超過需求的記憶體、顯示卡或大型桌機，總支出可能反而更高。比較時應固定處理器、記憶體、SSD、螢幕、重量、保固與作業系統，再把真正會使用的贈品價值另外計算。"
+        ]
+      },
+      {
+        "heading": "新機促銷也要和二手機完整條件比較",
+        "paragraphs": [
+          "若同時評估新品與二手電腦，新品的原廠保固、活動回饋與退換條件應納入總成本；二手機則需檢查電池健康、螢幕、鍵盤、連接埠、散熱、SSD 健康及維修紀錄。只比較標價或把抽獎機會當成現金折抵，都可能低估實際成本。",
+          "使用 Snapdragon 平台或 AI PC 功能的機型，還應核對常用 Windows 軟體、驅動程式與周邊相容性。購買後保存發票、序號、登錄畫面和活動條款；本文依官方新聞稿整理，不代表二手機王已實測續航、效能或活動兌換流程。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-year-end-promotion-2026-buy-and-win-shares/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-03T09:55:06.664+08:00",
+    "updatedAt": "2026-11-03T09:55:06.664+08:00"
+  },
+  {
+    "slug": "cloudflare-dns-targeted-zone-builds-propagation-check",
+    "title": "Cloudflare 縮短 DNS 建置延遲：改完網域仍要實際查核全球解析",
+    "category": "網路服務",
+    "description": "Cloudflare 重新設計 DNS Zone Builder，降低完整重建比例、記憶體與建置延遲。網站管理者仍不應把內部測量當成單一網域保證。",
+    "sections": [
+      {
+        "heading": "大型 DNS 區域不再每次都完整重建",
+        "paragraphs": [
+          "Cloudflare 於 11 月 2 日說明 DNS Zone Builder 的新設計。過去部分區域設定變更會讀取並比較整個 DNS 區域；面對含數千萬筆紀錄的大型區域，完整重建會占用大量記憶體，也可能拖慢其他等待中的更新。",
+          "新系統加入 targeted build planner，選擇能證明安全的最小重建範圍，再由統一排程器合併同一區域的工作。如果系統無法確定局部更新足以產生正確結果，仍會採用完整重建，而不是為了速度省略必要資料。"
+        ]
+      },
+      {
+        "heading": "官方測量顯示記憶體與尾端延遲下降",
+        "paragraphs": [
+          "Cloudflare 表示，24 小時測量中約 92.95% 的建置避免了完整重建，完整重建數量約減少 40%。Zone Builder 的記憶體峰值由 79 GiB 降至 12 GiB，下降約 85%；中位建置完成延遲則由約 7.7 秒降至約 3.3 秒。",
+          "官方也明確指出，這裡衡量的是 DNS 變更寫入 Quicksilver 前的建置完成時間，不包含 Quicksilver 把設定分送到全球網路的時間。不同方案與區域的實際情況不一，測量結果不能當作每次 DNS 修改都會在 3.3 秒內生效的服務保證。"
+        ]
+      },
+      {
+        "heading": "網站換網域或部署後仍要逐層驗證",
+        "paragraphs": [
+          "編輯分析：網站管理者修改 A、AAAA、CNAME、TXT 或其他 DNS 紀錄後，仍應使用權威 DNS 查詢、不同地區解析工具與實際 HTTPS 請求驗證結果。瀏覽器、作業系統、遞迴 DNS 與舊 TTL 快取，都可能讓個別使用者暫時看到舊資料。",
+          "網域遷移時也要保留舊站導向、TLS 憑證、canonical、sitemap 與搜尋引擎驗證紀錄，不能因底層建置變快就省略上線檢查。若正式網站仍顯示舊版本，應分開檢查 Git 提交、Cloudflare 建置、Worker 版本、DNS 解析與快取，找出真正停留的環節。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Cloudflare Blog",
+        "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-03T09:55:06.664+08:00",
+    "updatedAt": "2026-11-03T09:55:06.664+08:00"
+  },
+  {
+    "slug": "apple-health-app-traditional-chinese-used-device-check",
+    "title": "Apple 健康 App 支援繁中：二手 iPhone 與 Watch 先核對機型、版本及隱私",
+    "category": "手機軟體",
+    "description": "Apple 重新設計的健康 App 擴大支援繁體中文，但功能仍受機型、系統、地區與配件限制。換二手機前應先確認相容性與健康資料處理方式。",
+    "sections": [
+      {
+        "heading": "繁體中文支援擴大，但不是所有裝置都有完整功能",
+        "paragraphs": [
+          "Apple 於 11 月 3 日宣布，重新設計的健康 App 擴大支援繁體中文等語言。新版加入 Insights、For You 與 Longevity 分頁，可整理心臟、睡眠、活動、生命徵象與其他長期趨勢；Health Age 則會運用 Apple Watch 提供的心肺適能、靜止心率、睡眠與心率變異等資料。",
+          "官方說明顯示，新版健康 App 目前先在 iOS 27.3 開發者測試版提供，預計於 2026 年稍後以免費軟體更新推出。它需要支援 Apple Intelligence 的 iPhone 或 iPad，部分功能只限 iPhone；Health Age 需要 Apple Watch，而部分評估還需要指定 AirPods 或第三方心率裝置。"
+        ]
+      },
+      {
+        "heading": "相機動作評估採裝置端處理，健康資料仍要慎重管理",
+        "paragraphs": [
+          "Apple 表示，居家動作評估可使用 iPhone 相機與 Apple Watch 測量柔軟度、力量、平衡及動作機制，相關視覺模型在裝置端運作，影片不會被錄製、儲存或分享。這是官方描述的設計方式，實際可用項目仍會因地區、語言、年齡與法規而不同。",
+          "健康指標與演算法建議不應被視為醫療診斷。使用者若看到異常或持續不適，仍應諮詢合格醫療人員；在健康 App 加入檢驗數據前，也要確認手機的密碼、生物辨識、Apple 帳號與備份設定符合自己的隱私需求。"
+        ]
+      },
+      {
+        "heading": "二手裝置交機時要同時核對硬體與資料移轉",
+        "paragraphs": [
+          "編輯分析：想使用新版健康功能，不能只看商品名稱。購買二手 iPhone、iPad 或 Apple Watch 時，應核對完整型號、作業系統版本、電池健康、感測器、配對狀態及啟用鎖，並確認裝置是否在支援 Apple Intelligence 與相關功能的清單內。",
+          "賣方應先解除 Apple Watch 配對、登出帳號並完成資料清除；買方則應從可信任的備份移轉資料，再檢查健康資料的來源與分享權限。本文依官方公告整理，未對健康功能的準確度或個別二手機進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/11/redesigned-health-app-expands-language-support/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-04T09:49:27.329+08:00",
+    "updatedAt": "2026-11-04T09:49:27.329+08:00"
+  },
+  {
+    "slug": "asus-rog-gt-bn98-wifi-8-router-buying-check",
+    "title": "ROG WiFi 8 路由器在台上市：買高階網通先看終端、網路與連接埠",
+    "category": "3C 配件",
+    "description": "ASUS 在台推出 ROG Rapture GT-BN98 WiFi 8 路由器。標示頻寬、10G 連接埠與智慧功能是否值得升級，仍要回到終端設備及網路需求。",
+    "sections": [
+      {
+        "heading": "GT-BN98 主打 WiFi 8、25,000Mbps 與高速有線連接",
+        "paragraphs": [
+          "ASUS 台灣於 11 月 3 日宣布 ROG Rapture GT-BN98 電競路由器在台上市，官方標示總頻寬最高 25,000Mbps，並把 WiFi 8 的重點放在不同訊號條件下的穩定性與一致性，而不只是單一峰值速度。",
+          "硬體方面，GT-BN98 配備兩個 10G 與四個 2.5G 連接埠，另提供動態 QoS、WiFi Insight 頻譜分析、GTNet 路徑服務及 AiProtection 防護。官方建議售價為新台幣 27,990 元，活動贈品另有登錄期間及數量限制。"
+        ]
+      },
+      {
+        "heading": "標示總頻寬不等於單台手機的實際網速",
+        "paragraphs": [
+          "路由器標示的 25,000Mbps 是多頻段等條件下的官方規格，不能直接當成單一手機、電腦或遊戲主機可達到的下載速度。實際表現會受終端無線規格、距離、牆面、干擾、頻寬配置、網路業者方案與伺服器影響。",
+          "編輯分析：若家中終端多數仍使用較舊的 WiFi 世代，或外部網路與 NAS 只有 1Gbps，直接升級頂級路由器未必能帶來同等幅度改善。購買前應先盤點支援 WiFi 8 的裝置數量、是否真的需要 10G／2.5G 有線網路，以及住宅環境是否更適合 Mesh 多節點。"
+        ]
+      },
+      {
+        "heading": "新舊路由器都要檢查韌體、帳號與安全設定",
+        "paragraphs": [
+          "購買新機時應核對實際型號、保固、支援頻段、WAN／LAN 配置與韌體更新政策；功能名稱涉及第三方服務時，也要確認是否需要帳號、訂閱或受地區限制。資安防護功能不能取代安全密碼、韌體更新與連網裝置管理。",
+          "若購買二手路由器，應要求賣方恢復原廠設定，交機後自行更新韌體、重設管理者帳密、WiFi 密碼與遠端管理選項，並測試每個連接埠。本文整理官方規格與選購重點，未對無線覆蓋、延遲或傳輸速度進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-rog-rapture-gt-bn98-wifi-8-gaming-router-launch/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-04T09:49:27.329+08:00",
+    "updatedAt": "2026-11-04T09:49:27.329+08:00"
+  },
+  {
+    "slug": "windows-11-8gb-memory-update-used-pc-check",
+    "title": "Windows 11 改善 8GB PC：買二手電腦不能只看記憶體容量",
+    "category": "電腦軟體",
+    "description": "Microsoft 公布 Windows 11 對 8GB 電腦的記憶體與反應速度改善。官方測試結果有特定條件，二手電腦仍要完整檢查處理器、SSD 與用途。",
+    "sections": [
+      {
+        "heading": "Windows 11 調整記憶體壓縮、背景工作與應用程式",
+        "paragraphs": [
+          "Microsoft 於 11 月 3 日說明 Windows 11 對 8GB 記憶體電腦的改善，包括調整記憶體壓縮、交換時機與背景工作優先順序。官方表示，系統可讓最多 2GB 的使用中資料留在記憶體，而不是移到較慢的儲存裝置。",
+          "在 8GB 電腦上，Widgets 會在開啟時才載入；Edge 的非使用中分頁預設 15 分鐘後進入休眠，Microsoft 365 與 Teams 也有記憶體及效率調整。要取得最新改善，官方要求 Windows 11 26H2、組建 26300.9818 或更新版本，相關應用程式也必須保持更新。"
+        ]
+      },
+      {
+        "heading": "20% 與 40% 是特定測試結果，不是所有舊機保證",
+        "paragraphs": [
+          "Microsoft 公布的測量顯示，8GB 電腦部分操作最高可改善 20%，特定多工情境最高快 40%。不過官方註解明確指出，多工數字來自指定 HP 8GB 電腦、Snapdragon 處理器與實驗室流程，實際表現會因裝置、設定、檔案及背景工作而不同。",
+          "官方同時承認，3D 建模、進階影片剪輯與大型資料處理仍可從 16GB 或更多記憶體受益。因此，軟體最佳化只能改善特定瓶頸，不能讓所有 8GB 舊電腦等同於更高記憶體或更新處理器的機型。"
+        ]
+      },
+      {
+        "heading": "挑二手 Windows PC 要把整機條件和用途一起看",
+        "paragraphs": [
+          "編輯分析：選購二手 Windows 電腦時，應先列出瀏覽、文書、視訊會議、遊戲或剪輯等用途，再核對處理器世代、記憶體是否可升級、SSD 健康與容量、散熱、電池、螢幕、連接埠及 Windows 11 支援狀態。只看工作管理員顯示記憶體使用率高，也不能直接判定記憶體故障或不足。",
+          "交機前可完成系統更新並以實際常用程式測試多工，觀察重新載入、卡頓、溫度與電池耗電。本文依 Microsoft 官方資料整理，沒有重現其內部測試，也不把美國促銷價格套用為台灣市場行情。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Experience Blog",
+        "url": "https://blogs.windows.com/windowsexperience/2026/11/03/raising-the-bar-for-8-gb-windows-11-pcs-whats-improved-and-how-to-get-it/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-04T09:49:27.329+08:00",
+    "updatedAt": "2026-11-04T09:49:27.329+08:00"
+  },
+  {
+    "slug": "asus-rog-xg-station-3-egpu-buying-check",
+    "title": "ROG XG Station 3 採 Thunderbolt 5：外接顯示卡升級先查相容性",
+    "category": "3C 配件",
+    "description": "ASUS 發表 ROG XG Station 3 外接顯示卡擴充塢，支援 Thunderbolt 5、BTF 顯示卡及多螢幕連接。購買前仍要核對筆電介面、顯示卡尺寸與實際用途。",
+    "sections": [
+      {
+        "heading": "Thunderbolt 5、140W 供電與外接桌機顯示卡",
+        "paragraphs": [
+          "ASUS ROG 於 11 月 4 日公布 XG Station 3 外接顯示卡擴充塢。官方規格包含 Thunderbolt 5 連線，標示最高 80Gbps 雙向頻寬，並可在高流量影像傳輸時使用最高 120Gbps 的 Bandwidth Boost；連接相容筆電的上行埠亦支援最高 140W USB Power Delivery。",
+          "擴充塢可安裝 NVIDIA GeForce RTX 50、RTX PRO 6000、AMD Radeon RX 9000 與 Intel Arc 系列等桌機顯示卡，並提供 GC-HPWR 插槽支援 ASUS BTF 2.5 顯示卡。它另有下行 Thunderbolt 5、兩個 USB 10Gbps Type-C，官方表示可透過串接支援最多三台 4K 顯示器。"
+        ]
+      },
+      {
+        "heading": "介面標示不等於每台筆電都能取得同等效能",
+        "paragraphs": [
+          "Thunderbolt 5 的頻寬與供電數字是介面上限，不代表所有筆電、顯示卡與應用都能達到相同表現。實際效能仍會受到主機端 Thunderbolt 支援、處理器、驅動程式、顯示卡、螢幕輸出方式與工作負載影響，外接顯示卡也不能直接視為與桌機內接相同。",
+          "編輯分析：打算替既有筆電延長使用年限時，應先查完整型號的 Thunderbolt 版本、外接 GPU 支援與韌體更新，再核對顯示卡尺寸、功耗、連接方式及作業系統。若需求只是增加螢幕或一般文書，普通擴充基座可能比高階 eGPU 方案更符合成本。"
+        ]
+      },
+      {
+        "heading": "新舊擴充塢都要檢查接頭、散熱與配件",
+        "paragraphs": [
+          "XG Station 3 採開放式框架，能展示顯示卡並減少進氣遮擋，但使用環境仍要考慮灰塵、碰觸與線材固定。購買新機前應確認台灣上市時間、售價、保固與盒裝配件；官方本次新聞稿沒有提供所有市場的銷售資訊，不宜以海外資訊推定台灣價格。",
+          "若日後選購二手擴充塢，交機時應實際測試 Thunderbolt 連線、充電、USB 埠與顯示輸出，並檢查接點、機構與線材是否受損。本文依官方公告整理，沒有對顯示卡效能、噪音、溫度或相容機型進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-rog-xg-station-3-external-graphics-dock/",
+        "date": "2026-11-04"
+      }
+    ],
+    "publishedAt": "2026-11-05T09:53:44.337+08:00",
+    "updatedAt": "2026-11-05T09:53:44.337+08:00"
+  },
+  {
+    "slug": "samsung-galaxy-ring-sleep-apnea-feature-used-wearable-check",
+    "title": "Galaxy Ring 加入睡眠呼吸中止風險偵測：二手穿戴裝置先看地區與資格",
+    "category": "穿戴裝置",
+    "description": "Samsung 在美國讓 Galaxy Ring 支援更新版睡眠呼吸中止風險偵測。功能具地區、年齡、裝置與健康限制，不能取代醫療診斷。",
+    "sections": [
+      {
+        "heading": "美國版功能延伸至 Galaxy Ring，兩晚資料可進行評估",
+        "paragraphs": [
+          "Samsung 美國於 11 月 3 日宣布，更新版 Sleep Apnea 功能已在美國支援 Galaxy Ring 與相容 Galaxy Watch。功能透過 Samsung Health Monitor 分析睡眠期間的血氧與動作等資料，提供每小時偵測到的呼吸中斷估計資訊。",
+          "依官方說明，使用者需年滿 18 歲，並在 10 天內取得兩晚有效資料。Samsung 表示此版本先前已取得美國 FDA 許可，Galaxy Ring 因此成為可提供這項非處方睡眠呼吸中止風險偵測的智慧戒指；韓國 MFDS 也已核准更新版功能。"
+        ]
+      },
+      {
+        "heading": "目前不是台灣全面開放，也不能自行診斷",
+        "paragraphs": [
+          "這項公告描述的是美國可用狀態，不能據此推定台灣販售的 Galaxy Ring 已具備相同功能。相容性還涉及 Samsung Health Monitor、配對手機、地區帳號與軟體版本；手錶端目前列出 Galaxy Watch9 與 Wear OS 7.0 以上，Watch 7、Watch 8 支援則預計透過後續更新擴大。",
+          "官方明確指出，此功能用於偵測中度至重度睡眠呼吸中止的可能徵兆，不適用於已被診斷者，也不能取代合格醫療人員的診斷與治療。若出現持續打鼾、呼吸中斷、白天嗜睡等疑慮，應尋求專業醫療評估，而不是只依賴穿戴裝置結果。"
+        ]
+      },
+      {
+        "heading": "購買二手戒指時尺寸、電池與帳號狀態同樣重要",
+        "paragraphs": [
+          "編輯分析：以健康功能為購買理由時，應先查台灣官方支援頁面與 App 內實際可用項目，並確認手機型號、系統版本及帳號地區。戒指尺寸直接影響佩戴與感測穩定度，不能只因價格合適就忽略試戴或尺寸工具。",
+          "二手交機還應檢查外觀、充電盒、配對與重設狀態，確認前一位使用者的帳號及健康資料已移除，再自行設定螢幕鎖定、帳號安全與資料分享權限。本文沒有測試感測準確度，也不對個別健康狀況提供診斷。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Newsroom U.S.",
+        "url": "https://news.samsung.com/us/samsung-upgraded-sleep-apnea-feature-now-available-u-s-galaxy-ring-regulatory-approvals-korea/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-05T09:53:44.337+08:00",
+    "updatedAt": "2026-11-05T09:53:44.337+08:00"
+  },
+  {
+    "slug": "google-messages-phone-contacts-new-icons-app-check",
+    "title": "Google 訊息、電話與聯絡人換新圖示：功能不變，更新後這樣辨識 App",
+    "category": "手機軟體",
+    "description": "Google 開始替 Messages、Phone 與 Contacts 推出新圖示，功能沒有因此改變。面對分批更新，使用者可從開發者、來源與權限辨識官方 App。",
+    "sections": [
+      {
+        "heading": "三款通訊 App 圖示陸續換上漸層與新曲線",
+        "paragraphs": [
+          "Google 於 11 月 2 日宣布，Google Messages、Phone by Google 與 Google Contacts 開始推出更新後的圖示。新版加入較清楚的邊緣、漸層、曲線與配色，視覺風格更接近其他 Google 產品。",
+          "官方強調，這次更新不會因圖示改變而調整三款 App 的功能，使用者只會在接下來幾週陸續看到新外觀。由於採分批推出，同一時間不同手機顯示新舊圖示並不必然代表更新失敗。"
+        ]
+      },
+      {
+        "heading": "圖示變了，不需要重新授權或下載替代版本",
+        "paragraphs": [
+          "正常的圖示更新會隨官方 App 更新送達，不需要因外觀不同而解除安裝、側載 APK，或在陌生網站重新登入 Google 帳號。若有網頁或訊息宣稱必須下載另一款 App 才能繼續收發簡訊、打電話或同步聯絡人，應先停止操作並核對來源。",
+          "辨識時不要只看圖示，可在系統的 App 資訊或 Google Play 商店檢查完整名稱、開發者、安裝來源、更新日期與所要求的權限。通訊、電話與聯絡人 App 本來可能需要敏感權限，但突然索取無關的無障礙服務、裝置管理或金融資料仍值得警覺。"
+        ]
+      },
+      {
+        "heading": "二手機交機後應重新檢查預設 App 與更新來源",
+        "paragraphs": [
+          "編輯分析：購買二手 Android 手機時，外觀看到熟悉圖示並不足以證明是官方程式。完成恢復原廠設定後，應自行登入帳號、更新系統與 Play 系統元件，再確認預設簡訊、電話及聯絡人 App，避免沿用前一位使用者留下的側載程式或權限設定。",
+          "若系統內建的是手機品牌自家通訊 App，也不代表異常；重點是確認它來自裝置原廠或可信任商店，並了解更換預設 App 後的備份、垃圾訊息防護與通話功能差異。本文依 Google 公告整理，沒有宣稱圖示更新會帶來新功能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/products/messages/updated-icons-messages-phone-contacts/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-05T09:53:44.337+08:00",
+    "updatedAt": "2026-11-05T09:53:44.337+08:00"
+  },
+  {
+    "slug": "oneplus-coloros-17-november-rollout-used-phone-check",
+    "title": "OnePlus 公布 ColorOS 17 十一月時程：二手機更新前先核對地區版本",
+    "category": "軟體更新",
+    "description": "OnePlus 列出 ColorOS 17 的十一月分批更新計畫，首波自 OnePlus 13R 開始。不同地區與機型可能不同，二手機更新前應先確認型號、版本與備份。",
+    "sections": [
+      {
+        "heading": "OnePlus 13R 先行，多款手機與平板本月接續",
+        "paragraphs": [
+          "OnePlus 社群於 11 月 4 日公布 ColorOS 17 十一月更新時程，列出的首波機型是 11 月 5 日的 OnePlus 13R；OnePlus 12 預定 11 月 17 日、OnePlus Pad 3 預定 11 月 18 日，OnePlus Open 則列在 11 月 24 日。",
+          "公告也把 OnePlus Nord 6 與 Nord CE 6 排在 11 月 26 日。官方同時提醒，實際可用時間會依地區與裝置型號不同，更新採分階段釋出；因此時程到達但手機尚未收到通知，不能直接判定裝置有故障。"
+        ]
+      },
+      {
+        "heading": "看到同名機型，也要確認地區版與目前系統",
+        "paragraphs": [
+          "同一款 OnePlus 裝置可能因銷售地區、電信商版本與原始韌體而使用不同更新管道。這次公告談的是 ColorOS 17，不能推論所有市場的同名機型都會在相同日期收到相同套件，也不應拿網路上的跨區更新檔直接覆寫。",
+          "更新前可先在設定中記錄完整型號、目前系統版本與安全性更新日期，再使用系統內建更新功能檢查。重要照片、通訊紀錄與驗證器資料應先完成備份，並保留足夠電量與儲存空間；若裝置曾解鎖或刷機，更應先釐清現況。"
+        ]
+      },
+      {
+        "heading": "二手機交機驗收，更新資格不能只靠賣家口頭承諾",
+        "paragraphs": [
+          "編輯分析：購買二手 OnePlus 手機時，賣家所稱的「可升最新系統」應以裝置內顯示的型號、地區版本與官方更新管道實際核對。能收到更新通知不等於更新一定順利，也不代表所有新功能都會在各地區同步開放。",
+          "交機後建議先恢復原廠設定、確認帳號鎖已解除，再用穩定網路完成官方更新；不要為了追上公告日期而安裝來源不明的完整韌體。本文依 OnePlus 公開時程整理，未將計畫日期當成台灣或所有市場的保證到達日。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "OnePlus Community",
+        "url": "https://community.oneplus.com/thread/2251253097332473865",
+        "date": "2026-11-04"
+      }
+    ],
+    "publishedAt": "2026-11-06T09:18:20.404+08:00",
+    "updatedAt": "2026-11-06T09:18:20.404+08:00"
+  },
+  {
+    "slug": "xbox-pc-web-cloud-update-device-buying-check",
+    "title": "Xbox 更新 PC、網頁與雲端介面：買設備前先分清本機與串流需求",
+    "category": "遊戲與雲端服務",
+    "description": "Microsoft 推出更快的 Xbox PC App 測試版，並擴大網頁、電視與 VR 的雲端體驗。選購設備時仍要分清本機執行與雲端串流的硬體、網路及訂閱需求。",
+    "sections": [
+      {
+        "heading": "Xbox Insiders 先測新版 PC App，網頁體驗逐步擴大",
+        "paragraphs": [
+          "Microsoft 於 11 月 5 日宣布，Xbox Insiders 可開始測試更新後的 Xbox PC App。官方測試顯示，App 啟動最高快 60%，首頁、商店與 Game Pass 等頁面載入最高快 50%，App 內視窗開啟最高快 65%；實際結果仍會受裝置、網路與系統設定影響。",
+          "新版也調整遊戲庫、篩選、好友、搜尋與介面設計。Xbox 雲端遊戲的新版網頁體驗將在未來幾週擴大至更多玩家，並開始把一致的外觀與導覽帶到支援的電視與 VR 頭戴裝置 App。"
+        ]
+      },
+      {
+        "heading": "介面變快，不代表舊電腦的遊戲效能同步提升",
+        "paragraphs": [
+          "官方公布的是 Xbox App 與介面的測試結果，不是 CPU、顯示卡或遊戲幀率的通用提升。若遊戲在本機安裝與執行，效能仍取決於遊戲需求、處理器、顯示卡、記憶體、儲存空間、驅動與散熱。",
+          "若主要使用雲端遊戲，重點則轉為服務是否在所在地與帳號可用、遊戲是否支援雲端、訂閱或擁有權條件、控制器相容性，以及連線延遲與穩定度。支援 Xbox App 的智慧電視或 VR 裝置，也不等於所有型號與年份都能使用相同功能。"
+        ]
+      },
+      {
+        "heading": "二手 PC 與電視應按實際玩法驗收",
+        "paragraphs": [
+          "編輯分析：購買二手 Windows PC 時，若目標是本機遊戲，應用實際遊戲或可重現的測試驗收顯示卡、儲存裝置與散熱，不能只看到 Xbox App 能順利開啟就判定整機效能足夠。帳號與遊戲授權也應由買方自行登入，不要承接賣家的帳號。",
+          "若目標是客廳雲端遊戲，可先查電視的完整型號、系統版本、官方支援清單與輸入裝置，再在預計使用的網路環境測試。新版介面降低操作等待是好事，但不會取代對相容性、網路與服務資格的確認。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xbox Wire",
+        "url": "https://news.xbox.com/en-us/2026/11/05/a-faster-simpler-xbox-experience-is-coming-to-pc-web-and-cloud/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-06T09:18:20.404+08:00",
+    "updatedAt": "2026-11-06T09:18:20.404+08:00"
+  },
+  {
+    "slug": "nvidia-geforce-621-14-driver-used-gpu-check",
+    "title": "NVIDIA 621.14 驅動支援新遊戲：二手顯卡先核對 DLSS 世代",
+    "category": "電腦與遊戲",
+    "description": "NVIDIA 發布 GeForce 621.14 WHQL Game Ready 驅動，加入多款遊戲最佳化與 DLSS 5 支援。選購二手顯卡時，應先確認 GPU 世代、功能相容性與驅動來源。",
+    "sections": [
+      {
+        "heading": "新版 Game Ready 驅動加入多款遊戲支援",
+        "paragraphs": [
+          "NVIDIA 於 11 月 4 日發布 GeForce RTX 與 RTX Spark 的 621.14 WHQL Game Ready 驅動，針對 World of Warcraft: Forever 提供最佳化，也支援 DOOM: The Dark Ages｜Revelations 的 Slaughter Mode。",
+          "官方同時說明，Hogwarts Legacy 自 11 月 5 日加入 DLSS 5 的 3D-Guided Neural Rendering，War Thunder 預計隨後續 Eagle's Shadow 更新加入。NVIDIA 指出的 DLSS 5 適用範圍是 GeForce RTX 50 系列顯卡與筆電、RTX Spark PC，以及 GeForce NOW Ultimate，不能套用到所有 RTX 顯卡。"
+        ]
+      },
+      {
+        "heading": "驅動版本與遊戲功能，要分開核對相容性",
+        "paragraphs": [
+          "安裝新版驅動可取得特定遊戲的支援與修正，但不代表每張顯卡都能啟用公告中的全部功能。DLSS 版本、幀生成與神經渲染等能力會受 GPU 世代、遊戲實作與選項限制，購買前應查產品完整型號與官方相容說明。",
+          "驅動應透過 NVIDIA App 或官方網站下載。更新前可記錄現有版本並建立還原準備；若新版本出現遊戲閃退、畫面異常或效能問題，可先查官方已知問題與回報管道，再評估乾淨安裝或回到先前穩定版本。"
+        ]
+      },
+      {
+        "heading": "二手顯卡驗收不能只看「支援 DLSS」標示",
+        "paragraphs": [
+          "編輯分析：二手顯卡賣場常把「RTX」或「支援 DLSS」當成單一賣點，但不同世代能用的功能並不相同。交易前應核對 GPU-Z 等工具顯示的晶片與記憶體、顯卡外觀標籤及序號，並查原廠規格，避免把系列名稱相近的產品混為一談。",
+          "交機測試還應包含穩定負載、溫度、風扇、輸出埠與實際遊戲，並留意是否有異常降頻或顯示錯誤。621.14 的發布證明軟體支援持續演進，但它不能替代對二手硬體健康與實際功能相容性的驗收。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA GeForce News",
+        "url": "https://www.nvidia.com/en-gb/geforce/news/world-of-warcraft-forever-geforce-rtx-spark-game-ready-driver/",
+        "date": "2026-11-04"
+      }
+    ],
+    "publishedAt": "2026-11-06T09:18:20.404+08:00",
+    "updatedAt": "2026-11-06T09:18:20.404+08:00"
+  },
+  {
+    "slug": "motorola-moto-buds-2-ultra-region-compatibility-check",
+    "title": "moto buds 2 ultra 發表：AI 翻譯、續航與手機相容性要分開看",
+    "category": "穿戴與配件",
+    "description": "Motorola 發表 moto buds 2 ultra，主打 Bose 調音、降噪、AI 即時翻譯與最長 37 小時總續航。台灣買家仍應先確認上市地區、手機相容性與功能限制。",
+    "sections": [
+      {
+        "heading": "Bose 調音、雙單體與 AI 功能成為主要賣點",
+        "paragraphs": [
+          "Motorola 於 11 月 5 日發表 moto buds 2 ultra／moto buds ultra 27，配置 Bose SoundDesign 調音與 Bose QuietControl 主動降噪。每耳有 11mm 動圈單體與平衡電樞單體，並設置三組高訊噪比麥克風及 Voice Pickup Unit。",
+          "官方也列出 AI Live Translate、點頭或搖頭操作來電，以及 Wear Detection、雙裝置連線與 Audio Share 等功能。單次播放時間標示最長 8 小時，搭配充電盒總計最長 37 小時；這些數字會受音量、降噪與實際使用方式影響。"
+        ]
+      },
+      {
+        "heading": "功能能否使用，取決於手機、App 與上市地區",
+        "paragraphs": [
+          "部分功能需要相容的 Motorola 手機、moto buds App、Smart Connect 或特定語言與服務條件；Dolby Atmos、頭部追蹤與 AI 翻譯也不能只靠耳機本身保證可用。跨品牌手機即使能透過藍牙播放，完整功能仍可能不同。",
+          "官方表示產品將在未來數週陸續進入歐洲、中東、拉丁美洲、北美與亞太的部分國家及地區，未承諾所有市場同時上市。看到海外建議售價或預購資訊時，應另查台灣是否正式販售、保固範圍與 App 支援。"
+        ]
+      },
+      {
+        "heading": "二手真無線耳機還要驗收電池、衛生與帳號解除",
+        "paragraphs": [
+          "編輯分析：購買二手真無線耳機時，規格表上的最長續航不代表實際電池健康。應分別測試左右耳與充電盒的耗電、充電接點、麥克風、降噪、觸控或頭部手勢，並確認裝置已從前任使用者的藍牙與尋找服務解除。",
+          "耳塞、出音孔與充電盒需要妥善清潔，若有進水、異味、電池膨脹或充電過熱應停止使用。本文依 Motorola 官方公告整理，沒有把區域上市計畫或實驗室續航數據當成台灣到貨與實際使用保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Motorola News",
+        "url": "https://motorolanews.com/the-new-moto-buds-2-ultra-moto-buds-ultra-27-take-audio-up-a-notch-with-sound-by-bose-technology-and-bring-ai-live-translation-to-consumers/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-07T09:37:41.405+08:00",
+    "updatedAt": "2026-11-07T09:37:41.405+08:00"
+  },
+  {
+    "slug": "samsung-galaxy-smarttag3-us-region-privacy-check",
+    "title": "Galaxy SmartTag3 美國開賣：買追蹤器先核對手機、網路與隱私",
+    "category": "3C 配件",
+    "description": "Samsung 在美國推出 Galaxy SmartTag3，主打更遠的方向尋找、跨系統支援與位置紀錄。台灣買家應先確認地區、相容手機、尋找網路及隱私設定。",
+    "sections": [
+      {
+        "heading": "SmartTag3 加入方向尋找、地點通知與移動警示",
+        "paragraphs": [
+          "Samsung 美國新聞室於 11 月 6 日宣布 Galaxy SmartTag3 開賣。新版採更薄設計，支援 Galaxy Find Network 與跨作業系統使用，並以 Compass View 顯示距離和方向；官方標示可在最遠 60 公尺提供方向指引，實際範圍仍會受環境與裝置影響。",
+          "SmartTag3 也提供 Place Notification，可在標記物進出自訂區域時通知；Location History 可查看位置紀錄，Movement Detection Alert 則能在偵測到移動時提醒。美國一入裝售價為 29.99 美元、四入裝為 99.99 美元，不能直接視為台灣售價。"
+        ]
+      },
+      {
+        "heading": "標示跨系統，不等於每支手機都有完整功能",
+        "paragraphs": [
+          "物品追蹤器的使用體驗同時取決於手機硬體、作業系統、帳號、App、尋找網路覆蓋及所在市場。Compass View 等近距離方向功能通常還需要相容手機能力，購買前應查完整支援清單，不要只看包裝上的跨系統字樣。",
+          "位置紀錄與移動提醒涉及敏感資料，設定時應檢查共享對象、通知與帳號安全，也不應把追蹤器用於未經同意的人員監控。若手機出現陌生追蹤器警示，應依系統指引查看資訊、播放聲音並在必要時聯絡執法或安全單位。"
+        ]
+      },
+      {
+        "heading": "二手追蹤器必須解除舊帳號並實際重新配對",
+        "paragraphs": [
+          "編輯分析：二手 SmartTag 交易不能只確認外觀和電池。賣家應先從原帳號與尋找網路移除裝置，買方再以自己的帳號完成重設、配對、近距離尋找與提醒測試；無法解除原綁定的產品不宜購入。",
+          "海外版本還要確認台灣 App、尋找網路與保固服務是否可用。本文整理的是 Samsung 美國市場公告，沒有宣稱 SmartTag3 已在台灣以相同日期、價格或功能組合上市，也沒有把追蹤器當成防盜或人身安全的唯一保障。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Newsroom US",
+        "url": "https://news.samsung.com/us/latest-samsung-devices-galaxy-buds-on-galaxy-smarttag3-available-now/",
+        "date": "2026-11-06"
+      }
+    ],
+    "publishedAt": "2026-11-07T09:37:41.405+08:00",
+    "updatedAt": "2026-11-07T09:37:41.405+08:00"
+  },
+  {
+    "slug": "garmin-descent-x10-dive-computer-used-device-safety-check",
+    "title": "Garmin Descent X10 潛水電腦登場：買二手先查防水、電池與紀錄",
+    "category": "穿戴裝置",
+    "description": "Garmin 發表 Descent X10 潛水電腦，提供 2.1 吋高對比顯示、數種潛水模式與租借管理。二手交易應特別查防水狀況、電池與維修紀錄。",
+    "sections": [
+      {
+        "heading": "2.1 吋顯示與多種模式，鎖定入門與租借市場",
+        "paragraphs": [
+          "Garmin 於 11 月 3 日發表 Descent X10，配備 2.1 吋常亮高對比螢幕、大字體與背光，可顯示深度、時間與氣體等潛水資訊。裝置提供水肺、自由潛水與儀表模式，並標示為 10 ATM 防水等級。",
+          "官方標示充電後最長可提供 50 小時潛水時間，待機最長 6 個月，並能透過 Garmin Dive App 上傳潛水紀錄、標記位置與追蹤裝備。裝置模擬器可用來熟悉操作，租借模式則方便潛店按使用者程度設定並在歸還後重設。"
+        ]
+      },
+      {
+        "heading": "潛水電腦是安全工具，但不能取代訓練與備援",
+        "paragraphs": [
+          "潛水電腦提供的免減壓極限、深度與時間資訊，必須配合正確設定、合格訓練、潛伴制度與潛水計畫使用。使用者應在下水前熟悉畫面、警示、氣體設定與電量，不宜在陌生裝置上直接進行高風險潛水。",
+          "標示 10 ATM 也不代表曾受撞擊、拆修或老化的二手裝置仍維持原始密封性能。外觀無裂痕只是基本檢查，真正用於潛水前，應依原廠建議確認維護、密封與壓力測試需求，並準備適當備援儀表。"
+        ]
+      },
+      {
+        "heading": "二手交易應保留維修與潛水歷史，不只測開機",
+        "paragraphs": [
+          "編輯分析：驗收二手潛水電腦時，應查看螢幕、按鍵、充電接點、電池續航、感測器讀值、App 同步與裝置重設，並詢問進水、撞擊、換殼、換電池及壓力測試紀錄。缺乏可追溯維修資料時，價格再低也不應省略專業檢查。",
+          "若是潛店租借機，還要確認使用次數、保養週期與租借模式是否已清除前一位使用者資料。本文是依 Garmin 公告進行的產品與購機整理，不構成潛水訓練、減壓規劃或水下安全指示。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Garmin Newsroom",
+        "url": "https://www.garmin.com/en-CA/blog/news/garmin-introduces-descent-x10-the-essential-dive-computer-for-underwater-adventures/",
+        "date": "2026-11-03"
+      }
+    ],
+    "publishedAt": "2026-11-07T09:37:41.405+08:00",
+    "updatedAt": "2026-11-07T09:37:41.405+08:00"
+  },
+  {
+    "slug": "motorola-signature-27-used-phone-spec-region-check",
+    "title": "motorola signature 27 發表：買旗艦機別只看相機排名與峰值亮度",
+    "category": "手機新品",
+    "description": "Motorola 公布 signature 27 的相機、螢幕、電池與更新承諾；面對高階新機或日後二手機，仍應把地區版本、維修條件與實際功能列入檢查。",
+    "sections": [
+      {
+        "heading": "官方公布的核心規格",
+        "paragraphs": [
+          "Motorola 於 11 月 5 日發表 signature 27，公布 5,000 萬畫素 Sony LYTIA LYT-910 主相機、2 億畫素潛望式長焦，以及 5,000 萬畫素超廣角與前鏡頭。官方也列出 Snapdragon 8 Elite Extreme Gen 6、7,000mAh 電池、90W 有線與 50W 無線充電等規格；這些是廠商公布資料，不等同本站實測結果。",
+          "螢幕採 Extreme AMOLED Duo 串聯式面板，官方宣稱局部峰值亮度最高 12,000 nits。機身標示 IP68／IP69、防護玻璃為 Gorilla Glass Ceramic 3，並承諾提供七年作業系統升級；實際更新起算方式、地區韌體與售後條件仍應以購買市場公告為準。"
+        ]
+      },
+      {
+        "heading": "上市地區與安全系統仍待確認",
+        "paragraphs": [
+          "官方表示 signature 27 將於未來數月在全球部分市場推出，建議售價由 1,599 美元起，但未在這則公告確認台灣上市時間、台灣售價或完整版本差異。跨境購買前要先查清頻段、eSIM、充電器、保固與零件供應，不能直接把海外資訊當成台灣規格。",
+          "Motorola 同時表示這是品牌首款支援 GrapheneOS 的裝置，後續細節將另行公布。這不代表所有地區版本、銷售批次或解鎖狀態都已具備相同支援；有這項需求的使用者，應等候相容機型清單與正式安裝文件，而不是先依宣傳文字購買。"
+        ]
+      },
+      {
+        "heading": "新機與日後二手機怎麼檢查",
+        "paragraphs": [
+          "編輯分析：相機排行榜、AI 變焦倍率與峰值亮度適合用來了解產品定位，卻不能取代實際驗機。購買時可檢查主鏡頭對焦與防手震、各焦段切換、螢幕低亮度顯示、無線充電、USB 連線和行動網路，再確認電池健康與是否曾經拆修。",
+          "若日後選購二手機，還要核對型號、序號、地區韌體與更新狀態，並確認帳號鎖、開機解鎖和安全系統是否被改動。七年更新是重要條件，但剩餘支援期、零件取得與電池老化，才會直接影響二手機的實際使用年限。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Motorola Newsroom",
+        "url": "https://motorolanews.com/motorola-signature-27-2/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-08T09:41:10.320+08:00",
+    "updatedAt": "2026-11-08T09:41:10.320+08:00"
+  },
+  {
+    "slug": "asus-xg-core-rx-9060-xt-egpu-compatibility-check",
+    "title": "ASUS XG Core RX 9060 XT 外接顯卡亮相：USB4 不等於一定相容",
+    "category": "電腦硬體",
+    "description": "ASUS 發表搭載 Radeon RX 9060 XT LP 的 XG Core 外接顯卡；購買前應先核對主機的 USB4／Thunderbolt 支援、驅動與外接螢幕配置。",
+    "sections": [
+      {
+        "heading": "小型外接盒整合 16GB 顯示卡",
+        "paragraphs": [
+          "ASUS 於 11 月 6 日公布 XG Core Radeon RX 9060 XT LP 外接顯卡，內建採 RDNA 4 架構、配備 16GB GDDR6 的 Radeon RX 9060 XT LP，透過最高 40Gbps 的 USB4 連接電腦。機身尺寸為 144 × 117 × 39mm，並提供 HDMI 與 DisplayPort 影像輸出。",
+          "官方列出的適用裝置包含相容的筆電、掌上型電腦與迷你電腦，例如 ROG Ally X、ROG Xbox Ally X，也表示可搭配相容的 Thunderbolt 3 系統。GPU Tweak III 可用於監看與調整，但實際功能與效能仍取決於主機、韌體、驅動、連線頻寬及遊戲工作負載。"
+        ]
+      },
+      {
+        "heading": "看到 USB4 標誌仍要查主機支援",
+        "paragraphs": [
+          "USB4 是傳輸規格，不代表每一台標有 USB4 的電腦都具備相同的 PCIe 通道、外接顯卡支援與韌體設定。購買前應查原廠相容清單、BIOS 更新與作業系統驅動，並確認使用內建螢幕或外接螢幕時的連線路徑。",
+          "外接顯卡的頻寬通常低於桌機內部 PCIe 插槽，實際差距也會隨解析度、遊戲與資料回傳方式改變。官方規格可用來確認介面與硬體，不能直接推算特定電腦上的幀率或把桌機顯卡成績照搬過來。"
+        ]
+      },
+      {
+        "heading": "新舊外接顯卡的驗機重點",
+        "paragraphs": [
+          "編輯分析：第一次連接時應更新主機 BIOS、晶片組與顯示驅動，再測試喚醒、休眠、熱插拔和外接螢幕。若裝置會突然斷線，問題可能來自線材、接頭、主機省電設定或驅動，不宜只用一次跑分判定顯卡故障。",
+          "選購二手外接盒時要確認原廠電源供應器與合規 USB4 線材是否齊全，檢查連接埠鬆動、風扇異音、灰塵與過熱紀錄，並在自己的主機上連續測試。缺少專用電源或線材看似便宜，後續補件與排錯成本可能更高。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-xg-core-radeon-rx-9060-xt-lp-external-graphics-dock",
+        "date": "2026-11-06"
+      }
+    ],
+    "publishedAt": "2026-11-08T09:41:10.320+08:00",
+    "updatedAt": "2026-11-08T09:41:10.320+08:00"
+  },
+  {
+    "slug": "microsoft-edge-new-tab-content-ai-source-check",
+    "title": "Edge 新分頁改版加入更多 AI 摘要：台灣用戶先看地區與來源",
+    "category": "電腦軟體",
+    "description": "Microsoft 重整 Edge 新分頁與 Discover 內容體驗，增加個人化影片與 Copilot 彙整；首波地區不含台灣，閱讀時仍要回到原始來源核對。",
+    "sections": [
+      {
+        "heading": "新分頁內容與影片推薦重新設計",
+        "paragraphs": [
+          "Microsoft 於 11 月 5 日說明新版 Edge 新分頁與 Windows 工作列 Discover 內容體驗，將推薦系統重新設計，強調內容的相關性、新鮮度與品質。官方表示內容來源涵蓋 1,500 家出版者及 3,500 名創作者，使用者可追蹤主題與來源。",
+          "新版介面提高影片比重；Microsoft 公布平台每日提供約 45,000 支影片，並稱影片互動占比達 40%。這些數字是平台自行發布的整體統計，不代表每位使用者會看到相同內容，也不能據此判斷單一來源的可信度。"
+        ]
+      },
+      {
+        "heading": "Curated by Copilot 彙整多篇報導",
+        "paragraphs": [
+          "Microsoft 也擴大 Curated by Copilot，讓系統針對同一事件彙整多篇文章並保留來源標示。AI 摘要可以協助快速掌握脈絡，但摘要可能省略限定條件；涉及軟體更新、資安、價格或上市地區時，仍應點進原文核對日期與適用範圍。",
+          "這次體驗首波面向美國、加拿大、英國、澳洲與印度，官方公告未把台灣列入首波地區。因此台灣使用者目前介面不同並不代表瀏覽器異常，是否推出及顯示內容仍以後續區域公告與帳號設定為準。"
+        ]
+      },
+      {
+        "heading": "如何管理推薦與二手電腦瀏覽器",
+        "paragraphs": [
+          "編輯分析：不想讓新分頁被資訊流占滿，可在 Edge 的新分頁設定中調整版面、追蹤主題與內容偏好；選項名稱可能隨版本與地區不同。看到 AI 彙整時，應先辨識發布者、原始日期和引用連結，不把摘要直接當成官方公告。",
+          "接手二手電腦後，建議先移除前使用者帳號、同步資料與瀏覽器設定，再建立自己的系統帳號與 Edge 設定檔。若只是登出網站而未清除瀏覽器資料，書籤、密碼、推薦偏好和同步狀態仍可能殘留，會同時影響隱私與新分頁內容。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/05/discover-more-of-what-matters-every-time-you-open-a-new-tab-in-microsoft-edge/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-08T09:41:10.320+08:00",
+    "updatedAt": "2026-11-08T09:41:10.320+08:00"
+  },
+  {
+    "slug": "android-november-2026-security-patch-used-phone-check",
+    "title": "Android 11 月安全公告：二手機要看修補層級，不只看系統版本",
+    "category": "手機安全",
+    "description": "Android 11 月安全公告列出多項高風險與重大漏洞，2026-11-05 修補層級涵蓋本期全部項目；買二手機仍要核對品牌實際推送狀態。",
+    "sections": [
+      {
+        "heading": "11 月公告包含可遠端利用的重大漏洞",
+        "paragraphs": [
+          "Android 開放原始碼計畫於 11 月 2 日發布、11 月 6 日更新 2026 年 11 月安全公告。官方表示，本期最嚴重的問題包含 Framework 元件的重大遠端程式碼執行漏洞，在假設平台防護失效或遭繞過的情況下，不需要額外權限或使用者互動即可造成影響。",
+          "公告把修補項目分成 2026-11-01 與 2026-11-05 兩個安全修補層級；2026-11-05 或更新層級涵蓋本期列出的全部問題。部分 Android 10 以上裝置也可能透過 Google Play 系統更新取得 Mainline 元件修補，但這不等於整台手機的系統安全修補日期已同步更新。"
+        ]
+      },
+      {
+        "heading": "AOSP 公告不代表每個品牌已經推送",
+        "paragraphs": [
+          "Android 公告提供漏洞與修補基準，實際 OTA 發送時間仍由手機品牌、機型、地區與電信版本決定。設定畫面顯示 Android 17，也不能直接證明已安裝 11 月修補；必須另外查看「Android 安全性更新」及「Google Play 系統更新」日期。",
+          "遇到尚未收到更新的裝置，應先使用內建系統更新、重新啟動並再次檢查，不要下載陌生網站的韌體或所謂安全修補工具。若品牌已停止提供安全更新，日常登入金融、工作或管理帳號的風險會隨時間提高。"
+        ]
+      },
+      {
+        "heading": "二手機交機時如何核對安全狀態",
+        "paragraphs": [
+          "編輯分析：二手機估價與驗收不應只記錄 Android 大版本。可請店家提供完整型號、系統版本、安全性更新日期與 Google Play 系統更新畫面，並查品牌官方支援期限；同名機型的海外版、電信版與台灣版可能有不同更新節奏。",
+          "完成恢復原廠設定後，先安裝所有官方更新、開啟 Play Protect，再登入主要帳號。若裝置已解鎖開機載入程式、刷入非官方系統或無法正常更新，買方應先釐清原因與還原方式，不能把「可開機」當成安全狀態正常。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Android Open Source Project",
+        "url": "https://source.android.com/docs/security/bulletin/2026/2026-11-01/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-09T09:13:31.012+08:00",
+    "updatedAt": "2026-11-09T09:13:31.012+08:00"
+  },
+  {
+    "slug": "windows-insider-november-6-hello-used-pc-check",
+    "title": "Windows 11 測試版更新 Windows Hello：二手 PC 別把 Insider 當正式版",
+    "category": "電腦軟體",
+    "description": "Microsoft 釋出 11 月 6 日 Windows 11 Insider 測試版本，改善 Windows Hello 登入流程；二手電腦應先確認頻道、正式版資格與生物辨識硬體。",
+    "sections": [
+      {
+        "heading": "Beta 與 Experimental 頻道同步推出新版本",
+        "paragraphs": [
+          "Microsoft 於 11 月 6 日向 Windows Insider 推出多個 Windows 11 預覽版本，包括 Beta Build 26320.9876、Experimental Build 26340.9882，以及針對 26H1 與未來平台的不同測試版本。這些是 Insider 頻道測試版，不是所有一般 Windows 11 電腦都會收到的正式更新。",
+          "本次列出的重點功能是 Experimental 頻道的 Windows Hello 改善：臉部、指紋或 PIN 可由先成功的方法完成登入，不必等生物辨識結束才輸入 PIN；重新開機等特定情況仍會先要求 PIN。功能能否出現取決於頻道、版本與相容硬體。"
+        ]
+      },
+      {
+        "heading": "測試版本號不能當成電腦比較優勢",
+        "paragraphs": [
+          "Insider 版本用來提早測試功能，可能遇到尚未修正的相容性或穩定性問題。二手賣場若以較新的預覽版本號作為「功能更多」賣點，買方仍應確認裝置能否退出 Insider、回到正式版，以及回復過程是否需要清除資料。",
+          "Windows Hello 也需要相容的紅外線相機、指紋辨識器或其他硬體。一般網路攝影機不一定支援臉部辨識，驅動程式可安裝也不等於感測器狀態正常；應在自己的帳號中重新設定並實際測試。"
+        ]
+      },
+      {
+        "heading": "二手 Windows PC 的交機檢查",
+        "paragraphs": [
+          "編輯分析：交機時可到 Windows Update 與 Insider 設定頁核對目前頻道、版本與啟用狀態，確認沒有公司管理、測試版限制或前任使用者帳號。若賣家無法說明為何安裝 Experimental 版本，重灌正式版後再驗收會較容易判斷硬體與驅動是否穩定。",
+          "臉部與指紋資料應由買方在全新帳號中重新建立，不能沿用前任設定。測試睡眠喚醒、重新開機、PIN 與生物辨識切換後，也要確認相機遮罩、鏡頭、指紋區與裝置管理員沒有異常。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Insider Blog",
+        "url": "https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/",
+        "date": "2026-11-06"
+      }
+    ],
+    "publishedAt": "2026-11-09T09:13:31.012+08:00",
+    "updatedAt": "2026-11-09T09:13:31.012+08:00"
+  },
+  {
+    "slug": "ps5-valhalla-pssr-pro-used-console-model-check",
+    "title": "PS5 遊戲加入新版 PSSR：買二手主機先分清標準版與 Pro",
+    "category": "遊戲主機",
+    "description": "《刺客教條：維京紀元》更新加入 PS5 Pro 專屬新版 PSSR 最佳化；選購二手 PS5 時，應分清主機版本、遊戲條件與實際硬體狀況。",
+    "sections": [
+      {
+        "heading": "免費更新加入 New Game Plus 與影像最佳化",
+        "paragraphs": [
+          "PlayStation Blog 於 11 月 5 日介紹《刺客教條：維京紀元》The Most Requested 免費更新，內容包含 New Game Plus、兩個新獎盃、進度模式與能力值計算調整，也加入 Animus Hub 同步與新版 PSSR 最佳化。",
+          "官方明確指出，新版 PSSR 最佳化只適用 PS5 Pro；Ubisoft 表示更新可提升升頻後的清晰度與穩定度，並讓 PS5 Pro 的 Quality 模式以 60FPS 運行。這是特定遊戲、特定主機與更新版本的官方說明，不能推廣成所有 PS5 遊戲都具備相同效果。"
+        ]
+      },
+      {
+        "heading": "遊戲可在 PS5 執行，不代表功能完全相同",
+        "paragraphs": [
+          "一般 PS5 與 PS5 Pro 都能取得這次遊戲內容更新，但 PSSR 強化是 Pro 專屬。比較二手主機時，應核對機身型號、儲存容量、是否有光碟機及商品內容，不要只看賣場寫著「支援 4K／60FPS」就推定每個遊戲模式相同。",
+          "影像輸出還會受到遊戲版本、顯示設定、電視規格與 HDMI 連線影響。要使用高更新率、VRR 或特定解析度，電視連接埠與線材也必須相容；單靠主機名稱無法保證完整顯示體驗。"
+        ]
+      },
+      {
+        "heading": "二手 PS5 驗收要看主機而不是宣傳畫面",
+        "paragraphs": [
+          "編輯分析：驗收二手 PS5 或 PS5 Pro 時，可在系統資訊核對型號與儲存空間，再測試 HDMI 輸出、控制器連線、網路、USB、休眠喚醒與長時間遊戲。若有光碟機，還要測試讀片、退出與安裝，不應只播放預先下載的展示影片。",
+          "交易前也要確認主機已解除前任帳號、可以正常登入 PlayStation Network，並了解遊戲與訂閱授權不會因購買主機自動轉移。PSSR 更新能增加 Pro 的特定遊戲價值，但散熱、噪音、維修紀錄與剩餘保固仍是二手價格的重要條件。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "PlayStation Blog",
+        "url": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-09T09:13:31.012+08:00",
+    "updatedAt": "2026-11-09T09:13:31.012+08:00"
   }
 ]
