@@ -5204,5 +5204,119 @@
     ],
     "publishedAt": "2026-11-08T09:41:10.320+08:00",
     "updatedAt": "2026-11-08T09:41:10.320+08:00"
+  },
+  {
+    "slug": "android-november-2026-security-patch-used-phone-check",
+    "title": "Android 11 月安全公告：二手機要看修補層級，不只看系統版本",
+    "category": "手機安全",
+    "description": "Android 11 月安全公告列出多項高風險與重大漏洞，2026-11-05 修補層級涵蓋本期全部項目；買二手機仍要核對品牌實際推送狀態。",
+    "sections": [
+      {
+        "heading": "11 月公告包含可遠端利用的重大漏洞",
+        "paragraphs": [
+          "Android 開放原始碼計畫於 11 月 2 日發布、11 月 6 日更新 2026 年 11 月安全公告。官方表示，本期最嚴重的問題包含 Framework 元件的重大遠端程式碼執行漏洞，在假設平台防護失效或遭繞過的情況下，不需要額外權限或使用者互動即可造成影響。",
+          "公告把修補項目分成 2026-11-01 與 2026-11-05 兩個安全修補層級；2026-11-05 或更新層級涵蓋本期列出的全部問題。部分 Android 10 以上裝置也可能透過 Google Play 系統更新取得 Mainline 元件修補，但這不等於整台手機的系統安全修補日期已同步更新。"
+        ]
+      },
+      {
+        "heading": "AOSP 公告不代表每個品牌已經推送",
+        "paragraphs": [
+          "Android 公告提供漏洞與修補基準，實際 OTA 發送時間仍由手機品牌、機型、地區與電信版本決定。設定畫面顯示 Android 17，也不能直接證明已安裝 11 月修補；必須另外查看「Android 安全性更新」及「Google Play 系統更新」日期。",
+          "遇到尚未收到更新的裝置，應先使用內建系統更新、重新啟動並再次檢查，不要下載陌生網站的韌體或所謂安全修補工具。若品牌已停止提供安全更新，日常登入金融、工作或管理帳號的風險會隨時間提高。"
+        ]
+      },
+      {
+        "heading": "二手機交機時如何核對安全狀態",
+        "paragraphs": [
+          "編輯分析：二手機估價與驗收不應只記錄 Android 大版本。可請店家提供完整型號、系統版本、安全性更新日期與 Google Play 系統更新畫面，並查品牌官方支援期限；同名機型的海外版、電信版與台灣版可能有不同更新節奏。",
+          "完成恢復原廠設定後，先安裝所有官方更新、開啟 Play Protect，再登入主要帳號。若裝置已解鎖開機載入程式、刷入非官方系統或無法正常更新，買方應先釐清原因與還原方式，不能把「可開機」當成安全狀態正常。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Android Open Source Project",
+        "url": "https://source.android.com/docs/security/bulletin/2026/2026-11-01/",
+        "date": "2026-11-02"
+      }
+    ],
+    "publishedAt": "2026-11-09T09:13:31.012+08:00",
+    "updatedAt": "2026-11-09T09:13:31.012+08:00"
+  },
+  {
+    "slug": "windows-insider-november-6-hello-used-pc-check",
+    "title": "Windows 11 測試版更新 Windows Hello：二手 PC 別把 Insider 當正式版",
+    "category": "電腦軟體",
+    "description": "Microsoft 釋出 11 月 6 日 Windows 11 Insider 測試版本，改善 Windows Hello 登入流程；二手電腦應先確認頻道、正式版資格與生物辨識硬體。",
+    "sections": [
+      {
+        "heading": "Beta 與 Experimental 頻道同步推出新版本",
+        "paragraphs": [
+          "Microsoft 於 11 月 6 日向 Windows Insider 推出多個 Windows 11 預覽版本，包括 Beta Build 26320.9876、Experimental Build 26340.9882，以及針對 26H1 與未來平台的不同測試版本。這些是 Insider 頻道測試版，不是所有一般 Windows 11 電腦都會收到的正式更新。",
+          "本次列出的重點功能是 Experimental 頻道的 Windows Hello 改善：臉部、指紋或 PIN 可由先成功的方法完成登入，不必等生物辨識結束才輸入 PIN；重新開機等特定情況仍會先要求 PIN。功能能否出現取決於頻道、版本與相容硬體。"
+        ]
+      },
+      {
+        "heading": "測試版本號不能當成電腦比較優勢",
+        "paragraphs": [
+          "Insider 版本用來提早測試功能，可能遇到尚未修正的相容性或穩定性問題。二手賣場若以較新的預覽版本號作為「功能更多」賣點，買方仍應確認裝置能否退出 Insider、回到正式版，以及回復過程是否需要清除資料。",
+          "Windows Hello 也需要相容的紅外線相機、指紋辨識器或其他硬體。一般網路攝影機不一定支援臉部辨識，驅動程式可安裝也不等於感測器狀態正常；應在自己的帳號中重新設定並實際測試。"
+        ]
+      },
+      {
+        "heading": "二手 Windows PC 的交機檢查",
+        "paragraphs": [
+          "編輯分析：交機時可到 Windows Update 與 Insider 設定頁核對目前頻道、版本與啟用狀態，確認沒有公司管理、測試版限制或前任使用者帳號。若賣家無法說明為何安裝 Experimental 版本，重灌正式版後再驗收會較容易判斷硬體與驅動是否穩定。",
+          "臉部與指紋資料應由買方在全新帳號中重新建立，不能沿用前任設定。測試睡眠喚醒、重新開機、PIN 與生物辨識切換後，也要確認相機遮罩、鏡頭、指紋區與裝置管理員沒有異常。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Insider Blog",
+        "url": "https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/",
+        "date": "2026-11-06"
+      }
+    ],
+    "publishedAt": "2026-11-09T09:13:31.012+08:00",
+    "updatedAt": "2026-11-09T09:13:31.012+08:00"
+  },
+  {
+    "slug": "ps5-valhalla-pssr-pro-used-console-model-check",
+    "title": "PS5 遊戲加入新版 PSSR：買二手主機先分清標準版與 Pro",
+    "category": "遊戲主機",
+    "description": "《刺客教條：維京紀元》更新加入 PS5 Pro 專屬新版 PSSR 最佳化；選購二手 PS5 時，應分清主機版本、遊戲條件與實際硬體狀況。",
+    "sections": [
+      {
+        "heading": "免費更新加入 New Game Plus 與影像最佳化",
+        "paragraphs": [
+          "PlayStation Blog 於 11 月 5 日介紹《刺客教條：維京紀元》The Most Requested 免費更新，內容包含 New Game Plus、兩個新獎盃、進度模式與能力值計算調整，也加入 Animus Hub 同步與新版 PSSR 最佳化。",
+          "官方明確指出，新版 PSSR 最佳化只適用 PS5 Pro；Ubisoft 表示更新可提升升頻後的清晰度與穩定度，並讓 PS5 Pro 的 Quality 模式以 60FPS 運行。這是特定遊戲、特定主機與更新版本的官方說明，不能推廣成所有 PS5 遊戲都具備相同效果。"
+        ]
+      },
+      {
+        "heading": "遊戲可在 PS5 執行，不代表功能完全相同",
+        "paragraphs": [
+          "一般 PS5 與 PS5 Pro 都能取得這次遊戲內容更新，但 PSSR 強化是 Pro 專屬。比較二手主機時，應核對機身型號、儲存容量、是否有光碟機及商品內容，不要只看賣場寫著「支援 4K／60FPS」就推定每個遊戲模式相同。",
+          "影像輸出還會受到遊戲版本、顯示設定、電視規格與 HDMI 連線影響。要使用高更新率、VRR 或特定解析度，電視連接埠與線材也必須相容；單靠主機名稱無法保證完整顯示體驗。"
+        ]
+      },
+      {
+        "heading": "二手 PS5 驗收要看主機而不是宣傳畫面",
+        "paragraphs": [
+          "編輯分析：驗收二手 PS5 或 PS5 Pro 時，可在系統資訊核對型號與儲存空間，再測試 HDMI 輸出、控制器連線、網路、USB、休眠喚醒與長時間遊戲。若有光碟機，還要測試讀片、退出與安裝，不應只播放預先下載的展示影片。",
+          "交易前也要確認主機已解除前任帳號、可以正常登入 PlayStation Network，並了解遊戲與訂閱授權不會因購買主機自動轉移。PSSR 更新能增加 Pro 的特定遊戲價值，但散熱、噪音、維修紀錄與剩餘保固仍是二手價格的重要條件。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "PlayStation Blog",
+        "url": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-09T09:13:31.012+08:00",
+    "updatedAt": "2026-11-09T09:13:31.012+08:00"
   }
 ]
