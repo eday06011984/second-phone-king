@@ -5318,5 +5318,124 @@
     ],
     "publishedAt": "2026-11-09T09:13:31.012+08:00",
     "updatedAt": "2026-11-09T09:13:31.012+08:00"
+  },
+  {
+    "slug": "xiaomi-18-pro-series-prelaunch-warranty-region-check",
+    "title": "Xiaomi 18 Pro 系列預熱頁上線：保固贈送也要先看地區條款",
+    "category": "手機新品",
+    "description": "Xiaomi 18 Pro 系列全球預熱頁列出維修與訂閱服務，但機型、上市日期及權益可能因地區而異；購買新機或二手機都應先核對版本與條款。",
+    "sections": [
+      {
+        "heading": "官方預熱頁先公開服務內容",
+        "paragraphs": [
+          "Xiaomi 全球官網已上線 18 Pro 系列預熱頁，展示 Velvet Red 配色，並列出部分購機服務，包括 24 個月內一次背蓋、背面螢幕或鏡頭更換服務、一次螢幕更換服務，以及 Xiaomi Smartphone International Warranty Service。這些是官方頁面目前公開的權益方向，不等於所有市場都會提供相同方案。",
+          "頁面也列出 Spotify Premium、YouTube Premium 與 Google AI Pro 等試用服務，但明確標示資格與條款限制。英國活動條款顯示預熱活動自 11 月 9 日開始；正式售價、銷售日期與台灣供貨仍應以各地官方公告或授權通路為準。"
+        ]
+      },
+      {
+        "heading": "國際保固不代表跨區維修沒有條件",
+        "paragraphs": [
+          "Xiaomi 在頁尾提醒，特定產品型號與銷售日期可能因地區不同，圖片及產品資訊也可能不是最終版本；部分功能只適用系列中的特定機型。消費者不能只看全球頁面的服務名稱，就推定台灣購買、水貨或跨區版本都能取得相同維修內容。",
+          "比較新機方案時，應逐項確認適用國家、申請期限、是否需要發票、意外損壞範圍、自付額與維修據點。免費訂閱也要確認是否限新用戶、是否需要綁定付款方式，以及試用期結束後是否自動收費。"
+        ]
+      },
+      {
+        "heading": "二手機交易要把區域版本納入估價",
+        "paragraphs": [
+          "編輯分析：Xiaomi 18 Pro 系列後續進入二手市場時，賣家若以國際保固或換修服務加價，買家應要求提供原始購買地、發票、IMEI、啟用時間與完整條款，再確認權益能否隨裝置轉移。無法核實的贈送服務，不宜直接算進二手機價值。",
+          "實機驗收仍要檢查螢幕、相機、充電、通訊頻段、帳號解除、系統版本與維修紀錄。預熱頁能幫助理解官方定位，但不能取代台灣上市規格、保固文件與現場測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xiaomi Global",
+        "url": "https://www.mi.com/global/launch/xiaomi-launch-november-2026/",
+        "date": "2026-11-09"
+      },
+      {
+        "name": "Xiaomi UK",
+        "url": "https://www.mi.com/uk/support/terms/xiaomi-launch-november-2026-tc/",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-10T09:29:21.834+08:00",
+    "updatedAt": "2026-11-10T09:29:21.834+08:00"
+  },
+  {
+    "slug": "microsoft-edge-shopping-compare-checkout-savings-region-check",
+    "title": "Edge 新增跨分頁商品比較：買 3C 可參考，仍要核對賣場與地區",
+    "category": "購機工具",
+    "description": "Microsoft Edge 加入 Copilot 跨分頁商品比較與結帳優惠功能，但可用市場、網站與資料來源有限；選購 3C 仍須自行核對型號、價格和售後條件。",
+    "sections": [
+      {
+        "heading": "Copilot 可整理多個商品分頁",
+        "paragraphs": [
+          "Microsoft 於 11 月 9 日宣布 Edge 新增購物輔助功能。當瀏覽器偵測到使用者開啟多個相似商品分頁時，可主動提供比較選項；使用者同意後，Copilot 會整理各頁面的規格、價格與差異，並保留分頁內容作為後續提問的脈絡。",
+          "官方表示，Edge 只有在使用者選擇比較後才會完整讀取相關頁面，也可在設定中關閉購物體驗。功能適用 Edge 的 Windows 與 Mac 版本，但 Copilot 比較只在支援 Copilot 的市場提供，實際購物功能還會因網站而異。"
+        ]
+      },
+      {
+        "heading": "結帳優惠與價格紀錄都有地區限制",
+        "paragraphs": [
+          "新版 Checkout Savings 會在結帳時尋找可用優惠碼，但官方註明目前只提供 en-US；Cashback 也要在符合資格的零售商啟用方案，並受個別條款限制。台灣使用者看到英文功能介紹，不應推定本地賣場一定能使用。",
+          "Edge 既有的 Price Comparison、Price History 與 Price Tracking 可協助整理資訊，但瀏覽器顯示的價格仍可能受到運費、稅金、會員資格、容量、顏色與庫存影響。下單前應回到賣場確認最終付款金額和退換貨規則。"
+        ]
+      },
+      {
+        "heading": "比較二手機時不要只相信自動摘要",
+        "paragraphs": [
+          "編輯分析：跨分頁摘要適合初步縮小選項，但二手機賣場的標題與欄位常不一致，例如同一型號可能混有不同容量、電池健康度、維修紀錄與保固。若來源頁面資訊不完整，AI 整理得再清楚也無法補出未揭露的機況。",
+          "實際比較時可先固定型號、容量、外觀等級與保固條件，再逐筆核對賣家評價、實機照片、序號狀態與退貨機制。涉及付款與帳號資料時，也應確認網址、憑證與收款方，不因瀏覽器顯示優惠就略過基本防詐檢查。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-10T09:29:21.834+08:00",
+    "updatedAt": "2026-11-10T09:29:21.834+08:00"
+  },
+  {
+    "slug": "garmin-cirqa-sleep-tracking-used-wearable-check",
+    "title": "Garmin CIRQA 說明睡眠追蹤：買二手穿戴裝置別把數據當診斷",
+    "category": "穿戴裝置",
+    "description": "Garmin 說明 CIRQA 智慧手環的睡眠階段、睡眠分數與健康趨勢功能；選購二手穿戴裝置時，應檢查感測、同步、衛生與帳號狀態。",
+    "sections": [
+      {
+        "heading": "睡眠分數結合多項夜間資料",
+        "paragraphs": [
+          "Garmin 於 11 月 5 日介紹 CIRQA Smart Band 的睡眠功能。裝置會利用動作、皮膚溫度等資料估算清醒、淺眠、深眠與快速動眼期，並將睡眠時間與多項指標整理成 0 至 100 的睡眠分數，資料可在 Garmin Connect 查看。",
+          "睡眠教練會參考年齡、活動量、近期睡眠、午睡與心率變異度提供建議；裝置也能記錄午睡，並將結果納入 Body Battery 與睡眠建議。這些功能需要持續配戴與累積個人基準，單晚數字不宜脫離趨勢單獨解讀。"
+        ]
+      },
+      {
+        "heading": "健康趨勢不等於醫療診斷",
+        "paragraphs": [
+          "CIRQA 夜間可追蹤心率變異度、心率、血氧、呼吸率與皮膚溫度，Garmin Connect 會依長期基準提示偏離情況。官方同時明確說明，這不是醫療裝置，也不供診斷或監測疾病使用。",
+          "消費者若出現持續失眠、呼吸異常或其他症狀，不能以穿戴裝置分數自行排除健康問題。不同配戴鬆緊、位置、膚況與使用習慣也可能影響資料，重要健康判斷仍應諮詢專業醫療人員。"
+        ]
+      },
+      {
+        "heading": "二手智慧手環要驗收感測與同步",
+        "paragraphs": [
+          "編輯分析：選購二手 CIRQA 或其他無螢幕穿戴裝置時，不能只看外觀。應確認充電與續航、震動、心率與血氧感測、藍牙配對、Garmin Connect 同步、韌體更新及裝置是否已從前任帳號解除。",
+          "貼身配戴設備還要檢查錶帶尺寸、扣具、感測器刮傷與清潔狀況，必要時更換可接觸皮膚的配件。若賣家以睡眠或健康數據作為商品效果證明，也應把它視為個人紀錄，而不是對下一位使用者的功能保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Garmin",
+        "url": "https://www.garmin.com/en-US/blog/fitness/how-to-help-improve-your-sleep-with-garmin-cirqa-smart-band/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-10T09:29:21.834+08:00",
+    "updatedAt": "2026-11-10T09:29:21.834+08:00"
   }
 ]
