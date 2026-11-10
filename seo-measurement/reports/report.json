@@ -1147,16 +1147,18 @@
           "id": "q19",
           "prompt": "如何找可以現場驗機的二手機店",
           "attempted": true,
-          "measured_dates": 0,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
-            "not_present": 0,
+            "not_present": 1,
             "indeterminate": 0,
             "failed": 1
           },
-          "single_top_three_count": null,
-          "selected_record_ids": [],
+          "single_top_three_count": 0,
+          "selected_record_ids": [
+            "google_ai_overview-q19-2026-11-10T08-21-48+08-00"
+          ],
           "stable": "unknown"
         },
         {
@@ -4190,6 +4192,81 @@
         {
           "site_id": "qek888",
           "name": "Q哥",
+          "is_target": false
+        }
+      ],
+      "single_top_three": false
+    },
+    {
+      "id": "google_ai_overview-q19-2026-11-10T08-21-48+08-00",
+      "question_id": "q19",
+      "platform": "google_ai_overview",
+      "prompt": "如何找可以現場驗機的二手機店",
+      "status": "not_present",
+      "measured_at": "2026-11-10T08:21:48+08:00",
+      "mode": "Google Search default All results; AI Overview present and fully visible; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "要找到可以現場驗機的二手機店，最安全、最有效率的方式是選擇有實體店面、提供到店取貨/看機、且標榜「驗完沒問題才付款」的通路。以下是具體的尋找方法與推薦管道：\n\n1. 善用支援「實體快取/門市交機」的二手機平台\n\n許多大型二手機或連鎖通訊行提供線上挑選、實體門市（或快取站）現場看機的服務：\n• 轉機站：全台設有 48 家快取站，可先在官網挑選機型並預約，到現場直接看機、驗機，確認滿意後再付款，不買也沒有費用。\n• 神腦線上 - 神選二手機：在網路下單後可選擇「門市實體交機」，到店當場驗機，不滿意可現場處理或退換。\n• 連鎖通訊/二手機專賣店：如米可手機館、保衛站、青蘋果3C、創宇通訊等，在各地有實體門市，部分支援現場看現貨與檢測。\n\n2. 搜尋與篩選的關鍵步驟\n\n• 先確認有無實體門市與預約機制：二手機通常是「一機一況」，看中的機器不一定直接擺在每間分店。出發前務必透過官方 LINE 或電話向店家預約，請對方把實機調到你方便前往的門市。\n• 避開「先匯款後寄送」的個人網拍：在 Dcard 或蝦皮找個人賣家，常遇到照片與實機不符、電池健康度過低、甚至買到被鎖機的狀況。若要面交，務必選擇光線充足的公開場所（如超商或通訊行內），並當場把所有功能測完再交錢。\n\n3. 現場驗機的標準清單（建議存在手機裡對照）\n\n到現場時，請務必花 10 尼分鐘實際操作檢查以下項目：\n• 外觀與邊角：拿在燈光或專用檢修燈下慢轉角度，檢查螢幕與機身有無明顯刮痕、碰撞凹角。\n• 螢幕顯示與觸控：顯示純白與純黑背景檢查亮/暗點與烙印；用手指從螢幕邊緣慢慢滑向中央測試觸控靈敏度。\n• 核心功能：前後相機切換（廣角/望遠）、喇叭與麥克風（語音備忘錄錄音測試）、充電孔接觸、Face ID / Touch ID、Wi-Fi與藍牙。\n• 電池與系統：檢查「電池健康度」、確認原廠帳號（如 Apple ID）已完全登出、撥打 *#06# 核對 IMEI 序號與機身是否一致，並插上自己的 SIM 卡測試通話與行動網路。\n• 保固與維修紀錄：確認零件更換紀錄及保固期限（原廠保固或店家提供的 7 天至數月售後保固）。\n\n如果你告訴我你所在的縣市與想買的品牌型號（例如 iPhone 或三星），我可以幫你推薦附近更具體的實體店家或管道。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "transfer-station",
+          "name": "轉機站",
+          "is_target": false
+        },
+        {
+          "site_id": "senao-secondhand",
+          "name": "神腦線上 - 神選二手機",
+          "is_target": false
+        },
+        {
+          "site_id": "miko3c",
+          "name": "米可手機館",
+          "is_target": false
+        },
+        {
+          "site_id": "guardstation",
+          "name": "保衛站",
+          "is_target": false
+        },
+        {
+          "site_id": "greenapple3c",
+          "name": "青蘋果3C",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        }
+      ],
+      "notes": "搜尋前 Google 首頁頁尾明示『台灣』；結果頁顯示『台灣／城東里 高雄市苓雅區－根據你的地點（住家）』與個人化搜尋，登入帳號識別及更細位置未保存。全新 Google 首頁逐字提交固定問句一次，取得完整 AI 摘要。只依正文第一節『推薦管道』具名通路首次出現順序計算；馨婷通訊、Threads 等引用標籤、來源卡片、Dcard／蝦皮風險舉例與摘要下方一般搜尋結果全部排除。本站只出現在一般搜尋結果，故不算品牌提及、本站連結或推薦名次；單次前三為否。",
+      "date": "2026-11-10",
+      "target_rank": null,
+      "top_three_sites": [
+        {
+          "site_id": "transfer-station",
+          "name": "轉機站",
+          "is_target": false
+        },
+        {
+          "site_id": "senao-secondhand",
+          "name": "神腦線上 - 神選二手機",
+          "is_target": false
+        },
+        {
+          "site_id": "miko3c",
+          "name": "米可手機館",
           "is_target": false
         }
       ],
