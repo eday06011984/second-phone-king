@@ -5437,5 +5437,119 @@
     ],
     "publishedAt": "2026-11-10T09:29:21.834+08:00",
     "updatedAt": "2026-11-10T09:29:21.834+08:00"
+  },
+  {
+    "slug": "google-november-pixel-drop-pixel-tag-compatibility-privacy-check",
+    "title": "Google 11 月 Pixel Drop 加入 Pixel Tag：買追蹤器先看相容性與隱私",
+    "category": "手機配件",
+    "description": "Google 11 月 Pixel Drop 帶來 Gemini Intelligence 更新與 Pixel Tag 上市資訊；選購追蹤器前應確認手機支援、UWB、地區供貨和防跟蹤機制。",
+    "sections": [
+      {
+        "heading": "Pixel Tag 於 11 月 11 日開賣",
+        "paragraphs": [
+          "Google 於 11 月 10 日公布 November Pixel Drop，並確認 Pixel Tag 自 11 月 11 日開賣。官方表示，Pixel Tag 可透過超過 10 億部 Android 裝置組成的 Find Hub 網路協助尋找遠距物品，近距離則可利用 UWB 顯示方向與距離。",
+          "官方也標示 Pixel Tag 電池續航超過一年，機身可放入錢包或掛在物品上。這些是 Google 的產品與服務說明；實際可用功能仍取決於手機硬體、系統版本、帳號設定、所在地區及 Find Hub 網路狀況。"
+        ]
+      },
+      {
+        "heading": "Pixel 功能更新不是所有機型同步取得",
+        "paragraphs": [
+          "本次 Pixel Drop 同時擴充 Gemini Intelligence、Rambler、對話摘要、Pixel 搜尋與 HiLight 等功能，但官方逐項列出不同機型與地區。例如 Gemini Intelligence 新功能以 Pixel 10 系列為主，Call Screen 升級則標示 Pixel 11 系列；多步驟任務功能目前擴大至日本、英國與印度。",
+          "繁體中文對話摘要已列入支援語言，但不代表台灣所有 Pixel 型號會同時取得完整功能。更新採分批推出，購買新機或二手機時應以裝置上的系統版本、功能頁面與官方適用條件核對，不能只看系列宣傳。"
+        ]
+      },
+      {
+        "heading": "二手追蹤器要先解除帳號並測試警示",
+        "paragraphs": [
+          "編輯分析：購買二手 Pixel Tag 或其他藍牙追蹤器時，應確認前任使用者已解除裝置與帳號綁定，再測試配對、響鈴、電池狀態、近距離定位及遺失模式。若手機沒有相容的 UWB 硬體，就不能把方向指引當成必然可用功能。",
+          "追蹤器涉及位置隱私，買家也應確認手機能收到陌生追蹤器警示，並了解停用與移除電池的方法。產品適合尋找個人物品，不應用來追蹤未同意的人；跨區購買前還要核對本地上市、保固與 Find Hub 功能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+        "date": "2026-11-10"
+      }
+    ],
+    "publishedAt": "2026-11-11T09:13:04.320+08:00",
+    "updatedAt": "2026-11-11T09:13:04.320+08:00"
+  },
+  {
+    "slug": "samsung-gallery-google-storage-sync-used-galaxy-account-check",
+    "title": "Samsung Gallery 改用 Google 儲存同步：換 Galaxy 前先看刪除規則",
+    "category": "手機軟體",
+    "description": "Samsung Gallery 開始在部分 One UI 9 裝置提供 Google 儲存同步；換機、清空空間或出售二手機前，應先確認帳號、備份和刪除影響。",
+    "sections": [
+      {
+        "heading": "同一組帳號可在支援裝置查看相片",
+        "paragraphs": [
+          "Samsung 於 11 月 10 日說明 Gallery 與 Google 儲存空間的同步服務。使用者在支援的 Galaxy 手機或平板登入相同 Samsung 與 Google 帳號，並於 Gallery 開啟同步後，可在其他支援裝置看到已同步相片與影片的預覽，需要原始檔時再下載。",
+          "服務目前從部分搭載 One UI 9 的 Galaxy 裝置開始，之後分階段擴大，且可用市場與機型可能不同。這不是所有 Galaxy 裝置立即都能使用的功能，換機前應先在 Gallery 設定內確認是否出現同步選項。"
+        ]
+      },
+      {
+        "heading": "15GB 空間與 Gmail、Drive 共用",
+        "paragraphs": [
+          "Gallery 同步使用 Google 帳號既有的儲存額度；免費帳號最多 15GB，並與 Gmail、Google Drive 和 Google Photos 共用，不會因開啟 Samsung Gallery 取得另一份免費空間。過去已存在 Google 儲存空間的相片，也不會在服務啟用後全部自動出現在 Gallery。",
+          "完成同步後，使用者可用「Free up space」移除手機上的原始檔並保留雲端縮圖，但刪除已同步項目會同時從連結的 Google 儲存空間與其他連線 Galaxy 裝置移除。清理手機前應先確認同步完成，重要檔案最好另留獨立備份。"
+        ]
+      },
+      {
+        "heading": "出售二手機前不要只做登出",
+        "paragraphs": [
+          "編輯分析：出售 Galaxy 二手機前，應先確認 Gallery、Google Photos、Google Drive 與其他備份服務的狀態，再下載需要保留的原始檔。不要把畫面上仍看得到縮圖誤認為檔案一定保存在手機，也不要在同步尚未確認時大量刪除。",
+          "交機前應移除 Samsung 與 Google 帳號、關閉同步並執行恢復原廠設定；買家則要確認裝置沒有前任帳號鎖定。若店家協助轉移資料，應先告知刪除會同步影響雲端的規則，避免為了釋放容量而誤刪唯一副本。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-gallery-makes-it-easier-to-access-photos-and-videos-across-galaxy-devices",
+        "date": "2026-11-10"
+      }
+    ],
+    "publishedAt": "2026-11-11T09:13:04.320+08:00",
+    "updatedAt": "2026-11-11T09:13:04.320+08:00"
+  },
+  {
+    "slug": "ios-27-2-1-security-update-used-iphone-check",
+    "title": "iOS 27.2.1 修補 AirPlay 與藍牙漏洞：二手 iPhone 交機前先更新",
+    "category": "手機安全",
+    "description": "Apple 發布 iOS 27.2.1 與 iPadOS 27.2.1，修補 AirPlay、藍牙、訊息及敏感資料存取問題；二手機驗收應核對支援機型與實際版本。",
+    "sections": [
+      {
+        "heading": "安全更新涵蓋配對與訊息權限",
+        "paragraphs": [
+          "Apple 於 11 月 9 日發布 iOS 27.2.1 與 iPadOS 27.2.1 的安全內容。官方列出的修補包括 AirPlay 配對碼嘗試限制、藍牙記憶體處理、App Intents 敏感資料授權，以及 iMessage 群組訊息存取等問題。",
+          "其中部分問題可能讓藍牙範圍內或同一網路的攻擊者影響配對流程，也有應用程式可能存取敏感資料的風險。Apple 公告描述的是已修補的漏洞影響，並未在該頁宣稱每項漏洞都已遭大規模利用。"
+        ]
+      },
+      {
+        "heading": "支援範圍從 iPhone 11 起",
+        "paragraphs": [
+          "Apple 列出的適用範圍包括 iPhone 11 及後續機型，以及特定世代之後的 iPad Pro、iPad Air、iPad、iPad mini。較舊裝置是否有其他版本更新，應另外查看 Apple 安全性發佈清單，不能從這份公告推定所有舊機都能升級至 27.2.1。",
+          "更新前應完成備份、保留足夠電量與儲存空間，並從「設定」中的軟體更新安裝。企業管理、測試版或特殊設定的裝置可能有不同部署節奏，實際版本仍以裝置畫面為準。"
+        ]
+      },
+      {
+        "heading": "版本最新不代表二手機沒有其他問題",
+        "paragraphs": [
+          "編輯分析：驗收二手 iPhone 時，可在「設定」核對型號、容量與 iOS 版本，完成更新後再測試藍牙、Wi-Fi、AirDrop、AirPlay、訊息與重新開機。若更新失敗或長期停在舊版本，應先釐清儲存空間、管理描述檔或硬體狀況。",
+          "安全更新不能證明電池、螢幕、相機或主機板是原廠且正常，也不能取代啟用鎖檢查。交易前仍須確認已登出 Apple 帳號、關閉「尋找」、清除資料，並檢查零件與服務紀錄、電池健康度及實機功能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Support",
+        "url": "https://support.apple.com/en-us/149715",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-11T09:13:04.320+08:00",
+    "updatedAt": "2026-11-11T09:13:04.320+08:00"
   }
 ]
