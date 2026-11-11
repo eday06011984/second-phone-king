@@ -12,7 +12,7 @@ node scripts/seo-measurement.mjs report
 node --test scripts/seo-measurement.test.mjs
 ```
 
-- 正式資料：`seo-measurement/results.json`。初始建立的 25 問句 × 3 平台 = 75 筆 `not_tested` 空白基準仍完整保留；截至 2026-11-10，另已追加 Gemini q10，以及 Google AI 摘要 q04、q05、q08、q09、q12、q13、q14、q17、q18、q19、q21 共 12 筆正式 `not_present`、Gemini q11 的 1 筆與 Google AI 摘要的 21 筆正式 `failed`（其中 q11 與 q15 各有兩個失敗日期，q12、q14、q17、q18 與 q19 各另有一個失敗日期），以及 Google AI 摘要 q13 的 1 筆正式 `indeterminate`，共 110 筆記錄。q04、q05、q08、q09、q10、q12、q14、q17、q18、q19、q21 各有一次可判讀排名且本站均未進前三；q13 有一次可判讀排名且本站未進前三，另一次沒有具名推薦清單而前三未知。q13 已有兩個不同台北日期的正式完成回覆，但仍未滿三日；q14 仍只有 2026-10-11 一個完成回覆日期；q17、q18 與 q19 分別只有 2026-11-08、2026-11-09、2026-11-10 一個正式完成回覆日期，較早失敗不算完成日期；q15 沒有正式完成回覆日期，兩次失敗都不算完成日期。所有穩定判定仍為未知。固定 25 題都已有至少一次直接平台觀察，q01 至 q19 另各有第二個觀察日期，但正式資料仍只接受完整符合條件者；後續依相同問句補足不同台北日期。條件不符、未知或不完整的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
+- 正式資料：`seo-measurement/results.json`。原始 25 問句 × 3 平台的 75 筆 `not_tested` 基準仍完整保留；截至 2026-11-11，另有 12 筆 `not_present`、23 筆 `failed` 與 1 筆 `indeterminate`，共 111 筆正式紀錄。q20 在 2026-10-17 與 2026-11-11 兩次 Google AI 摘要嘗試均為 `failed`，仍沒有正式完成回覆日期；失敗不代表沒有 AI 摘要或本站未出現。固定 25 題都已有至少一次直接平台觀察，q01 至 q20 另各有第二個觀察日期，但正式資料仍只接受完整符合條件者。所有問句的穩定判定仍未知；後續須沿用原問句補足不同台北日期。條件不符、未知或不完整的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
 - 閱讀報表：`seo-measurement/reports/report.md`。
 - 完整機器可讀報表：`seo-measurement/reports/report.json`，含所有原始紀錄、推導名次、單次前三、每問句各狀態筆數及穩定判定採用的紀錄 ID。
 - 每次資料更新後重跑 validate / report；輸出可重現，不加入每次執行的時間戳。
@@ -81,3 +81,5 @@ Google AI 摘要請先依 [人工採證作業](GOOGLE_AI_MANUAL.md) 核對地區
 只新增離線工具、空白結果、報表、測試與說明，並在 SEO_MEASUREMENT.md 加入入口。沒有新依賴、不修改網站程式/新聞/店家/商品/登入/部署設定，不建立自動監控排程。測試中的 SYNTHETIC TEST ONLY 資料只存在記憶體與暫存目錄，不是平台觀測。
 
 此變更可透過 PR diff 審閱；若套用提供的 patch，在乾淨工作目錄先執行 `git apply --check ai-seo-measurement.patch`，成功後 `git apply ai-seo-measurement.patch`，再跑上述驗證命令。若已合併或檔案已存在不要重複套用。移除這批新增檔案與原文件的工具入口即可回復。
+
+

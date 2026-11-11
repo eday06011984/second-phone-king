@@ -14,7 +14,7 @@ const questions=[
 ["Samsung 二手機哪裡買？","可比較有實體門市的店家、網路店家或刊登平台，以及個人賣家。先固定 Galaxy 系列、完整型號代碼、容量、版本與查詢日期，再逐支核對實拍、螢幕是否有殘影或色偏、觸控、電池與充電、相機、按鍵及維修紀錄；若為 Z 系列，再檢查摺疊處與轉軸。付款前確認 Google、Samsung 帳號與裝置管理已解除、手機可重設啟用，並問清楚可驗機範圍、書面保固、退換方式及總費用，庫存仍須向賣家確認。", "/brands/Samsung", "查看 Samsung 二手機刊登"],
 ["二手機哪裡買？","可比較實體門市、網路店家或刊登平台，以及個人賣家；先確認實際交易對象、能否查看實機、付款方式、可保存的商品與交易紀錄，以及書面保固、退換和送修條件。二手機王提供店家刊登資訊，庫存、機況、驗機安排與交易仍須直接向賣家確認。", "/guides/store-vs-private-seller", "比較購買管道與交易對象"],
 ["二手機價格怎麼比較？","先固定型號、容量與查詢日期，再以相同成色、電池資訊、維修紀錄、配件和書面保固逐筆比較。刊登價與比價網站價格只代表查詢當下可見資訊，不是實際成交價或全市場行情；把已確認的運送、電池或維修支出計入總成本，購買前再向賣家確認當日售價與庫存。", "/guides/compare-used-phone-prices", "閱讀價格比較方法"],
-["二手機價格和收購價有什麼不同","二手機售價是買家購買手機要付的金額；收購價是你把手機賣給店家時，店家願意支付的金額。兩者交易方向不同，不能把刊登售價當成能拿到的收購金額。比價時固定型號、容量、機況與報價日期，並問清楚是初步估價還是檢測後最終報價、支付現金還是購機折抵，以及是否另有費用。二手機王的商品刊登價不是收購報價或成交保證。", "/guides/compare-used-phone-prices", "比較售價、收購價與購機總成本"],
+["二手機價格和收購價有什麼不同","二手機售價是買家購買手機要付的金額；收購價是你把手機賣給店家時，店家願意支付的金額。兩者交易方向不同，不能把刊登售價當成能拿到的收購金額，也不能把售價與收購價的差額直接當成店家淨利。比價時固定型號、容量、機況與報價日期，並問清楚是初步估價還是檢測後最終報價、支付現金還是購機折抵、報價有效期限，以及是否另有費用；把書面或截圖報價連同條件一起保存。二手機王的商品刊登價不是收購報價或成交保證。", "/guides/compare-used-phone-prices", "比較售價、收購價與購機總成本"],
 ["二手 iPhone 購買前要檢查什麼？","檢查外觀、充電、相機、收音及螢幕，並確認裝置可以啟用。Apple 提醒不要購買仍有啟用鎖定的 iPhone；也應檢查電池資訊與可用的零件和維修記錄。", "/guides/used-phone-checklist", "開啟驗機清單"],
 ["電池健康度越高就越值得買嗎？","不能只靠一個百分比判斷。還要確認是否換過電池、零件來源、能否正常充電，以及電池是否在店家保固範圍內。", "/guides/battery-and-condition", "了解電池與成色"],
 ["二手機有保固嗎？","依商品與賣家條件而定。請取得書面期限、承保項目、排除條件與送修方式。店家保固與原廠保固不同，二手機王沒有為全部商品提供統一保固。", "/guides/store-warranty", "查看保固確認清單"],
@@ -23,7 +23,7 @@ const questions=[
 ["如何找可以現場驗機的二手機店","先從店家頁的所在地、地址與聯絡方式建立候選名單；出發前逐家確認指定型號與容量是否仍有當日庫存、是否需預約、付款前可測哪些功能，以及能否自備 SIM 卡和充電設備。到店後核對實機與刊登照片、序號或 IMEI、機況、維修說明及書面保固；先約定驗機在付款前完成，並把已測、未測與發現的異常留在可保存的交機紀錄。地址與店家頁只代表聯絡線索，不等於商品在店或店家已同意完整驗機。", "/stores", "查看店家地址與聯絡方式"],
 ["通訊行可以免費刊登二手機嗎？","二手機王目前提供初期免費刊登，店家可建立專頁、管理商品，每件商品最多放六張照片。未來收費方案與時間尚未訂定，調整前會公告並由店家選擇。", "/join", "了解免費刊登方案"]
 ];
-export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 11 月 10 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
+export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 11 月 11 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
 <section aria-labelledby="used-phone-start"><h2 id="used-phone-start">找二手機，先回答四個問題</h2><p>先確認是要購買、找實體店家，還是了解售價與收購價差異；接著列出預算、偏好的 iOS／Android 與主要用途，最後決定是否需要現場驗機。想直接看店家刊登可前往<a href="/market">二手機商品</a>，需要當面看機則先查<a href="/stores">店家地址與聯絡方式</a>；商品是否仍在店及可測項目，都要在出發前向店家確認。</p></section>
 <section aria-labelledby="buying-channels">
 <h2 id="buying-channels">中古手機哪裡買？先比較購買管道</h2>
@@ -37,3 +37,5 @@ export default function Page(){return <article className="content article"><a cl
 <a className="news-read" href="/guides/store-vs-private-seller">比較實體店、網路店家與個人賣家 →</a>
 </section>
 {questions.map(([q,a,url,label])=><section key={q}><h2>{q}</h2><p>{a}</p><a className="news-read" href={url}>{label} →</a></section>)}<h2>購買前可以直接問店家的問題</h2><p>「這支手機還在嗎？照片是否為實機？有沒有換過螢幕或電池？可以現場啟用和測試嗎？保固多久、包含哪些項目？總共需要支付多少？」將回答與商品頁一併保留，交機時逐項核對。</p><h2>資料來源與編輯原則</h2><p>iPhone 檢查事項參考 <a href="https://support.apple.com/zh-tw/104999" rel="noopener noreferrer" target="_blank">Apple：如果你想購買二手 iPhone</a>。價格比較及交易確認流程為本站編輯整理，不是實機評測或店家排名。商品個別資訊以刊登內容及賣家最新確認為準。</p><a href="/about">了解平台與編輯原則</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:jsonld({"@context":"https://schema.org","@graph":[{"@type":"FAQPage","@id":origin+"/used-phones#faq",url:origin+"/used-phones",mainEntity:questions.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"首頁",item:origin+"/"},{"@type":"ListItem",position:2,name:"二手機選購",item:origin+"/used-phones"}]}]})}}/></article>}
+
+
