@@ -12,7 +12,7 @@ node scripts/seo-measurement.mjs report
 node --test scripts/seo-measurement.test.mjs
 ```
 
-- 正式資料：`seo-measurement/results.json`。原始 25 問句 × 3 平台的 75 筆 `not_tested` 基準仍完整保留；截至 2026-11-11，另有 12 筆 `not_present`、23 筆 `failed` 與 1 筆 `indeterminate`，共 111 筆正式紀錄。q20 在 2026-10-17 與 2026-11-11 兩次 Google AI 摘要嘗試均為 `failed`，仍沒有正式完成回覆日期；失敗不代表沒有 AI 摘要或本站未出現。固定 25 題都已有至少一次直接平台觀察，q01 至 q20 另各有第二個觀察日期，但正式資料仍只接受完整符合條件者。所有問句的穩定判定仍未知；後續須沿用原問句補足不同台北日期。條件不符、未知或不完整的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
+- 正式資料：`seo-measurement/results.json`。原始 25 問句 × 3 平台的 75 筆 `not_tested` 基準仍完整保留；截至 2026-11-11，另有 12 筆 `not_present`、24 筆 `failed` 與 1 筆 `indeterminate`，共 112 筆正式紀錄。q20 在 2026-10-17 與 2026-11-11 兩次 Google AI 摘要嘗試均為 `failed`；q21 在 2026-10-18 完成一筆 `not_present`，2026-11-11 第二次嘗試為 `failed`，故仍只有一個正式完成回覆日期。失敗不代表沒有 AI 摘要或本站未出現。固定 25 題都已有至少一次直接平台觀察，q01 至 q21 另各有第二個觀察日期，但正式資料仍只接受完整符合條件者。所有問句的穩定判定仍未知；後續須沿用原問句補足不同台北日期。條件不符、未知或不完整的直接觀察另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
 - 閱讀報表：`seo-measurement/reports/report.md`。
 - 完整機器可讀報表：`seo-measurement/reports/report.json`，含所有原始紀錄、推導名次、單次前三、每問句各狀態筆數及穩定判定採用的紀錄 ID。
 - 每次資料更新後重跑 validate / report；輸出可重現，不加入每次執行的時間戳。
