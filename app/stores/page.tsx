@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-html-link-for-pages -- Use native navigation: the deployed Vinext Link prefetch throws at runtime. */
-import {db} from "@/lib/market";
+import {cities, db} from "@/lib/market";
 
 export const dynamic="force-dynamic";
 export const metadata={
@@ -10,10 +10,19 @@ export const metadata={
 
 type StoreSummary={id:string;name:string;city:string;address:string};
 
-export default async function Page(){
+type StoreSearchParams = {city?: string | string[]};
+
+export default async function Page({searchParams}: {searchParams: Promise<StoreSearchParams>}){
+  const requestedCity = (await searchParams).city;
+  const city = typeof requestedCity === "string" && cities.includes(requestedCity) ? requestedCity : "";
   let rows:StoreSummary[];
   try{
-    rows=(await db().prepare("SELECT id,name,city,address FROM stores ORDER BY created DESC LIMIT 500").all<StoreSummary>()).results;
+    const select = "SELECT id,name,city,address FROM stores";
+    const order = "ORDER BY created DESC LIMIT 500";
+    const query = city
+      ? db().prepare(`${select} WHERE city = ? ${order}`).bind(city)
+      : db().prepare(`${select} ${order}`);
+    rows = (await query.all<StoreSummary>()).results;
   }catch(e){
     console.error(e);
     return <p className="notice error">店家資料暫時無法載入，請稍後再試。</p>;
@@ -27,6 +36,20 @@ export default async function Page(){
         <p>查看門市地址與商品資訊，再直接聯絡店家確認指定實機、現場驗機與售後條件。</p>
       </div>
     </section>
+    <div className="panel" style={{display:"flex",alignItems:"center",flexWrap:"wrap",gap:12,marginBottom:16}}>
+      <form action="/stores" method="get" aria-label="依縣市搜尋店家"
+        style={{display:"flex",alignItems:"center",flexWrap:"wrap",gap:12}}>
+        <label htmlFor="store-city">店家縣市</label>
+        <select id="store-city" name="city" defaultValue={city} style={{minHeight:44,padding:"0 12px"}}>
+          <option value="">全部地區</option>
+          {cities.map(area => <option key={area} value={area}>{area}</option>)}
+        </select>
+        <button className="btn" type="submit">查詢店家</button>
+      </form>
+      {city && <form action="/stores" method="get">
+        <button className="btn light" type="submit">清除篩選</button>
+      </form>}
+    </div>
     <section className="panel" aria-labelledby="store-checklist">
       <h2 id="store-checklist">挑二手機店家，到店前先確認 4 件事</h2>
       <p>詢問指定商品是否仍在店、能否查看刊登照片中的實機、現場可測試哪些功能，以及保固期限與排除項目能否提供書面紀錄。</p>
@@ -39,7 +62,11 @@ export default async function Page(){
       <h2 style={{marginTop:15}}>{r.name}</h2>
       <p>{r.address}</p>
       <span className="arrow">查看店家商品 →</span>
-    </a>)}</div>:<div className="empty" style={{marginBottom:35}}>
+    </a>)}</div>:city?<div className="empty" style={{marginBottom:35}}>
+      <h2>{city}目前沒有刊登店家</h2>
+      <p>可以選擇其他縣市，或查看全部地區的店家。</p>
+      <form action="/stores" method="get"><button className="btn light" type="submit">查看全部地區</button></form>
+    </div>:<div className="empty" style={{marginBottom:35}}>
       <h2>首批店家招募中</h2>
       <p>建立店家頁，讓買家找到你的商品與門市。</p>
       <a className="btn" href="/seller">免費加入</a>
