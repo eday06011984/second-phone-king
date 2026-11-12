@@ -5551,5 +5551,119 @@
     ],
     "publishedAt": "2026-11-11T09:13:04.320+08:00",
     "updatedAt": "2026-11-11T09:13:04.320+08:00"
+  },
+  {
+    "slug": "asus-proart-gr1x-p16-p14-rtx-spark-buying-check",
+    "title": "ASUS ProArt GR1X、P16／P14 亮相：買本機 AI 電腦先核對配置與軟體",
+    "category": "電腦新品",
+    "description": "ASUS 展示採 NVIDIA RTX Spark 平台的 ProArt GR1X、P16 與 P14；選購本機 AI 電腦不能只看峰值算力，還要確認記憶體、軟體、地區供貨與售後。",
+    "sections": [
+      {
+        "heading": "ProArt 新機鎖定本機 AI 創作",
+        "paragraphs": [
+          "ASUS 於 11 月 11 日公布 Adobe MAX 2026 展示陣容，包括 ProArt GR1X 迷你電腦，以及 ProArt P16、P14 創作者筆電。三款採用 NVIDIA RTX Spark 平台，官方列出 6,144 核心 Blackwell RTX GPU、20 核心 Grace CPU，以及最高 128GB 統一記憶體等頂規能力。",
+          "官方示範涵蓋 Adobe Premiere Pro、Photoshop、ComfyUI 與本機 AI 代理工作流程；GR1X 預定 11 月 18 日在美國上市。這是美國活動與供貨資訊，台灣售價、上市配置及保固仍應以 ASUS 台灣後續公告為準。"
+        ]
+      },
+      {
+        "heading": "最高規格與實際現貨要分開看",
+        "paragraphs": [
+          "ASUS 表示 P16 最薄 12.9mm、重 1.77kg，並配備 99.9Wh 電池；P14 最輕 1.48kg、厚 13.9mm，電池為 90Wh。螢幕最高可選 4K Tandem OLED、120Hz VRR 與 1,600 尼特 HDR 峰值亮度，但「最高」不代表每個市場與每一台現貨都採同一配置。",
+          "編輯分析：比較新機或日後二手機時，應要求完整料號，再核對統一記憶體、SSD、螢幕、連接埠、電池與變壓器。官方展示的 AI 工作流程也不等於所有軟體均已隨機附贈，授權費用、版本、外掛與模型相容性應另行確認。"
+        ]
+      },
+      {
+        "heading": "本機運算仍要評估散熱與資料流程",
+        "paragraphs": [
+          "本機處理可減少把部分素材上傳雲端的需求，但不能直接等同於所有工作都自動保密。專案檔、模型來源、外掛權限、同步服務與備份位置仍會影響資料風險；企業或接案使用者應依實際流程設定存取與備份。",
+          "驗收時可用自己的剪輯或推論工作負載，觀察持續效能、風扇噪音、溫度、輸出與喚醒穩定性，再確認韌體、驅動及保固。本文整理官方規格與購機注意事項，未對上述產品進行效能、續航或散熱實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-showcases-proart-gr1x-p16-p14-adobe-max-2026/",
+        "date": "2026-11-11"
+      }
+    ],
+    "publishedAt": "2026-11-12T09:39:14.337+08:00",
+    "updatedAt": "2026-11-12T09:39:14.337+08:00"
+  },
+  {
+    "slug": "samsung-tv-size-panel-used-tv-buying-check",
+    "title": "Samsung 整理電視選購標準：買二手電視別只看尺寸與 4K",
+    "category": "購機指南",
+    "description": "Samsung 公布電視尺寸、環境光、面板與內容需求的選擇原則；二手電視還要加查面板老化、連接埠、系統與區域服務。",
+    "sections": [
+      {
+        "heading": "觀看距離與空間先決定尺寸",
+        "paragraphs": [
+          "Samsung 於 11 月 12 日發布電視選購指南，建議先按觀看距離與空間評估尺寸。官方範例列出：1.5 至 2 公尺可參考 43 至 55 吋，2 至 2.5 公尺可參考 55 至 65 吋，2.3 至 3 公尺則可參考 65 至 75 吋。",
+          "這些數字是一般性指引，實際舒適度仍會受視力、字幕習慣、家庭同看與安裝方式影響。編輯分析：購買前應量出牆面、電視櫃、底座與走道，而不是只因同價位能買到更大尺寸就升級。"
+        ]
+      },
+      {
+        "heading": "亮房、暗房與遊戲需求不同",
+        "paragraphs": [
+          "官方說明，明亮空間較重視亮度與抗反射，暗室則更容易看出黑位與對比；OLED、Mini LED、Neo QLED 與 Micro RGB 的發光或背光方式也不同。觀看電影、運動、遊戲或藝術內容時，HDR、更新率、輸入延遲與顯示模式的重要性各不相同。",
+          "廠商列出的 AI 升頻、運動或遊戲最佳化功能通常有機型與訊號條件，不能把系列名稱當成功能保證。跨區或二手購買時，還要確認 App、免費頻道、語音與訂閱服務是否支援所在地區，因官方明確指出內容可用性會依國家、地區與型號變動。"
+        ]
+      },
+      {
+        "heading": "二手電視要補做面板與接口測試",
+        "paragraphs": [
+          "編輯分析：二手電視除了尺寸和解析度，應播放純色、灰階、字幕與快速移動畫面，查看亮暗不均、殘影、烙印、壞點與異常閃爍；OLED 與背光式面板的老化表現也不能用同一項測試概括。",
+          "再逐一測試 HDMI、eARC、USB、Wi-Fi、藍牙、遙控器、喇叭與待機喚醒，並確認底座、壁掛零件、電源線、帳號登出及恢復原廠設定。若為遊戲使用，應以實際主機確認 4K、HDR、VRR 與高更新率能否在指定連接埠同時啟用。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/finding-the-perfect-tv-a-guide-to-samsung-tvs",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-12T09:39:14.337+08:00",
+    "updatedAt": "2026-11-12T09:39:14.337+08:00"
+  },
+  {
+    "slug": "logitech-mx-master-4-creator-edition-used-mouse-check",
+    "title": "MX Master 4 Creator Edition 登場：限量外觀不等於更適合你的工作流",
+    "category": "3C 配件",
+    "description": "Logitech 推出 MX Master 4 Creator Edition；選購新品或二手滑鼠時，應分清限量設計、既有硬體功能、軟體支援與地區保固。",
+    "sections": [
+      {
+        "heading": "Creator Edition 採用既有 MX Master 4 平台",
+        "paragraphs": [
+          "Logitech 於 11 月 9 日公布 MX Master 4 Creator Edition，外殼加入版面格線、色彩校正條與關鍵影格等視覺設計。官方把它定位為限量款，核心功能沿用 MX Master 4，包括觸覺回饋、Actions Ring 快捷操作與 MagSpeed 滾輪。",
+          "產品自 11 月 9 日起在 Logitech 官網、部分全球零售商及 Adobe MAX 現場販售，官方列出美元、歐元與英鎊價格。這些並非台灣定價或供貨承諾，跨區購買前應核對鍵鼠軟體支援、保固範圍、運費與可能稅費。"
+        ]
+      },
+      {
+        "heading": "限量塗裝沒有改變基本相容性問題",
+        "paragraphs": [
+          "編輯分析：限量版的主要差異若是外觀，就不應把它誤認為效能升級。購買前可先確認手掌大小、握姿、左右手習慣、重量、按鍵位置與滾輪阻尼，再查看常用作業系統和軟體能否使用所需的自訂快捷功能。",
+          "Actions Ring、巨集或特定創作軟體整合依賴 Logi Options+ 與相容版本；公司電腦若限制安裝軟體，部分賣點可能無法完整使用。所謂快速滾動或精準控制也是官方功能描述，不代表每位使用者在所有 App 都會有相同體驗。"
+        ]
+      },
+      {
+        "heading": "二手驗收要看按鍵、感測與電池",
+        "paragraphs": [
+          "選購二手 MX Master 4 或同類無線滑鼠時，可在實機測試左右鍵、側鍵、雙滾輪、觸覺回饋、游標穩定性、藍牙與接收器連線，並檢查底部滑腳、充電孔、電池續航及序號。原廠接收器與線材是否隨附，也應寫入商品描述。",
+          "若限量版有收藏溢價，更要把外殼磨損、配件完整度與購買憑證分開評估，不應只憑外觀名稱判斷價值。本文為官方資訊整理與購機建議，未對滑鼠延遲、續航、耐用度或創作效率進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Logitech Blog",
+        "url": "https://www.logitech.com/blog/2026/11/09/pixel-perfect-or-timeline-driven-how-do-you-tell-your-story/",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-12T09:39:14.337+08:00",
+    "updatedAt": "2026-11-12T09:39:14.337+08:00"
   }
 ]
