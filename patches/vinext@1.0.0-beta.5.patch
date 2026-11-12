@@ -1,0 +1,25 @@
+diff --git a/dist/server/app-page-route-wiring.js b/dist/server/app-page-route-wiring.js
+index 45a12a27c13a8dbac1fc0c24ed23a43efda2b510..b511ebd34b1bd1a6ad5714fdd866332dfc9513c3 100644
+--- a/dist/server/app-page-route-wiring.js
++++ b/dist/server/app-page-route-wiring.js
+@@ -1,3 +1,4 @@
++import { fnv1a64 } from "../utils/hash.js";
+ import { createAppRenderDependency, registerAppElementRenderDependencies, renderAfterAppDependencies, renderAppComponentWithDependencyBarrier } from "./app-render-dependency.js";
+ import { APP_LAYOUT_IDS_KEY, APP_ROOT_LAYOUT_KEY, APP_STATIC_SIBLINGS_KEY, AppElementsWire, normalizeAppElementsSlotBindings } from "./app-elements-wire.js";
+ import { APP_RSC_RENDER_MODE_PREFETCH_EMPTY, APP_RSC_RENDER_MODE_PREFETCH_LOADING_SHELL } from "./app-rsc-render-mode.js";
+@@ -254,12 +255,9 @@ function hasStreamedIcons(metadata) {
+ 	return Boolean(icons.shortcut || icons.icon || icons.apple || icons.other);
+ }
+ function createStreamedIconKey(pathname, metadataHtml) {
+-	let hash = 2166136261;
+-	for (let index = 0; index < metadataHtml.length; index++) {
+-		hash ^= metadataHtml.charCodeAt(index);
+-		hash = Math.imul(hash, 16777619);
+-	}
+-	return `${pathname}:${(hash >>> 0).toString(36)}`;
++	// This is an internal identity, not a URL. Keep route and metadata identity
++	// without exposing a crawlable-looking `${pathname}:<hash>` in HTML/RSC.
++	return `vxi-${fnv1a64(JSON.stringify([pathname, metadataHtml]))}`;
+ }
+ const STREAMED_ICON_KEY_PLACEHOLDER = "vinext-pending-streamed-icon-key";
+ const REINSERT_STREAMED_ICONS_SCRIPT = `document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el => document.head.appendChild(el));const a='data-vinext-streamed-icon',o=el=>{const m=el.getAttribute(a),i=m.lastIndexOf(':');return Number(m.slice(i+1))};[...document.querySelectorAll('link['+a+']')].sort((l,r)=>o(l)-o(r)).forEach(el=>document.head.appendChild(el))`;
