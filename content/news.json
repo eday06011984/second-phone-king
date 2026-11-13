@@ -5665,5 +5665,119 @@
     ],
     "publishedAt": "2026-11-12T09:39:14.337+08:00",
     "updatedAt": "2026-11-12T09:39:14.337+08:00"
+  },
+  {
+    "slug": "nvidia-621-24-driver-dlss5-used-gpu-check",
+    "title": "NVIDIA 621.24 驅動支援新遊戲：二手顯卡先核對 DLSS 世代",
+    "category": "電腦更新",
+    "description": "NVIDIA 發布 621.24 WHQL 驅動並加入多款遊戲最佳化；更新前應先確認顯卡世代、遊戲版本、既有穩定性與回復方案。",
+    "sections": [
+      {
+        "heading": "621.24 對應三款遊戲更新時程",
+        "paragraphs": [
+          "NVIDIA 於 11 月 11 日發布 GeForce Game Ready 621.24 WHQL 驅動，官方列出《Warhammer 40,000: Dawn of War IV》、《Where Winds Meet》與《Assetto Corsa Rally》的最佳化或新功能支援。玩家可透過 NVIDIA App 或官方網站取得驅動。",
+          "依官方時程，《Dawn of War IV》Commander Edition 於 11 月 30 日搶先開放、12 月 3 日全球推出；《Where Winds Meet》預定 11 月 23 日加入 DLSS 5，《Assetto Corsa Rally》則預定 11 月 19 日加入 DLSS 4.5 Dynamic Multi Frame Generation。遊戲端更新與驅動程式缺一不可，不能只安裝驅動就假定功能已啟用。"
+        ]
+      },
+      {
+        "heading": "DLSS 名稱相近，相容顯卡世代不同",
+        "paragraphs": [
+          "官方說明，《Where Winds Meet》的 DLSS 5 支援對象為 GeForce RTX 50 系列與 RTX Spark；《Assetto Corsa Rally》的 DLSS 4.5 Dynamic Multi Frame Generation 也有硬體與遊戲設定條件。舊款 RTX 顯卡即使能執行遊戲，也不代表可使用同一組生成模式。",
+          "編輯分析：挑選二手顯卡時，應核對完整 GPU 型號、顯存、輸出介面與電源需求，再以常玩遊戲的官方支援清單判斷功能。把『支援 DLSS』簡化成所有 RTX 顯卡功能相同，容易高估舊卡能力，也不應用插幀數字取代原生畫面更新率與延遲評估。"
+        ]
+      },
+      {
+        "heading": "更新前保留舊版與穩定性紀錄",
+        "paragraphs": [
+          "驅動上市代表官方提供支援，不等於每一套硬體、外掛與遊戲版本都會有相同表現。若目前系統穩定，可先記下舊版驅動、遊戲設定與效能基準，確認作業系統及遊戲已更新，再視需求升級。",
+          "遇到黑畫面、閃退或效能異常時，可用相同場景交叉測試，並查閱官方已知問題與後續修正；不要在沒有紀錄的情況下一次改動驅動、超頻與遊戲設定。本文為官方資訊整理與更新建議，未對 621.24 的效能或穩定性進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA GeForce News",
+        "url": "https://www.nvidia.com/en-us/geforce/news/warhammer-40000-dawn-of-war-4-geforce-rtx-spark-game-ready-driver/",
+        "date": "2026-11-11"
+      }
+    ],
+    "publishedAt": "2026-11-13T09:16:42.342+08:00",
+    "updatedAt": "2026-11-13T09:16:42.342+08:00"
+  },
+  {
+    "slug": "nintendo-switch-2-us-black-friday-bundle-region-check",
+    "title": "Nintendo Switch 2 美國黑五方案公布：台灣買家先別直接換算價格",
+    "category": "遊戲主機",
+    "description": "Nintendo 公布美國黑色星期五主機組合與遊戲折扣；台灣跨區選購時仍要核對販售地區、會員歸屬、保固與遊戲相容性。",
+    "sections": [
+      {
+        "heading": "美國方案包含主機、遊戲與會員",
+        "paragraphs": [
+          "Nintendo of America 於 11 月 12 日公布美國黑色星期五優惠：11 月 22 日至 12 月 5 日，Nintendo Switch 2 + Mario Kart World 組合另附 90 天 Nintendo Switch Online 個人會員資格，官方建議售價為 499.99 美元，宣稱相較分開購買節省 50 美元，數量有限。",
+          "指定實體遊戲的 20 美元折扣期間為 11 月 22 日至 29 日，Nintendo eShop 數位特賣則為 11 月 19 日至 12 月 2 日。上述皆是美國市場資訊，不是台灣定價、通路活動或供貨承諾，匯率換算也沒有包含跨境運費、稅費與可能的售後成本。"
+        ]
+      },
+      {
+        "heading": "跨區購買先查兌換與保固條件",
+        "paragraphs": [
+          "編輯分析：組合內的數位遊戲或會員若以下載碼、帳號或首次啟用方式提供，買家應在付款前確認適用國家、Nintendo Account 地區、兌換期限與是否已使用；二手商品更不能只看外盒印有遊戲名稱，就假定權益仍可轉移。",
+          "主機本體還要核對插頭、充電器規格、系統語言、維修受理地區及購買憑證。海外促銷看似便宜，但若需要寄回原購買地維修，時間與費用可能抵消價差；本文不以美國建議售價推算台灣實際成交價。"
+        ]
+      },
+      {
+        "heading": "舊 Switch 遊戲仍要逐款確認相容性",
+        "paragraphs": [
+          "Nintendo 在公告中提醒，Nintendo Switch 2 可遊玩相容的實體與數位 Nintendo Switch 遊戲，但並非所有作品都完整相容。購買舊遊戲、配件或二手主機前，應查官方相容資訊，而不是只以卡匣外型或同品牌判斷。",
+          "驗收二手主機時，可測試螢幕、Joy-Con、底座輸出、讀卡、Wi-Fi、充電與序號，再確認賣家帳號已登出並完成初始化。遊戲、會員、雲端存檔與帳號購買紀錄應分開處理，避免把不可轉移的數位權益算入主機價格。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Nintendo of America",
+        "url": "https://www.nintendo.com/us/whatsnew/nintendo-announces-black-friday-offers-to-help-spread-joy-this-holiday-season/",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-13T09:16:42.342+08:00",
+    "updatedAt": "2026-11-13T09:16:42.342+08:00"
+  },
+  {
+    "slug": "garmin-waze-live-cycling-alert-used-device-privacy-check",
+    "title": "Garmin 與 Waze 推即時單車警示：二手穿戴裝置先查相容性與定位隱私",
+    "category": "穿戴裝置",
+    "description": "Garmin 與 Waze 合作，讓相容裝置騎士選擇分享 LiveTrack 位置給附近駕駛；功能有裝置、手機、設定與安全邊界。",
+    "sections": [
+      {
+        "heading": "騎士可選擇把動態位置分享給 Waze",
+        "paragraphs": [
+          "Garmin 與 Waze 於 11 月 10 日宣布合作：使用相容 Garmin Edge 自行車電腦或 Garmin 智慧手錶的騎士，可在 Garmin Connect 中選擇啟用，於戶外騎乘期間透過 LiveTrack 分享位置；附近 Waze 駕駛的地圖上會顯示移動中的單車圖示。",
+          "官方表示資料分享為暫時、以單次活動為基礎，地圖不顯示騎士個人資訊；LiveTrack 本身免費，但需要相容智慧型手機與 Garmin Connect。這項功能是可選擇加入的服務，不是所有 Garmin 裝置開機後都會自動啟用。"
+        ]
+      },
+      {
+        "heading": "警示功能不能取代道路判斷",
+        "paragraphs": [
+          "編輯分析：地圖出現單車圖示可增加情境提示，但效果仍受手機連線、定位精度、背景執行、電量、裝置相容性與駕駛是否使用 Waze 影響。騎士與駕駛都不應把圖示視為已偵測所有道路使用者，或當成避碰保證。",
+          "使用前應更新 Garmin 裝置、Garmin Connect 與 Waze，再依官方清單核對支援型號和所在地區可用性。騎乘者仍需配合燈具、反光裝備與道路規則；駕駛也應持續觀察路況，不應只依賴導航畫面。"
+        ]
+      },
+      {
+        "heading": "二手裝置要檢查帳號、電池與權限",
+        "paragraphs": [
+          "選購二手 Edge 或智慧手錶時，應確認確切型號、韌體、GPS、藍牙、按鍵或觸控、充電接點與電池狀況，並實際測試與手機配對。賣家必須從原 Garmin 帳號移除裝置，買家再用自己的帳號設定活動與分享權限。",
+          "定位與 LiveTrack 涉及個人行程，建議逐項檢查誰能看見連結、活動結束後如何停止分享，以及 Garmin Connect 和手機的定位權限。本文整理官方合作內容與使用注意事項，未實測警示覆蓋率、延遲、電量消耗或道路安全成效。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Garmin Newsroom",
+        "url": "https://www.garmin.com/en-US/newsroom/press-release/sports-fitness/garmin-and-waze-team-up-to-amplify-the-power-of-community-driven-awareness-for-cyclists-and-drivers/",
+        "date": "2026-11-10"
+      }
+    ],
+    "publishedAt": "2026-11-13T09:16:42.342+08:00",
+    "updatedAt": "2026-11-13T09:16:42.342+08:00"
   }
 ]
