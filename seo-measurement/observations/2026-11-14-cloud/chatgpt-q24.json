@@ -1,0 +1,38 @@
+{
+  "question_id": "q24",
+  "prompt": "哪裡可以比較二手機店家保固",
+  "source": "direct_platform",
+  "captured_at": "2026-11-14T08:48:31+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；繁體中文、台灣／高雄內容與模型自行選用的地區不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依完成後的可見正文保存標題、段落、表格與未操作的互動提問；地圖、來源按鈕及引用順序未用來建立推薦排名。",
+  "platform": "chatgpt",
+  "mode": "ChatGPT logged out; Web search selected before send; exact model not displayed",
+  "url": null,
+  "observation_status": "completed_response",
+  "brand_mentioned": true,
+  "site_link": "https://xn--4kq449bj1fmzj.tw/",
+  "target_rank": 1,
+  "single_top_three": true,
+  "exclusion_reason": "平台頁面未顯示可核對地區，不能假填 TW 納入正式統計。",
+  "full_response": "如果你想比較台灣二手機店家的保固，我推薦先看這幾個地方。我也幫你找了高雄幾家有公開保固資訊的店家。\n\n1. 可以比較二手機保固的平台\n\n二手機王（推薦）\n\n可以比較不同店家的二手機價格、機況、電池資訊及保固。\n\n前往二手機王：https://xn--4kq449bj1fmzj.tw/?utm_source=chatgpt.com\n\n注意：保固由各刊登店家自行提供，平台沒有統一保固。\n\n2. 高雄店家保固比較\n\n以下是目前查到有公開保固說明的店家：\n\n店家｜公開保固資訊\nBIG 2｜最長 365 天\n蘋天下｜3 個月\n仔仔通訊｜主機 90 天、螢幕 30 天\n只賣 3C｜3 個月\n懇得機通訊｜依商品約 1～90 天，部分商品更長\n\n資料來源：各店公開保固說明。實際條件以購買機型及書面保固單為準。\n\n3. 高雄店家位置\n\n頁面顯示仔仔通訊、蘋天下明誠店、只賣3C、懇得機通訊與 BIG 2 的地點卡。\n\n4. 我建議比較的保固項目\n\n• 主機板保固多久？\n• 螢幕故障是否免費維修？\n• 電池健康度是否有保障？\n• Face ID、鏡頭是否包含？\n• 進水、摔機如何認定人為損壞？\n• 故障時能否直接換機？\n• 保固期間維修是否需要運費？\n\n我可以幫你做一份店家保固排行榜\n\n想先確認一下：\n\n1. 你想買哪一種二手機？\niPhone（預設）、Samsung、其他 Android、不限品牌\n\n2. 想找哪個地區？\n高雄全區（預設）、左營／楠梓／鼓山、三民／苓雅／新興、鳳山／前鎮、不限地區／網路店家也可以\n\n3. 最重視什麼？\n保固越長越好（一年優先，預設）、保固範圍越完整越好、保固加價格 CP 值\n\n我可以幫你整理成表格，讓你直接看出哪家店的保固最完整，而不只是保固天數最長。",
+  "observed_recommendation_order": [
+    {"site_id": "second-phone-king", "name": "二手機王", "is_target": true},
+    {"site_id": "big2", "name": "BIG 2", "is_target": false},
+    {"site_id": "apple-world", "name": "蘋天下", "is_target": false},
+    {"site_id": "zaizai-telecom", "name": "仔仔通訊", "is_target": false},
+    {"site_id": "only3c", "name": "只賣 3C", "is_target": false},
+    {"site_id": "ken-de-ji", "name": "懇得機通訊", "is_target": false}
+  ],
+  "ranking_scope": "依正文『可以比較二手機保固的平台』及接續店家比較表首次出現順序記錄；地圖卡、來源按鈕與引用順序不計推薦名次。",
+  "completion_evidence": "回覆完整顯示至互動選項與結尾，停止生成按鈕消失，複製、分享及更多操作按鈕可見。",
+  "notes": "全新登出頁先選取 Web search，再逐字提交一次；沒有追問、重送或操作互動預設值。回覆中的店家保固天數、評分、地點與比較主張未由本站查證或採用。私有會話 URL 不保存。"
+}
+

@@ -1,0 +1,36 @@
+{
+  "question_id": "q09",
+  "prompt": "二手 iPhone 哪裡買",
+  "source": "direct_platform",
+  "captured_at": "2026-10-31T08:29:12+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；模型自行採用高雄情境不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依完成後可見正文保存段落與清單，合併排版空白；地圖、來源元件與結尾互動選項不計入推薦順序。",
+  "platform": "chatgpt",
+  "mode": "ChatGPT logged out; web search selected before send; exact model not displayed",
+  "url": "https://chatgpt.com/uc/6ae535f1-73c0-83ea-89ef-5c32e9bd9e27",
+  "observation_status": "completed_response",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "exclusion_reason": "平台頁面未顯示可核對地區，模型自行採用高雄情境不能代替正式地區條件。",
+  "full_response": "如果你在高雄，想買二手 iPhone，我會建議優先找有實體店面、能現場驗機、提供保固的店家，不要只看網路最低價。\n\n高雄二手 iPhone 推薦店家\n\n以下幾間可以優先比較：\n\n1. 青蘋果3C高雄巨蛋旗艦店\n地址：左營區博愛二路638號\n主打二手 Apple 商品、iPhone 買賣\n適合想找多款二手機比較的人\n電話：0989-530-992\n\n2. 強老闆3C中古機覺民店\n地址：三民區覺民路168號\n有中古 iPhone、福利機、展示機\n提供手機檢測及維修服務\n電話：07-398-3308\n\n3. 19喚新二手手機專賣店\n地址：三民區建國一路416號\n二手機買賣、維修\n電話：07-225-1117\n\n4. 艾森侖鳳山五甲店\n地址：鳳山區五甲二路415號\n有認證中古機及 iPhone\n主打14天非人為故障換機\n\n5. US3C高雄復興店\n地址：新興區復興一路80號4樓\n有二手 iPhone 及其他二手 3C\n電話：07-311-9355\n\n買二手 iPhone 要注意\n\n購買前一定要確認：\n• 電池健康度最好有85%以上。\n• Face ID、相機、喇叭、螢幕都正常。\n• 沒有 Apple ID 鎖或啟用鎖。\n• 設定裡確認零件與維修紀錄。\n• 詢問是否有至少7～90天店家保固。\n• 現場抹除、重新啟用，確認可以正常使用。\n\n我幫你挑比較划算的二手機\n\n想問你兩個問題：\n1. 預算大約多少？\n5,000～8,000 元\n8,000～12,000 元\n12,000～15,000 元\n15,000～20,000 元\n20,000 元以上\n\n2. 想買哪一款？\niPhone 13\niPhone 14\niPhone 15\niPhone 16\n不限機型，越划算越好\n\n我可以幫你找出高雄值得買的二手機型，以及合理價格，避免買貴或買到整新品。",
+  "observed_recommendation_order": [
+    {"site_id": "green-apple-3c-kaohsiung-arena", "name": "青蘋果3C高雄巨蛋旗艦店", "is_target": false},
+    {"site_id": "boss-3c-juemin", "name": "強老闆3C中古機覺民店", "is_target": false},
+    {"site_id": "19-renew-used-phone", "name": "19喚新二手手機專賣店", "is_target": false},
+    {"site_id": "isenlun-fengshan-wujia", "name": "艾森侖鳳山五甲店", "is_target": false},
+    {"site_id": "us3c-kaohsiung-fuxing", "name": "US3C高雄復興店", "is_target": false}
+  ],
+  "ranking_scope": "只依正文編號 1–5 的店家首次出現順序計算；地圖、來源元件、注意事項及結尾互動選項不計入。",
+  "notes": "全新登出頁先選網路搜尋，再逐字提交一次。沒有操作結尾互動選項。回覆內地址、電話、檢測、保固、價格與其他店家宣稱只按原文保存，未由本站查證或採用。"
+}
+
