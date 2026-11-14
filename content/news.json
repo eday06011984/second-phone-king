@@ -5779,5 +5779,119 @@
     ],
     "publishedAt": "2026-11-13T09:16:42.342+08:00",
     "updatedAt": "2026-11-13T09:16:42.342+08:00"
+  },
+  {
+    "slug": "samsung-galaxy-a18-singapore-used-phone-spec-check",
+    "title": "Galaxy A18 新加坡上市：買入門二手機別把 AI 與 RAM Plus 當硬體升級",
+    "category": "手機新品",
+    "description": "Samsung 在新加坡推出 Galaxy A18；比較新機或日後二手機時，應分清實體記憶體、虛擬 RAM、AI 功能、更新承諾與地區售後。",
+    "sections": [
+      {
+        "heading": "新加坡版本採 4GB 記憶體與 128GB 儲存",
+        "paragraphs": [
+          "Samsung 新加坡於 11 月 13 日公布 Galaxy A18，當地上市版本為 4GB 記憶體加 128GB 儲存空間，搭載 MediaTek Helio G99+、6.7 吋 FHD+ Super AMOLED 90Hz 螢幕、5000mAh 電池與 25W 充電。後置相機組合為 50MP 廣角、5MP 超廣角與 2MP 微距。",
+          "官方列出的售價、折扣、贈品與 11 月 13 日開賣資訊均屬新加坡市場，不能直接視為台灣定價或供貨承諾。跨區購買前還要核對行動網路頻段、韌體、充電器、維修受理地區與購買憑證。"
+        ]
+      },
+      {
+        "heading": "RAM Plus 不等於增加實體記憶體",
+        "paragraphs": [
+          "Galaxy A18 提供 RAM Plus，可把部分儲存空間當作虛擬記憶體使用，並可依需求開啟或關閉。這項功能可能協助背景 App 管理，但不會把 4GB 實體記憶體變成同容量等級更高的硬體，也會占用部分儲存空間。",
+          "官方同時列出 Circle to Search、Find the Look，以及透過 Gemini 或 Perplexity 操作支援 App 等功能。編輯分析：AI 功能仍受帳號、語言、地區、網路與 App 支援影響，買家應在實機確認，而不是只因宣傳寫有 AI 就推定所有服務均可使用。"
+        ]
+      },
+      {
+        "heading": "六代系統升級仍要核對起算與機況",
+        "paragraphs": [
+          "Samsung 表示 Galaxy A18 最多提供六代作業系統升級與六年安全性更新，並具 IP64 防塵防潑水、Gorilla Glass 3 與 Knox Vault。這是新機政策與設計資訊，不代表二手機曾經進水、摔落或維修後仍維持相同防護。",
+          "驗收二手機時，可核對完整型號、目前安全性修補層級、螢幕、相機、USB-C、電池、SIM 與帳號移除狀態。更新承諾也不能取代硬體檢查；本文整理官方資訊與購機注意事項，未對效能、續航、耐用度或 AI 準確度進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Newsroom Singapore",
+        "url": "https://news.samsung.com/sg/everyday-experiences-elevated-samsung-announces-the-new-galaxy-a18",
+        "date": "2026-11-13"
+      }
+    ],
+    "publishedAt": "2026-11-14T09:28:35.859+08:00",
+    "updatedAt": "2026-11-14T09:28:35.859+08:00"
+  },
+  {
+    "slug": "asus-oled-monitor-lighting-console-warranty-buying-check",
+    "title": "ASUS 整理 OLED 螢幕選購：亮房、主機相容與烙印保固怎麼查",
+    "category": "購機指南",
+    "description": "ASUS 公布 OLED 螢幕選購與黑五資訊；選購新品或二手螢幕時，應按環境光、主機輸出、面板保護與實際保固條款逐項核對。",
+    "sections": [
+      {
+        "heading": "面板表面要配合房間光線",
+        "paragraphs": [
+          "ASUS 於 11 月 12 日公布 2026 黑色星期五 OLED 螢幕陣容，並依環境光整理選購方向。官方說明，靠近窗戶、會受直接日光影響的亮房較重視抗反射；混合光環境要兼顧抗眩與對比；可控制外光的暗室則較能發揮深黑與色彩表現。",
+          "同為 OLED，仍可能採 QD-OLED、WOLED、Tandem OLED，以及亮面、半亮面或霧面處理。編輯分析：實際購買應先記錄桌面位置、窗戶方向、燈具與觀看距離，再比較面板表面，不宜只憑峰值亮度或『OLED』名稱決定。"
+        ]
+      },
+      {
+        "heading": "主機輸入與原生解析度要分開確認",
+        "paragraphs": [
+          "官方指出，現代遊戲主機若要輸出最高 4K HDR 模式，通常需要 HDMI 2.1 與相應機型支援；部分 1440p OLED 螢幕可接收 4K 訊號後縮放至原生 QHD，支援的 60Hz、120Hz、VRR 與 HDR 條件則依型號不同。",
+          "購買前應用完整料號查閱規格表，確認 HDMI 頻寬、DisplayPort、USB-C、KVM、音訊與韌體，再搭配自己的主機或顯示卡測試。能接收 4K 訊號不等於面板原生 4K，也不代表所有連接埠都能同時啟用最高更新率、HDR 與 VRR。"
+        ]
+      },
+      {
+        "heading": "OLED Care 與烙印保固不是所有地區相同",
+        "paragraphs": [
+          "ASUS 列出的 OLED Care 功能包含像素清理、畫面位移、靜態標誌偵測或接近感測等，但實際組合依 ROG、ProArt 與特定型號而異。官方也只表示部分地區的合資格型號提供三年、包含烙印的保固，黑五最高折扣同樣不是台灣價格承諾。",
+          "二手驗收可播放純色、灰階與高對比畫面，查看烙印、亮暗不均、壞點與異常閃爍，再測試連接埠、喚醒、選單與韌體。保固是否可轉移、是否需要原始發票及烙印判定標準，應向購買地客服確認；本文未對面板壽命或顯示效果進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-black-friday-2026-oled-monitor-lineup/",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-14T09:28:35.859+08:00",
+    "updatedAt": "2026-11-14T09:28:35.859+08:00"
+  },
+  {
+    "slug": "xbox-insider-home-library-disc-digital-license-check",
+    "title": "Xbox 測試主畫面與遊戲庫更新：光碟換數位授權先確認帳號",
+    "category": "遊戲主機",
+    "description": "Xbox Insider 開始測試動態背景、遊戲庫與 Guide 調整；光碟取得的數位授權、預覽版資格與二手交易權利不能混為一談。",
+    "sections": [
+      {
+        "heading": "新功能目前先給 Alpha Skip-Ahead 測試",
+        "paragraphs": [
+          "Xbox Wire 於 11 月 12 日宣布，Xbox Insider 的 Alpha Skip-Ahead 成員可先測試主畫面動態背景輪播、遊戲庫分類與 Guide 左右位置等功能；官方表示之後才會逐步提供給更多 Insider 與一般玩家。",
+          "這代表公告內容仍屬預覽階段，不是所有 Xbox Series X|S 或 Xbox One 都已取得。一般使用者若重視穩定性，不需要為了搶先使用介面功能加入測試；加入前應了解更新頻率、可能異常與回報方式。"
+        ]
+      },
+      {
+        "heading": "光碟取得的數位授權可獨立分類",
+        "paragraphs": [
+          "官方說明，先前已有玩家可從光碟遊戲取得數位授權；本次測試讓這類遊戲在完整遊戲庫中顯示為獨立分類，也可在設定中改回與其他已擁有遊戲一起顯示，或隱藏遊戲圖示上的數位授權標記。",
+          "編輯分析：遊戲庫顯示方式不等於授權可自由轉移。公告沒有表示數位授權會隨二手光碟、主機或帳號出售，因此交易前仍應查明啟用條件、帳號歸屬、地區限制、是否需要保留光碟，以及轉售後權利是否仍有效。"
+        ]
+      },
+      {
+        "heading": "二手主機驗收要回到正式版本與帳號狀態",
+        "paragraphs": [
+          "選購二手 Xbox 時，可先確認主機是否仍加入 Insider、系統版本能否正常更新，以及賣家 Microsoft 帳號、家庭群組與主機關聯是否已移除。數位遊戲通常與帳號權利相關，不能因主機遊戲庫曾顯示作品就把它計入二手機價值。",
+          "再測試 HDMI、網路、控制器、儲存空間、光碟機與重新啟動，並以自己的帳號完成初始化。本文整理官方預覽資訊與交易注意事項，未測試預覽版穩定性，也不對個別遊戲授權能否移轉作保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xbox Wire",
+        "url": "https://news.xbox.com/en-us/2026/11/12/xbox-insiders-january-2027-console-features-1/",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-14T09:28:35.859+08:00",
+    "updatedAt": "2026-11-14T09:28:35.859+08:00"
   }
 ]
