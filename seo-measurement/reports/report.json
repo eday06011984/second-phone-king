@@ -1231,16 +1231,18 @@
           "id": "q24",
           "prompt": "哪裡可以比較二手機店家保固",
           "attempted": true,
-          "measured_dates": 0,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
             "not_present": 0,
-            "indeterminate": 0,
+            "indeterminate": 1,
             "failed": 1
           },
           "single_top_three_count": null,
-          "selected_record_ids": [],
+          "selected_record_ids": [
+            "google_ai_overview-q24-2026-11-14T08-47-31+08-00"
+          ],
           "stable": "unknown"
         },
         {
@@ -4380,6 +4382,34 @@
       "recommended_sites": [],
       "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-11-13T00:44:42Z，換算台北 08:44:42。固定問句逐字提交一次；未操作 reCAPTCHA、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現。",
       "date": "2026-11-13",
+      "target_rank": null,
+      "top_three_sites": [],
+      "single_top_three": null
+    },
+    {
+      "id": "google_ai_overview-q24-2026-11-14T08-47-31+08-00",
+      "question_id": "q24",
+      "platform": "google_ai_overview",
+      "prompt": "哪裡可以比較二手機店家保固",
+      "status": "indeterminate",
+      "measured_at": "2026-11-14T08:47:31+08:00",
+      "mode": "Google Search default All results; AI Overview unavailable message displayed; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "目前無法產生 AI 摘要，請稍後再試。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁亦顯示台灣與個人化位置，但帳號識別與更細位置不保存。從全新首頁逐字提交固定問句一次，AI 摘要區塊只顯示目前無法產生摘要；沒有重載、重試、改入口或操作下方影片／一般搜尋結果。沒有可判讀推薦清單，單次前三未知。",
+      "date": "2026-11-14",
       "target_rank": null,
       "top_three_sites": [],
       "single_top_three": null
