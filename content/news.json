@@ -5318,5 +5318,580 @@
     ],
     "publishedAt": "2026-11-09T09:13:31.012+08:00",
     "updatedAt": "2026-11-09T09:13:31.012+08:00"
+  },
+  {
+    "slug": "xiaomi-18-pro-series-prelaunch-warranty-region-check",
+    "title": "Xiaomi 18 Pro 系列預熱頁上線：保固贈送也要先看地區條款",
+    "category": "手機新品",
+    "description": "Xiaomi 18 Pro 系列全球預熱頁列出維修與訂閱服務，但機型、上市日期及權益可能因地區而異；購買新機或二手機都應先核對版本與條款。",
+    "sections": [
+      {
+        "heading": "官方預熱頁先公開服務內容",
+        "paragraphs": [
+          "Xiaomi 全球官網已上線 18 Pro 系列預熱頁，展示 Velvet Red 配色，並列出部分購機服務，包括 24 個月內一次背蓋、背面螢幕或鏡頭更換服務、一次螢幕更換服務，以及 Xiaomi Smartphone International Warranty Service。這些是官方頁面目前公開的權益方向，不等於所有市場都會提供相同方案。",
+          "頁面也列出 Spotify Premium、YouTube Premium 與 Google AI Pro 等試用服務，但明確標示資格與條款限制。英國活動條款顯示預熱活動自 11 月 9 日開始；正式售價、銷售日期與台灣供貨仍應以各地官方公告或授權通路為準。"
+        ]
+      },
+      {
+        "heading": "國際保固不代表跨區維修沒有條件",
+        "paragraphs": [
+          "Xiaomi 在頁尾提醒，特定產品型號與銷售日期可能因地區不同，圖片及產品資訊也可能不是最終版本；部分功能只適用系列中的特定機型。消費者不能只看全球頁面的服務名稱，就推定台灣購買、水貨或跨區版本都能取得相同維修內容。",
+          "比較新機方案時，應逐項確認適用國家、申請期限、是否需要發票、意外損壞範圍、自付額與維修據點。免費訂閱也要確認是否限新用戶、是否需要綁定付款方式，以及試用期結束後是否自動收費。"
+        ]
+      },
+      {
+        "heading": "二手機交易要把區域版本納入估價",
+        "paragraphs": [
+          "編輯分析：Xiaomi 18 Pro 系列後續進入二手市場時，賣家若以國際保固或換修服務加價，買家應要求提供原始購買地、發票、IMEI、啟用時間與完整條款，再確認權益能否隨裝置轉移。無法核實的贈送服務，不宜直接算進二手機價值。",
+          "實機驗收仍要檢查螢幕、相機、充電、通訊頻段、帳號解除、系統版本與維修紀錄。預熱頁能幫助理解官方定位，但不能取代台灣上市規格、保固文件與現場測試。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xiaomi Global",
+        "url": "https://www.mi.com/global/launch/xiaomi-launch-november-2026/",
+        "date": "2026-11-09"
+      },
+      {
+        "name": "Xiaomi UK",
+        "url": "https://www.mi.com/uk/support/terms/xiaomi-launch-november-2026-tc/",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-10T09:29:21.834+08:00",
+    "updatedAt": "2026-11-10T09:29:21.834+08:00"
+  },
+  {
+    "slug": "microsoft-edge-shopping-compare-checkout-savings-region-check",
+    "title": "Edge 新增跨分頁商品比較：買 3C 可參考，仍要核對賣場與地區",
+    "category": "購機工具",
+    "description": "Microsoft Edge 加入 Copilot 跨分頁商品比較與結帳優惠功能，但可用市場、網站與資料來源有限；選購 3C 仍須自行核對型號、價格和售後條件。",
+    "sections": [
+      {
+        "heading": "Copilot 可整理多個商品分頁",
+        "paragraphs": [
+          "Microsoft 於 11 月 9 日宣布 Edge 新增購物輔助功能。當瀏覽器偵測到使用者開啟多個相似商品分頁時，可主動提供比較選項；使用者同意後，Copilot 會整理各頁面的規格、價格與差異，並保留分頁內容作為後續提問的脈絡。",
+          "官方表示，Edge 只有在使用者選擇比較後才會完整讀取相關頁面，也可在設定中關閉購物體驗。功能適用 Edge 的 Windows 與 Mac 版本，但 Copilot 比較只在支援 Copilot 的市場提供，實際購物功能還會因網站而異。"
+        ]
+      },
+      {
+        "heading": "結帳優惠與價格紀錄都有地區限制",
+        "paragraphs": [
+          "新版 Checkout Savings 會在結帳時尋找可用優惠碼，但官方註明目前只提供 en-US；Cashback 也要在符合資格的零售商啟用方案，並受個別條款限制。台灣使用者看到英文功能介紹，不應推定本地賣場一定能使用。",
+          "Edge 既有的 Price Comparison、Price History 與 Price Tracking 可協助整理資訊，但瀏覽器顯示的價格仍可能受到運費、稅金、會員資格、容量、顏色與庫存影響。下單前應回到賣場確認最終付款金額和退換貨規則。"
+        ]
+      },
+      {
+        "heading": "比較二手機時不要只相信自動摘要",
+        "paragraphs": [
+          "編輯分析：跨分頁摘要適合初步縮小選項，但二手機賣場的標題與欄位常不一致，例如同一型號可能混有不同容量、電池健康度、維修紀錄與保固。若來源頁面資訊不完整，AI 整理得再清楚也無法補出未揭露的機況。",
+          "實際比較時可先固定型號、容量、外觀等級與保固條件，再逐筆核對賣家評價、實機照片、序號狀態與退貨機制。涉及付款與帳號資料時，也應確認網址、憑證與收款方，不因瀏覽器顯示優惠就略過基本防詐檢查。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-10T09:29:21.834+08:00",
+    "updatedAt": "2026-11-10T09:29:21.834+08:00"
+  },
+  {
+    "slug": "garmin-cirqa-sleep-tracking-used-wearable-check",
+    "title": "Garmin CIRQA 說明睡眠追蹤：買二手穿戴裝置別把數據當診斷",
+    "category": "穿戴裝置",
+    "description": "Garmin 說明 CIRQA 智慧手環的睡眠階段、睡眠分數與健康趨勢功能；選購二手穿戴裝置時，應檢查感測、同步、衛生與帳號狀態。",
+    "sections": [
+      {
+        "heading": "睡眠分數結合多項夜間資料",
+        "paragraphs": [
+          "Garmin 於 11 月 5 日介紹 CIRQA Smart Band 的睡眠功能。裝置會利用動作、皮膚溫度等資料估算清醒、淺眠、深眠與快速動眼期，並將睡眠時間與多項指標整理成 0 至 100 的睡眠分數，資料可在 Garmin Connect 查看。",
+          "睡眠教練會參考年齡、活動量、近期睡眠、午睡與心率變異度提供建議；裝置也能記錄午睡，並將結果納入 Body Battery 與睡眠建議。這些功能需要持續配戴與累積個人基準，單晚數字不宜脫離趨勢單獨解讀。"
+        ]
+      },
+      {
+        "heading": "健康趨勢不等於醫療診斷",
+        "paragraphs": [
+          "CIRQA 夜間可追蹤心率變異度、心率、血氧、呼吸率與皮膚溫度，Garmin Connect 會依長期基準提示偏離情況。官方同時明確說明，這不是醫療裝置，也不供診斷或監測疾病使用。",
+          "消費者若出現持續失眠、呼吸異常或其他症狀，不能以穿戴裝置分數自行排除健康問題。不同配戴鬆緊、位置、膚況與使用習慣也可能影響資料，重要健康判斷仍應諮詢專業醫療人員。"
+        ]
+      },
+      {
+        "heading": "二手智慧手環要驗收感測與同步",
+        "paragraphs": [
+          "編輯分析：選購二手 CIRQA 或其他無螢幕穿戴裝置時，不能只看外觀。應確認充電與續航、震動、心率與血氧感測、藍牙配對、Garmin Connect 同步、韌體更新及裝置是否已從前任帳號解除。",
+          "貼身配戴設備還要檢查錶帶尺寸、扣具、感測器刮傷與清潔狀況，必要時更換可接觸皮膚的配件。若賣家以睡眠或健康數據作為商品效果證明，也應把它視為個人紀錄，而不是對下一位使用者的功能保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Garmin",
+        "url": "https://www.garmin.com/en-US/blog/fitness/how-to-help-improve-your-sleep-with-garmin-cirqa-smart-band/",
+        "date": "2026-11-05"
+      }
+    ],
+    "publishedAt": "2026-11-10T09:29:21.834+08:00",
+    "updatedAt": "2026-11-10T09:29:21.834+08:00"
+  },
+  {
+    "slug": "google-november-pixel-drop-pixel-tag-compatibility-privacy-check",
+    "title": "Google 11 月 Pixel Drop 加入 Pixel Tag：買追蹤器先看相容性與隱私",
+    "category": "手機配件",
+    "description": "Google 11 月 Pixel Drop 帶來 Gemini Intelligence 更新與 Pixel Tag 上市資訊；選購追蹤器前應確認手機支援、UWB、地區供貨和防跟蹤機制。",
+    "sections": [
+      {
+        "heading": "Pixel Tag 於 11 月 11 日開賣",
+        "paragraphs": [
+          "Google 於 11 月 10 日公布 November Pixel Drop，並確認 Pixel Tag 自 11 月 11 日開賣。官方表示，Pixel Tag 可透過超過 10 億部 Android 裝置組成的 Find Hub 網路協助尋找遠距物品，近距離則可利用 UWB 顯示方向與距離。",
+          "官方也標示 Pixel Tag 電池續航超過一年，機身可放入錢包或掛在物品上。這些是 Google 的產品與服務說明；實際可用功能仍取決於手機硬體、系統版本、帳號設定、所在地區及 Find Hub 網路狀況。"
+        ]
+      },
+      {
+        "heading": "Pixel 功能更新不是所有機型同步取得",
+        "paragraphs": [
+          "本次 Pixel Drop 同時擴充 Gemini Intelligence、Rambler、對話摘要、Pixel 搜尋與 HiLight 等功能，但官方逐項列出不同機型與地區。例如 Gemini Intelligence 新功能以 Pixel 10 系列為主，Call Screen 升級則標示 Pixel 11 系列；多步驟任務功能目前擴大至日本、英國與印度。",
+          "繁體中文對話摘要已列入支援語言，但不代表台灣所有 Pixel 型號會同時取得完整功能。更新採分批推出，購買新機或二手機時應以裝置上的系統版本、功能頁面與官方適用條件核對，不能只看系列宣傳。"
+        ]
+      },
+      {
+        "heading": "二手追蹤器要先解除帳號並測試警示",
+        "paragraphs": [
+          "編輯分析：購買二手 Pixel Tag 或其他藍牙追蹤器時，應確認前任使用者已解除裝置與帳號綁定，再測試配對、響鈴、電池狀態、近距離定位及遺失模式。若手機沒有相容的 UWB 硬體，就不能把方向指引當成必然可用功能。",
+          "追蹤器涉及位置隱私，買家也應確認手機能收到陌生追蹤器警示，並了解停用與移除電池的方法。產品適合尋找個人物品，不應用來追蹤未同意的人；跨區購買前還要核對本地上市、保固與 Find Hub 功能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/devices/pixel/november-2026-pixel-drop/",
+        "date": "2026-11-10"
+      }
+    ],
+    "publishedAt": "2026-11-11T09:13:04.320+08:00",
+    "updatedAt": "2026-11-11T09:13:04.320+08:00"
+  },
+  {
+    "slug": "samsung-gallery-google-storage-sync-used-galaxy-account-check",
+    "title": "Samsung Gallery 改用 Google 儲存同步：換 Galaxy 前先看刪除規則",
+    "category": "手機軟體",
+    "description": "Samsung Gallery 開始在部分 One UI 9 裝置提供 Google 儲存同步；換機、清空空間或出售二手機前，應先確認帳號、備份和刪除影響。",
+    "sections": [
+      {
+        "heading": "同一組帳號可在支援裝置查看相片",
+        "paragraphs": [
+          "Samsung 於 11 月 10 日說明 Gallery 與 Google 儲存空間的同步服務。使用者在支援的 Galaxy 手機或平板登入相同 Samsung 與 Google 帳號，並於 Gallery 開啟同步後，可在其他支援裝置看到已同步相片與影片的預覽，需要原始檔時再下載。",
+          "服務目前從部分搭載 One UI 9 的 Galaxy 裝置開始，之後分階段擴大，且可用市場與機型可能不同。這不是所有 Galaxy 裝置立即都能使用的功能，換機前應先在 Gallery 設定內確認是否出現同步選項。"
+        ]
+      },
+      {
+        "heading": "15GB 空間與 Gmail、Drive 共用",
+        "paragraphs": [
+          "Gallery 同步使用 Google 帳號既有的儲存額度；免費帳號最多 15GB，並與 Gmail、Google Drive 和 Google Photos 共用，不會因開啟 Samsung Gallery 取得另一份免費空間。過去已存在 Google 儲存空間的相片，也不會在服務啟用後全部自動出現在 Gallery。",
+          "完成同步後，使用者可用「Free up space」移除手機上的原始檔並保留雲端縮圖，但刪除已同步項目會同時從連結的 Google 儲存空間與其他連線 Galaxy 裝置移除。清理手機前應先確認同步完成，重要檔案最好另留獨立備份。"
+        ]
+      },
+      {
+        "heading": "出售二手機前不要只做登出",
+        "paragraphs": [
+          "編輯分析：出售 Galaxy 二手機前，應先確認 Gallery、Google Photos、Google Drive 與其他備份服務的狀態，再下載需要保留的原始檔。不要把畫面上仍看得到縮圖誤認為檔案一定保存在手機，也不要在同步尚未確認時大量刪除。",
+          "交機前應移除 Samsung 與 Google 帳號、關閉同步並執行恢復原廠設定；買家則要確認裝置沒有前任帳號鎖定。若店家協助轉移資料，應先告知刪除會同步影響雲端的規則，避免為了釋放容量而誤刪唯一副本。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-gallery-makes-it-easier-to-access-photos-and-videos-across-galaxy-devices",
+        "date": "2026-11-10"
+      }
+    ],
+    "publishedAt": "2026-11-11T09:13:04.320+08:00",
+    "updatedAt": "2026-11-11T09:13:04.320+08:00"
+  },
+  {
+    "slug": "ios-27-2-1-security-update-used-iphone-check",
+    "title": "iOS 27.2.1 修補 AirPlay 與藍牙漏洞：二手 iPhone 交機前先更新",
+    "category": "手機安全",
+    "description": "Apple 發布 iOS 27.2.1 與 iPadOS 27.2.1，修補 AirPlay、藍牙、訊息及敏感資料存取問題；二手機驗收應核對支援機型與實際版本。",
+    "sections": [
+      {
+        "heading": "安全更新涵蓋配對與訊息權限",
+        "paragraphs": [
+          "Apple 於 11 月 9 日發布 iOS 27.2.1 與 iPadOS 27.2.1 的安全內容。官方列出的修補包括 AirPlay 配對碼嘗試限制、藍牙記憶體處理、App Intents 敏感資料授權，以及 iMessage 群組訊息存取等問題。",
+          "其中部分問題可能讓藍牙範圍內或同一網路的攻擊者影響配對流程，也有應用程式可能存取敏感資料的風險。Apple 公告描述的是已修補的漏洞影響，並未在該頁宣稱每項漏洞都已遭大規模利用。"
+        ]
+      },
+      {
+        "heading": "支援範圍從 iPhone 11 起",
+        "paragraphs": [
+          "Apple 列出的適用範圍包括 iPhone 11 及後續機型，以及特定世代之後的 iPad Pro、iPad Air、iPad、iPad mini。較舊裝置是否有其他版本更新，應另外查看 Apple 安全性發佈清單，不能從這份公告推定所有舊機都能升級至 27.2.1。",
+          "更新前應完成備份、保留足夠電量與儲存空間，並從「設定」中的軟體更新安裝。企業管理、測試版或特殊設定的裝置可能有不同部署節奏，實際版本仍以裝置畫面為準。"
+        ]
+      },
+      {
+        "heading": "版本最新不代表二手機沒有其他問題",
+        "paragraphs": [
+          "編輯分析：驗收二手 iPhone 時，可在「設定」核對型號、容量與 iOS 版本，完成更新後再測試藍牙、Wi-Fi、AirDrop、AirPlay、訊息與重新開機。若更新失敗或長期停在舊版本，應先釐清儲存空間、管理描述檔或硬體狀況。",
+          "安全更新不能證明電池、螢幕、相機或主機板是原廠且正常，也不能取代啟用鎖檢查。交易前仍須確認已登出 Apple 帳號、關閉「尋找」、清除資料，並檢查零件與服務紀錄、電池健康度及實機功能。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Support",
+        "url": "https://support.apple.com/en-us/149715",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-11T09:13:04.320+08:00",
+    "updatedAt": "2026-11-11T09:13:04.320+08:00"
+  },
+  {
+    "slug": "asus-proart-gr1x-p16-p14-rtx-spark-buying-check",
+    "title": "ASUS ProArt GR1X、P16／P14 亮相：買本機 AI 電腦先核對配置與軟體",
+    "category": "電腦新品",
+    "description": "ASUS 展示採 NVIDIA RTX Spark 平台的 ProArt GR1X、P16 與 P14；選購本機 AI 電腦不能只看峰值算力，還要確認記憶體、軟體、地區供貨與售後。",
+    "sections": [
+      {
+        "heading": "ProArt 新機鎖定本機 AI 創作",
+        "paragraphs": [
+          "ASUS 於 11 月 11 日公布 Adobe MAX 2026 展示陣容，包括 ProArt GR1X 迷你電腦，以及 ProArt P16、P14 創作者筆電。三款採用 NVIDIA RTX Spark 平台，官方列出 6,144 核心 Blackwell RTX GPU、20 核心 Grace CPU，以及最高 128GB 統一記憶體等頂規能力。",
+          "官方示範涵蓋 Adobe Premiere Pro、Photoshop、ComfyUI 與本機 AI 代理工作流程；GR1X 預定 11 月 18 日在美國上市。這是美國活動與供貨資訊，台灣售價、上市配置及保固仍應以 ASUS 台灣後續公告為準。"
+        ]
+      },
+      {
+        "heading": "最高規格與實際現貨要分開看",
+        "paragraphs": [
+          "ASUS 表示 P16 最薄 12.9mm、重 1.77kg，並配備 99.9Wh 電池；P14 最輕 1.48kg、厚 13.9mm，電池為 90Wh。螢幕最高可選 4K Tandem OLED、120Hz VRR 與 1,600 尼特 HDR 峰值亮度，但「最高」不代表每個市場與每一台現貨都採同一配置。",
+          "編輯分析：比較新機或日後二手機時，應要求完整料號，再核對統一記憶體、SSD、螢幕、連接埠、電池與變壓器。官方展示的 AI 工作流程也不等於所有軟體均已隨機附贈，授權費用、版本、外掛與模型相容性應另行確認。"
+        ]
+      },
+      {
+        "heading": "本機運算仍要評估散熱與資料流程",
+        "paragraphs": [
+          "本機處理可減少把部分素材上傳雲端的需求，但不能直接等同於所有工作都自動保密。專案檔、模型來源、外掛權限、同步服務與備份位置仍會影響資料風險；企業或接案使用者應依實際流程設定存取與備份。",
+          "驗收時可用自己的剪輯或推論工作負載，觀察持續效能、風扇噪音、溫度、輸出與喚醒穩定性，再確認韌體、驅動及保固。本文整理官方規格與購機注意事項，未對上述產品進行效能、續航或散熱實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-showcases-proart-gr1x-p16-p14-adobe-max-2026/",
+        "date": "2026-11-11"
+      }
+    ],
+    "publishedAt": "2026-11-12T09:39:14.337+08:00",
+    "updatedAt": "2026-11-12T09:39:14.337+08:00"
+  },
+  {
+    "slug": "samsung-tv-size-panel-used-tv-buying-check",
+    "title": "Samsung 整理電視選購標準：買二手電視別只看尺寸與 4K",
+    "category": "購機指南",
+    "description": "Samsung 公布電視尺寸、環境光、面板與內容需求的選擇原則；二手電視還要加查面板老化、連接埠、系統與區域服務。",
+    "sections": [
+      {
+        "heading": "觀看距離與空間先決定尺寸",
+        "paragraphs": [
+          "Samsung 於 11 月 12 日發布電視選購指南，建議先按觀看距離與空間評估尺寸。官方範例列出：1.5 至 2 公尺可參考 43 至 55 吋，2 至 2.5 公尺可參考 55 至 65 吋，2.3 至 3 公尺則可參考 65 至 75 吋。",
+          "這些數字是一般性指引，實際舒適度仍會受視力、字幕習慣、家庭同看與安裝方式影響。編輯分析：購買前應量出牆面、電視櫃、底座與走道，而不是只因同價位能買到更大尺寸就升級。"
+        ]
+      },
+      {
+        "heading": "亮房、暗房與遊戲需求不同",
+        "paragraphs": [
+          "官方說明，明亮空間較重視亮度與抗反射，暗室則更容易看出黑位與對比；OLED、Mini LED、Neo QLED 與 Micro RGB 的發光或背光方式也不同。觀看電影、運動、遊戲或藝術內容時，HDR、更新率、輸入延遲與顯示模式的重要性各不相同。",
+          "廠商列出的 AI 升頻、運動或遊戲最佳化功能通常有機型與訊號條件，不能把系列名稱當成功能保證。跨區或二手購買時，還要確認 App、免費頻道、語音與訂閱服務是否支援所在地區，因官方明確指出內容可用性會依國家、地區與型號變動。"
+        ]
+      },
+      {
+        "heading": "二手電視要補做面板與接口測試",
+        "paragraphs": [
+          "編輯分析：二手電視除了尺寸和解析度，應播放純色、灰階、字幕與快速移動畫面，查看亮暗不均、殘影、烙印、壞點與異常閃爍；OLED 與背光式面板的老化表現也不能用同一項測試概括。",
+          "再逐一測試 HDMI、eARC、USB、Wi-Fi、藍牙、遙控器、喇叭與待機喚醒，並確認底座、壁掛零件、電源線、帳號登出及恢復原廠設定。若為遊戲使用，應以實際主機確認 4K、HDR、VRR 與高更新率能否在指定連接埠同時啟用。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/finding-the-perfect-tv-a-guide-to-samsung-tvs",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-12T09:39:14.337+08:00",
+    "updatedAt": "2026-11-12T09:39:14.337+08:00"
+  },
+  {
+    "slug": "logitech-mx-master-4-creator-edition-used-mouse-check",
+    "title": "MX Master 4 Creator Edition 登場：限量外觀不等於更適合你的工作流",
+    "category": "3C 配件",
+    "description": "Logitech 推出 MX Master 4 Creator Edition；選購新品或二手滑鼠時，應分清限量設計、既有硬體功能、軟體支援與地區保固。",
+    "sections": [
+      {
+        "heading": "Creator Edition 採用既有 MX Master 4 平台",
+        "paragraphs": [
+          "Logitech 於 11 月 9 日公布 MX Master 4 Creator Edition，外殼加入版面格線、色彩校正條與關鍵影格等視覺設計。官方把它定位為限量款，核心功能沿用 MX Master 4，包括觸覺回饋、Actions Ring 快捷操作與 MagSpeed 滾輪。",
+          "產品自 11 月 9 日起在 Logitech 官網、部分全球零售商及 Adobe MAX 現場販售，官方列出美元、歐元與英鎊價格。這些並非台灣定價或供貨承諾，跨區購買前應核對鍵鼠軟體支援、保固範圍、運費與可能稅費。"
+        ]
+      },
+      {
+        "heading": "限量塗裝沒有改變基本相容性問題",
+        "paragraphs": [
+          "編輯分析：限量版的主要差異若是外觀，就不應把它誤認為效能升級。購買前可先確認手掌大小、握姿、左右手習慣、重量、按鍵位置與滾輪阻尼，再查看常用作業系統和軟體能否使用所需的自訂快捷功能。",
+          "Actions Ring、巨集或特定創作軟體整合依賴 Logi Options+ 與相容版本；公司電腦若限制安裝軟體，部分賣點可能無法完整使用。所謂快速滾動或精準控制也是官方功能描述，不代表每位使用者在所有 App 都會有相同體驗。"
+        ]
+      },
+      {
+        "heading": "二手驗收要看按鍵、感測與電池",
+        "paragraphs": [
+          "選購二手 MX Master 4 或同類無線滑鼠時，可在實機測試左右鍵、側鍵、雙滾輪、觸覺回饋、游標穩定性、藍牙與接收器連線，並檢查底部滑腳、充電孔、電池續航及序號。原廠接收器與線材是否隨附，也應寫入商品描述。",
+          "若限量版有收藏溢價，更要把外殼磨損、配件完整度與購買憑證分開評估，不應只憑外觀名稱判斷價值。本文為官方資訊整理與購機建議，未對滑鼠延遲、續航、耐用度或創作效率進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Logitech Blog",
+        "url": "https://www.logitech.com/blog/2026/11/09/pixel-perfect-or-timeline-driven-how-do-you-tell-your-story/",
+        "date": "2026-11-09"
+      }
+    ],
+    "publishedAt": "2026-11-12T09:39:14.337+08:00",
+    "updatedAt": "2026-11-12T09:39:14.337+08:00"
+  },
+  {
+    "slug": "nvidia-621-24-driver-dlss5-used-gpu-check",
+    "title": "NVIDIA 621.24 驅動支援新遊戲：二手顯卡先核對 DLSS 世代",
+    "category": "電腦更新",
+    "description": "NVIDIA 發布 621.24 WHQL 驅動並加入多款遊戲最佳化；更新前應先確認顯卡世代、遊戲版本、既有穩定性與回復方案。",
+    "sections": [
+      {
+        "heading": "621.24 對應三款遊戲更新時程",
+        "paragraphs": [
+          "NVIDIA 於 11 月 11 日發布 GeForce Game Ready 621.24 WHQL 驅動，官方列出《Warhammer 40,000: Dawn of War IV》、《Where Winds Meet》與《Assetto Corsa Rally》的最佳化或新功能支援。玩家可透過 NVIDIA App 或官方網站取得驅動。",
+          "依官方時程，《Dawn of War IV》Commander Edition 於 11 月 30 日搶先開放、12 月 3 日全球推出；《Where Winds Meet》預定 11 月 23 日加入 DLSS 5，《Assetto Corsa Rally》則預定 11 月 19 日加入 DLSS 4.5 Dynamic Multi Frame Generation。遊戲端更新與驅動程式缺一不可，不能只安裝驅動就假定功能已啟用。"
+        ]
+      },
+      {
+        "heading": "DLSS 名稱相近，相容顯卡世代不同",
+        "paragraphs": [
+          "官方說明，《Where Winds Meet》的 DLSS 5 支援對象為 GeForce RTX 50 系列與 RTX Spark；《Assetto Corsa Rally》的 DLSS 4.5 Dynamic Multi Frame Generation 也有硬體與遊戲設定條件。舊款 RTX 顯卡即使能執行遊戲，也不代表可使用同一組生成模式。",
+          "編輯分析：挑選二手顯卡時，應核對完整 GPU 型號、顯存、輸出介面與電源需求，再以常玩遊戲的官方支援清單判斷功能。把『支援 DLSS』簡化成所有 RTX 顯卡功能相同，容易高估舊卡能力，也不應用插幀數字取代原生畫面更新率與延遲評估。"
+        ]
+      },
+      {
+        "heading": "更新前保留舊版與穩定性紀錄",
+        "paragraphs": [
+          "驅動上市代表官方提供支援，不等於每一套硬體、外掛與遊戲版本都會有相同表現。若目前系統穩定，可先記下舊版驅動、遊戲設定與效能基準，確認作業系統及遊戲已更新，再視需求升級。",
+          "遇到黑畫面、閃退或效能異常時，可用相同場景交叉測試，並查閱官方已知問題與後續修正；不要在沒有紀錄的情況下一次改動驅動、超頻與遊戲設定。本文為官方資訊整理與更新建議，未對 621.24 的效能或穩定性進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA GeForce News",
+        "url": "https://www.nvidia.com/en-us/geforce/news/warhammer-40000-dawn-of-war-4-geforce-rtx-spark-game-ready-driver/",
+        "date": "2026-11-11"
+      }
+    ],
+    "publishedAt": "2026-11-13T09:16:42.342+08:00",
+    "updatedAt": "2026-11-13T09:16:42.342+08:00"
+  },
+  {
+    "slug": "nintendo-switch-2-us-black-friday-bundle-region-check",
+    "title": "Nintendo Switch 2 美國黑五方案公布：台灣買家先別直接換算價格",
+    "category": "遊戲主機",
+    "description": "Nintendo 公布美國黑色星期五主機組合與遊戲折扣；台灣跨區選購時仍要核對販售地區、會員歸屬、保固與遊戲相容性。",
+    "sections": [
+      {
+        "heading": "美國方案包含主機、遊戲與會員",
+        "paragraphs": [
+          "Nintendo of America 於 11 月 12 日公布美國黑色星期五優惠：11 月 22 日至 12 月 5 日，Nintendo Switch 2 + Mario Kart World 組合另附 90 天 Nintendo Switch Online 個人會員資格，官方建議售價為 499.99 美元，宣稱相較分開購買節省 50 美元，數量有限。",
+          "指定實體遊戲的 20 美元折扣期間為 11 月 22 日至 29 日，Nintendo eShop 數位特賣則為 11 月 19 日至 12 月 2 日。上述皆是美國市場資訊，不是台灣定價、通路活動或供貨承諾，匯率換算也沒有包含跨境運費、稅費與可能的售後成本。"
+        ]
+      },
+      {
+        "heading": "跨區購買先查兌換與保固條件",
+        "paragraphs": [
+          "編輯分析：組合內的數位遊戲或會員若以下載碼、帳號或首次啟用方式提供，買家應在付款前確認適用國家、Nintendo Account 地區、兌換期限與是否已使用；二手商品更不能只看外盒印有遊戲名稱，就假定權益仍可轉移。",
+          "主機本體還要核對插頭、充電器規格、系統語言、維修受理地區及購買憑證。海外促銷看似便宜，但若需要寄回原購買地維修，時間與費用可能抵消價差；本文不以美國建議售價推算台灣實際成交價。"
+        ]
+      },
+      {
+        "heading": "舊 Switch 遊戲仍要逐款確認相容性",
+        "paragraphs": [
+          "Nintendo 在公告中提醒，Nintendo Switch 2 可遊玩相容的實體與數位 Nintendo Switch 遊戲，但並非所有作品都完整相容。購買舊遊戲、配件或二手主機前，應查官方相容資訊，而不是只以卡匣外型或同品牌判斷。",
+          "驗收二手主機時，可測試螢幕、Joy-Con、底座輸出、讀卡、Wi-Fi、充電與序號，再確認賣家帳號已登出並完成初始化。遊戲、會員、雲端存檔與帳號購買紀錄應分開處理，避免把不可轉移的數位權益算入主機價格。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Nintendo of America",
+        "url": "https://www.nintendo.com/us/whatsnew/nintendo-announces-black-friday-offers-to-help-spread-joy-this-holiday-season/",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-13T09:16:42.342+08:00",
+    "updatedAt": "2026-11-13T09:16:42.342+08:00"
+  },
+  {
+    "slug": "garmin-waze-live-cycling-alert-used-device-privacy-check",
+    "title": "Garmin 與 Waze 推即時單車警示：二手穿戴裝置先查相容性與定位隱私",
+    "category": "穿戴裝置",
+    "description": "Garmin 與 Waze 合作，讓相容裝置騎士選擇分享 LiveTrack 位置給附近駕駛；功能有裝置、手機、設定與安全邊界。",
+    "sections": [
+      {
+        "heading": "騎士可選擇把動態位置分享給 Waze",
+        "paragraphs": [
+          "Garmin 與 Waze 於 11 月 10 日宣布合作：使用相容 Garmin Edge 自行車電腦或 Garmin 智慧手錶的騎士，可在 Garmin Connect 中選擇啟用，於戶外騎乘期間透過 LiveTrack 分享位置；附近 Waze 駕駛的地圖上會顯示移動中的單車圖示。",
+          "官方表示資料分享為暫時、以單次活動為基礎，地圖不顯示騎士個人資訊；LiveTrack 本身免費，但需要相容智慧型手機與 Garmin Connect。這項功能是可選擇加入的服務，不是所有 Garmin 裝置開機後都會自動啟用。"
+        ]
+      },
+      {
+        "heading": "警示功能不能取代道路判斷",
+        "paragraphs": [
+          "編輯分析：地圖出現單車圖示可增加情境提示，但效果仍受手機連線、定位精度、背景執行、電量、裝置相容性與駕駛是否使用 Waze 影響。騎士與駕駛都不應把圖示視為已偵測所有道路使用者，或當成避碰保證。",
+          "使用前應更新 Garmin 裝置、Garmin Connect 與 Waze，再依官方清單核對支援型號和所在地區可用性。騎乘者仍需配合燈具、反光裝備與道路規則；駕駛也應持續觀察路況，不應只依賴導航畫面。"
+        ]
+      },
+      {
+        "heading": "二手裝置要檢查帳號、電池與權限",
+        "paragraphs": [
+          "選購二手 Edge 或智慧手錶時，應確認確切型號、韌體、GPS、藍牙、按鍵或觸控、充電接點與電池狀況，並實際測試與手機配對。賣家必須從原 Garmin 帳號移除裝置，買家再用自己的帳號設定活動與分享權限。",
+          "定位與 LiveTrack 涉及個人行程，建議逐項檢查誰能看見連結、活動結束後如何停止分享，以及 Garmin Connect 和手機的定位權限。本文整理官方合作內容與使用注意事項，未實測警示覆蓋率、延遲、電量消耗或道路安全成效。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Garmin Newsroom",
+        "url": "https://www.garmin.com/en-US/newsroom/press-release/sports-fitness/garmin-and-waze-team-up-to-amplify-the-power-of-community-driven-awareness-for-cyclists-and-drivers/",
+        "date": "2026-11-10"
+      }
+    ],
+    "publishedAt": "2026-11-13T09:16:42.342+08:00",
+    "updatedAt": "2026-11-13T09:16:42.342+08:00"
+  },
+  {
+    "slug": "samsung-galaxy-a18-singapore-used-phone-spec-check",
+    "title": "Galaxy A18 新加坡上市：買入門二手機別把 AI 與 RAM Plus 當硬體升級",
+    "category": "手機新品",
+    "description": "Samsung 在新加坡推出 Galaxy A18；比較新機或日後二手機時，應分清實體記憶體、虛擬 RAM、AI 功能、更新承諾與地區售後。",
+    "sections": [
+      {
+        "heading": "新加坡版本採 4GB 記憶體與 128GB 儲存",
+        "paragraphs": [
+          "Samsung 新加坡於 11 月 13 日公布 Galaxy A18，當地上市版本為 4GB 記憶體加 128GB 儲存空間，搭載 MediaTek Helio G99+、6.7 吋 FHD+ Super AMOLED 90Hz 螢幕、5000mAh 電池與 25W 充電。後置相機組合為 50MP 廣角、5MP 超廣角與 2MP 微距。",
+          "官方列出的售價、折扣、贈品與 11 月 13 日開賣資訊均屬新加坡市場，不能直接視為台灣定價或供貨承諾。跨區購買前還要核對行動網路頻段、韌體、充電器、維修受理地區與購買憑證。"
+        ]
+      },
+      {
+        "heading": "RAM Plus 不等於增加實體記憶體",
+        "paragraphs": [
+          "Galaxy A18 提供 RAM Plus，可把部分儲存空間當作虛擬記憶體使用，並可依需求開啟或關閉。這項功能可能協助背景 App 管理，但不會把 4GB 實體記憶體變成同容量等級更高的硬體，也會占用部分儲存空間。",
+          "官方同時列出 Circle to Search、Find the Look，以及透過 Gemini 或 Perplexity 操作支援 App 等功能。編輯分析：AI 功能仍受帳號、語言、地區、網路與 App 支援影響，買家應在實機確認，而不是只因宣傳寫有 AI 就推定所有服務均可使用。"
+        ]
+      },
+      {
+        "heading": "六代系統升級仍要核對起算與機況",
+        "paragraphs": [
+          "Samsung 表示 Galaxy A18 最多提供六代作業系統升級與六年安全性更新，並具 IP64 防塵防潑水、Gorilla Glass 3 與 Knox Vault。這是新機政策與設計資訊，不代表二手機曾經進水、摔落或維修後仍維持相同防護。",
+          "驗收二手機時，可核對完整型號、目前安全性修補層級、螢幕、相機、USB-C、電池、SIM 與帳號移除狀態。更新承諾也不能取代硬體檢查；本文整理官方資訊與購機注意事項，未對效能、續航、耐用度或 AI 準確度進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Newsroom Singapore",
+        "url": "https://news.samsung.com/sg/everyday-experiences-elevated-samsung-announces-the-new-galaxy-a18",
+        "date": "2026-11-13"
+      }
+    ],
+    "publishedAt": "2026-11-14T09:28:35.859+08:00",
+    "updatedAt": "2026-11-14T09:28:35.859+08:00"
+  },
+  {
+    "slug": "asus-oled-monitor-lighting-console-warranty-buying-check",
+    "title": "ASUS 整理 OLED 螢幕選購：亮房、主機相容與烙印保固怎麼查",
+    "category": "購機指南",
+    "description": "ASUS 公布 OLED 螢幕選購與黑五資訊；選購新品或二手螢幕時，應按環境光、主機輸出、面板保護與實際保固條款逐項核對。",
+    "sections": [
+      {
+        "heading": "面板表面要配合房間光線",
+        "paragraphs": [
+          "ASUS 於 11 月 12 日公布 2026 黑色星期五 OLED 螢幕陣容，並依環境光整理選購方向。官方說明，靠近窗戶、會受直接日光影響的亮房較重視抗反射；混合光環境要兼顧抗眩與對比；可控制外光的暗室則較能發揮深黑與色彩表現。",
+          "同為 OLED，仍可能採 QD-OLED、WOLED、Tandem OLED，以及亮面、半亮面或霧面處理。編輯分析：實際購買應先記錄桌面位置、窗戶方向、燈具與觀看距離，再比較面板表面，不宜只憑峰值亮度或『OLED』名稱決定。"
+        ]
+      },
+      {
+        "heading": "主機輸入與原生解析度要分開確認",
+        "paragraphs": [
+          "官方指出，現代遊戲主機若要輸出最高 4K HDR 模式，通常需要 HDMI 2.1 與相應機型支援；部分 1440p OLED 螢幕可接收 4K 訊號後縮放至原生 QHD，支援的 60Hz、120Hz、VRR 與 HDR 條件則依型號不同。",
+          "購買前應用完整料號查閱規格表，確認 HDMI 頻寬、DisplayPort、USB-C、KVM、音訊與韌體，再搭配自己的主機或顯示卡測試。能接收 4K 訊號不等於面板原生 4K，也不代表所有連接埠都能同時啟用最高更新率、HDR 與 VRR。"
+        ]
+      },
+      {
+        "heading": "OLED Care 與烙印保固不是所有地區相同",
+        "paragraphs": [
+          "ASUS 列出的 OLED Care 功能包含像素清理、畫面位移、靜態標誌偵測或接近感測等，但實際組合依 ROG、ProArt 與特定型號而異。官方也只表示部分地區的合資格型號提供三年、包含烙印的保固，黑五最高折扣同樣不是台灣價格承諾。",
+          "二手驗收可播放純色、灰階與高對比畫面，查看烙印、亮暗不均、壞點與異常閃爍，再測試連接埠、喚醒、選單與韌體。保固是否可轉移、是否需要原始發票及烙印判定標準，應向購買地客服確認；本文未對面板壽命或顯示效果進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-black-friday-2026-oled-monitor-lineup/",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-14T09:28:35.859+08:00",
+    "updatedAt": "2026-11-14T09:28:35.859+08:00"
+  },
+  {
+    "slug": "xbox-insider-home-library-disc-digital-license-check",
+    "title": "Xbox 測試主畫面與遊戲庫更新：光碟換數位授權先確認帳號",
+    "category": "遊戲主機",
+    "description": "Xbox Insider 開始測試動態背景、遊戲庫與 Guide 調整；光碟取得的數位授權、預覽版資格與二手交易權利不能混為一談。",
+    "sections": [
+      {
+        "heading": "新功能目前先給 Alpha Skip-Ahead 測試",
+        "paragraphs": [
+          "Xbox Wire 於 11 月 12 日宣布，Xbox Insider 的 Alpha Skip-Ahead 成員可先測試主畫面動態背景輪播、遊戲庫分類與 Guide 左右位置等功能；官方表示之後才會逐步提供給更多 Insider 與一般玩家。",
+          "這代表公告內容仍屬預覽階段，不是所有 Xbox Series X|S 或 Xbox One 都已取得。一般使用者若重視穩定性，不需要為了搶先使用介面功能加入測試；加入前應了解更新頻率、可能異常與回報方式。"
+        ]
+      },
+      {
+        "heading": "光碟取得的數位授權可獨立分類",
+        "paragraphs": [
+          "官方說明，先前已有玩家可從光碟遊戲取得數位授權；本次測試讓這類遊戲在完整遊戲庫中顯示為獨立分類，也可在設定中改回與其他已擁有遊戲一起顯示，或隱藏遊戲圖示上的數位授權標記。",
+          "編輯分析：遊戲庫顯示方式不等於授權可自由轉移。公告沒有表示數位授權會隨二手光碟、主機或帳號出售，因此交易前仍應查明啟用條件、帳號歸屬、地區限制、是否需要保留光碟，以及轉售後權利是否仍有效。"
+        ]
+      },
+      {
+        "heading": "二手主機驗收要回到正式版本與帳號狀態",
+        "paragraphs": [
+          "選購二手 Xbox 時，可先確認主機是否仍加入 Insider、系統版本能否正常更新，以及賣家 Microsoft 帳號、家庭群組與主機關聯是否已移除。數位遊戲通常與帳號權利相關，不能因主機遊戲庫曾顯示作品就把它計入二手機價值。",
+          "再測試 HDMI、網路、控制器、儲存空間、光碟機與重新啟動，並以自己的帳號完成初始化。本文整理官方預覽資訊與交易注意事項，未測試預覽版穩定性，也不對個別遊戲授權能否移轉作保證。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xbox Wire",
+        "url": "https://news.xbox.com/en-us/2026/11/12/xbox-insiders-january-2027-console-features-1/",
+        "date": "2026-11-12"
+      }
+    ],
+    "publishedAt": "2026-11-14T09:28:35.859+08:00",
+    "updatedAt": "2026-11-14T09:28:35.859+08:00"
   }
 ]
