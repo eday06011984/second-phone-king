@@ -2469,9 +2469,34 @@
       "site_link": null,
       "recommended_sites": [],
       "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-11-15T00:23:58Z，換算台北 08:23:58。固定問句逐字提交一次；未操作驗證、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現；帳號識別、IP、追蹤與挑戰參數不保存。"
+    },
+    {
+      "id": "google_ai_overview-q01-2026-11-16T08-41-12+08-00",
+      "question_id": "q01",
+      "platform": "google_ai_overview",
+      "prompt": "二手機",
+      "status": "failed",
+      "measured_at": "2026-11-16T08:41:12+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot."
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-11-16T00:41:12Z，換算台北 08:41:12。固定問句逐字提交一次；未操作 reCAPTCHA、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現；IP、追蹤與挑戰參數不保存。"
     }
   ]
 }
+
 
 
 
