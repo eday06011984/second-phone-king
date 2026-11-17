@@ -6121,5 +6121,119 @@
     ],
     "publishedAt": "2026-11-16T09:18:09.572+08:00",
     "updatedAt": "2026-11-16T09:18:09.572+08:00"
+  },
+  {
+    "slug": "samsung-dakar-galaxy-s26-ultra-broadcast-used-phone-check",
+    "title": "Galaxy S26 Ultra 走進賽事轉播：二手手機拍攝仍要看散熱與電池",
+    "category": "手機攝影",
+    "description": "Samsung 公布 Galaxy S26 Ultra 與 Z Flip7 Olympic Edition 在達卡青年奧運的拍攝應用；整理專業場景與一般二手機驗機不能混為一談的重點。",
+    "sections": [
+      {
+        "heading": "Galaxy 手機被帶進頒獎與賽事拍攝流程",
+        "paragraphs": [
+          "Samsung 全球新聞中心於 11 月 16 日說明，達卡 2026 青年奧運首次導入 Victory Selfie，選手使用 Galaxy Z Flip7 Olympic Edition 在頒獎台自拍；Galaxy S26 Ultra 則被整合到滑板與跆拳道轉播，與傳統攝影機共同取得不同視角。",
+          "官方也表示，滑板、體操與田徑畫面曾以 Galaxy S26 Ultra 拍成直式社群影片並透過國際奧會頻道分享。這是特定活動、設備配置與製作團隊下的應用案例，不等於一般使用者拿到同款手機就會自動得到相同成品。"
+        ]
+      },
+      {
+        "heading": "活動案例不能取代獨立畫質與耐用度測試",
+        "paragraphs": [
+          "Samsung 的文章沒有提供本站可重現的畫質比較、長時間錄影溫度、電池消耗或防手震測試數據，因此不能把賽事採用直接解讀為相機排名或耐用度證明。編輯分析：專業轉播還涉及固定架、網路、燈光、收音、後製與操作人員，手機只是整套流程的一部分。",
+          "若購買二手 S26 Ultra 或其他主打錄影的手機，應要求賣方在實機上錄製不同鏡頭與解析度，檢查對焦、鏡頭切換、收音、畫面抖動與檔案是否能正常儲存；外觀相同也不代表鏡片、感光元件或穩定模組沒有受損。"
+        ]
+      },
+      {
+        "heading": "長時間錄影要把熱、電與容量一起驗",
+        "paragraphs": [
+          "交機時可連續錄影一段時間，觀察機身是否異常發熱、App 是否中止、亮度是否快速降低及電量變化，再檢查充電、USB 傳輸、Wi-Fi、行動網路與剩餘儲存空間。也要核對序號、系統版本、維修紀錄、保固與帳號是否完全移除。",
+          "Olympic Edition 或活動限定裝置還可能涉及一般通路沒有的外觀、軟體與供貨條件，不能把活動照片當成台灣零售資訊。本文是官方案例整理與二手驗機建議，未對 Galaxy S26 Ultra、Z Flip7 或個別二手機進行實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/inside-dakar-2026-how-galaxy-innovation-shaped-the-athlete-experience",
+        "date": "2026-11-16"
+      }
+    ],
+    "publishedAt": "2026-11-17T09:37:03.991+08:00",
+    "updatedAt": "2026-11-17T09:37:03.991+08:00"
+  },
+  {
+    "slug": "apple-health-ai-study-iphone-data-privacy-check",
+    "title": "Apple 啟動健康 AI 研究：iPhone 分享 HealthKit 前先看資格與隱私",
+    "category": "健康科技",
+    "description": "Apple 在美國啟動健康 AI 使用研究，允許合資格參與者自行選擇是否分享部分 HealthKit 資料；整理地區、裝置、用途與隱私限制。",
+    "sections": [
+      {
+        "heading": "研究聚焦信任、理解與日常健康行動",
+        "paragraphs": [
+          "Apple 於 11 月 15 日宣布在美國啟動 Apple Health AI Usage Study，與 OpenEvidence 合作研究使用者如何理解及評估對話式健康 AI。參與者可在研究 App 詢問日常健康問題、閱讀連結至同儕審查資料的說明，研究也會觀察 AI 是否有助於準備就醫討論。",
+          "官方明確指出，研究 App 不是用來診斷或治療疾病，也不能取代醫療專業建議。Apple 同時承認以大型語言模型驅動的消費型健康工具可能出現不完整或不清楚的回答，因此研究結果不能預先當成健康 AI 已通過臨床效果驗證。"
+        ]
+      },
+      {
+        "heading": "僅限美國合資格參與者，並非全球新功能",
+        "paragraphs": [
+          "這項研究預計最多招募 20 萬名美國、年滿 21 歲的合資格參與者，裝置條件為支援 Apple Intelligence 的 iPhone，也就是 iPhone 15 Pro 或更新機型，並需執行 iOS 26 或更新版本。台灣使用者不能由這篇公告推定研究 App 或相同健康 AI 功能已在本地開放。",
+          "編輯分析：選購二手 iPhone 時，若在意 Apple Intelligence 或健康研究功能，應核對完整機型、地區帳號、系統版本與官方可用範圍。符合硬體門檻只代表可能具備參與資格之一，不代表所有國家、語言、年齡與帳號都能使用。"
+        ]
+      },
+      {
+        "heading": "分享 HealthKit 前先分清資料範圍與目的",
+        "paragraphs": [
+          "參與者可自行選擇是否分享靜止心率、活動、睡眠或檢驗結果等 HealthKit 資料，也可選擇是否分享問卷回答。Apple 表示研究資料不會用來訓練 AI 模型，並設有隱私、安全與臨床防護措施；實際同意內容仍應以加入研究時顯示的條款為準。",
+          "編輯建議在任何健康 App 中都先檢查資料存取權限、保留期間、刪除方式與分享對象，不因品牌或 AI 標籤就一次開放全部資料。出售二手 iPhone 前，還應確認健康資料已完成所需備份、登出 Apple 帳號、解除尋找功能並清除裝置；本文不提供醫療判斷。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+        "date": "2026-11-15"
+      }
+    ],
+    "publishedAt": "2026-11-17T09:37:03.991+08:00",
+    "updatedAt": "2026-11-17T09:37:03.991+08:00"
+  },
+  {
+    "slug": "amd-lux-ai-supercomputer-consumer-pc-spec-check",
+    "title": "AMD Lux AI 超級電腦開放研究：買 AI PC 別直接套用資料中心規格",
+    "category": "AI 硬體",
+    "description": "AMD 公布 Lux 超級電腦開放科學研究使用，系統結合 EPYC、Instinct、Pensando 與 ROCm；說明資料中心架構與消費型 AI PC 的差異。",
+    "sections": [
+      {
+        "heading": "Lux 結合 CPU、GPU、網路與軟體堆疊",
+        "paragraphs": [
+          "AMD 於 11 月 16 日宣布，位於美國橡樹嶺國家實驗室的 Lux SI + HPC 超級電腦已向科學研究使用者開放。系統由 HPE 建置，整合 AMD EPYC 處理器、Instinct MI355X GPU、Pensando 網路與 ROCm 軟體，服務美國能源部 Genesis Mission 的 AI、模擬與高效能運算工作。",
+          "官方列出的計畫包括核融合電廠設計、材料與製造研究，以及地球系統預測；Lux 在公告當日的 TOP500 排名為第 14。這些資訊描述的是大型研究基礎設施，不是單張顯示卡、桌上型電腦或筆電的零售性能排行。"
+        ]
+      },
+      {
+        "heading": "資料中心型號不能拿來推定家用 AI PC 表現",
+        "paragraphs": [
+          "Instinct MI355X、EPYC 與高速網路是在伺服器機櫃、專業散熱、供電和軟體環境中協同工作，和家用 Radeon、Ryzen AI 或一般 NPU 的用途、功耗與支援軟體不同。編輯分析：看見同一品牌名稱或 AI 標籤，不代表消費型裝置能執行相同模型規模與研究工作。",
+          "挑選 AI PC 或二手工作站時，應先確認自己的軟體支援 CPU、GPU、NPU 還是哪一種加速器，再核對顯示記憶體、系統記憶體、儲存空間、驅動與框架版本。官方超級電腦案例不能取代特定應用在候選機器上的實際測試。"
+        ]
+      },
+      {
+        "heading": "二手工作站更要檢查供電、散熱與軟體相容",
+        "paragraphs": [
+          "二手工作站或高階顯示卡應核對完整料號、BIOS、顯示記憶體容量、電源供應器瓦數與接頭，並檢查風扇、散熱器、輸出埠和是否曾拆修。壓力測試要同時觀察溫度、時脈、驅動錯誤與系統穩定，不能只看開機後能辨識硬體。",
+          "若用途涉及 ROCm 或其他專業框架，還要在購買前查官方支援清單、作業系統與特定軟體版本，避免硬體規格足夠但工具無法使用。本文沒有進行 Lux、MI355X、消費型 AI PC 或二手工作站的效能與耗電實測。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "AMD Newsroom",
+        "url": "https://newsroom.amd.com/news/amd-powered-lux-supercomputer-opens-scientific-users/",
+        "date": "2026-11-16"
+      }
+    ],
+    "publishedAt": "2026-11-17T09:37:03.991+08:00",
+    "updatedAt": "2026-11-17T09:37:03.991+08:00"
   }
 ]
