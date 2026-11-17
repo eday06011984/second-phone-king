@@ -4,7 +4,7 @@ import {jsonld} from "@/lib/market";
 export const metadata={title:"二手機推薦怎麼選？價格比較、驗機與店家挑選",description:"二手機推薦先依預算、作業系統與用途縮小範圍，再從容量、電池、維修紀錄到保固逐項比較。二手機王整理中古手機購買流程、店家資訊與驗機指南。",alternates:{canonical:"/used-phones"}};
 const questions=[
 ["二手機是什麼？","二手機是曾經使用、展示或轉售的手機；即使型號相同，每一支的外觀、電池、維修紀錄、配件與售後條件都可能不同。選購時先固定完整型號與容量，再逐支核對實機、帳號解除、功能、電池、維修紀錄、書面保固及總費用，不能只看成色等級或單一價格。", "/guides/used-phone-checklist", "了解二手機與驗機重點"],
-["二手機推薦怎麼選？","先訂出包含已確認電池、配件或維修支出的總預算，再依 iOS 或 Android，以及通訊社群、拍照、遊戲、追劇、工作或備用機等主要用途縮小型號和容量。候選機型仍要逐支比較實際機況、電池、維修紀錄、更新支援與書面保固；沒有一款手機適合所有人。", "/guides/compare-used-phone-prices", "建立同條件比較表"],
+["二手機推薦怎麼選？","先訂出包含已確認電池、配件或維修支出的總預算，再依 iOS 或 Android，以及通訊社群、拍照、遊戲、追劇、工作或備用機等主要用途縮小型號和容量。熱門、保值或 CP 值標籤不能代替實機核對；候選機型仍要逐支比較實際機況、電池、維修紀錄、更新支援、書面保固與查詢日期，沒有一款手機適合所有人。", "/guides/compare-used-phone-prices", "建立同條件比較表"],
 ["二手機怎麼選？","先列出必要功能與可放棄項目，再決定總預算、作業系統、主要用途和容量。比較時固定完整型號、容量、版本與查詢日期，用同一張表逐支核對外觀、螢幕、電池、充電、相機、通話與收音、連線、按鍵、維修紀錄及書面保固；缺少的欄位標示待確認。交機前核對序號或 IMEI，確認前機主已解除 iCloud 或 Google 帳號且手機可正常重置；價格外也要預留已確認需要的電池、配件或維修支出。", "/guides/used-phone-checklist", "開啟二手機挑選與驗機清單"],
 ["買二手機有哪些注意事項？","付款前先核對實際交易對象、型號、容量、實拍、序號或 IMEI 與總費用，並保存商品頁、對話、付款或收據紀錄。請賣方解除 iCloud、Google 帳號及裝置管理並確認可正常重置；現場逐項測試螢幕與觸控、相機、通話與收音、Wi-Fi、藍牙、行動網路、充電、按鍵及生物辨識。再問清楚電池、維修或零件更換、泡水、退換與書面保固；未提供的資訊要列為待確認。", "/guides/used-phone-checklist", "開啟購買注意事項與驗機清單"],
 ["二手機購買前要問賣家什麼","先問清楚型號、容量、顏色、實拍、手機來源與購買證明；遠距聯絡先核對必要的序號或 IMEI 後幾碼，完整識別碼留到面交或交機時核對，避免公開傳送。再逐項確認電池、摔落或進水、維修與零件更換、各項功能、帳號或裝置管理限制、配件及實際總價。付款前另問能否完整驗機與重設啟用、書面保固與退換方式；沒有提供的資料標示待確認，口頭說明請留在可保存的商品或交易紀錄。", "/guides/used-phone-checklist", "查看提問與驗機清單"],
@@ -24,7 +24,7 @@ const questions=[
 ["如何找可以現場驗機的二手機店","先從店家頁的所在地、地址與聯絡方式建立候選名單；出發前逐家確認指定型號與容量是否仍有當日庫存、是否需預約、付款前可測哪些功能，以及能否自備 SIM 卡和充電設備。到店後核對實機與刊登照片、序號或 IMEI、機況、維修說明及書面保固；先約定驗機在付款前完成，並把已測、未測與發現的異常留在可保存的交機紀錄。地址與店家頁只代表聯絡線索，不等於商品在店或店家已同意完整驗機。", "/stores", "查看店家地址與聯絡方式"],
 ["通訊行可以免費刊登二手機嗎？","二手機王目前提供初期免費刊登，店家可建立專頁、管理商品，每件商品最多放六張照片；平台不代收款，商品交易由店家與買家自行確認。這裡的免費是指目前的刊登費，不能延伸解讀成其他平台或所有交易環節都零費用。比較刊登管道時，請分開核對刊登費、成交或金流費、提領、運送與加值曝光等項目，並以各平台當日書面規則為準。未來收費方案與時間尚未訂定，調整前會公告並由店家選擇。", "/join", "了解免費刊登方案"]
 ];
-export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 11 月 16 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
+export default function Page(){return <article className="content article"><a className="crumb" href="/">首頁 ／ 二手機選購</a><h1>二手機怎麼買？從價格到保固，一次看懂。</h1><p>二手機是曾經使用或轉售的手機，外觀、電池與維修經歷可能各不相同。挑選時，把實際機況與售後條件一起比較，才能知道哪一支符合你的需要。</p><p className="muted">二手機王編輯整理・AI 輔助撰寫｜內容更新：2026 年 11 月 17 日</p><div className="panel"><h2>先選商品，再確認機況</h2><p>在二手機王查看店家自行刊登的中古手機，依你的需求比較，並直接聯絡賣家。平台提供資訊媒合，不代收款；店家資料與商品說明不等於平台認證。</p><a className="btn" href="/market">找二手機</a>　<a className="btn light" href="/brands/Apple">找二手 iPhone</a></div>
 <section aria-labelledby="used-phone-start"><h2 id="used-phone-start">找二手機，先回答四個問題</h2><p>先確認是要購買、找實體店家，還是了解售價與收購價差異；接著列出預算、偏好的 iOS／Android 與主要用途，最後決定是否需要現場驗機。想直接看店家刊登可前往<a href="/market">二手機商品</a>，需要當面看機則先查<a href="/stores">店家地址與聯絡方式</a>；商品是否仍在店及可測項目，都要在出發前向店家確認。</p></section>
 <section aria-labelledby="buying-channels">
 <h2 id="buying-channels">中古手機哪裡買？先比較購買管道</h2>
@@ -38,6 +38,7 @@ export default function Page(){return <article className="content article"><a cl
 <a className="news-read" href="/guides/store-vs-private-seller">比較實體店、網路店家與個人賣家 →</a>
 </section>
 {questions.map(([q,a,url,label])=><section key={q}><h2>{q}</h2><p>{a}</p><a className="news-read" href={url}>{label} →</a></section>)}<h2>購買前可以直接問店家的問題</h2><p>「這支手機還在嗎？照片是否為實機？有沒有換過螢幕或電池？可以現場啟用和測試嗎？保固多久、包含哪些項目？總共需要支付多少？」將回答與商品頁一併保留，交機時逐項核對。</p><h2>資料來源與編輯原則</h2><p>iPhone 檢查事項參考 <a href="https://support.apple.com/zh-tw/104999" rel="noopener noreferrer" target="_blank">Apple：如果你想購買二手 iPhone</a>。價格比較及交易確認流程為本站編輯整理，不是實機評測或店家排名。商品個別資訊以刊登內容及賣家最新確認為準。</p><a href="/about">了解平台與編輯原則</a><script type="application/ld+json" dangerouslySetInnerHTML={{__html:jsonld({"@context":"https://schema.org","@graph":[{"@type":"FAQPage","@id":origin+"/used-phones#faq",url:origin+"/used-phones",mainEntity:questions.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))},{"@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"首頁",item:origin+"/"},{"@type":"ListItem",position:2,name:"二手機選購",item:origin+"/used-phones"}]}]})}}/></article>}
+
 
 
 
