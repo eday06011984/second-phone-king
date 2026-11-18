@@ -6235,5 +6235,119 @@
     ],
     "publishedAt": "2026-11-17T09:37:03.991+08:00",
     "updatedAt": "2026-11-17T09:37:03.991+08:00"
+  },
+  {
+    "slug": "xiaomi-18-pro-launch-used-phone-spec-check",
+    "title": "Xiaomi 18 Pro 正式亮相：背面螢幕與雙 2 億畫素，二手估價先看版本",
+    "category": "手機新品",
+    "description": "Xiaomi 18 Pro 公布全球版規格，主打背面螢幕、雙 2 億畫素相機與 6000mAh 電池；未來選購二手機仍要核對地區版本、功能與保固。",
+    "sections": [
+      {
+        "heading": "全球版規格從預熱進入正式公開",
+        "paragraphs": [
+          "Xiaomi 於 11 月 17 日發表 Xiaomi 18 Pro。全球產品頁列出 6.4 吋主螢幕、可顯示通知與取景畫面的背面螢幕、Snapdragon 8 Elite Gen 6，以及 6000mAh 典型容量電池；相機配置包括 2 億畫素主相機、2 億畫素 3.2 倍潛望式望遠與 5000 萬畫素超廣角。這些是官方標示規格，不代表本站實測結果。",
+          "官方另列出 90W 有線、50W 無線充電、IP68、Wi-Fi 7 與一顆可自訂的 AI 按鍵。部分 AI 功能、離線通訊與服務會受到地區、語言、系統版本或電信環境限制，實際販售型號與上市時間也應以當地公告為準。"
+        ]
+      },
+      {
+        "heading": "背面螢幕與高畫素不能只看型錄",
+        "paragraphs": [
+          "購買新機或日後選購二手 Xiaomi 18 Pro 時，可先確認背面螢幕能否正常顯示通知、即時活動與相機預覽，再逐一測試觸控、亮度及鏡頭切換。高畫素是輸出規格之一，成像還會受到感光元件、鏡頭、演算法與拍攝環境影響，不能單憑數字推定畫質。",
+          "充電速度同樣需要相容的充電器、線材與環境條件。驗機時應觀察充電是否穩定、機身是否異常發熱，並檢查 USB 連接埠、無線充電及電池狀態；不要把官方最高值直接當成每台二手機都能達到的實測表現。"
+        ]
+      },
+      {
+        "heading": "二手價值要把區域版本與維修條件算進去",
+        "paragraphs": [
+          "編輯分析：這一代新增背面螢幕、AI 按鍵與多項地區限定功能，二手交易時更需要核對完整型號、原始購買地、通訊頻段、系統語言、Google 服務與更新狀態。賣家若以國際保固或贈送服務加價，也應提供發票、IMEI、啟用日期與適用條款。",
+          "交機前還要確認 Xiaomi 帳號與 Google 帳號已解除，並測試主副螢幕、三顆後鏡頭、指紋、喇叭、麥克風、NFC、Wi-Fi、藍牙及行動網路。外觀無明顯刮痕不等於功能完整，保固是否能轉移也不能只憑口頭說明。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xiaomi Global",
+        "url": "https://www.mi.com/global/product/xiaomi-18-pro/",
+        "date": "2026-11-17"
+      }
+    ],
+    "publishedAt": "2026-11-18T09:48:58.348+08:00",
+    "updatedAt": "2026-11-18T09:48:58.348+08:00"
+  },
+  {
+    "slug": "windows-11-ignite-2026-security-local-ai-used-pc-check",
+    "title": "Windows 11 強化安全與本機 AI：買二手 PC 先查硬體與更新資格",
+    "category": "系統更新",
+    "description": "Microsoft 在 Ignite 2026 公布 Windows 11 端點安全、管理員保護與 Copilot+ PC 本機功能方向；二手電腦買家應區分已上線、預覽及即將推出的功能。",
+    "sections": [
+      {
+        "heading": "已正式推出、預覽與即將推出要分清楚",
+        "paragraphs": [
+          "Microsoft 於 11 月 17 日表示，Windows 端點安全平台與 Windows 管理員保護已進入正式提供階段；Windows baseline protection 則仍在 Windows Insider 預覽。管理員保護讓本機管理員預設以標準權限執行，必要時再以 Windows Hello 核准單一工作。",
+          "Microsoft 也預告 Copilot+ PC 將加入本機內容、本機動作與本機模型等能力，例如用自然語言整理檔案或執行唯讀的電腦診斷。官方使用「即將推出」描述這些功能，因此目前不能把它們視為每台 Copilot+ PC 都已具備的現成功能。"
+        ]
+      },
+      {
+        "heading": "同樣是 Windows 11，硬體能力與管理狀態仍不同",
+        "paragraphs": [
+          "挑選二手 Windows 電腦時，先在系統資訊核對處理器、記憶體、儲存裝置與 Windows 版本，再確認 Windows Update、TPM、安全開機及 Windows Hello 是否正常。標示「可升級 Windows 11」不代表支援所有 Copilot+ PC 或本機 AI 功能。",
+          "企業淘汰機還要留意裝置是否仍受公司管理。可檢查「存取公司或學校」是否有舊組織帳號、系統重設後能否正常啟用，以及 BIOS 是否設有未知密碼；若出現 Autopilot 或管理註冊畫面，應請賣家先解除，而不是自行嘗試繞過。"
+        ]
+      },
+      {
+        "heading": "新功能不會取代基本驗機",
+        "paragraphs": [
+          "編輯分析：Windows 新增安全與 AI 功能，會讓較新處理器、NPU 與完整韌體支援更有價值，但二手價格仍應建立在實際機況與可用功能上。預覽功能可能調整，企業功能也可能需要授權或管理服務，不能僅憑宣傳名稱加價。",
+          "交易前可進行電池健康、SSD 健康、鍵盤、觸控板、螢幕、相機、麥克風、USB、影像輸出、Wi-Fi、藍牙與長時間負載測試，並要求說明維修紀錄與保固。系統安全功能正常啟用，是驗機項目之一，不是硬體健康的替代證明。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Windows Experience Blog",
+        "url": "https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/",
+        "date": "2026-11-17"
+      }
+    ],
+    "publishedAt": "2026-11-18T09:48:58.348+08:00",
+    "updatedAt": "2026-11-18T09:48:58.348+08:00"
+  },
+  {
+    "slug": "rog-harpe-ii-ace-mini-esports-mouse-buying-check",
+    "title": "ROG Harpe II Ace Mini 滑鼠亮相：47 克與 8K 回報率怎麼看？",
+    "category": "3C 配件",
+    "description": "ROG 發表 47 克 Harpe II Ace Mini 電競滑鼠，主打 8K 無線回報率與 65K 感測器；選購新舊滑鼠仍要看握感、連線與按鍵狀態。",
+    "sections": [
+      {
+        "heading": "新滑鼠主打輕量與高回報率",
+        "paragraphs": [
+          "ASUS ROG 於 11 月 16 日公布 Harpe II Ace Mini 與 Demon1 特別版。官方資料顯示，滑鼠採 47 克、緊湊半對稱設計，搭載 SpeedNova 8K Gen II 無線技術與 AimPoint Pro 65K 光學感測器，最高支援 8000Hz 無線回報率。",
+          "官方也列出 11 段抬升距離設定、光學微動與瀏覽器版 Gear Link 設定工具。Demon1 特別版使用漸層紫色與簽名外觀，核心硬體則與標準版相同；產品頁未提供台灣售價與開賣日，購買資訊仍應以台灣官方或授權通路為準。"
+        ]
+      },
+      {
+        "heading": "8K 數字不等於每個人都有同樣提升",
+        "paragraphs": [
+          "高回報率代表滑鼠更頻繁回報位置，但實際感受還會受遊戲、CPU 負載、螢幕更新率、無線環境及設定影響。購買前可先確認電腦與遊戲是否適合使用 8K，並保留降低回報率的彈性，避免只追求最高數字。",
+          "重量與尺寸也必須和手型、握法及使用時間一起評估。47 克與半對稱外形可能適合部分抓握或指握玩家，卻不能保證所有人舒適；有條件時應實際試握，觀察側鍵位置、重心與抬鼠動作。"
+        ]
+      },
+      {
+        "heading": "二手電競滑鼠要測按鍵與無線接收器",
+        "paragraphs": [
+          "編輯分析：二手滑鼠的價值不只取決於感測器規格。驗收時應測試左右鍵是否連點或回彈異常、滾輪是否跳格、側鍵是否正常，以及感測器在不同移動速度下有無斷訊或游標異常；腳貼與外殼磨損也會影響手感。",
+          "無線款還要確認原廠接收器、延長座、充電線與收納配件是否齊全，並分別測試有線與無線模式。若是特別版，外觀與附件可能影響收藏價，但不應取代基本功能、電池續航、保固與購買證明的查核。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/rog-harpe-ii-ace-mini-demon1-edition-esports-mouse/",
+        "date": "2026-11-16"
+      }
+    ],
+    "publishedAt": "2026-11-18T09:48:58.348+08:00",
+    "updatedAt": "2026-11-18T09:48:58.348+08:00"
   }
 ]
