@@ -6349,5 +6349,119 @@
     ],
     "publishedAt": "2026-11-18T09:48:58.348+08:00",
     "updatedAt": "2026-11-18T09:48:58.348+08:00"
+  },
+  {
+    "slug": "samsung-one-ui-9-5-beta-used-galaxy-update-check",
+    "title": "One UI 9.5 Beta 開放測試：買二手 Galaxy 先查機型、地區與版本",
+    "category": "手機軟體",
+    "description": "Samsung 啟動 One UI 9.5 Beta，新增相機、健康、無障礙與 App Lock 功能；目前僅限部分市場的 Galaxy S26 系列，二手機買家應先核對資格。",
+    "sections": [
+      {
+        "heading": "測試版先在部分 Galaxy S26 市場開放",
+        "paragraphs": [
+          "Samsung 於 11 月 18 日宣布 One UI 9.5 Beta Program，首波開放德國、印度、韓國、波蘭、英國與美國的 Galaxy S26 系列使用者，符合資格者可透過 Samsung Members 申請。台灣不在公告列出的首波市場，正式版時程與其他機型支援名單仍要等各地官方後續資訊。",
+          "One UI 9.5 Beta 更新重點包括 Pro 與 Pro Video 模式的自訂控制和預設、相機縮放列、Samsung Health 的 Mindful Note 與 Medications、浮動快捷控制、助聽器音量控制，以及可用生物辨識或螢幕鎖保護單一 App 的 App Lock。這些是測試版功能，不代表所有 Galaxy 都會同時取得。"
+        ]
+      },
+      {
+        "heading": "Beta 功能與正式支援不能混為一談",
+        "paragraphs": [
+          "官方註明，強化的 Pro 與 Pro Video 功能只適用支援相關模式的機型，Pro Lite 與 Pro Video Lite 不在適用範圍；Medications 也可能因市場而異，且不能取代醫療建議。選購二手 Galaxy 時，不應只看到 One UI 9.5 名稱，就推定所有新功能都能使用。",
+          "若賣家已安裝 Beta，交機前可先備份重要資料，確認系統版本、安全性更新與 Samsung Members 狀態，並檢查常用 App、行動支付、相機、通話及藍牙配件是否正常。測試版可能出現相容性或穩定性問題，應先了解退出或回復正式版是否需要清除資料。"
+        ]
+      },
+      {
+        "heading": "二手 Galaxy 估價仍應以實際機況為主",
+        "paragraphs": [
+          "編輯分析：軟體測試資格不宜直接增加二手機價格。真正影響使用價值的，是完整型號、銷售地區、剩餘更新年限、儲存容量、電池狀況、螢幕與相機機況，以及帳號是否完整解除；Beta 新功能只能作為短期體驗參考。",
+          "驗機時可在「關於手機」與「軟體資訊」核對型號及版本，確認 Google 與 Samsung 帳號已移除，再測試指紋、相機各焦段、喇叭、麥克風、USB、Wi-Fi、藍牙、NFC 與行動網路。正式更新時間仍應以台灣 Samsung 公告為準。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-begins-one-ui-9-5-beta-program",
+        "date": "2026-11-18"
+      }
+    ],
+    "publishedAt": "2026-11-19T09:50:33.665+08:00",
+    "updatedAt": "2026-11-19T09:50:33.665+08:00"
+  },
+  {
+    "slug": "gemini-android-go-low-memory-phone-buying-check",
+    "title": "Gemini 下放低記憶體 Android 手機：入門二手機先確認相容資格",
+    "category": "AI 與手機",
+    "description": "Google 將 Gemini App 帶到符合資格的 Android（Go edition）裝置；入門二手機是否可用，仍取決於實際機型、系統、記憶體與服務地區。",
+    "sections": [
+      {
+        "heading": "Google 重構 App，支援部分 Android Go 裝置",
+        "paragraphs": [
+          "Google 於 11 月 18 日宣布，Gemini App 開始提供給符合資格的 Android（Go edition）裝置。官方表示，App 經重新設計後可在較少記憶體的硬體上執行核心 Gemini 體驗，目標是讓更多入門手機使用者取得 AI 助理功能。",
+          "公告列出的使用方式包括以 Gemini Live 在超過 45 種語言中進行語音對話、透過相機協助理解或翻譯筆記與表單，以及建立自訂圖片。使用者可從 Google Play 下載、在支援的手機長按電源鍵啟動，部分未來合作機型也會預載。"
+        ]
+      },
+      {
+        "heading": "低記憶體可安裝，不代表每台舊手機都相同",
+        "paragraphs": [
+          "Google 使用「符合資格」描述支援範圍，並未表示所有 Android Go 或舊款 Android 手機都能安裝。購買入門二手機前，應查看 Google Play 實際相容性、Android 與安全更新版本、可用儲存空間、記憶體容量、語言與地區支援，而不是只看賣場標示「支援 AI」。",
+          "Gemini 的相機、語音、圖片生成與網路服務也會涉及權限、連線與帳號。驗機時可測試登入、麥克風、相機、網路及 App 切換是否正常，並查看背景程式是否頻繁被系統關閉；本文沒有對特定入門手機進行效能或耗電測試。"
+        ]
+      },
+      {
+        "heading": "入門二手機更要重視基本流暢度與更新",
+        "paragraphs": [
+          "編輯分析：Gemini 擴大支援能增加低價 Android 手機的用途，但不應掩蓋硬體老化與更新期限。對日常使用者而言，通訊軟體、瀏覽器、地圖、支付與相機能否穩定運作，通常比單一 AI 功能更重要。",
+          "交機前可確認電池狀況、觸控、充電、SIM、Wi-Fi、藍牙、GPS、喇叭與麥克風，並檢查 Google 帳號及裝置鎖是否解除。若 App 商店顯示不相容、系統已停止安全更新或可用空間過少，不宜因 Gemini 宣布擴大支援就推定之後一定可用。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+        "date": "2026-11-18"
+      }
+    ],
+    "publishedAt": "2026-11-19T09:50:33.665+08:00",
+    "updatedAt": "2026-11-19T09:50:33.665+08:00"
+  },
+  {
+    "slug": "gta-vi-ps5-launch-used-console-storage-account-check",
+    "title": "《GTA VI》11 月 19 日登上 PS5：買二手主機先查容量與帳號",
+    "category": "遊戲主機",
+    "description": "PlayStation Blog 確認《Grand Theft Auto VI》於 11 月 19 日登上 PS5；準備購買二手主機的玩家，應先核對型號、儲存空間與數位授權。",
+    "sections": [
+      {
+        "heading": "《GTA VI》確認於 11 月 19 日推出 PS5 版",
+        "paragraphs": [
+          "PlayStation Blog 於 11 月 18 日確認，《Grand Theft Auto VI》在 11 月 19 日登上 PlayStation 5，並可透過 PlayStation Store 購買。官方介紹本作舞台為 Leonida 州與 Vice City，主角 Jason 和 Lucia 將捲入橫跨該州的犯罪事件。",
+          "這則公告明確列出的是 PS5 版本，不能據此推定 PS4 或其他平台版本同日提供。玩家購買遊戲或主機前，仍應查看台灣 PlayStation Store 的實際版本、分級、售價、語言、下載內容與帳號地區條件。"
+        ]
+      },
+      {
+        "heading": "為大型遊戲換主機，先盤點儲存與網路",
+        "paragraphs": [
+          "準備用二手 PS5 遊玩時，可先在系統儲存空間查看剩餘容量，並保留遊戲安裝、更新與存檔所需空間。若主機已加裝 M.2 SSD，應核對容量、健康狀況、安裝方式與是否符合 PlayStation 規格，不要只接受賣家口頭標示。",
+          "數位版遊戲授權會綁定購買者的 PlayStation 帳號，不能把賣家的帳號或已安裝遊戲當成主機永久附帶內容。交易前應確認前任帳號已登出，主機可以正常連線、登入自己的帳號並開啟 PlayStation Store。"
+        ]
+      },
+      {
+        "heading": "二手 PS5 驗收不只看能否進遊戲",
+        "paragraphs": [
+          "編輯分析：熱門新作可能提高二手 PS5 的短期需求，但不代表任何機況都值得加價。估價仍要看完整型號、光碟機配置、儲存容量、外觀、噪音、散熱、維修紀錄、控制器狀態及剩餘保固。",
+          "現場可測試 HDMI 輸出、網路、USB、休眠喚醒、手把連線與一段時間的遊戲負載；有光碟機的型號還要測試讀片與退出。若主機出現異常關機、過熱警告、嚴重風扇聲或帳號限制，應先由賣家處理，不要只因新遊戲上市就省略驗機。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "PlayStation Blog",
+        "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+        "date": "2026-11-18"
+      }
+    ],
+    "publishedAt": "2026-11-19T09:50:33.665+08:00",
+    "updatedAt": "2026-11-19T09:50:33.665+08:00"
   }
 ]
