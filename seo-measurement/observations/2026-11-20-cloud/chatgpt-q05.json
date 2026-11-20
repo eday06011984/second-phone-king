@@ -1,0 +1,32 @@
+{
+  "question_id": "q05",
+  "prompt": "二手機比價",
+  "source": "direct_platform",
+  "captured_at": "2026-11-20T08:57:26+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；正文使用台灣情境不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依可見正文保存段落、選項與按鈕文字；合併排版空白。",
+  "platform": "chatgpt",
+  "mode": "ChatGPT logged out; Web search selected before submit but shown unselected after response; exact model not displayed",
+  "observation_status": "mode_and_context_unverified",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": null,
+  "exclusion_reason": "回覆完成後 Web search 顯示未選取，不能確認本次回覆實際使用網路搜尋；頁面也未顯示可核對的台灣地區。",
+  "full_response": "可以！我可以幫你比較台灣各通路的二手機價格、規格、電池健康度、保固及 CP 值，找出最划算的選擇。\n\n先告訴我你想買哪一類，我就能幫你整理價格。\n\n1. 想買哪個品牌？\n不限品牌\nApple iPhone\nSamsung 三星\nGoogle Pixel\nOPPO / vivo / 小米\n\n2. 預算多少？\nNT$ 3,000 以下\nNT$ 3,000～5,000\nNT$ 5,000～10,000\nNT$ 10,000～15,000\nNT$ 15,000～20,000\nNT$ 20,000 以上\n\n3. 想買哪種？\n一般二手機\n福利機／整新機\n都可以，便宜優先\n\n4. 指定型號（選填）\n\n開始比價\n\n我會優先比較蝦皮、PChome、momo及二手機店家，幫你找出價格最低、保固較好的選擇。也可以優先找高雄可面交的店家。",
+  "recommended_sites_observed": [
+    {"site_id": "shopee", "name": "蝦皮", "is_target": false},
+    {"site_id": "pchome", "name": "PChome", "is_target": false},
+    {"site_id": "momo", "name": "momo", "is_target": false}
+  ],
+  "ranking_scope": "正文結尾只具名蝦皮、PChome 與 momo；『二手機店家』是通用類型，不建立網站名次。因模式與地區均未確認，此順序只作觀察。",
+  "notes": "從全新登出頁逐字提交一次；未操作互動式選項、追問、重做或重送。價格最低、保固、CP 值與高雄面交等敘述只按平台原文保存，未採用為本站事實。"
+}

@@ -906,17 +906,18 @@
           "id": "q05",
           "prompt": "二手機比價",
           "attempted": true,
-          "measured_dates": 1,
+          "measured_dates": 2,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
-            "not_present": 1,
+            "not_present": 2,
             "indeterminate": 0,
             "failed": 0
           },
           "single_top_three_count": 0,
           "selected_record_ids": [
-            "google_ai_overview-q05-2026-10-27T08-50-16+08-00"
+            "google_ai_overview-q05-2026-10-27T08-50-16+08-00",
+            "google_ai_overview-q05-2026-11-20T08-59-17+08-00"
           ],
           "stable": "unknown"
         },
@@ -4553,6 +4554,66 @@
       "target_rank": null,
       "top_three_sites": [],
       "single_top_three": null
+    },
+    {
+      "id": "google_ai_overview-q05-2026-11-20T08-59-17+08-00",
+      "question_id": "q05",
+      "platform": "google_ai_overview",
+      "prompt": "二手機比價",
+      "status": "not_present",
+      "measured_at": "2026-11-20T08:59:17+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "查詢二手手機價格與比價，可以透過以下幾個主流的資訊與比價平台，快速掌握市場行情：\n\n常用的二手機比價與行情管道\n\n• ePrice 比價王二手機報價：提供各大品牌（如 Apple、Samsung、Oppo、Vivo、Google Pixel 等）的二手與福利品參考價位。\n• BigGo 二手手機比價：全網一站式搜尋各大電商與拍賣平台上的二手手機價格與歷史走勢。\n• 飛比價格：即時比對全台網購與拍賣平台的二手手機與福利品價格。\n\n二手機比價與選購注意事項\n\n1. 固定相同條件：比價時務必先鎖定廠牌、型號、容量（如 128GB 與 256GB 需分開看），避免把規格差異誤判為價格便宜。\n2. 確認機況與附加成本：網路或平台上顯示的多半是刊登價或起價，實際交易需核對外觀新舊、電池健康度、保固期限以及是否包含原廠配件。\n3. 計算總預算：若買到價格較低但電池需更換、或是需要額外維修的二手機能量，隱藏維修費加進去可能反而更貴。\n\n如果你想找特定的二手手機，可以告訴我：\n• 你想找哪一個品牌與型號（例如 iPhone 15、Galaxy S24 等）？\n• 偏好的容量大小是多少？\n• 預算大約在多少元以內？"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "eprice",
+          "name": "ePrice 比價王",
+          "is_target": false
+        },
+        {
+          "site_id": "biggo",
+          "name": "BigGo",
+          "is_target": false
+        },
+        {
+          "site_id": "feebee",
+          "name": "飛比價格",
+          "is_target": false
+        }
+      ],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁顯示『台灣／西屯區 臺中市－根據你的 IP 位址』。全新登出頁逐字提交一次並展開 AI 摘要。只依摘要正文『常用的二手機比價與行情管道』首次出現順序計算；摘要下方來源卡片雖包含本站指南，但來源卡片、引用按鈕與一般搜尋結果均未用來補正文品牌提及、連結或名次。",
+      "date": "2026-11-20",
+      "target_rank": null,
+      "top_three_sites": [
+        {
+          "site_id": "eprice",
+          "name": "ePrice 比價王",
+          "is_target": false
+        },
+        {
+          "site_id": "biggo",
+          "name": "BigGo",
+          "is_target": false
+        },
+        {
+          "site_id": "feebee",
+          "name": "飛比價格",
+          "is_target": false
+        }
+      ],
+      "single_top_three": false
     }
   ]
 }
