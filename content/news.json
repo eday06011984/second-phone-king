@@ -6463,5 +6463,119 @@
     ],
     "publishedAt": "2026-11-19T09:50:33.665+08:00",
     "updatedAt": "2026-11-19T09:50:33.665+08:00"
+  },
+  {
+    "slug": "gemini-computer-use-mac-used-mac-compatibility-check",
+    "title": "Gemini 電腦操作登上 Mac：買二手 Mac 先查晶片、系統與地區資格",
+    "category": "AI 與電腦",
+    "description": "Google 在 Gemini Mac App 推出電腦操作功能，可於隔離視窗處理跨 App 任務；目前限特定晶片、系統、語言、地區與方案，二手 Mac 買家應逐項核對。",
+    "sections": [
+      {
+        "heading": "Gemini 可在背景視窗操作 Mac App 與網站",
+        "paragraphs": [
+          "Google 於 11 月 19 日宣布，Gemini App for Mac 新增 computer use 功能，可依使用者描述，在本機檔案、桌面 App 與網站之間執行多步驟工作，例如操作選單、輸入資料與填寫表單。功能運作在獨立的背景視窗，使用者可繼續操作主要桌面與游標。",
+          "官方表示，使用者可選擇 Gemini 能存取的 App、透過即時預覽查看過程、隨時暫停，並在重要動作前核准。這些控制設計有助於降低誤操作風險，但不代表所有工作都能免檢查完成；涉及帳號、付款、發布或刪除資料時，仍應逐步確認。"
+        ]
+      },
+      {
+        "heading": "目前支援資格有限，不能只看 Mac 名稱",
+        "paragraphs": [
+          "這項功能目前以英文在美國推出，要求 Apple silicon Mac 與 macOS Sequoia 15.0 以上，並限 18 歲以上的個人 Google 帳號及 Google AI Plus、Pro 或 Ultra 方案。台灣是否開放、中文支援與其他帳號類型時程，仍須等待 Google 後續公告。",
+          "購買二手 Mac 前，可在「關於這台 Mac」確認晶片與 macOS 版本，再查看 Gemini App 當下的地區、語言與訂閱條件。Intel Mac、無法升級至相容系統的舊機，或不符合帳號與方案資格的使用者，不能因看到功能名稱就推定可用。"
+        ]
+      },
+      {
+        "heading": "AI 功能不應取代基本機況驗收",
+        "paragraphs": [
+          "編輯分析：電腦操作功能可增加 Apple silicon Mac 的使用情境，但不等於二手價格必然上升。估價仍應以晶片、記憶體、儲存容量、電池循環與健康度、螢幕、鍵盤、連接埠、維修紀錄及啟用鎖狀態為主。",
+          "交機時應確認賣家已登出 Apple 帳號並關閉「尋找」，再測試充電、Wi-Fi、藍牙、相機、麥克風、喇叭與外接裝置。若要使用 Gemini 操作檔案與 App，還應先檢查權限範圍、備份重要資料，並避免讓自動操作接觸不必要的敏感資訊。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+        "date": "2026-11-19"
+      }
+    ],
+    "publishedAt": "2026-11-20T09:45:58.258+08:00",
+    "updatedAt": "2026-11-20T09:45:58.258+08:00"
+  },
+  {
+    "slug": "asus-agent-computer-local-ai-used-pc-upgrade-check",
+    "title": "ASUS 擴大本地 AI 電腦陣容：二手 PC 升級先查顯卡、供電與軟體需求",
+    "category": "電腦硬體",
+    "description": "ASUS 發表 Agent Computer 生態，涵蓋 DIY、電競、創作者與商用電腦；既有或二手 PC 能否執行本地 AI，仍須依實際工作負載核對硬體與軟體。",
+    "sections": [
+      {
+        "heading": "Agent Computer 涵蓋本地、雲端與混合部署",
+        "paragraphs": [
+          "ASUS 於 11 月 19 日公布 Agent Computer 計畫，讓使用者依工作需求選擇本地、雲端或混合方式執行 AI。官方列出的硬體範圍包含 DIY 電腦、筆電、迷你電腦、桌機、工作站與企業系統，並涵蓋 NVIDIA GeForce RTX、AMD Radeon AI GPU 及 Intel Arc Pro AI Accelerator 等平台。",
+          "軟體方面，ASUS 介紹 Zenni Claw、Multi-LM Tuner 與 DisplayWidget Center，分別用於消費裝置上的代理操作、部署最佳化的大型語言模型，以及連接顯示器與代理式 AI 工作流程。官方也表示部分現有 ASUS 裝置可作為 Agent Computer，但沒有宣稱所有舊機都符合相同用途。"
+        ]
+      },
+      {
+        "heading": "本地 AI 能不能跑，要回到工作負載核對",
+        "paragraphs": [
+          "本地 AI 對顯示卡、顯示記憶體或共享記憶體、系統記憶體、儲存空間與軟體環境的需求會因模型及任務而異。購買二手 PC 或升級零件前，應先確認準備使用的模型、應用程式與官方建議規格，不能只依「AI PC」或「可跑本地 AI」的賣場標示判斷。",
+          "若要加裝獨立顯示卡，還要核對主機板插槽、機殼空間、電源供應器額定功率與接頭、散熱及驅動支援。筆電與迷你電腦的 GPU、記憶體或儲存裝置可升級程度通常較受限制，交易前應先查清完整型號與實際配置。"
+        ]
+      },
+      {
+        "heading": "二手 AI 電腦估價仍以可驗證能力為準",
+        "paragraphs": [
+          "編輯分析：品牌擴大本地 AI 生態，代表硬體選擇增加，不代表舊設備都需要立刻更換。若需求只是文字摘要、雲端聊天或輕量工具，既有電腦可能已足夠；需要大型模型、影像生成或持續代理工作時，才更需要評估效能、耗電、噪音與總成本。",
+          "驗收二手桌機時可記錄 CPU、GPU、記憶體、SSD 與電源供應器的完整型號，檢查裝置管理員、儲存健康度、連接埠及一段時間的穩定負載。本文未對特定機型進行效能、溫度或耗電測試，實際相容性應以軟硬體供應商文件為準。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom",
+        "url": "https://press.asus.com/news/press-releases/asus-expands-local-ai-access-agent-computer-ecosystem/",
+        "date": "2026-11-19"
+      }
+    ],
+    "publishedAt": "2026-11-20T09:45:58.258+08:00",
+    "updatedAt": "2026-11-20T09:45:58.258+08:00"
+  },
+  {
+    "slug": "lenovo-q2-smartphone-growth-used-motorola-market-check",
+    "title": "Lenovo 手機業務創第二季新高：看二手 Motorola 市場別把營收當行情",
+    "category": "手機市場",
+    "description": "Lenovo 最新財報顯示智慧手機業務第二季營收創紀錄並呈雙位數成長；這是品牌層級訊號，不等於台灣二手機價格或單一機型需求上升。",
+    "sections": [
+      {
+        "heading": "智慧手機業務第二季營收創紀錄",
+        "paragraphs": [
+          "Lenovo 於 11 月 19 日公布 2026/27 會計年度第二季業績。智慧裝置事業群營收為 174 億美元、年增 15%；公司表示智慧手機業務創下歷來最高的第二季營收，並呈雙位數年增長。",
+          "同份公告顯示，Lenovo 整體季度營收為 302 億美元，AI 相關營收年增 79%，超過 100 億美元。這些數字涵蓋 Lenovo 的跨市場產品與業務，不能直接當成台灣 Motorola 單一機型的銷量、庫存或二手成交價格。"
+        ]
+      },
+      {
+        "heading": "品牌成長不等於每款二手機都保值",
+        "paragraphs": [
+          "手機業務成長可作為品牌供應與市場動能的參考，但二手價格仍會受到台灣上市狀況、通路庫存、容量、顏色、機況、維修與更新政策影響。官方財報沒有提供台灣二手市場成交資料，因此不宜據此宣稱 Motorola 手機全面漲價或更保值。",
+          "選購二手 Motorola 時，應確認完整型號與銷售地區，核對 5G 頻段、eSIM、雙卡、NFC、系統與安全更新狀態。不同市場的同名機型可能有規格差異，平行輸入機也可能影響保固、更新與維修零件供應。"
+        ]
+      },
+      {
+        "heading": "交易判斷仍要靠逐台可驗證資料",
+        "paragraphs": [
+          "編輯分析：財報能說明企業營運方向，不能取代二手市場的實際成交證據。買家與店家若要判斷行情，應持續記錄同型號、容量、外觀等級、電池狀況、保固與成交時間，再比較近期真實交易，而不是用公司營收推導單台價格。",
+          "現場驗機可測試螢幕與觸控、相機各焦段、通話、行動網路、Wi-Fi、藍牙、GPS、NFC、USB 與指紋辨識，並確認 Google 帳號及裝置保護已解除。若賣家以品牌營收成長作為加價理由，仍應要求提出同型號、同條件的近期可核對資料。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Lenovo StoryHub",
+        "url": "https://news.lenovo.com/pressroom/press-releases/q2-fy-2026-27/",
+        "date": "2026-11-19"
+      }
+    ],
+    "publishedAt": "2026-11-20T09:45:58.258+08:00",
+    "updatedAt": "2026-11-20T09:45:58.258+08:00"
   }
 ]
