@@ -2605,6 +2605,30 @@
         }
       ],
       "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁顯示『台灣／西屯區 臺中市－根據你的 IP 位址』。全新登出頁逐字提交一次並展開 AI 摘要。只依摘要正文『常用的二手機比價與行情管道』首次出現順序計算；摘要下方來源卡片雖包含本站指南，但來源卡片、引用按鈕與一般搜尋結果均未用來補正文品牌提及、連結或名次。"
+    },
+    {
+      "id": "google_ai_overview-q06-2026-11-21T08-46-26+08-00",
+      "question_id": "q06",
+      "platform": "google_ai_overview",
+      "prompt": "二手機店家",
+      "status": "failed",
+      "measured_at": "2026-11-21T08:46:26+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot."
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-11-21T00:46:26Z，換算台北 08:46:26。固定問句逐字提交一次；未操作驗證、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現；IP、完整 URL、追蹤及挑戰參數不保存。"
     }
   ]
 }
