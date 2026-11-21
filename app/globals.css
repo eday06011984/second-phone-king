@@ -15,3 +15,6 @@
 
 /* Visible only on keyboard focus; native anchor works without JavaScript. */
 .skip-link{position:fixed;top:12px;left:12px;z-index:1000;transform:translateY(-200%);background:#1649e8;color:#fff;padding:12px 20px;border-radius:8px;font-weight:700}.skip-link:focus{transform:translateY(0);color:#fff}#main-content:focus{outline:none}
+
+/* News intro text stacks independently of the marketplace's flex toolbar. */
+.intro.news-intro{display:block}
