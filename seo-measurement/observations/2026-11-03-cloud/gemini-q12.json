@@ -1,0 +1,33 @@
+{
+  "question_id": "q12",
+  "prompt": "二手機怎麼挑",
+  "source": "direct_platform",
+  "captured_at": "2026-11-03T08:28:32+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；繁體中文回覆與台灣通路名稱不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依停止後仍可見正文保存標題與清單，合併排版空白；引用來源元件不計入推薦順序。",
+  "platform": "gemini",
+  "mode": "Gemini Flash-Lite; logged out",
+  "url": "https://gemini.google.com/app/709263d8da058e8a",
+  "observation_status": "partial_response_stopped",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": null,
+  "exclusion_reason": "平台頁面未顯示可核對地區，且回覆最後顯示『你停止了這則回覆』；本次未操作停止，不能當成完整正式回覆。",
+  "full_response": "挑選二手機主要可以從「購買管道」、「價格預算」與「現場驗機清單」三個核心面向來評估，避開常見的拼裝機、鎖卡機或隱性故障。\n\n一、挑選管道與定價策略\n\n實體通訊行／連鎖二手專賣店（最推薦）：\n• 優點：通常會經過初步檢測，並提供幾個月的店家保固與售後服務，有問題找得到人。\n• 缺點：價格會比個人轉手略高一些。\n\n網購平台／大型商城（神腦、momo 等）：\n• 優點：享有鑑賞期或平台規範，比完全私下交易安全。\n\n社群／拍賣社團面交（價格最低、風險最高）：\n• 優點：價格通常最便宜，有機會撿到甜甜價。\n• 缺點：買到問題機或贓機較難求償。若選擇此方式，絕對要約在明亮的公共場所（如超商、捷運站）當面驗機。\n\n二、必備的 7 大現場驗機清單\n\n拿到手機時，請務必按照以下步驟實際測試，千萬不要只看外觀就結帳：\n\n1. 檢查帳號與解鎖狀態（最重要）：\n• 確認手機已完全重置並停在開機的「Hello」歡迎畫面。\n• 檢查是否還有前機主的 Apple ID 或 Google 帳號綁定，若無法登出絕對不能買。\n\n2. 查驗 SIM 卡與網路：\n• 現場插入自己的 SIM 卡，確認行動網路、通話收音、聽筒及擴音喇叭皆正常。\n• 檢查「關於本機」中的「電信業者鎖定」，應顯示「沒有 SIM 卡限制」（避免買到被電信商鎖住的合約機）。\n\n3. 外觀與螢幕觸控檢測：\n• 在光線下檢查螢幕、邊框與鏡頭是否有嚴重摔傷或裂痕。\n• 開啟純白或純色圖片全螢幕檢視，檢查是否有亮暗點、烙印或色偏。\n• 壓住圖示在畫面上四處拖曳，確保觸控沒有「斷觸」或局部失靈。\n\n4. 電池健康度與零件原廠狀態：\n• 查看電池最大容量（若低於 80% 或健康度異常，通常需要折價或自行更換）。\n• 若是 iPhone，可至「設定 > 一般 > 關於本機」檢查是否有跳出「未知零件」或「非原廠零件」的警告（如螢幕、相機、電池被換過）。\n\n5. 相機與感測器：\n• 測試前後鏡頭拍照、各倍數變焦是否正常、對焦會不會抖動或有異音。\n• 對著白牆拍照，檢查鏡頭內部是否有「入塵」（會出現黑斑）。\n• 測試 Face ID（臉部辨識）或指紋解鎖能否順利設定。\n\n6. 連線功能：\n• 連線 Wi-Fi、藍牙配對耳機，並測試蘋果的 AirDrop 或 Android 的檔案傳輸是否正常\n\n你停止了這則回覆",
+  "observed_recommendation_order": [
+    {"site_id": "senao", "name": "神腦", "is_target": false},
+    {"site_id": "momo", "name": "momo", "is_target": false}
+  ],
+  "ranking_scope": "只依停止前『網購平台／大型商城』正文具名順序去重；引用來源元件不計入。因回覆顯示停止且地區未知，這個順序只作 observation，不作正式排名。",
+  "notes": "全新登出頁使用 Flash-Lite 逐字提交一次；Enter 未送出，之後只點一次可見『傳送訊息』按鈕。平台在產生到第 6 項時自行顯示『你停止了這則回覆』，本次未操作停止或重送。回覆內通路、檢測、保固、鑑賞期、價格、電池門檻及風險宣稱只按原文保存，未由本站查證或採用。"
+}
+

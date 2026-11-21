@@ -1,0 +1,33 @@
+{
+  "question_id": "q19",
+  "prompt": "如何找可以現場驗機的二手機店",
+  "source": "direct_platform",
+  "captured_at": "2026-11-10T08:21:48+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；繁體中文回覆及台灣店家名稱不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依完成後可見正文保存四個步驟、清單與表格，合併排版空白；來源標籤未用來補推薦順序。",
+  "platform": "gemini",
+  "mode": "Gemini Flash; logged out; web search status displayed during generation",
+  "url": null,
+  "observation_status": "completed_response",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "exclusion_reason": "平台頁面未顯示可核對地區；雖有具名店家範例，不能假填台灣地區納入正式統計。",
+  "full_response": "要尋找並挑選能夠現場當面驗機的二手機實體門市，建議透過以下 4 個步驟過濾店家，並在現場執行關鍵的驗機流程。\n\n第一步：如何篩選可靠的實體店家？\n\n• 優先選擇大型二手連鎖專賣店或知名連鎖通訊行\n  • 特色：連鎖品牌（如 US3C、創宇通訊、神腦二手機專區或在地大型連鎖通訊行）通常有標準化的現場檢測流程與儀器，並會提供店家自建保固（通常為 30 天至 180 天不等）。\n• 利用 Google 地圖搜尋與篩選\n  • 搜尋關鍵字：二手機 實體店面、二手手機 現場驗機、中古手機 門市。\n  • 篩選重點：\n    • 瀏覽評論中是否有顧客提到「店家主動提供現場測試時間」、「現場有交機測試清單」或「保固換貨不推託」。\n    • 避開僅能「指定地點面交」且無固定營業實體位址的個人賣家。\n• 確認店家是否具備「開立發票/明細」與「店家保固期」\n  • 好的二手機店在現場驗機完成交機後，會提供含有機身序列號（IMEI）的購買憑證，並註明保固條款。\n\n第二步：前往門市前先電話或私訊確認\n\n出發前可先向門市詢問以下問題，確保現場驗機權益：\n• 「現場購買可以有充足時間現場驗機嗎？」（正規店家都會非常樂意並提供桌椅讓你慢慢測試）\n• 「如果不小心買到有潛在瑕疵的機器，店家提供多久的保固與退換貨機制？」\n• 「機器的零件是否有替換過（如換過副廠螢幕或非原廠電池）？現場是否會透明告知？」\n\n第三步：現場當面驗機必測清單\n\n到達門市後，切勿只看外觀，請逐項執行以下硬體檢測：\n\n檢測項目｜現場測試方式\n帳號鎖定（最重要）｜確認舊車主帳號已完全登出（iPhone 檢查 iCloud / Android 檢查 Google 帳號），並現場當場辦理重置復原設定一次。\n帳號與機身編號｜在撥號介面輸入 *#06# 產出 IMEI 碼，核對手機系統內與外盒/機身背面的 IMEI 是否一致。\n螢幕與觸控｜拖曳桌面圖示掃過螢幕每個角落，確保沒有死角；將螢幕調至全白/全黑背景，檢查有無觸控失效、烙印或亮暗點。\n相機與感測器｜切換各顆鏡頭（廣角、超廣角、長焦），對焦近物與遠物，並測試閃光燈；測試 Face ID / 指紋辨識功能是否正常。\n通話與麥克風｜插入自己的 SIM 卡撥打電話，測試聽筒、揚聲器（放音）以及麥克風收音。\n充電與電池狀況｜現場插上充電線確認能否正常充電；檢查系統內的電池健康度（iPhone）或電池狀態。\n連線功能｜連接門市的 Wi-Fi 與測試藍芽（如連結藍芽耳機）。\n\n第四步：完成交易與索取憑證\n\n• 核對保固卡：確認保固卡上記載的 IMEI 碼與購買手機一致。\n• 保留收據/明細：確認交易明細上有寫明機型、容量、顏色及保固起算日。\n• 測試無誤後再付款：所有功能檢測過關、並完成帳號重置登入後，再進行現金點交或刷卡支付。",
+  "observed_recommendation_order": [
+    {"site_id": "us3c", "name": "US3C", "is_target": false},
+    {"site_id": "smart3c", "name": "創宇通訊", "is_target": false},
+    {"site_id": "senao-secondhand", "name": "神腦二手機專區", "is_target": false}
+  ],
+  "ranking_scope": "只依正文『連鎖品牌（如…）』中的具名範例順序計算；Google 地圖、台中手機館等來源標籤及檢測表未用來補推薦名次。",
+  "notes": "全新登出頁使用 Flash，逐字輸入後提交一次；完成四段正文後顯示 Redo，未重送、改模式或追問。店家、標準化檢測、保固天數、退換、評論及驗機說法只按平台原文保存，未由本站查證或採用。私有會話 URL 不保存。captured_at 是三平台證據核對時間，不假填提交秒數。"
+}

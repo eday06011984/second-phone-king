@@ -1,0 +1,34 @@
+{
+  "question_id": "q03",
+  "prompt": "二手機哪裡買",
+  "source": "direct_platform",
+  "captured_at": "2026-11-18T08:37:00+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；模型自行採用高雄情境不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依可見正文保存標題、清單、來源標籤、地圖文字與互動式選項；合併排版空白。圖片、地圖重複卡片與來源標籤不另補推薦名次。",
+  "platform": "chatgpt",
+  "mode": "ChatGPT logged out; Web search selected; exact model not displayed",
+  "observation_status": "context_unverified",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": null,
+  "exclusion_reason": "頁面未顯示可核對的台灣地區，不能假填 TW 納入正式統計。",
+  "full_response": "如果你在高雄，想買二手機，我整理幾間有實體店面的給你，建議優先找有保固、能現場測試的店家。\n\n高雄二手機推薦店家\n\n1. 強老闆中古機\n\n可優先詢價\n\n前鎮區三多三路217號 SOGO 6樓\n\n電話：07-335-4863\n\n有中古機、展示機，部分機型提供最長一年保固。\n\nexcellence-mobile.com.tw\n+1\n\n官方網站\n\n2. 仔仔通訊\n\n左營區文自路184號\n\n電話：0987-499-999\n\n二手機有90天主機店保。\n\nSOGI手機王\n+1\n\n官方網站\n\n3. 19喚新\n\n三民區建國一路416號\n\n電話：07-225-1117\n\n二手機買賣、收購及維修。\n\nGoogle 評分 4.9／5（3,122則）\n\n4. 強通訊 STRONG\n\n新興區五福二路39-2號\n\n電話：0903-952-097\n\n有中古機現貨、手機維修。\n\n強通訊\n\n官方網站\n\n店家位置地圖\n\nMap data is currently unavailable\n\n強老闆3C中古機－高雄SOGO店\n★ 5 · Cell phone store\nClosed\n19喚新-二手手機專賣店｜手機高價回收｜三民區iPhone現場維修｜手機維修｜iPhone換電池｜iPhone維修｜iPad維修｜iMac維修｜iPhone二手機買賣｜3C配件周邊\n★ 4.9 · Cell phone store\nClosed\n強通訊 高雄新機中古機買賣、工作公務機、手機維修、資料救援、無卡分期、周邊配件\n★ 5 · Cell phone store\nClosed\n仔仔通訊\n★ 5 · Cell phone store\nClosed\n\n我幫你挑適合的二手機\n\n想問你一下：\n\n1. 想買哪一種手機？\n\niPhone 蘋果\nSamsung 三星\n不限品牌，便宜好用就好\n\n2. 預算多少？\n\n3000～5000元\n5000～8000元\n8000～10000元\n10000～15000元\n15000～20000元\n20000元以上\n\n3. 最在意什麼？\n\n外觀漂亮、電池健康度高\n價格便宜、CP值高\n功能正常、有店家保固\n幫我找適合的二手機\n\n我可以幫你找出高雄價格合理、保固比較安心的店家，也幫你比價，避免買貴。",
+  "recommended_sites_observed": [
+    {"site_id": "excellence-mobile", "name": "強老闆中古機", "is_target": false},
+    {"site_id": "zaizai", "name": "仔仔通訊", "is_target": false},
+    {"site_id": "19-renew", "name": "19喚新", "is_target": false},
+    {"site_id": "strong3c", "name": "強通訊", "is_target": false}
+  ],
+  "ranking_scope": "只依正文編號 1–4 的店家首次出現順序計算；來源標籤、地圖重複卡片與互動式選項不另計。本站未出現。因地區未知，此順序只作觀察，不納入正式排名。",
+  "notes": "從全新登出頁選取 Web search 後逐字提交一次；未追問、重做或重送。地址、電話、評分、保固、庫存與價格合理等敘述只按平台原文保存，未直接採用為本站事實。私有匿名會話 URL 不保存。"
+}
+

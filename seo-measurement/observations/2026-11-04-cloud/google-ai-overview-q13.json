@@ -1,0 +1,30 @@
+{
+  "question_id": "q13",
+  "prompt": "買二手機注意事項",
+  "source": "direct_platform",
+  "captured_at": "2026-11-04T08:54:02+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": "TW",
+  "region_evidence": "送出前 Google 首頁頁尾顯示『台灣』；結果頁顯示『台灣／中西區 臺南市－根據你的 IP 位址』。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": true,
+  "text_normalization": "展開『顯示更多 AI 摘要』後，保存摘要正文標題、清單與結尾提問；引用按鈕、影片卡、來源卡與一般搜尋結果不計入推薦順序。",
+  "platform": "google_ai_overview",
+  "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+  "url": "https://www.google.com/search?q=%E8%B2%B7%E4%BA%8C%E6%89%8B%E6%A9%9F%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85",
+  "observation_status": "not_present",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "full_response": "購買二手手機時，最核心的原則是「不要只看外觀，務必完整檢測功能與帳號狀態」。建議從以下四大面向嚴格把關：\n\n一、 帳號與解鎖狀態（最重要，避免買到「磚塊機」）\n\n• 登出舊帳號：\n  • iPhone：確認已將前主人的 Apple ID 完全登出，且沒有出現「iPhone 已為擁有者鎖定（啟用鎖定）」畫面。\n  • Android：確認已登出 Google 帳號，避免重置後跳出「FRP（工廠重置保護）鎖定」而無法進入。\n• 檢視零件與維修紀錄：若是 iPhone，可至「設定 -> 一般 -> 關於本機」查看是否有「零件與維修記錄」，確認螢幕、電池或相機是否更換過非原廠零件。\n\n二、 硬體與功能詳細檢測\n\n拿到手機後，請實際操作以下項目，切勿只「開機滑兩下」就付錢：\n\n• 螢幕與觸控：顯示全白、全黑或純色圖片，檢查有無亮點、暗點或烙印；用手指在螢幕各角落畫圈，測試觸控是否均勻靈敏。\n• 相機功能：前後鏡頭都要拍照、錄影、測試廣角與變焦，並對著白牆拍照檢查鏡頭內部是否有入塵或黑點；順便測試閃光燈。\n• 通話與聲音：實際插卡撥打電話，測試聽筒、話筒（麥克風）與外放喇叭是否有雜音或破音。\n• 生物辨識：測試 Face ID（臉部辨識）或 Touch ID（指紋辨識）是否正常運作。\n• 連線與按鍵：測試 Wi-Fi、藍牙、行動網路、GPS（指南針）、音量鍵、電源鍵與靜音鍵。\n• 充電與電池：攜帶自己的充電線與豆腐頭測試充電速度及接孔有無鬆動；查看電池健康度（iPhone 低於 80% 或 Android 耗電異常需評估是否需額外花錢換電池）。\n• 受潮狀況：部分手機在 SIM 卡槽內有受潮試紙，若變紅或粉紅色代表曾經進水，應避免購買。\n\n三、 挑選有保障的購買通路\n\n• 實體店面與連鎖品牌優於來路不明的網拍：建議優先選擇有信譽、提供 3 至 6 個月保固或 14 天內非人為故障可換機的店家（例如創宇通訊等提供檢測報告的通路）。\n• 面交自保：若選擇網路個人面交，務必約在明亮且有插座的超商或咖啡廳，當場登入帳號、插卡完整測試完畢再付款，並記得全程錄影自保。\n\n透過影片快速了解購買二手手機時的 5 分鐘重點健檢與防坑技巧。\n\n如果你不確定要買哪一種，可以告訴我：\n• 你的預算大約多少？\n• 偏好 iPhone 還是 Android（例如 Samsung、小米等）？\n• 主要拿來拍照、打遊戲還是日常滑社群？\n\n我可以幫你推薦適合的機型或更細部的檢查清單！",
+  "observed_recommendation_order": [
+    {"site_id": "smart3c", "name": "創宇通訊", "is_target": false}
+  ],
+  "ranking_scope": "只依『三、挑選有保障的購買通路』正文中『例如創宇通訊等提供檢測報告的通路』建立具名購買通路順序。圓方電信、零壹通訊、炘馳通訊、Donuni、影片與其他名稱只出現在引用按鈕、影片卡、來源卡或一般搜尋結果，全部排除。",
+  "notes": "全新登出 Google 首頁逐字送出固定問句一次；送出前頁尾明示台灣，結果頁依 IP 顯示臺南市中西區。展開『顯示更多 AI 摘要』保存可見完整正文。摘要說『四大面向』但可見正文只有三個編號標題，依原畫面保存，不補寫缺少內容。本站未出現在摘要正文、引用或連結；單次前三為否。摘要內保固、電池、錄影與風險宣稱只按原文保存，未由本站查證或採用。"
+}
