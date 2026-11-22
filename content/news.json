@@ -6691,5 +6691,119 @@
     ],
     "publishedAt": "2026-11-21T09:38:41.205+08:00",
     "updatedAt": "2026-11-21T09:38:41.205+08:00"
+  },
+  {
+    "slug": "asus-zenbook-duo-ux8407-used-dual-screen-laptop-check",
+    "title": "Zenbook DUO 2026 雙螢幕獲獎：買二手雙螢幕筆電要查哪些機構？",
+    "category": "筆電與二手電腦",
+    "description": "華碩公布 Zenbook DUO（2026）UX8407 的雙螢幕、磁吸鍵盤與支架設計；選購二手機時，除了規格，也要逐一驗證轉軸、螢幕與配件。",
+    "sections": [
+      {
+        "heading": "兩片 14 吋 OLED 組成可攜式雙螢幕",
+        "paragraphs": [
+          "華碩 11 月 20 日宣布，Zenbook DUO（2026）UX8407 入選《TIME》2026 年度最佳發明。官方資料顯示，機身整合兩片 14 吋 3K OLED 觸控螢幕、防眩光塗層、磁吸式藍牙鍵盤與整合式支架，鍵盤取下後可採直式或橫式雙螢幕配置。",
+          "華碩也表示，新一代隱藏式轉軸讓兩片螢幕間隙比前代縮小 70%，機身體積縮小 5%；規格還包括 99Wh 雙電池、最高 Intel Core Ultra X9 系列 3，以及雙螢幕 144Hz 與最高 1,000 尼特峰值亮度。以上是廠商公告與獲獎資訊，不是本站對續航、耐用度或顯示效果的實測。"
+        ]
+      },
+      {
+        "heading": "二手驗機要把雙螢幕當成兩套零件",
+        "paragraphs": [
+          "雙螢幕筆電增加工作空間，也增加需要逐項確認的部位。交易前應分別顯示純色與低亮度畫面，檢查兩片面板的亮暗點、烙印、色差、觸控與更新率設定；再慢速開闔轉軸，觀察畫面是否閃爍、接縫是否異常，以及不同角度能否穩定停住。",
+          "磁吸鍵盤、支架與連接機構也是完整體驗的一部分。建議實測鍵盤的有線接點、藍牙配對、充電與休眠喚醒，並確認磁吸固定是否牢靠；若缺少原配鍵盤或支架損壞，應先查清楚替代零件能否單獨購得，不要只用一般單螢幕筆電的驗收方式估價。"
+        ]
+      },
+      {
+        "heading": "獎項與高規格不能代替實際機況",
+        "paragraphs": [
+          "編輯分析：設計獎項反映產品概念與工程受到肯定，但不代表每一台二手機都維持新品狀態。尤其雙螢幕、雙電池與特殊轉軸的維修成本可能不同於一般筆電，應要求賣家提供完整型號、序號、電池報告、保固與維修紀錄，再依機況與售後條件比較。",
+          "交機時可同時開啟多個視窗，測試 ASUS ScreenXpert 的跨螢幕移動、分享與註記功能，再檢查 USB、無線網路、相機、麥克風、喇叭和充電。若系統已重灌，也要確認原廠驅動與控制軟體可正常取得；不能只看到 UX8407 或 Copilot+ PC 名稱，就推定所有選配與軟體狀態完全相同。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS Pressroom 台灣",
+        "url": "https://press.asus.com/tw/news/press-releases/asus-zenbook-duo-ux8407-time-best-inventions-2026/",
+        "date": "2026-11-20"
+      }
+    ],
+    "publishedAt": "2026-11-22T09:14:09.733+08:00",
+    "updatedAt": "2026-11-22T09:14:09.733+08:00"
+  },
+  {
+    "slug": "microsoft-edge-aion-on-device-ai-used-pc-check",
+    "title": "Edge 內建 Aion 小模型：買二手 AI PC 別只看「可離線運算」",
+    "category": "AI 與電腦",
+    "description": "Microsoft 讓 Aion Instruct 成為 Edge 內建小型語言模型，並開放 Prompt API origin trial；實際可用性仍取決於裝置能力、瀏覽器設定與網站支援。",
+    "sections": [
+      {
+        "heading": "Edge 改用 23 億參數的 Aion Instruct",
+        "paragraphs": [
+          "Microsoft 於 11 月 19 日表示，Aion Instruct 已以開放權重模型及 Edge 內建小型語言模型的形式正式提供，並在 Edge 取代 Phi-4-mini。官方稱其規模為 23 億參數，可處理文字合成、生成、摘要、指令遵循與結構化輸出等常見網頁任務。",
+          "Edge 只會在網站或功能首次需要、且裝置能妥善執行時下載模型；使用者可在設定中關閉裝置端 AI，移除模型並停止日後下載。這不等於每一台安裝 Edge 的電腦已預載模型，也不代表所有網站會自動使用裝置端運算。"
+        ]
+      },
+      {
+        "heading": "正式模型不等於所有 API 都已正式上線",
+        "paragraphs": [
+          "Microsoft 同時開放 Prompt API 的 origin trial，讓已註冊的網站在正式環境測試 Aion Instruct；Decisions API 則仍是 Edge Canary 與 Dev 通道的實驗性開發者預覽。官方明確指出後者的 API 與實作仍可能變動，因此不能把示範功能當成正式版 Edge 的固定規格。",
+          "裝置端處理可減少某些工作持續送往雲端，但網站仍可在本機模型不可用或需求較高時切換至設定好的雲端服務。使用特定網站前，仍要查看其隱私說明、權限、資料傳送方式與訂閱條件；「支援裝置端 AI」不是所有內容都只留在電腦內的保證。"
+        ]
+      },
+      {
+        "heading": "二手電腦應實測功能，而不是只看 AI 標籤",
+        "paragraphs": [
+          "編輯分析：選購二手 AI PC 或一般 Windows 筆電時，應先確認處理器、記憶體、可用儲存空間、Windows 與 Edge 版本，再用實際網站或功能檢查模型是否可下載、執行與移除。若賣家僅以「可跑 Edge AI」加價，卻無法展示版本、設定與任務結果，這項宣稱不足以判斷價值。",
+          "交機前還要確認電池、散熱、SSD 健康、帳號解除綁定與系統更新。裝置端模型會占用儲存空間並消耗運算資源，舊電腦的實際速度、噪音與續航仍需個別測試；本文未對特定機型進行效能、耗電或隱私稽核。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+        "date": "2026-11-19"
+      }
+    ],
+    "publishedAt": "2026-11-22T09:14:09.733+08:00",
+    "updatedAt": "2026-11-22T09:14:09.733+08:00"
+  },
+  {
+    "slug": "google-home-digital-key-smart-home-used-device-check",
+    "title": "Google Home 新增數位住家鑰匙：買二手智慧家庭裝置先查相容範圍",
+    "category": "智慧家庭",
+    "description": "Google Home 11 月更新涵蓋 Android 數位住家鑰匙、攝影機音訊描述與 Nest 溫控器功能；多項能力有裝置、訂閱或地區限制。",
+    "sections": [
+      {
+        "heading": "Android 手機可為相容門鎖加入數位住家鑰匙",
+        "paragraphs": [
+          "Google 於 11 月 17 日公布 Google Home 更新：Android 使用者可把相容前門的數位住家鑰匙加入 Google Wallet，以碰觸或免手持方式解鎖。Google Home Premium Advanced 也可在攝影機與門鈴的動態事件描述中辨識狗吠、玻璃破裂等聲音。",
+          "官方另外預告，美國與加拿大的 Nest 溫控器使用者自 12 月起，可在 App 查看估算的累積節省；第 4 代 Nest Learning Thermostat 也能搭配相容的第三方室內感測器調整冷熱不均。Gemini for Home 則稱日常要求處理速度最高提升 20%，並擴展到印度、巴西等六個國家。"
+        ]
+      },
+      {
+        "heading": "同一批更新包含多種限制條件",
+        "paragraphs": [
+          "數位鑰匙能否使用，要同時核對門鎖型號與韌體、Android 手機、Google Wallet 及所在地區支援；音訊事件描述則需要 Google Home Premium Advanced。溫控器的節能估算目前限美國與加拿大，第三方感測器也只適用相容的第 4 代機型。",
+          "二手賣場若籠統寫著「支援 Google Home」或「可用 Gemini」，不足以證明上述每項功能。交易前應查完整型號與區域版本，確認原廠支援頁、訂閱方案、App 畫面和韌體狀態，並要求賣家解除家庭成員、雲端帳號與舊有自動化設定。"
+        ]
+      },
+      {
+        "heading": "智慧門鎖與攝影機要先處理權限交接",
+        "paragraphs": [
+          "編輯分析：智慧家庭裝置牽涉實體進出、影像、聲音與家庭成員資料，二手交接的安全性比一般配件更重要。門鎖應先保留可用的實體鑰匙或其他備援方式，恢復原廠設定後再建立新家庭，重新核發數位鑰匙；攝影機則要確認舊帳號、雲端影片與共享權限已清除。",
+          "購買前也要查原廠是否仍提供安全更新，以及裝置在網路中斷、訂閱終止或雲端服務改版後還能保留哪些基本功能。官方所稱速度提升與節能數字不等於每個家庭的實測結果，不能直接拿來估算特定二手裝置的反應時間、電費或售價。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
+        "date": "2026-11-17"
+      }
+    ],
+    "publishedAt": "2026-11-22T09:14:09.733+08:00",
+    "updatedAt": "2026-11-22T09:14:09.733+08:00"
   }
 ]
