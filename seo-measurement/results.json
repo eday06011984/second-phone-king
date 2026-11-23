@@ -2653,6 +2653,30 @@
       "site_link": null,
       "recommended_sites": [],
       "notes": "送出前 Google 首頁頁尾明示『台灣』。錯誤頁時間 2026-11-22T00:09:16Z，換算台北 08:09:16。固定問句逐字提交一次；未操作驗證、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現；IP、完整 URL、追蹤及挑戰參數不保存。"
+    },
+    {
+      "id": "google_ai_overview-q08-2026-11-23T08-49-01+08-00",
+      "question_id": "q08",
+      "platform": "google_ai_overview",
+      "prompt": "二手手機推薦平台",
+      "status": "failed",
+      "measured_at": "2026-11-23T08:49:01+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。固定問句於 2026-11-23T00:48:52.738Z 逐字提交一次；錯誤頁時間 2026-11-23T00:49:01Z，換算台北 08:49:01。未操作驗證、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現；IP、完整 URL、追蹤及挑戰參數不保存。"
     }
   ]
 }
