@@ -6805,5 +6805,119 @@
     ],
     "publishedAt": "2026-11-22T09:14:09.733+08:00",
     "updatedAt": "2026-11-22T09:14:09.733+08:00"
+  },
+  {
+    "slug": "sharp-aquos-sense11-japan-used-phone-support-check",
+    "title": "AQUOS sense11 主打六年安全更新：買日本二手機先查版本與頻段",
+    "category": "手機新品",
+    "description": "Sharp 發表日本市場 AQUOS sense11，主打輕薄機身、5000mAh 電池與長期更新；日版二手機仍要核對型號、頻段、解鎖與防水狀態。",
+    "sections": [
+      {
+        "heading": "157 克機身搭配 5000mAh 電池",
+        "paragraphs": [
+          "Sharp 11 月 17 日發表 AQUOS sense11，預定 11 月 26 日起在日本由電信商與零售通路陸續開賣，SIM-free 公開市場版本同日推出。官方規格包括約 157 克、7.6mm 厚、5000mAh 電池、6.2 吋 Pro IGZO OLED 螢幕、Snapdragon 7s Gen 3 與 Android 17。",
+          "記憶體與儲存空間有 8GB／128GB，以及 SIM-free 版本的 12GB／256GB 組合，並支援 microSD。Sharp 宣稱在自家每天 10 小時的指定使用情境下可用約兩天，這是廠商估算，不是本站對實際續航的測試結果；網路、亮度與使用方式都會影響表現。"
+        ]
+      },
+      {
+        "heading": "安全更新承諾有助延長使用年限",
+        "paragraphs": [
+          "官方承諾上市後提供六年安全更新與最多四次 Android 大版本升級，也列出 IPX5、IPX8、IPX9 防水、IP6X 防塵及符合部分 MIL-STD-810H 耐用測試。相機包含 5030 萬畫素主鏡頭與超廣角鏡頭，並加入移除照片中人物或陰影等 AI 功能。",
+          "長期支援對二手流通有利，但計算起點是新品上市，不是二手購買日。原廠防水與耐用等級也不代表摔過、拆修或膠條老化的舊機仍維持同等能力；交機時應檢查機身縫隙、鏡頭、充電孔與維修紀錄，不要以防水規格取代機況驗收。"
+        ]
+      },
+      {
+        "heading": "日版機要先確認台灣使用條件",
+        "paragraphs": [
+          "編輯分析：AQUOS sense11 首波是日本市場產品，未來若出現在台灣二手通路，應先核對完整型號、電信商版或 SIM-free 版、SIM 鎖狀態、支援頻段、VoLTE 與 eSIM 條件；同名機種的通路版本、記憶體和內建服務不一定相同。",
+          "驗機時可插入自己的門號實測通話、行動網路、簡訊與熱點，再查看安全性更新日期、可用儲存空間、電池狀態及原廠重置保護是否解除。Osaifu-Keitai、NIAH 等日本服務也可能受帳號、語言或地區限制，不能把規格表上的功能一律視為在台灣可完整使用。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Sharp Global",
+        "url": "https://global.sharp/corporate/news/261117-b.html",
+        "date": "2026-11-17"
+      }
+    ],
+    "publishedAt": "2026-11-23T09:47:31.029+08:00",
+    "updatedAt": "2026-11-23T09:47:31.029+08:00"
+  },
+  {
+    "slug": "nvidia-rtx-spark-compact-desktop-used-ai-pc-check",
+    "title": "RTX Spark 迷你 AI 桌機上市：買二手本機 AI 電腦先查哪些條件？",
+    "category": "電腦硬體",
+    "description": "NVIDIA 宣布 ASUS、Dell、MSI 的 RTX Spark 迷你桌機上市，主打本機 AI 與最高 128GB 統一記憶體；選購二手機要先核對架構、記憶體與軟體支援。",
+    "sections": [
+      {
+        "heading": "三家品牌率先推出 RTX Spark 桌機",
+        "paragraphs": [
+          "NVIDIA 11 月 18 日宣布，ASUS、Dell 與 MSI 的 RTX Spark 迷你桌機已上市，Acer、GIGABYTE、HP 及 Microsoft 的機型則預告後續推出。官方把這類產品定位為專用 Windows PC，可處理本機 AI 代理、影像與影片生成、模型微調及開發工作。",
+          "RTX Spark 平台結合 20 核心 NVIDIA Grace CPU、含 6144 個 CUDA 核心的 Blackwell RTX GPU、最高 128GB 統一記憶體與 10GbE。NVIDIA 宣稱最高可達 1 petaflop AI 效能；這是平台規格與廠商說法，並非本站用特定模型、精度或散熱條件完成的獨立測試。"
+        ]
+      },
+      {
+        "heading": "Windows on Arm 與軟體生態是關鍵",
+        "paragraphs": [
+          "官方列出的軟體環境包含原生 Windows on Arm 的 Adobe 應用程式、Blender 的 DLSS Ray Reconstruction、ComfyUI 本機工作流程，以及透過 Windows Subsystem for Linux 使用 CUDA 與 Linux 開發工具。這些例子顯示可用性不只取決於硬體峰值，也取決於應用程式版本、外掛與模型是否支援。",
+          "最高 128GB 的統一記憶體可容納較大的本機模型，但不同品牌與型號的容量、儲存空間、連接埠和保固仍需分開核對。統一記憶體也不能直接視為傳統桌機可自行更換的 DIMM；購買前要查清楚是否能升級，以及日後擴充主要靠內接儲存或外部裝置。"
+        ]
+      },
+      {
+        "heading": "二手 AI 桌機應用實際工作流程驗收",
+        "paragraphs": [
+          "編輯分析：若 RTX Spark 機型進入二手市場，不能只看「可跑 120B 模型」或「本機 AI」標籤估價。應要求賣家提供完整型號與記憶體、SSD、韌體和作業系統版本，再用自己預計使用的模型、量化格式、創作軟體或開發環境做短時間實測。",
+          "交機時也要檢查長時間負載下的溫度、風扇噪音、網路、顯示輸出與儲存健康，確認 Windows 授權、品牌帳號及企業管理都已解除。若工作依賴特定 x86 應用、驅動或外接裝置，應先取得原廠相容清單；平台有 Arm 原生軟體，不代表所有既有 Windows 軟體都能無條件使用。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+        "date": "2026-11-18"
+      }
+    ],
+    "publishedAt": "2026-11-23T09:47:31.029+08:00",
+    "updatedAt": "2026-11-23T09:47:31.029+08:00"
+  },
+  {
+    "slug": "edge-business-security-used-business-pc-check",
+    "title": "Edge for Business 強化更新管理：買二手商務電腦先解除哪些管控？",
+    "category": "系統與資安",
+    "description": "Microsoft 公布 Edge for Business 的更新、安全與多租戶管理功能；購入退役商務電腦時，應確認組織帳號、瀏覽器政策和裝置管理均已解除。",
+    "sections": [
+      {
+        "heading": "企業瀏覽器加入更新與風險管理功能",
+        "paragraphs": [
+          "Microsoft 11 月 17 日在 Ignite 2026 公布 Edge for Business 新功能。已提供的 Restart to update on idle 可在閒置時重新啟動瀏覽器套用更新，Security Insights 用於查看組織內的版本狀態，Security Update Alerts 則可依嚴重程度通知管理員。",
+          "Microsoft 也展示可免重啟套用更新的早期原型，但官方仍以「探索中」描述，不能視為現行正式功能。其他安全能力分為正式提供、預覽及不同授權需求，例如擴充功能風險清單已正式提供，而部分資料防護、Sentinel 連接器與私有網站存取功能仍在預覽。"
+        ]
+      },
+      {
+        "heading": "瀏覽器政策可跨裝置與租戶集中管理",
+        "paragraphs": [
+          "Edge for Business 可把組織的資料遺失防護、工作階段與瀏覽器政策套用到企業環境。Microsoft 另與 inforcer 推出多租戶管理，讓代管服務商在 Windows 與 macOS 的多個客戶租戶套用建議安全基準；每個客戶租戶仍需要 Microsoft Intune 授權。",
+          "官方稱 Edge for Business 是全球最常用的企業瀏覽器，其註腳限定為全球大型組織 Windows 裝置上的瀏覽器使用分鐘占比。這是 Microsoft 依特定口徑提出的說法，不是本站對所有作業系統、企業規模或瀏覽器市占所做的獨立排名。"
+        ]
+      },
+      {
+        "heading": "退役商務電腦要完成管理權交接",
+        "paragraphs": [
+          "編輯分析：二手商務電腦可能仍殘留 Microsoft Entra、Intune、Windows Autopilot、Edge 管理政策、工作帳號或企業憑證。單純刪除瀏覽器資料或重灌 Windows，不一定能解除雲端端點管理；應要求原持有公司從管理平台移除裝置，並在連網重設後確認不會再次出現組織登入或政策。",
+          "交機時可查看 Windows 的「存取公司或學校資源」、Edge 管理頁面與擴充功能政策，確認沒有未知管理者、強制代理伺服器、憑證或企業外掛。若賣家無法證明設備已合法除役及解除管理，後續可能遇到功能受限、資料風險或再次被鎖定，價格再低也不宜只靠自行重灌承擔。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Microsoft Edge Blog",
+        "url": "https://blogs.windows.com/msedgedev/2026/11/17/edge-for-business-ignite-2026-innovations/",
+        "date": "2026-11-17"
+      }
+    ],
+    "publishedAt": "2026-11-23T09:47:31.029+08:00",
+    "updatedAt": "2026-11-23T09:47:31.029+08:00"
   }
 ]
