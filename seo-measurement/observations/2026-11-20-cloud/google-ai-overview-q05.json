@@ -1,0 +1,31 @@
+{
+  "question_id": "q05",
+  "prompt": "二手機比價",
+  "source": "direct_platform",
+  "captured_at": "2026-11-20T08:59:17+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": "TW",
+  "region_evidence": "送出前 Google 首頁頁尾明確顯示『台灣』；結果頁顯示『台灣／西屯區 臺中市－根據你的 IP 位址』。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": true,
+  "observation_status": "not_present",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": false,
+  "text_normalization": "依展開後 AI 摘要正文保存標題、清單與提問；來源卡片另行註記，不把引用或一般搜尋順序當推薦名次。",
+  "platform": "google_ai_overview",
+  "mode": "Google Search default All results; AI Overview present and expanded; logged out",
+  "full_response": "查詢二手手機價格與比價，可以透過以下幾個主流的資訊與比價平台，快速掌握市場行情：\n\n常用的二手機比價與行情管道\n\n• ePrice 比價王二手機報價：提供各大品牌（如 Apple、Samsung、Oppo、Vivo、Google Pixel 等）的二手與福利品參考價位。\n• BigGo 二手手機比價：全網一站式搜尋各大電商與拍賣平台上的二手手機價格與歷史走勢。\n• 飛比價格：即時比對全台網購與拍賣平台的二手手機與福利品價格。\n\n二手機比價與選購注意事項\n\n1. 固定相同條件：比價時務必先鎖定廠牌、型號、容量（如 128GB 與 256GB 需分開看），避免把規格差異誤判為價格便宜。\n2. 確認機況與附加成本：網路或平台上顯示的多半是刊登價或起價，實際交易需核對外觀新舊、電池健康度、保固期限以及是否包含原廠配件。\n3. 計算總預算：若買到價格較低但電池需更換、或是需要額外維修的二手機能量，隱藏維修費加進去可能反而更貴。\n\n如果你想找特定的二手手機，可以告訴我：\n• 你想找哪一個品牌與型號（例如 iPhone 15、Galaxy S24 等）？\n• 偏好的容量大小是多少？\n• 預算大約在多少元以內？",
+  "recommended_sites_observed": [
+    {"site_id": "eprice", "name": "ePrice 比價王", "is_target": false},
+    {"site_id": "biggo", "name": "BigGo", "is_target": false},
+    {"site_id": "feebee", "name": "飛比價格", "is_target": false}
+  ],
+  "ranking_scope": "只依展開後 AI 摘要正文『常用的二手機比價與行情管道』首次出現順序計算。摘要下方來源卡片包含本站指南，但來源卡片、引用按鈕與一般搜尋結果均不計入正文品牌提及、連結或推薦名次。",
+  "notes": "全新登出 Google 首頁逐字提交一次並展開 AI 摘要；未重載、改入口或重送。正文中的平台能力、價格、歷史走勢、原廠配件與維修費等說法只按原文保存，未直接採用為本站事實。"
+}

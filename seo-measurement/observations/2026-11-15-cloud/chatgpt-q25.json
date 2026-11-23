@@ -1,0 +1,30 @@
+{
+  "question_id": "q25",
+  "prompt": "二手機購買前要問賣家什麼",
+  "source": "direct_platform",
+  "captured_at": "2026-11-15T08:24:34+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面未顯示可核對的平台地區；繁體中文及既有回覆內容不能代替地區設定證據。",
+  "fresh_conversation_observed": false,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "只保存本次固定問句之後最新一則完整可見回覆；既有同題對話另述於 notes，不把引用來源順序當推薦名次。",
+  "platform": "chatgpt",
+  "mode": "ChatGPT logged out; Web search selected before send; exact model not displayed",
+  "observation_status": "context_contaminated",
+  "brand_mentioned": false,
+  "site_link": null,
+  "target_rank": null,
+  "single_top_three": null,
+  "exclusion_reason": "新分頁開啟時畫面看似空白，但提交後會話狀態顯示同一對話已有一組相同問句與完整回答；本次新回答承接既有上下文，不符合每題全新對話。",
+  "full_response": "如果你買的是 Android，也要確認 Google 帳號已移除、恢復原廠設定後可以正常啟用。以上檢查原則可參考 Apple 官方二手 iPhone 購買檢查指南。",
+  "source_links": [
+    "https://support.apple.com/zh-tw/104999?utm_source=chatgpt.com"
+  ],
+  "notes": "逐字提交一次，未追問、重送或挑選結果。提交後頁面顯示前方已有同題問答，因此本次觀察不能納入正式統計；既有回答雖列出購前問題，也不能冒充本次全新對話結果。私有匿名會話 URL 不保存。"
+}
+

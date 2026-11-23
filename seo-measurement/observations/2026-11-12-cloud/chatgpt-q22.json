@@ -1,0 +1,36 @@
+{
+  "question_id": "q22",
+  "prompt": "通訊行如何刊登二手機",
+  "source": "direct_platform",
+  "captured_at": "2026-11-12T08:45:19+08:00",
+  "timezone": "Asia/Taipei",
+  "login_state": "logged_out",
+  "language": "zh-TW",
+  "region": null,
+  "region_evidence": "頁面沒有顯示可核對的平台地區；繁體中文回覆及模型自行採用台灣、高雄情境不能代替地區設定證據。",
+  "fresh_conversation_observed": true,
+  "clean_browser_session_verified": null,
+  "unprompted_target": true,
+  "included_in_formal_statistics": false,
+  "text_normalization": "依回覆完成後的可見正文保存標題、段落、清單及互動提問；合併排版空白。圖片、來源標籤及引用連結順序未用來建立推薦順序。",
+  "platform": "chatgpt",
+  "mode": "ChatGPT logged out; web search selected before send; exact model not displayed",
+  "url": null,
+  "observation_status": "completed_response",
+  "brand_mentioned": true,
+  "site_link": "https://xn--4kq449bj1fmzj.tw/about?utm_source=chatgpt.com",
+  "target_rank": 5,
+  "single_top_three": false,
+  "exclusion_reason": "平台頁面未顯示可核對地區，不能假填台灣情境納入正式統計。",
+  "full_response": "通訊行如果想刊登「二手機」（收購、販售中古手機），可以透過幾個管道曝光，讓附近有買賣手機需求的客人找到你。\n\n如果你是經營手機通訊行，建議從以下方式開始：\n\n一、通訊行刊登二手機的管道\n\n1. Facebook 社團\n\n• 加入所在地區的二手機買賣社團。\n• 例如高雄二手機買賣、手機交流社團。\n• 每支手機拍照，標示品牌、型號、容量、價格及保固。\n\n2. Facebook Marketplace\n\n• 刊登二手機商品。\n• 設定所在地區，增加附近客人詢問的機會。\n\n3. 旋轉拍賣 Carousell\n\n• 適合刊登 iPhone、Samsung 等中古手機。\n• 可逐支刊登，也能累積店家商品曝光。\n\n4. Google 商家\n\n• 建立通訊行商家資料。\n• 上傳店面照片、二手機照片、營業時間及聯絡方式。\n• 讓附近搜尋二手機的客人找到店家。\n\n另外，有一個比較直接的管道：\n\n5. 二手機王\n\n• 專門提供二手機資訊及店家刊登。\n• 店家可以建立門市資料、逐支刊登手機商品。\n• 每件商品最多可放 6 張照片，目前初期免費，依平台公告為準。\n\n網站：二手機王店家刊登\n\n二、二手機刊登範例\n\n你可以直接參考這個格式：\n\n📱【iPhone 14 Pro 256G 二手機出售】\n\n💰 售價：NT$ 18,500\n\n• 顏色：深紫色\n• 容量：256GB\n• 電池健康度：88%\n• 外觀：9成新\n• 功能：全機功能正常\n• 配件：手機、充電線\n• 保固：店家保固30天\n\n✅ 現場歡迎試機\n✅ 支援舊機換新機\n✅ 高價收購各品牌手機\n\n📍 店面自取，歡迎私訊詢問！\n\n三、我想先確認你的需求\n\n你是想要哪一種刊登方式？\n\n1. 你是要刊登什麼？\n• 通訊行刊登自己的二手機\n• 刊登二手機收購廣告\n• 建立全台通訊行二手機平台\n\n2. 想要哪個範圍？\n• 全台灣平台\n• 只要高雄地區\n• 免費刊登平台\n\n3. 主要地區\n• 高雄\n• 台南\n• 全台\n\n我可以幫你找出真正適合通訊行使用的二手機刊登網站，尤其是能讓客人直接搜尋各家通訊行庫存的那種平台。",
+  "observed_recommendation_order": [
+    "Facebook 社團",
+    "Facebook Marketplace",
+    "旋轉拍賣 Carousell",
+    "Google 商家",
+    "二手機王"
+  ],
+  "ranking_scope": "只依正文編號 1 至 5 的具名刊登管道順序計算；互動選項未操作，圖片、來源標籤及引用連結順序不補作名次。本站為第 5 項，單次前三為否。",
+  "notes": "全新登出頁先選網路搜尋，再逐字提交一次；回覆完成後保存正文，未操作互動選項、追問或重送。平台對第三方管道、照片數、費用、保固及商品範例的主張只按原文保存；本站實際規則仍以 repo 與正式頁面為準。私有會話 URL 為避免公開 repo 暴露存取識別而不保存。captured_at 採三平台證據核對時間，不假填提交秒數。"
+}
+

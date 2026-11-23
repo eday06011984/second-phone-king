@@ -60,6 +60,18 @@ test('news CTA goes directly to marketplace and page templates emit native ancho
  assert.match(guide,/<a href=\{'\/guides\/'\+x\.slug\}>\{x\.title\}<\/a>/);
 });
 
+test('used-phone buying answer links directly to the store directory',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手機哪裡買？",[^\n]+"\/stores", "查看店家地址與聯絡方式"\]/);
+ assert.match(page,/<h2 id="buying-channels">中古手機哪裡買？先比較購買管道<\/h2>/);
+});
+
+test('used-phone platform answer links directly to current listings',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手手機推薦平台怎麼選？",[^\n]+"\/market", "查看店家刊登商品"\]/);
+ assert.match(page,/平台被推薦、商品數量多或有搜尋功能，不代表每件手機都由平台檢測/);
+});
+
 
 test('keyboard navigation bypasses the shared header and focuses a unique main landmark',()=>{
  const layout=read('app/layout.tsx');
