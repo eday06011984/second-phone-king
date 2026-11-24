@@ -6919,5 +6919,119 @@
     ],
     "publishedAt": "2026-11-23T09:47:31.029+08:00",
     "updatedAt": "2026-11-23T09:47:31.029+08:00"
+  },
+  {
+    "slug": "samsung-odyssey-g6-g60h-1100hz-used-monitor-check",
+    "title": "Odyssey G6 挑戰 1100Hz：買二手高更新率螢幕先查哪些條件？",
+    "category": "3C 配件",
+    "description": "Samsung 推出 27 吋 Odyssey G6 G60H，主打雙模式最高 1100Hz；實際更新率仍受解析度、作業系統、顯示卡與連接方式限制，二手驗機不能只看標示數字。",
+    "sections": [
+      {
+        "heading": "官方資訊：雙模式切換解析度與更新率",
+        "paragraphs": [
+          "Samsung 於 11 月 23 日發表 27 吋 Odyssey G6 G60H。官方資料顯示，螢幕可透過 Dual Mode 在 HD 解析度下提供最高 1100Hz，或在 2560 × 1440 的 QHD 解析度下提供最高 600Hz；面板為 Fast IPS，標示 1ms GtG 反應時間，並搭載 Odyssey Clear Motion。",
+          "連接規格包括一組 DisplayPort 2.1 與兩組 HDMI 2.1，另支援 HDR10+ GAMING、G-SYNC Compatible 與 FreeSync Premium。Samsung 同時註明，macOS 不支援 Dual Mode，原生最高為 600Hz；更新率也會隨遊戲與輸入來源而變，供貨和價格則依市場不同。"
+        ]
+      },
+      {
+        "heading": "1100Hz 不是所有情境都能直接使用",
+        "paragraphs": [
+          "1100Hz 是特定解析度與模式下的上限，不代表每一款遊戲、顯示卡、線材或作業系統都能穩定輸出。選購前應先確認電腦的顯示輸出版本、遊戲可達幀率、使用的連接埠與線材，以及自己能否接受切換到較低解析度。",
+          "HDR、可變更新率與高更新率也各有相容條件。官方列出的功能屬產品規格與支援說明，不等於本站已在所有顯示卡或遊戲上完成實測；實際使用仍應以自己的硬體、驅動與遊戲設定驗證。"
+        ]
+      },
+      {
+        "heading": "二手驗機要看型號、面板與連接完整性",
+        "paragraphs": [
+          "若日後在二手市場看到 Odyssey G6，先核對完整型號是否為 G60H，不要只依「G6」或「1100Hz」字樣判斷。現場可檢查亮暗點、漏光、色塊、畫面閃爍與外殼受壓痕跡，再逐一測試 DisplayPort、HDMI、選單按鍵與升降旋轉機構。",
+          "編輯建議：請賣家使用能達到相應輸出的 Windows 電腦與合格線材，展示系統實際辨識的解析度、更新率及可變更新率狀態。若無法測到最高模式，也應把顯示卡、線材或韌體限制和面板本身故障分開判斷，避免只憑設定頁截圖成交。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung Global Newsroom",
+        "url": "https://news.samsung.com/global/samsung-launches-odyssey-g6-the-worlds-first-1100hz-gaming-monitor",
+        "date": "2026-11-23"
+      }
+    ],
+    "publishedAt": "2026-11-24T09:31:42.897+08:00",
+    "updatedAt": "2026-11-24T09:31:42.897+08:00"
+  },
+  {
+    "slug": "amd-unsloth-xdna2-npu-used-ai-pc-check",
+    "title": "AMD XDNA 2 NPU 支援逾百種 AI 工作流：二手 AI PC 別只看 TOPS",
+    "category": "AI 與電腦",
+    "description": "AMD 與 Unsloth 宣布讓相容的本機 AI 工作流使用 Ryzen AI PC 的 XDNA 2 NPU；實際可用性仍取決於處理器世代、模型、應用程式與軟體版本。",
+    "sections": [
+      {
+        "heading": "官方資訊：Unsloth Desktop 接上 XDNA 2 NPU",
+        "paragraphs": [
+          "AMD 於 11 月 19 日宣布與 Unsloth 合作，讓超過 100 種相容的代理式 AI 應用與工作流，可透過 Unsloth Desktop 在支援的 Ryzen AI PC 上使用本機推論。官方表示，XDNA 2 是 Unsloth Desktop 首個支援的 NPU 架構。",
+          "相容應用會把模型請求送到 Unsloth Desktop API，再由 Lemonade 或 FastFlowLM 等執行環境在 NPU 上服務支援的模型。AMD 列出的應用例子包括 Hermes Agent、Open WebUI、Cline、LangChain 與 GitHub Copilot，但實際支援仍須依個別版本與模型確認。"
+        ]
+      },
+      {
+        "heading": "省電與資源分工是廠商說明，不是通用實測",
+        "paragraphs": [
+          "AMD 表示，使用 NPU 可把 CPU 與 GPU 留給其他工作，並適合長時間、低功耗的本機推論。這是平台設計與廠商提出的使用情境，不代表每一台 Ryzen AI 電腦、每個模型或每項工作都會得到相同速度與耗電表現。",
+          "NPU 的理論 TOPS 也不能單獨代表實際體驗。模型格式、量化方式、記憶體容量、驅動、Unsloth Desktop 版本，以及應用程式是否真的呼叫 NPU，都可能影響能否執行和效能；購買前應先列出自己的工作流再比對支援清單。"
+        ]
+      },
+      {
+        "heading": "買二手 AI PC 先確認處理器與軟體環境",
+        "paragraphs": [
+          "二手賣場常把所有帶有 Ryzen AI 名稱的電腦混在一起，但這次公告的重點是 XDNA 2 NPU。驗機時應從 Windows 系統資訊或原廠規格頁核對完整處理器型號與世代，並確認 BIOS、晶片組驅動、Windows 更新及 NPU 裝置狀態正常。",
+          "編輯建議：若購買目的是本機 AI，最好帶著預定使用的模型與應用程式做短時間測試，觀察工作管理員或相應工具是否真的出現 NPU 負載，同時檢查記憶體、SSD 空間、散熱與電池健康。功能相容性應納入估價，不宜因機身貼有 AI PC 標籤就直接加價。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "AMD Newsroom",
+        "url": "https://newsroom.amd.com/news/amd-unsloth-bring-npu-support-agentic-ai-applications/",
+        "date": "2026-11-19"
+      }
+    ],
+    "publishedAt": "2026-11-24T09:31:42.897+08:00",
+    "updatedAt": "2026-11-24T09:31:42.897+08:00"
+  },
+  {
+    "slug": "razer-carbon-fiber-viper-deathadder-used-mouse-check",
+    "title": "Razer 碳纖維滑鼠登場：二手電競滑鼠別只看重量與材質",
+    "category": "3C 配件",
+    "description": "Razer 推出 Viper V4 Pro 與 DeathAdder V4 Pro 碳纖維版本，主打 47、49 克與長續航；二手選購仍要檢查握感、接收器、按鍵、滾輪與電池。",
+    "sections": [
+      {
+        "heading": "兩種熟悉外形換上碳纖維外殼",
+        "paragraphs": [
+          "Razer 於 11 月 17 日公布 Carbon Fiber Collection，包括 Viper V4 Pro Carbon Fiber Edition 與 DeathAdder V4 Pro Carbon Fiber Edition。官方表示，外殼採 2×2 斜紋編織碳纖維，經熱壓成形、CNC 切割與透明 UV 固化塗層處理。",
+          "Viper 版本標示重量 47 克，DeathAdder 版本為 49 克；兩款均採 Focus Pro 光學感測器、HyperSpeed Wireless Gen-2 與第四代光學微動，官方列出的最高電池續航為 180 小時。不同型號的感測器配置並不完全相同，不能只看同系列名稱。"
+        ]
+      },
+      {
+        "heading": "強度數字與續航都要看測試條件",
+        "paragraphs": [
+          "Razer 宣稱碳纖維外殼比 ABS 塑膠最高強 53%，但註明結果來自品牌內部測試，實際表現可能不同。材質較輕或抗彎，不代表能免除摔落、邊角撞擊、塗層磨損或長期汗水侵蝕等風險。",
+          "最高 180 小時同樣屬特定使用條件下的規格。回報率、燈效、無線連線品質、電池老化與使用習慣都會影響續航；若賣家只提供外觀照，無法據此判斷感測器、微動、滾輪編碼器與電池是否健康。"
+        ]
+      },
+      {
+        "heading": "二手驗機先配對，再檢查每個輸入",
+        "paragraphs": [
+          "現場應確認完整型號、專用無線接收器、充電線與原有配件是否齊全，實際測試左右鍵、側鍵、中鍵、滾輪上下與游標追蹤。碳纖維編織紋理可能每件略有差異，但裂紋、分層、異常軟化或塗層剝落不應被當成正常紋路。",
+          "編輯建議：用原廠軟體確認韌體、電量與感測設定，並以自己常用的握法連續操作一段時間。Viper 與 DeathAdder 的外形和握感不同，輕量或高規格不一定適合每個手型；二手價格也應把保固、接收器完整性與電池狀態一起計算。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Razer Newsroom",
+        "url": "https://www.razer.com/newsroom/product-news/carbon-fiber-collection",
+        "date": "2026-11-17"
+      }
+    ],
+    "publishedAt": "2026-11-24T09:31:42.897+08:00",
+    "updatedAt": "2026-11-24T09:31:42.897+08:00"
   }
 ]
