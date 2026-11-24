@@ -72,6 +72,11 @@ test('used-phone platform answer links directly to current listings',()=>{
  assert.match(page,/平台被推薦、商品數量多或有搜尋功能，不代表每件手機都由平台檢測/);
 });
 
+test('used iPhone buying answer links directly to Apple listings',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手 iPhone 哪裡買？","先從可篩選 Apple 品牌的實際刊登建立候選清單[^\n]+"\/brands\/Apple", "查看二手 iPhone 刊登"\]/);
+});
+
 
 test('keyboard navigation bypasses the shared header and focuses a unique main landmark',()=>{
  const layout=read('app/layout.tsx');
