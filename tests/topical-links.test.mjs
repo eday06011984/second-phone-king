@@ -77,6 +77,12 @@ test('used iPhone buying answer links directly to Apple listings',()=>{
  assert.match(page,/\["二手 iPhone 哪裡買？","先從可篩選 Apple 品牌的實際刊登建立候選清單[^\n]+"\/brands\/Apple", "查看二手 iPhone 刊登"\]/);
 });
 
+test('used iPhone price answer links directly to the comparison guide',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手 iPhone 價格怎麼比較？",[^\n]+"\/guides\/compare-used-phone-prices", "閱讀 iPhone 價格比較方法"\]/);
+ assert.match(page,/店家刊登價、個人賣價、回收／舊換新價和實際成交價用途不同，不能混在一起/);
+});
+
 
 test('keyboard navigation bypasses the shared header and focuses a unique main landmark',()=>{
  const layout=read('app/layout.tsx');
