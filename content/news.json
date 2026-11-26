@@ -7033,5 +7033,119 @@
     ],
     "publishedAt": "2026-11-24T09:31:42.897+08:00",
     "updatedAt": "2026-11-24T09:31:42.897+08:00"
+  },
+  {
+    "slug": "samsung-galaxy-buds-on-buds4-open-in-ear-buying-check",
+    "title": "Galaxy Buds On、Buds4 怎麼選？開放式與入耳式先看四個差異",
+    "category": "3C 配件",
+    "description": "Samsung 比較開放式 Galaxy Buds On 與入耳式 Buds4 系列；選購新機或二手耳機時，應把環境感知、降噪、相容手機、電池與衛生一起評估。",
+    "sections": [
+      {
+        "heading": "開放式與入耳式對應不同使用情境",
+        "paragraphs": [
+          "Samsung 美國新聞室於 11 月 24 日整理 Galaxy Buds On 與 Galaxy Buds4 系列的定位。Buds On 採開放式設計，使用時較容易保留周遭環境聲音；每耳標示重量 6.65 克，耳機單次播放最長 9.5 小時，搭配充電盒最長 38 小時。這些續航數字來自原廠以預量產裝置及預設設定進行的內部測試，實際結果會隨音量、訊號、設定與充電次數改變。",
+          "Buds4 系列則是入耳式設計，Buds4 Pro 另有主動降噪與自適應等化器；系列也主打高傳真音訊及 Super Clear Call。是否需要隔絕環境聲、能否接受耳塞深入耳道，以及通勤時對周遭聲音的需求，往往比單看新舊或價格更能決定適合的型態。"
+        ]
+      },
+      {
+        "heading": "功能完整度取決於手機、帳號與網路",
+        "paragraphs": [
+          "兩類耳機都可與相容的 Galaxy 裝置切換連線，但官方註明，需要使用同一 Samsung 帳號並開啟藍牙與 Wi-Fi，且耳機至少要先和手機、平板或電腦完成一次配對；電腦端則限定相容的 2020 年或之後 Galaxy Book。購買前不能只用『支援多裝置』判斷，還要核對自己的裝置與帳號環境。",
+          "Buds4 Pro 的自適應等化器需要透過相容的 Galaxy 或 Android 手機及 Samsung Wear 應用程式完成初始設定。Super Clear Call 需要 One UI 6.1.1 以上的 Galaxy 裝置，且超寬頻通話仍可能受行動網路限制；因此賣家的展示結果不一定能直接複製到另一支手機或電信網路。"
+        ]
+      },
+      {
+        "heading": "二手耳機還要檢查衛生、電池與解除配對",
+        "paragraphs": [
+          "編輯建議：二手入耳式耳機應更換可拆式耳塞，並依原廠允許方式清潔接觸皮膚的部位；開放式耳機也要檢查夾持處、出音孔與麥克風。外殼裂開、充電接點腐蝕、電池膨脹或異常發熱，都不應用低價或『還能連線』掩蓋。",
+          "交機時應重置並用買方手機重新配對，分別測試左右聲道、麥克風、手勢、充電盒與連續播放，再確認原持有人的帳號或尋找功能已解除。耳機屬貼身且電池不可輕易更換的產品，二手價格應反映耗損、缺件與剩餘保固，而不是只依新品規格折價。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Samsung U.S. Newsroom",
+        "url": "https://news.samsung.com/us/which-right-fit-in-ear-open-ear-buds/",
+        "date": "2026-11-24"
+      }
+    ],
+    "publishedAt": "2026-11-25T09:09:49.662+08:00",
+    "updatedAt": "2026-11-25T09:09:49.662+08:00"
+  },
+  {
+    "slug": "google-search-personal-intelligence-wallet-drive-privacy-check",
+    "title": "Google Search 可連接 Wallet、Drive：開啟個人化前先看資料範圍",
+    "category": "系統與資安",
+    "description": "Google 讓 AI Mode 的 Personal Intelligence 可選擇連接 Wallet，Drive 與 Gemini app 也將跟進；使用者應先確認資料用途、權限與關閉方式。",
+    "sections": [
+      {
+        "heading": "Wallet 先推出，Drive 與 Gemini app 後續加入",
+        "paragraphs": [
+          "Google 於 11 月 23 日宣布，Search 的 AI Mode 開始讓使用者主動選擇把 Google Wallet 連接到 Personal Intelligence，Drive 與 Gemini app 則預計在接下來數週加入。這些來源會和既有的 Gmail、日曆與相簿連接選項一起，讓搜尋回覆可參考個人支出、文件或先前對話。",
+          "依官方說明，Wallet 連接可用於整理消費里程碑、日常支出或信用卡回饋；AI Mode 對帳戶資訊只有讀取能力，不能移動、管理或投資資金。Drive 連接則可參考文件、試算表與 PDF，Gemini app 和 AI Mode 之間也將可延續上下文；這些功能都是分批推出，不代表所有帳號與地區已同時可用。"
+        ]
+      },
+      {
+        "heading": "連接是選擇加入，也能逐項關閉",
+        "paragraphs": [
+          "使用者可從 Search Personalization 的 Connected Apps 選擇要連接的應用程式，並可隨時關閉。Google 也預告，個人化回覆下方將加入圖示，讓使用者查看 AI Mode 此次使用的個人脈絡；近期搜尋脈絡也可能被用來延續 AI Overviews 與 AI Mode 的回覆。",
+          "編輯分析：『可關閉』不等於每位使用者都應直接開啟。Wallet 涉及消費脈絡，Drive 可能含工作、稅務或身分文件；啟用前應先確認登入的是個人或組織帳號、裝置是否為自己控制，以及是否真的需要跨服務個人化，並定期檢查 Connected Apps 與 Search Settings。"
+        ]
+      },
+      {
+        "heading": "買賣二手機時要把帳號與個人化設定一併清除",
+        "paragraphs": [
+          "二手機交易前，賣方不應只刪除瀏覽紀錄或登出單一應用程式。應先備份所需資料，移除付款卡與裝置上的 Google 帳號，關閉不再需要的個人化連接，再依原廠流程恢復原廠設定；同時確認尋找裝置及重置保護已正確解除。",
+          "買方則應自行完成系統更新、螢幕鎖定與帳號登入，再從 Google 設定檢查 Wallet、Drive、Gemini 與搜尋個人化，不要沿用賣方留下的使用者資料或瀏覽器工作階段。若裝置來自公司或學校，還要確認管理設定已解除；單純換 SIM 卡不能清除雲端連接與帳號權限。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+        "date": "2026-11-23"
+      }
+    ],
+    "publishedAt": "2026-11-25T09:09:49.662+08:00",
+    "updatedAt": "2026-11-25T09:09:49.662+08:00"
+  },
+  {
+    "slug": "sony-walkman-wm1zm3-wm1am3-zx900-used-player-check",
+    "title": "Sony 三款新 Walkman 在台登場：買二手播放器先查電池與系統",
+    "category": "影音與穿戴",
+    "description": "Sony 在台推出 NW-WM1ZM3、NW-WM1AM3 與 NW-ZX900，採 Android 16 並強化串流與音訊元件；選購二手播放器仍要實測電池、輸出與帳號狀態。",
+    "sections": [
+      {
+        "heading": "三款播放器預定 11 月 26 日在台上市",
+        "paragraphs": [
+          "台灣 Sony 於 11 月 18 日公布 NW-WM1ZM3、NW-WM1AM3 與 NW-ZX900，預定 11 月 26 日上市，建議售價分別為 NT$139,900、NT$76,990 與 NT$47,990。前兩款採 5.5 吋螢幕，ZX900 為 5 吋，三款均使用 Android 16；價格與上市資訊是台灣官方公告，不應套用到海外版本或未來二手成交價。",
+          "WM1ZM3 採鍍金無氧銅主機身與無氧銅後機身，WM1AM3、ZX900 則為鋁製主機身搭配無氧銅後機殼。WM1ZM3 與 WM1AM3 把數位、音訊電路的供電分開，三款也支援 S-Master HX、原生 DSD、平衡輸出與高功率輸出；這些是原廠設計與功能說明，不是本站進行的音質盲測結果。"
+        ]
+      },
+      {
+        "heading": "串流與續航要按實際使用方式評估",
+        "paragraphs": [
+          "新系列的 DSD 原音重現引擎可把 PCM 音訊重新取樣，並首次把支援範圍延伸到 Wi-Fi 串流。由於播放器採 Android 系統，實際串流服務仍會受到應用程式版本、帳號方案、地區、網路品質與數位版權條件影響，不能只看硬體支援就推定所有服務都能以相同格式播放。",
+          "官方標示 WM1ZM3、WM1AM3 播放 128kbps MP3 最長約 35 小時、使用串流應用最長約 31 小時；ZX900 則分別約 40 小時與 35 小時。這些是指定條件下的最長值，螢幕、Wi-Fi、輸出功率、檔案格式與電池老化都會影響二手機的實際續航。"
+        ]
+      },
+      {
+        "heading": "二手高階播放器要驗收完整音訊路徑",
+        "paragraphs": [
+          "編輯建議：交機時先核對完整型號、台灣或海外版本、序號、購買證明及配件，再測試耳機端子、平衡輸出、USB、Wi-Fi、藍牙、實體按鍵、儲存空間與記憶卡。高價機身若有撞擊、端子鬆動或維修史，不能只靠外觀成色與能開機判定價值。",
+          "應以自己的耳機、檔案與串流帳號連續播放一段時間，觀察雜音、斷訊、溫度、耗電與充電是否正常，並確認前任使用者已登出 Google、串流與 Sony 相關帳號、移除螢幕鎖定後再重置。Android 版本較新不代表電池健康或所有應用程式永久受支援，估價時仍要把剩餘保固與未來更新納入。"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "台灣 Sony 新聞中心",
+        "url": "https://www.sony.com.tw/corporate/home/NewsCenter/Detail/2026Walkman",
+        "date": "2026-11-18"
+      }
+    ],
+    "publishedAt": "2026-11-25T09:09:49.662+08:00",
+    "updatedAt": "2026-11-25T09:09:49.662+08:00"
   }
 ]

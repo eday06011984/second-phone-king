@@ -240,6 +240,10 @@ Google 頁面顯示「台灣／高雄市鼓山區－根據你的活動記錄」�
 
 完整本輪限制見 [2026-11-25-cloud/README.md](2026-11-25-cloud/README.md)。雲端瀏覽器在建立第一個分頁前持續回報 `Browser Use could not read requirements.`，因此 ChatGPT、Gemini 與 Google 都沒有到達實際頁面，也沒有送出固定問句。三筆只保存 `platform_unavailable` observation；地區、登入、產品模式、全新對話與回覆均保持未知，不以一般搜尋工具替代。`results.json` 不新增紀錄；q10 正式資料仍只有 Gemini 2026-10-07 的 `not_present` 與 Google 2026-11-01 的 `failed`，三平台穩定達標仍為未知。
 
+## 2026-11-26，第三輪第 10 題重試：二手 iPhone 價格怎麼比較
+
+完整本輪紀錄見 [2026-11-26-cloud/README.md](2026-11-26-cloud/README.md)。三平台各由新頁面逐字提交固定問句一次並取得完整直接回覆。ChatGPT Web search 與 Gemini「Hydrogen」模式都未見本站，但平台地區無法核對，故只保存 observations。Google 首頁與結果頁明示台灣，AI 摘要正文「可參考」順序為米可手機館、SOGI 手機王，未見本站，正式追加 `not_present`。台灣網通的資料歸因、引用按鈕、來源卡片與一般搜尋結果均未用來補推薦名次。q10 各平台仍未滿三個正式完成回覆日期，穩定達標維持 `unknown`。
+
 已在對話中設定每日台灣時間上午約 8 點執行的觀察與優化任務；排程由對話任務管理，不是此 repo 的 GitHub Actions。排程觸發不保證平台必定可用。每輪先讀 main 與既有 PR，直接測量固定問句，保存失敗及無法判定紀錄，完成核對後才追加正式結果並重產報表。
 
 內容優化以最小 PR 保存並記錄驗證，不自動合併、部署或承諾排名提升。所有正式數據仍以 `results.json` 與既有驗收規則為準。

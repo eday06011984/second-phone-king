@@ -993,16 +993,18 @@
           "id": "q10",
           "prompt": "二手 iPhone 價格怎麼比較",
           "attempted": true,
-          "measured_dates": 0,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
-            "not_present": 0,
+            "not_present": 1,
             "indeterminate": 0,
             "failed": 1
           },
-          "single_top_three_count": null,
-          "selected_record_ids": [],
+          "single_top_three_count": 0,
+          "selected_record_ids": [
+            "google_ai_overview-q10-2026-11-26T08-45-47+08-00"
+          ],
           "stable": "unknown"
         },
         {
@@ -4726,6 +4728,56 @@
       "target_rank": null,
       "top_three_sites": [],
       "single_top_three": null
+    },
+    {
+      "id": "google_ai_overview-q10-2026-11-26T08-45-47+08-00",
+      "question_id": "q10",
+      "platform": "google_ai_overview",
+      "prompt": "二手 iPhone 價格怎麼比較",
+      "status": "not_present",
+      "measured_at": "2026-11-26T08:45:47+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "比較二手 iPhone 價格不能只看單一標價，建議先對照同機型與容量行情，再將電池健康度、維修紀錄與保固成本算進總花費中。\n\n1. 對照市場行情與容量\n\n• 先定基準：同一型號不同容量與新舊程度價差可達數千元。可參考米可手機館的二手行情整理（如 iPhone 15 約 NT$12,000–18,000、iPhone 14 Pro 約 NT$11,000–19,000），或透過 SOGI 手機王查看近期二手通路均價作為基準。\n• 比對新機折價：若二手價與特價新機或官翻機差距不大，直接選新機通常更划算。\n\n2. 計算「實際持有成本」\n\n表面便宜的機器不一定划算，台灣網通指出應將潛在維修與保固納入總成本：\n• 電池健康度：低於 85%（尤其低於 80%）需把後續換電池費用加進預算；若顯示 100% 也要確認是否為近期換過電池。\n• 零件與維修紀錄：查看設定中的零件與維修歷程，確認螢幕、電池或相機是否曾更換及來源是否正常。\n• 保固與售後：比較是否有店家保固、保固天數及是否涵蓋耗材，避免買到無保固機卻很快遇到故障。\n\n3. 比較不同購買管道\n\n• 實體通訊行／二手機專賣店：可現場驗機、確認功能與保固條件，價格通常透明但略高於個人自售。\n• 網路平台／個人交易：選擇多、價格可能較低，但需自行承擔驗機風險、帳號鎖定或交易糾紛。\n\n如果你想進一步縮小範圍，可以告訴我：\n• 鎖定的 iPhone 型號與容量需求\n• 你的預算區間與主要用途（例如日常拍照、遊戲或備用機）\n• 偏好面交自取、實體門市還是網購平台\n\n我可以幫你分析哪款機型與價位帶比較合適。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "miko",
+          "name": "米可手機館",
+          "is_target": false
+        },
+        {
+          "site_id": "sogi",
+          "name": "SOGI 手機王",
+          "is_target": false
+        }
+      ],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁亦明示台灣。從全新登入首頁逐字提交固定問句一次並展開 AI 摘要，未重載、重試、改入口或操作 AI 模式。只依摘要正文『可參考』句中具名網站首次出現順序計算；台灣網通為資料歸因，Q哥等站點只在引用、來源卡片或一般搜尋結果出現，未用來補正文品牌提及、連結或名次。帳號識別與更細位置不保存。",
+      "date": "2026-11-26",
+      "target_rank": null,
+      "top_three_sites": [
+        {
+          "site_id": "miko",
+          "name": "米可手機館",
+          "is_target": false
+        },
+        {
+          "site_id": "sogi",
+          "name": "SOGI 手機王",
+          "is_target": false
+        }
+      ],
+      "single_top_three": false
     }
   ]
 }

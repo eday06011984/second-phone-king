@@ -12,7 +12,7 @@ node scripts/seo-measurement.mjs report
 node --test scripts/seo-measurement.test.mjs
 ```
 
-- 正式資料：`seo-measurement/results.json`。原始 25 問句 × 3 平台的 75 筆 `not_tested` 基準仍完整保留；截至 2026-11-25，另有 13 筆 `not_present`、35 筆 `failed` 與 2 筆 `indeterminate`，共 125 筆正式紀錄。q01、q02、q03、q06 與 q07 各有兩次 Google AI 摘要 `failed`，五題都沒有正式完成回覆日期；q04、q08 與 q09 各有一個正式完成回覆日期及一次 `failed`；q05 有 2026-10-27 與 2026-11-20 兩個正式完成回覆日期，兩次皆明確非前三。q10 只有 Gemini 在 2026-10-07 的一個正式完成回覆日期及 Google 在 2026-11-01 的一次 `failed`；2026-11-25 因瀏覽器未建立平台頁面，只保存操作限制。未滿三個不同台北日期時穩定判定仍是未知，失敗也不代表沒有 AI 摘要或本站未出現。固定 25 題都已有至少一次直接平台觀察，q01 至 q09 已各有第三個觀察日期；q10 本輪不是直接平台回覆。正式資料只接受完整符合條件者。所有問句的穩定判定仍未知。條件不符、未知、不完整或平台無法操作的紀錄另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
+- 正式資料：`seo-measurement/results.json`。原始 25 問句 × 3 平台的 75 筆 `not_tested` 基準仍完整保留；截至 2026-11-26，另有 14 筆 `not_present`、35 筆 `failed` 與 2 筆 `indeterminate`，共 126 筆正式紀錄。q01、q02、q03、q06 與 q07 各有兩次 Google AI 摘要 `failed`，五題都沒有正式完成回覆日期；q04、q08 與 q09 各有一個正式完成回覆日期及一次 `failed`；q05 有 2026-10-27 與 2026-11-20 兩個完成回覆日期，兩次皆明確非前三。q10 的 Gemini 只有 2026-10-07 一個正式完成回覆日期；Google AI 摘要有 2026-11-26 一個正式完成回覆日期及 2026-11-01 一次 `failed`。2026-11-25 的瀏覽器操作限制仍只保存於 observations。各平台都未滿三個不同台北日期，穩定判定仍是未知；失敗也不代表沒有 AI 摘要或本站未出現。固定 25 題都已有至少一次直接平台觀察，q01 至 q10 已各有第三個直接平台觀察日期。正式資料只接受完整符合條件者。所有問句的穩定判定仍未知。條件不符、未知、不完整或平台無法操作的紀錄另見 [observations/README.md](observations/README.md)，不能假填台灣地區或全新對話以通過驗證。
 - 閱讀報表：`seo-measurement/reports/report.md`。
 - 完整機器可讀報表：`seo-measurement/reports/report.json`，含所有原始紀錄、推導名次、單次前三、每問句各狀態筆數及穩定判定採用的紀錄 ID。
 - 每次資料更新後重跑 validate / report；輸出可重現，不加入每次執行的時間戳。
