@@ -83,6 +83,13 @@ test('used iPhone price answer links directly to the comparison guide',()=>{
  assert.match(page,/店家刊登價、個人賣價、回收／舊換新價和實際成交價用途不同，不能混在一起/);
 });
 
+test('Samsung buying answer links directly to Samsung listings',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["Samsung 二手機哪裡買？",[^\n]+"\/brands\/Samsung", "查看 Samsung 二手機刊登"\]/);
+ assert.match(page,/若為 Z 系列，再檢查摺疊處與轉軸/);
+ assert.match(page,/確認 Google、Samsung 帳號與裝置管理已解除/);
+});
+
 
 test('keyboard navigation bypasses the shared header and focuses a unique main landmark',()=>{
  const layout=read('app/layout.tsx');

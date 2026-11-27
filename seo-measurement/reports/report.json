@@ -1011,16 +1011,18 @@
           "id": "q11",
           "prompt": "Samsung 二手機哪裡買",
           "attempted": true,
-          "measured_dates": 0,
+          "measured_dates": 1,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
-            "not_present": 0,
+            "not_present": 1,
             "indeterminate": 0,
             "failed": 2
           },
-          "single_top_three_count": null,
-          "selected_record_ids": [],
+          "single_top_three_count": 0,
+          "selected_record_ids": [
+            "google_ai_overview-q11-2026-11-27T08-46-38+08-00"
+          ],
           "stable": "unknown"
         },
         {
@@ -4774,6 +4776,81 @@
         {
           "site_id": "sogi",
           "name": "SOGI 手機王",
+          "is_target": false
+        }
+      ],
+      "single_top_three": false
+    },
+    {
+      "id": "google_ai_overview-q11-2026-11-27T08-46-38+08-00",
+      "question_id": "q11",
+      "platform": "google_ai_overview",
+      "prompt": "Samsung 二手機哪裡買",
+      "status": "not_present",
+      "measured_at": "2026-11-27T08:46:38+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "購買 Samsung 二手機可以透過連鎖二手機專賣店、通訊行或電商平台，建議優先選擇可現場驗機或提供明確保固與發票的店家。\n\n實體門市與二手機專賣店\n\n• 台機店：在高雄三民區建國二路設有實體門市，也經營線上賣場，標榜台版公司貨、開立發票與外觀分級制度，並提供舊機折抵。\n• 創宇通訊：連鎖二手機品牌，提供各品牌二手機、福利品與展示機販售，以及舊機回收與維修服務。\n• 洋蔥網通：提供買賣二手手機與現場估價回收服務，支援包含 Samsung 在內的多品牌機型。\n• 地標網通：提供三星舊機回收與折抵換購服務，可現場檢測外觀與功能並評估行情。\n\n線上購物平台與具體機型參考\n\n若偏好線上比價或下單，可留意蝦皮購物或 momo 購物網等平台上的二手機賣場，購買前務必確認成色分級、保固天數與退換貨規則。以下為目前搜尋結果中的具體二手機品項參考：\n\n• Samsung Galaxy S21 二手機（台機店 / 蝦皮購物）：6.2 吋機型（SM-G9910），參考價格約 NT$2,189，標示台版公司貨、附認證充電線與 7 天非人為硬體保固，支援實體門市或線上購買。\n• Samsung Galaxy S21+ 二手機（台機店 / 蝦皮購物）：6.7 吋機型（SM-G9960），參考價格約 NT$2,400，同樣提供外觀分級說明、7 天非人為硬體保固與實體門市服務。\n• Samsung Galaxy A55 二手機（蝦皮購物 / momo 購物網）：中階 5G 機型，蝦皮購物「台機店」二手機參考價格約 NT$7,020；momo 購物網「手機隊長」商品頁亦列出相關二手／中古品項（參考價格 NT$6,500，實際狀態與促銷請依賣場標示為準）。\n\n挑選與交易提醒\n\n• 確認成色與螢幕狀況：留意是否有螢幕烙印、亮暗點、機身磕碰或電池健康度說明，部分二手機可能曾更換零件或不保證防水防塵。\n• 核對保固與發票：確認保固涵蓋範圍（通常不含外觀、螢幕、電池與人為損壞）及是否開立發票。\n\n如果想幫你縮小範圍，可以告訴我：\n• 預算區間與偏好的 Samsung 系列（例如 S 系列旗艦、A 系列中階或摺疊機）\n• 偏好在高雄實體門市面交驗機還是線上網購\n• 是否有舊機想一起折抵回收\n\n我可以幫你進一步比對適合的機型與購買管道。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "tai-phone-shop",
+          "name": "台機店",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        },
+        {
+          "site_id": "onion-net",
+          "name": "洋蔥網通",
+          "is_target": false
+        },
+        {
+          "site_id": "landtop",
+          "name": "地標網通",
+          "is_target": false
+        },
+        {
+          "site_id": "shopee",
+          "name": "蝦皮購物",
+          "is_target": false
+        },
+        {
+          "site_id": "momo",
+          "name": "momo 購物網",
+          "is_target": false
+        }
+      ],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁亦明示台灣。從全新登入首頁逐字提交固定問句一次並展開 AI 摘要，未重載、重試、改入口或操作 AI 模式。只依展開後 AI 摘要敘述段落具名店家與平台首次出現順序去重；PChome 只出現在產品卡，引用按鈕、來源卡片、產品搜尋列與下方一般搜尋結果均未計入。帳號識別與更細位置不保存。",
+      "date": "2026-11-27",
+      "target_rank": null,
+      "top_three_sites": [
+        {
+          "site_id": "tai-phone-shop",
+          "name": "台機店",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        },
+        {
+          "site_id": "onion-net",
+          "name": "洋蔥網通",
           "is_target": false
         }
       ],
