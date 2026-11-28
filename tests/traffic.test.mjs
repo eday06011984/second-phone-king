@@ -1,0 +1,38 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {publicPath,taipeiDay,trustedRequest,qaState,summarizeDays,qaKey} from '../lib/traffic/policy.mjs';
+import {collectTraffic} from '../lib/traffic/handler.ts';
+const origin='https://xn--4kq449bj1fmzj.tw';
+const request=(data={path:'/news',qa:false},headers={})=>new Request(origin+'/api/traffic',{method:'POST',headers:{origin,'sec-fetch-site':'same-origin','content-type':'application/json',...headers},body:JSON.stringify(data)});
+const db=()=>{ const calls=[];return {calls,prepare(sql){return {bind(...args){calls.push({sql,args});return {run:async()=>({success:true})};}}}};};
+for(const path of ['/','/news','/news/test-1','/stores/a','/brands/Apple','/used-phones'])test('public '+path,()=>assert.equal(publicPath(path),path));
+for(const path of ['/api/manage','/seller','//evil','/news?email=a','/news/a#b','/news/%61','/foo','/news/a/b',null])test('reject '+path,()=>assert.equal(publicPath(path),null));
+test('Taipei date boundary',()=>{assert.equal(taipeiDay(new Date('2026-11-01T15:59:59Z')),'2026-11-01');assert.equal(taipeiDay(new Date('2026-11-01T16:00:00Z')),'2026-11-02')});
+test('origin and site strict',()=>{assert.ok(trustedRequest(request()));assert.ok(!trustedRequest(request({}, {origin:'https://evil.test'})));assert.ok(!trustedRequest(request({}, {'sec-fetch-site':'cross-site'})));});
+test('QA persists across paths and clearing control page suppressed',()=>{const m=new Map();const storage={setItem:(k,v)=>m.set(k,v),removeItem:k=>m.delete(k),getItem:k=>m.get(k)};assert.ok(qaState('?analytics_qa=1',storage));assert.ok(qaState('',storage));assert.ok(qaState('?analytics_qa=0',storage));assert.equal(qaState('',storage),false);assert.equal(m.has(qaKey),false)});
+test('QA per page survives storage denial',()=>assert.ok(qaState('?analytics_qa=1',{setItem(){throw Error('denied')}})));
+test('disabled fail closed and no writes',async()=>{const DB=db();assert.equal((await collectTraffic(request(),{DB})).status,503);assert.equal(DB.calls.length,0)});
+test('PV writes only day path count',async()=>{const DB=db();assert.equal((await collectTraffic(request(),{DB,TRAFFIC_ENABLED:'1'})).status,204);assert.match(DB.calls[0].sql,/traffic_daily_pageviews/);assert.deepEqual(DB.calls[0].args,[taipeiDay(),'/news'])});
+test('QA writes separate health, not PV',async()=>{const DB=db();assert.equal((await collectTraffic(request({path:'/news',qa:true}),{DB,TRAFFIC_ENABLED:'1'})).status,204);assert.match(DB.calls[0].sql,/traffic_qa_health/);assert.doesNotMatch(DB.calls[0].sql,/daily_pageviews/)});
+test('reject unknown payload fields',async()=>assert.equal((await collectTraffic(request({path:'/news',qa:false,email:'private'}),{TRAFFIC_ENABLED:'1'})).status,400));
+test('reject auth paths',async()=>assert.equal((await collectTraffic(request({path:'/seller',qa:false}),{TRAFFIC_ENABLED:'1'})).status,400));
+test('reject cross origin',async()=>assert.equal((await collectTraffic(request({}, {origin:'https://evil.test'}),{TRAFFIC_ENABLED:'1'})).status,403));
+test('reject oversized body',async()=>assert.equal((await collectTraffic(request({path:'a'.repeat(600),qa:false}),{TRAFFIC_ENABLED:'1'})).status,413));
+test('missing database or failed write not counted',async()=>{assert.equal((await collectTraffic(request(),{TRAFFIC_ENABLED:'1'})).status,503);const DB={prepare(){throw Error('missing table')}};assert.equal((await collectTraffic(request(),{TRAFFIC_ENABLED:'1',DB})).status,503)});
+test('empty report is unknown',()=>assert.deepEqual(summarizeDays([],'2026-10-25','2026-10-31').recordedPageviews,null));
+test('report dates and counts separated from people',()=>{const r=summarizeDays([{day:'2026-10-24',path:'/',views:5},{day:'2026-10-25',path:'/',views:2}],'2026-10-25','2026-10-31');assert.equal(r.recordedPageviews,2);assert.equal(r.people,null);assert.equal(r.browserIdentifiers,null)});
+test('client has visibility and explicit QA guards, no cookies',()=>{const s=readFileSync(new URL('../components/traffic.tsx',import.meta.url),'utf8');assert.match(s,/visibilityState !== 'visible'/);assert.match(s,/credentials:'omit'/);assert.match(s,/previous.current === pathname/);assert.match(s,/qaState\(location.search/)});
+
+test('daily report preserves missing dates and per-page counts',()=>{
+  const r=summarizeDays([{day:'2026-11-02',path:'/news',views:3},{day:'2026-11-02',path:'/',views:2}],'2026-11-01','2026-11-03');
+  assert.deepEqual(r.daily.map(d=>d.recordedPageviews),[null,5,null]);
+  assert.deepEqual(r.daily.map(d=>d.status),['unknown','recorded_events_only','unknown']);
+  assert.equal(r.daily[1].pages.length,2);assert.equal(r.uniqueVisitors,null);assert.equal(r.timeOnSite,null);
+});
+test('invalid dates and malformed exports fail rather than producing misleading counts',()=>{
+  assert.throws(()=>summarizeDays([],'2026-02-30','2026-03-01'));
+  assert.throws(()=>summarizeDays([{day:'2026-11-01',path:'/',views:'3'}],'2026-11-01','2026-11-01'));
+  const row={day:'2026-11-01',path:'/',views:3};
+  assert.throws(()=>summarizeDays([row,row],'2026-11-01','2026-11-01'));
+});
