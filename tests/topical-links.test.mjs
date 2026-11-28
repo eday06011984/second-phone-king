@@ -72,6 +72,30 @@ test('used-phone platform answer links directly to current listings',()=>{
  assert.match(page,/平台被推薦、商品數量多或有搜尋功能，不代表每件手機都由平台檢測/);
 });
 
+test('used iPhone buying answer links directly to Apple listings',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手 iPhone 哪裡買？","先從可篩選 Apple 品牌的實際刊登建立候選清單[^\n]+"\/brands\/Apple", "查看二手 iPhone 刊登"\]/);
+});
+
+test('used iPhone price answer links directly to the comparison guide',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手 iPhone 價格怎麼比較？",[^\n]+"\/guides\/compare-used-phone-prices", "閱讀 iPhone 價格比較方法"\]/);
+ assert.match(page,/店家刊登價、個人賣價、回收／舊換新價和實際成交價用途不同，不能混在一起/);
+});
+
+test('Samsung buying answer links directly to Samsung listings',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["Samsung 二手機哪裡買？",[^\n]+"\/brands\/Samsung", "查看 Samsung 二手機刊登"\]/);
+ assert.match(page,/若為 Z 系列，再檢查摺疊處與轉軸/);
+ assert.match(page,/確認 Google、Samsung 帳號與裝置管理已解除/);
+});
+
+test('used-phone selection answer links directly to the inspection checklist',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手機怎麼挑？",[^\n]+"\/guides\/used-phone-checklist", "開啟二手機挑選與驗機清單"\]/);
+ assert.match(page,/確認前機主已解除 iCloud 或 Google 帳號且手機可正常重置/);
+});
+
 
 test('keyboard navigation bypasses the shared header and focuses a unique main landmark',()=>{
  const layout=read('app/layout.tsx');

@@ -2677,6 +2677,144 @@
       "site_link": null,
       "recommended_sites": [],
       "notes": "送出前 Google 首頁頁尾明示『台灣』。固定問句於 2026-11-23T00:48:52.738Z 逐字提交一次；錯誤頁時間 2026-11-23T00:49:01Z，換算台北 08:49:01。未操作驗證、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現；IP、完整 URL、追蹤及挑戰參數不保存。"
+    },
+    {
+      "id": "google_ai_overview-q09-2026-11-24T08-17-28+08-00",
+      "question_id": "q09",
+      "platform": "google_ai_overview",
+      "prompt": "二手 iPhone 哪裡買",
+      "status": "failed",
+      "measured_at": "2026-11-24T08:17:28+08:00",
+      "mode": "Google Search default All results; AI Overview not reached; logged out",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "error",
+        "value": "我們的系統偵測到您的電腦網路送出的流量有異常情況。這頁是為了確認要求確實出自您本人，不是由自動程式發出。"
+      },
+      "brand_mentioned": null,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』。固定問句於 2026-11-24T00:17:28.163Z 逐字提交一次；錯誤頁時間 2026-11-24T00:17:28Z，換算台北 08:17:28。未操作驗證、重載、改入口或重試。沒有到達搜尋結果或 AI 摘要，不能記為沒有 AI 摘要或本站未出現；IP、完整 URL、追蹤及挑戰參數不保存。"
+    },
+    {
+      "id": "google_ai_overview-q10-2026-11-26T08-45-47+08-00",
+      "question_id": "q10",
+      "platform": "google_ai_overview",
+      "prompt": "二手 iPhone 價格怎麼比較",
+      "status": "not_present",
+      "measured_at": "2026-11-26T08:45:47+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "比較二手 iPhone 價格不能只看單一標價，建議先對照同機型與容量行情，再將電池健康度、維修紀錄與保固成本算進總花費中。\n\n1. 對照市場行情與容量\n\n• 先定基準：同一型號不同容量與新舊程度價差可達數千元。可參考米可手機館的二手行情整理（如 iPhone 15 約 NT$12,000–18,000、iPhone 14 Pro 約 NT$11,000–19,000），或透過 SOGI 手機王查看近期二手通路均價作為基準。\n• 比對新機折價：若二手價與特價新機或官翻機差距不大，直接選新機通常更划算。\n\n2. 計算「實際持有成本」\n\n表面便宜的機器不一定划算，台灣網通指出應將潛在維修與保固納入總成本：\n• 電池健康度：低於 85%（尤其低於 80%）需把後續換電池費用加進預算；若顯示 100% 也要確認是否為近期換過電池。\n• 零件與維修紀錄：查看設定中的零件與維修歷程，確認螢幕、電池或相機是否曾更換及來源是否正常。\n• 保固與售後：比較是否有店家保固、保固天數及是否涵蓋耗材，避免買到無保固機卻很快遇到故障。\n\n3. 比較不同購買管道\n\n• 實體通訊行／二手機專賣店：可現場驗機、確認功能與保固條件，價格通常透明但略高於個人自售。\n• 網路平台／個人交易：選擇多、價格可能較低，但需自行承擔驗機風險、帳號鎖定或交易糾紛。\n\n如果你想進一步縮小範圍，可以告訴我：\n• 鎖定的 iPhone 型號與容量需求\n• 你的預算區間與主要用途（例如日常拍照、遊戲或備用機）\n• 偏好面交自取、實體門市還是網購平台\n\n我可以幫你分析哪款機型與價位帶比較合適。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "miko",
+          "name": "米可手機館",
+          "is_target": false
+        },
+        {
+          "site_id": "sogi",
+          "name": "SOGI 手機王",
+          "is_target": false
+        }
+      ],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁亦明示台灣。從全新登入首頁逐字提交固定問句一次並展開 AI 摘要，未重載、重試、改入口或操作 AI 模式。只依摘要正文『可參考』句中具名網站首次出現順序計算；台灣網通為資料歸因，Q哥等站點只在引用、來源卡片或一般搜尋結果出現，未用來補正文品牌提及、連結或名次。帳號識別與更細位置不保存。"
+    },
+    {
+      "id": "google_ai_overview-q11-2026-11-27T08-46-38+08-00",
+      "question_id": "q11",
+      "platform": "google_ai_overview",
+      "prompt": "Samsung 二手機哪裡買",
+      "status": "not_present",
+      "measured_at": "2026-11-27T08:46:38+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "購買 Samsung 二手機可以透過連鎖二手機專賣店、通訊行或電商平台，建議優先選擇可現場驗機或提供明確保固與發票的店家。\n\n實體門市與二手機專賣店\n\n• 台機店：在高雄三民區建國二路設有實體門市，也經營線上賣場，標榜台版公司貨、開立發票與外觀分級制度，並提供舊機折抵。\n• 創宇通訊：連鎖二手機品牌，提供各品牌二手機、福利品與展示機販售，以及舊機回收與維修服務。\n• 洋蔥網通：提供買賣二手手機與現場估價回收服務，支援包含 Samsung 在內的多品牌機型。\n• 地標網通：提供三星舊機回收與折抵換購服務，可現場檢測外觀與功能並評估行情。\n\n線上購物平台與具體機型參考\n\n若偏好線上比價或下單，可留意蝦皮購物或 momo 購物網等平台上的二手機賣場，購買前務必確認成色分級、保固天數與退換貨規則。以下為目前搜尋結果中的具體二手機品項參考：\n\n• Samsung Galaxy S21 二手機（台機店 / 蝦皮購物）：6.2 吋機型（SM-G9910），參考價格約 NT$2,189，標示台版公司貨、附認證充電線與 7 天非人為硬體保固，支援實體門市或線上購買。\n• Samsung Galaxy S21+ 二手機（台機店 / 蝦皮購物）：6.7 吋機型（SM-G9960），參考價格約 NT$2,400，同樣提供外觀分級說明、7 天非人為硬體保固與實體門市服務。\n• Samsung Galaxy A55 二手機（蝦皮購物 / momo 購物網）：中階 5G 機型，蝦皮購物「台機店」二手機參考價格約 NT$7,020；momo 購物網「手機隊長」商品頁亦列出相關二手／中古品項（參考價格 NT$6,500，實際狀態與促銷請依賣場標示為準）。\n\n挑選與交易提醒\n\n• 確認成色與螢幕狀況：留意是否有螢幕烙印、亮暗點、機身磕碰或電池健康度說明，部分二手機可能曾更換零件或不保證防水防塵。\n• 核對保固與發票：確認保固涵蓋範圍（通常不含外觀、螢幕、電池與人為損壞）及是否開立發票。\n\n如果想幫你縮小範圍，可以告訴我：\n• 預算區間與偏好的 Samsung 系列（例如 S 系列旗艦、A 系列中階或摺疊機）\n• 偏好在高雄實體門市面交驗機還是線上網購\n• 是否有舊機想一起折抵回收\n\n我可以幫你進一步比對適合的機型與購買管道。"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [
+        {
+          "site_id": "tai-phone-shop",
+          "name": "台機店",
+          "is_target": false
+        },
+        {
+          "site_id": "smart3c",
+          "name": "創宇通訊",
+          "is_target": false
+        },
+        {
+          "site_id": "onion-net",
+          "name": "洋蔥網通",
+          "is_target": false
+        },
+        {
+          "site_id": "landtop",
+          "name": "地標網通",
+          "is_target": false
+        },
+        {
+          "site_id": "shopee",
+          "name": "蝦皮購物",
+          "is_target": false
+        },
+        {
+          "site_id": "momo",
+          "name": "momo 購物網",
+          "is_target": false
+        }
+      ],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁亦明示台灣。從全新登入首頁逐字提交固定問句一次並展開 AI 摘要，未重載、重試、改入口或操作 AI 模式。只依展開後 AI 摘要敘述段落具名店家與平台首次出現順序去重；PChome 只出現在產品卡，引用按鈕、來源卡片、產品搜尋列與下方一般搜尋結果均未計入。帳號識別與更細位置不保存。"
+    },
+    {
+      "id": "google_ai_overview-q12-2026-11-28T08-10-44+08-00",
+      "question_id": "q12",
+      "platform": "google_ai_overview",
+      "prompt": "二手機怎麼挑",
+      "status": "indeterminate",
+      "measured_at": "2026-11-28T08:10:44+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "挑二手機的核心原則是先確認帳號解鎖與基本功能正常，再評估電池健康度、維修紀錄與售後保固，避免只看低價而忽略後續維修成本。\n\n一、挑選與驗機必看重點\n\n• 帳號與鎖定狀態：務必確認前一位使用者已登出帳號並解除「尋找我的iPhone」或 Google 帳號鎖定；若仍處於鎖定狀態，切勿購買。\n• 電池健康度與維修成本：建議優先考慮電池健康度在 85% 以上的機型；若低於 80%～85%，需將更換電池的費用一併算入總成本。也可查看系統零件與維修紀錄，留意是否曾拆修或更換非原廠零件。\n• 外觀與分級標準：留意螢幕刮痕或裂痕、邊框撞傷、機身是否變形或背蓋翹起（可能涉及內部損傷或電池膨脹）。不同商家對 S、A、B 級的外觀判定標準不一，實際看機最準。\n• 核心功能實測：現場測試前後相機與對焦、麥克風／聽筒／喇叭、有線與無線充電、實體按鍵、指紋或 Face ID，以及 Wi-Fi、行動網路、藍牙與 GPS。拆修過或使用較久的手機，防水能力也可能下降。\n\n二、購買管道選擇\n\n• 實體通訊門市／認證商家：如具備檢測與保固機制的通訊行（例如參考創宇通訊外觀分級指南或 Q哥二手挑選指南整理的重點），可當場驗機並確認保固與退換貨條件，較適合不想承擔驗機風險的買家。\n• 個人交易或網路平台：價格可能較低，但缺乏統一保固，面交時需花時間逐項測試並留意交易安全。也可參考 Apple 官方二手 iPhone 購買建議確認購買與檢查步驟。\n\n如果你想更精準縮小範圍，可以告訴我：\n• 預算區間與偏好的系統（iOS 或 Android）\n• 主要用途（例如日常拍照、玩遊戲、長輩機或備用機）\n• 購買方式偏好（實體門市驗機保固或自行面交）"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁亦明示台灣。從全新登入首頁逐字提交固定問句一次並展開 AI 摘要；未重載、重試、改入口或操作 AI 模式。摘要正文以檢查項目與管道類型作答，沒有可判讀的網站排名；創宇通訊與 Q哥是文內參考指南，Apple 是官方檢查建議，引用按鈕、來源卡片、贊助內容與一般搜尋結果均未用來補推薦名次。不能因本站未出現在正文就記為非前三；帳號識別與更細位置不保存。"
     }
   ]
 }
