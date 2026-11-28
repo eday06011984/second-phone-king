@@ -90,6 +90,12 @@ test('Samsung buying answer links directly to Samsung listings',()=>{
  assert.match(page,/確認 Google、Samsung 帳號與裝置管理已解除/);
 });
 
+test('used-phone selection answer links directly to the inspection checklist',()=>{
+ const page=read('app/used-phones/page.tsx');
+ assert.match(page,/\["二手機怎麼挑？",[^\n]+"\/guides\/used-phone-checklist", "開啟二手機挑選與驗機清單"\]/);
+ assert.match(page,/確認前機主已解除 iCloud 或 Google 帳號且手機可正常重置/);
+});
+
 
 test('keyboard navigation bypasses the shared header and focuses a unique main landmark',()=>{
  const layout=read('app/layout.tsx');

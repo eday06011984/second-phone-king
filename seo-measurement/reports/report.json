@@ -1029,17 +1029,18 @@
           "id": "q12",
           "prompt": "二手機怎麼挑",
           "attempted": true,
-          "measured_dates": 1,
+          "measured_dates": 2,
           "status_counts": {
             "not_tested": 1,
             "ranked": 0,
             "not_present": 1,
-            "indeterminate": 0,
+            "indeterminate": 1,
             "failed": 1
           },
           "single_top_three_count": 0,
           "selected_record_ids": [
-            "google_ai_overview-q12-2026-10-09T08-25-49+08-00"
+            "google_ai_overview-q12-2026-10-09T08-25-49+08-00",
+            "google_ai_overview-q12-2026-11-28T08-10-44+08-00"
           ],
           "stable": "unknown"
         },
@@ -4855,6 +4856,34 @@
         }
       ],
       "single_top_three": false
+    },
+    {
+      "id": "google_ai_overview-q12-2026-11-28T08-10-44+08-00",
+      "question_id": "q12",
+      "platform": "google_ai_overview",
+      "prompt": "二手機怎麼挑",
+      "status": "indeterminate",
+      "measured_at": "2026-11-28T08:10:44+08:00",
+      "mode": "Google Search default All results; AI Overview present and expanded; logged in; personalized results displayed",
+      "source": "direct_platform",
+      "context": {
+        "language": "zh-TW",
+        "region": "TW",
+        "fresh_session": true,
+        "unprompted_target": true
+      },
+      "evidence": {
+        "kind": "full_response",
+        "value": "挑二手機的核心原則是先確認帳號解鎖與基本功能正常，再評估電池健康度、維修紀錄與售後保固，避免只看低價而忽略後續維修成本。\n\n一、挑選與驗機必看重點\n\n• 帳號與鎖定狀態：務必確認前一位使用者已登出帳號並解除「尋找我的iPhone」或 Google 帳號鎖定；若仍處於鎖定狀態，切勿購買。\n• 電池健康度與維修成本：建議優先考慮電池健康度在 85% 以上的機型；若低於 80%～85%，需將更換電池的費用一併算入總成本。也可查看系統零件與維修紀錄，留意是否曾拆修或更換非原廠零件。\n• 外觀與分級標準：留意螢幕刮痕或裂痕、邊框撞傷、機身是否變形或背蓋翹起（可能涉及內部損傷或電池膨脹）。不同商家對 S、A、B 級的外觀判定標準不一，實際看機最準。\n• 核心功能實測：現場測試前後相機與對焦、麥克風／聽筒／喇叭、有線與無線充電、實體按鍵、指紋或 Face ID，以及 Wi-Fi、行動網路、藍牙與 GPS。拆修過或使用較久的手機，防水能力也可能下降。\n\n二、購買管道選擇\n\n• 實體通訊門市／認證商家：如具備檢測與保固機制的通訊行（例如參考創宇通訊外觀分級指南或 Q哥二手挑選指南整理的重點），可當場驗機並確認保固與退換貨條件，較適合不想承擔驗機風險的買家。\n• 個人交易或網路平台：價格可能較低，但缺乏統一保固，面交時需花時間逐項測試並留意交易安全。也可參考 Apple 官方二手 iPhone 購買建議確認購買與檢查步驟。\n\n如果你想更精準縮小範圍，可以告訴我：\n• 預算區間與偏好的系統（iOS 或 Android）\n• 主要用途（例如日常拍照、玩遊戲、長輩機或備用機）\n• 購買方式偏好（實體門市驗機保固或自行面交）"
+      },
+      "brand_mentioned": false,
+      "site_link": null,
+      "recommended_sites": [],
+      "notes": "送出前 Google 首頁頁尾明示『台灣』；結果頁亦明示台灣。從全新登入首頁逐字提交固定問句一次並展開 AI 摘要；未重載、重試、改入口或操作 AI 模式。摘要正文以檢查項目與管道類型作答，沒有可判讀的網站排名；創宇通訊與 Q哥是文內參考指南，Apple 是官方檢查建議，引用按鈕、來源卡片、贊助內容與一般搜尋結果均未用來補推薦名次。不能因本站未出現在正文就記為非前三；帳號識別與更細位置不保存。",
+      "date": "2026-11-28",
+      "target_rank": null,
+      "top_three_sites": [],
+      "single_top_three": null
     }
   ]
 }
